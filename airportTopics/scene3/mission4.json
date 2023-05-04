@@ -1,0 +1,370 @@
+{
+    "id": "ikarvdemivwtevih",
+    "title": "Missing your flight due to delays, traffic or personal reasons.",
+    "order": 4,
+    "turns": [
+        {
+            "id": "pbfryzvjnhikgald",
+            "ai_conversation_starter_en": "Your flight has been delayed by 2 hours, which means your connecting flight may be missed.",
+            "user_response_option_en": "Can I rebook my flight for a later date?",
+            "mission_id": "ikarvdemivwtevih",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "zehrgdwkcmbtjqfd",
+            "key_phrase_en": "rebook my flight"
+        },
+        {
+            "id": "guwbqnhurkckibwe",
+            "ai_conversation_starter_en": "Your flight has been delayed by 2 hours, which means your connecting flight may be missed.",
+            "user_response_option_en": "What are my options for getting to my destination?",
+            "mission_id": "ikarvdemivwtevih",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "cdalzipzoadxsaxj",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bbpymfldthvbhohn",
+            "ai_conversation_starter_en": "Your flight has been delayed by 2 hours, which means your connecting flight may be missed.",
+            "user_response_option_en": "I need help finding a hotel or transportation for the night.",
+            "mission_id": "ikarvdemivwtevih",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jjtvhwvjiefoifwc",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "semealcqzsfifjhd",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on the next available flight. Let me check the options for you.",
+            "user_response_option_en": "Can you help find a nearby hotel or accommodation for tonight?",
+            "previous_turn_id": "pbfryzvjnhikgald",
+            "order": 2,
+            "next_turn_id": "zmauldrrzyqqvpwy",
+            "key_phrase_en": "nearby hotel"
+        },
+        {
+            "id": "zzmuznneeqodjwqu",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on the next available flight. Let me check the options for you.",
+            "user_response_option_en": "Can I get a refund for the missed flight?",
+            "previous_turn_id": "pbfryzvjnhikgald",
+            "order": 2,
+            "next_turn_id": "knvfeyfdbbmzxndm",
+            "key_phrase_en": "refund for missed flight"
+        },
+        {
+            "id": "zehrgdwkcmbtjqfd",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on the next available flight. Let me check the options for you.",
+            "user_response_option_en": "Is there a way to expedite the process for the rebooking?",
+            "previous_turn_id": "pbfryzvjnhikgald",
+            "order": 2,
+            "next_turn_id": "yvphvegavzxevcjo",
+            "key_phrase_en": "Expedite the process"
+        },
+        {
+            "id": "jqtmxxjfovygcymy",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on next available flight or arrange alternative transport.",
+            "user_response_option_en": "Can you help me find alternative transport?",
+            "previous_turn_id": "guwbqnhurkckibwe",
+            "order": 2,
+            "next_turn_id": "cmrjohjzzabzsaze",
+            "key_phrase_en": "alternative transport"
+        },
+        {
+            "id": "vquwtlqaygyattcw",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on next available flight or arrange alternative transport.",
+            "user_response_option_en": "What's the next available flight to my destination?",
+            "previous_turn_id": "guwbqnhurkckibwe",
+            "order": 2,
+            "next_turn_id": "pmbyfiwzsrdtiafw",
+            "key_phrase_en": "next available flight"
+        },
+        {
+            "id": "cdalzipzoadxsaxj",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on next available flight or arrange alternative transport.",
+            "user_response_option_en": "How can I reschedule my flight for a later date?",
+            "previous_turn_id": "guwbqnhurkckibwe",
+            "order": 2,
+            "next_turn_id": "wmzpzjdkybkyscpn",
+            "key_phrase_en": "reschedule flight date"
+        },
+        {
+            "id": "hzrdacfcplputvrz",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can help you rebook your flight for tomorrow and assist with hotel arrangements.",
+            "user_response_option_en": "Can you recommend affordable accommodation close to the airport?",
+            "previous_turn_id": "bbpymfldthvbhohn",
+            "order": 2,
+            "next_turn_id": "vxltguwxjqsmwlqz",
+            "key_phrase_en": "affordable accommodation"
+        },
+        {
+            "id": "kpejqtdgoiarrvnl",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can help you rebook your flight for tomorrow and assist with hotel arrangements.",
+            "user_response_option_en": "Could you please let me know when the next flight is available?",
+            "previous_turn_id": "bbpymfldthvbhohn",
+            "order": 2,
+            "next_turn_id": "xpmaayjtsmtgxgca",
+            "key_phrase_en": "Next flight available"
+        },
+        {
+            "id": "jjtvhwvjiefoifwc",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can help you rebook your flight for tomorrow and assist with hotel arrangements.",
+            "user_response_option_en": "Is there a shuttle bus available to take me to the hotel?",
+            "previous_turn_id": "bbpymfldthvbhohn",
+            "order": 2,
+            "next_turn_id": "xrqowpiinzqvzriz",
+            "key_phrase_en": "shuttle bus available"
+        },
+        {
+            "id": "dvaonvosgsudkmuz",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can help you arrange accommodations nearby. Please follow me to our service desk.",
+            "user_response_option_en": "Can you recommend a low-cost hotel?",
+            "previous_turn_id": "semealcqzsfifjhd",
+            "order": 3,
+            "key_phrase_en": "low-cost hotel"
+        },
+        {
+            "id": "qrhaczjcthpcnhcs",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can help you arrange accommodations nearby. Please follow me to our service desk.",
+            "user_response_option_en": "Do I need to pay for the accommodations?",
+            "previous_turn_id": "semealcqzsfifjhd",
+            "order": 3,
+            "key_phrase_en": "pay for accommodations"
+        },
+        {
+            "id": "zmauldrrzyqqvpwy",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can help you arrange accommodations nearby. Please follow me to our service desk.",
+            "user_response_option_en": "Can I stay with a friend instead?",
+            "previous_turn_id": "semealcqzsfifjhd",
+            "order": 3,
+            "key_phrase_en": "Stay with friend"
+        },
+        {
+            "id": "ievtagzdktbmqtoi",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "I am sorry, refunds are not available for missed flights. Please speak to our customer service for further assistance.",
+            "user_response_option_en": "Can I board the next flight without paying again?",
+            "previous_turn_id": "zzmuznneeqodjwqu",
+            "order": 3,
+            "key_phrase_en": "Next flight boarding"
+        },
+        {
+            "id": "sdgnitfwozlaikbw",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "I am sorry, refunds are not available for missed flights. Please speak to our customer service for further assistance.",
+            "user_response_option_en": "What is the next available flight?",
+            "previous_turn_id": "zzmuznneeqodjwqu",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "knvfeyfdbbmzxndm",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "I am sorry, refunds are not available for missed flights. Please speak to our customer service for further assistance.",
+            "user_response_option_en": "Where can I get help to rebook my flight?",
+            "previous_turn_id": "zzmuznneeqodjwqu",
+            "order": 3,
+            "key_phrase_en": "rebook my flight"
+        },
+        {
+            "id": "lxzxcklnwvlxmnxs",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "Let me see if I can find a seat on the next available flight for you.",
+            "user_response_option_en": "What options do I have?",
+            "previous_turn_id": "zehrgdwkcmbtjqfd",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "cgxkyisqhgkghjxr",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "Let me see if I can find a seat on the next available flight for you.",
+            "user_response_option_en": "Can you book me on the next flight please?",
+            "previous_turn_id": "zehrgdwkcmbtjqfd",
+            "order": 3,
+            "key_phrase_en": "book me on"
+        },
+        {
+            "id": "yvphvegavzxevcjo",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "Let me see if I can find a seat on the next available flight for you.",
+            "user_response_option_en": "What is the next available flight?",
+            "previous_turn_id": "zehrgdwkcmbtjqfd",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "zzosnntnvlpdggtx",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can book you on the next flight or arrange alternative transport for you.",
+            "user_response_option_en": "Can you arrange a shuttle for me instead?",
+            "previous_turn_id": "jqtmxxjfovygcymy",
+            "order": 3,
+            "key_phrase_en": "arrange a shuttle"
+        },
+        {
+            "id": "ivofrjtmrubjjked",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can book you on the next flight or arrange alternative transport for you.",
+            "user_response_option_en": "When is the next available flight?",
+            "previous_turn_id": "jqtmxxjfovygcymy",
+            "order": 3,
+            "key_phrase_en": "available flight"
+        },
+        {
+            "id": "cmrjohjzzabzsaze",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can book you on the next flight or arrange alternative transport for you.",
+            "user_response_option_en": "Is accommodation offered for my night stay due to delay?",
+            "previous_turn_id": "jqtmxxjfovygcymy",
+            "order": 3,
+            "key_phrase_en": "Accommodation offered"
+        },
+        {
+            "id": "yqziujhhrhudzyef",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on the next flight or arrange alternative transport.",
+            "user_response_option_en": "What's the next available flight I can take?",
+            "previous_turn_id": "vquwtlqaygyattcw",
+            "order": 3,
+            "key_phrase_en": "next available flight"
+        },
+        {
+            "id": "gadkfyvozooddnhz",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on the next flight or arrange alternative transport.",
+            "user_response_option_en": "Can I get a refund for the missed flight?",
+            "previous_turn_id": "vquwtlqaygyattcw",
+            "order": 3,
+            "key_phrase_en": "refund request"
+        },
+        {
+            "id": "pmbyfiwzsrdtiafw",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can rebook you on the next flight or arrange alternative transport.",
+            "user_response_option_en": "Can you help me find alternative transport to my destination?",
+            "previous_turn_id": "vquwtlqaygyattcw",
+            "order": 3,
+            "key_phrase_en": "alternative transport"
+        },
+        {
+            "id": "rocfhwakfqczrosm",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "You can contact our customer service to reschedule your flight for a later date.",
+            "user_response_option_en": "What's the best way to contact customer service?",
+            "previous_turn_id": "cdalzipzoadxsaxj",
+            "order": 3,
+            "key_phrase_en": "contact customer service"
+        },
+        {
+            "id": "bpletobrvqzwjahl",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "You can contact our customer service to reschedule your flight for a later date.",
+            "user_response_option_en": "Can I reschedule my flight online?",
+            "previous_turn_id": "cdalzipzoadxsaxj",
+            "order": 3,
+            "key_phrase_en": "reschedule flight online"
+        },
+        {
+            "id": "wmzpzjdkybkyscpn",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "You can contact our customer service to reschedule your flight for a later date.",
+            "user_response_option_en": "Do I need any documents to reschedule my flight?",
+            "previous_turn_id": "cdalzipzoadxsaxj",
+            "order": 3,
+            "key_phrase_en": "reschedule"
+        },
+        {
+            "id": "ixwusafnfmwlfwgw",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can assist you in rebooking your flight for the next available flight tomorrow.",
+            "user_response_option_en": "When can I leave tomorrow?",
+            "previous_turn_id": "hzrdacfcplputvrz",
+            "order": 3,
+            "key_phrase_en": "leave"
+        },
+        {
+            "id": "wjsffpdzfiaiaxby",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can assist you in rebooking your flight for the next available flight tomorrow.",
+            "user_response_option_en": "Do I need to pay for new flight?",
+            "previous_turn_id": "hzrdacfcplputvrz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vxltguwxjqsmwlqz",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can assist you in rebooking your flight for the next available flight tomorrow.",
+            "user_response_option_en": "Can you help me with hotel?",
+            "previous_turn_id": "hzrdacfcplputvrz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "igqqnmwojuzwhrpx",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can book you on the next available flight. Let me check the options for you.",
+            "user_response_option_en": "When is the next flight available?",
+            "previous_turn_id": "kpejqtdgoiarrvnl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "uqbqchaobftqsona",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can book you on the next available flight. Let me check the options for you.",
+            "user_response_option_en": "Can I change my ticket for another day?",
+            "previous_turn_id": "kpejqtdgoiarrvnl",
+            "order": 3,
+            "key_phrase_en": "change my ticket"
+        },
+        {
+            "id": "xpmaayjtsmtgxgca",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We can book you on the next available flight. Let me check the options for you.",
+            "user_response_option_en": "What do I need to do now?",
+            "previous_turn_id": "kpejqtdgoiarrvnl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xholfzogdybzwbgb",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We're sorry you missed your flight. We'll help you rebook and arrange hotel accommodations.",
+            "user_response_option_en": "What is the next available flight?",
+            "previous_turn_id": "jjtvhwvjiefoifwc",
+            "order": 3,
+            "key_phrase_en": "next available flight"
+        },
+        {
+            "id": "nruyhmwqhzgellrn",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We're sorry you missed your flight. We'll help you rebook and arrange hotel accommodations.",
+            "user_response_option_en": "Can I change my destination to another airport?",
+            "previous_turn_id": "jjtvhwvjiefoifwc",
+            "order": 3,
+            "key_phrase_en": "change destination airport"
+        },
+        {
+            "id": "xrqowpiinzqvzriz",
+            "mission_id": "ikarvdemivwtevih",
+            "ai_conversation_starter_en": "We're sorry you missed your flight. We'll help you rebook and arrange hotel accommodations.",
+            "user_response_option_en": "Do I have to pay for the hotel and meals?",
+            "previous_turn_id": "jjtvhwvjiefoifwc",
+            "order": 3,
+            "key_phrase_en": "pay for hotel"
+        }
+    ]
+}

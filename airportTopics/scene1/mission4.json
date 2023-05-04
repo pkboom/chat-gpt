@@ -1,0 +1,370 @@
+{
+    "id": "rhbddhatshpgljrt",
+    "title": "Having a flight delay or cancellation and needing to rebook your flight at the check-in counter.",
+    "order": 4,
+    "turns": [
+        {
+            "id": "hlegskzwdipofefw",
+            "ai_conversation_starter_en": "I'm sorry to inform you, but your flight has been cancelled due to inclement weather. We can rebook you on a later flight or offer you a refund for your ticket.",
+            "user_response_option_en": "Can you recommend an alternate flight?",
+            "mission_id": "rhbddhatshpgljrt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "awrlysjbhfdguvup",
+            "key_phrase_en": "recommend an alternate"
+        },
+        {
+            "id": "lrkgwvnutapcdnnv",
+            "ai_conversation_starter_en": "I'm sorry to inform you, but your flight has been cancelled due to inclement weather. We can rebook you on a later flight or offer you a refund for your ticket.",
+            "user_response_option_en": "Can I get hotel and meal vouchers?",
+            "mission_id": "rhbddhatshpgljrt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xfqywyfnebujgbzd",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "uwaovatkinxfaeje",
+            "ai_conversation_starter_en": "I'm sorry to inform you, but your flight has been cancelled due to inclement weather. We can rebook you on a later flight or offer you a refund for your ticket.",
+            "user_response_option_en": "Can you check other airlines for available flights?",
+            "mission_id": "rhbddhatshpgljrt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gbzpuejgiqtvgwkv",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xvugvpdjhrgmybje",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We have a flight leaving tomorrow morning. Would you like to take that one?",
+            "user_response_option_en": "Can you check other airlines? ",
+            "previous_turn_id": "hlegskzwdipofefw",
+            "order": 2,
+            "next_turn_id": "pqkvtishcrqzmcmc",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "noglwtvaafhafgeh",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We have a flight leaving tomorrow morning. Would you like to take that one?",
+            "user_response_option_en": "Will I get a meal voucher? ",
+            "previous_turn_id": "hlegskzwdipofefw",
+            "order": 2,
+            "next_turn_id": "kkqkekhnwkmiaits",
+            "key_phrase_en": "meal voucher"
+        },
+        {
+            "id": "awrlysjbhfdguvup",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We have a flight leaving tomorrow morning. Would you like to take that one?",
+            "user_response_option_en": "Can I have a hotel accommodation?",
+            "previous_turn_id": "hlegskzwdipofefw",
+            "order": 2,
+            "next_turn_id": "vnwafyhuceziemjw",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bghpcowjxdwejeki",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, we can provide those for you. Let's take care of rebooking your flight first.",
+            "user_response_option_en": "Thank you for your kind assistance.",
+            "previous_turn_id": "lrkgwvnutapcdnnv",
+            "order": 2,
+            "next_turn_id": "tnytgoxqvrmbhfqn",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "rzwuwabidmzjfbvi",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, we can provide those for you. Let's take care of rebooking your flight first.",
+            "user_response_option_en": "Can you please inform me of the available options?",
+            "previous_turn_id": "lrkgwvnutapcdnnv",
+            "order": 2,
+            "next_turn_id": "zvuqxzzfgsztkiqk",
+            "key_phrase_en": "available options"
+        },
+        {
+            "id": "xfqywyfnebujgbzd",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, we can provide those for you. Let's take care of rebooking your flight first.",
+            "user_response_option_en": "I appreciate your help, how long is the delay?",
+            "previous_turn_id": "lrkgwvnutapcdnnv",
+            "order": 2,
+            "next_turn_id": "wzuitvdveogapxfl",
+            "key_phrase_en": "delay"
+        },
+        {
+            "id": "knqknjeppiwfksuv",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Sure, we will check for other airlines' available flights for you.",
+            "user_response_option_en": "Thank you for your assistance. Will I receive compensation?",
+            "previous_turn_id": "uwaovatkinxfaeje",
+            "order": 2,
+            "next_turn_id": "ojjgsasqgruohktg",
+            "key_phrase_en": "compensation"
+        },
+        {
+            "id": "cnrrwkscxzblikby",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Sure, we will check for other airlines' available flights for you.",
+            "user_response_option_en": "How many options are there for the other available flights?",
+            "previous_turn_id": "uwaovatkinxfaeje",
+            "order": 2,
+            "next_turn_id": "wlpqakrsyxlugvwg",
+            "key_phrase_en": "available flights"
+        },
+        {
+            "id": "gbzpuejgiqtvgwkv",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Sure, we will check for other airlines' available flights for you.",
+            "user_response_option_en": "Can I check-in my luggage for the new flight?",
+            "previous_turn_id": "uwaovatkinxfaeje",
+            "order": 2,
+            "next_turn_id": "rbgqarshqxqfxnjs",
+            "key_phrase_en": "check-in my luggage"
+        },
+        {
+            "id": "jrkvjgprpygqkhib",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Sure, I'll search for other flights with available seats for you.",
+            "user_response_option_en": "Can you suggest a different flight time?",
+            "previous_turn_id": "xvugvpdjhrgmybje",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vztddmilndicgdpn",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Sure, I'll search for other flights with available seats for you.",
+            "user_response_option_en": "What's the next available flight?",
+            "previous_turn_id": "xvugvpdjhrgmybje",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "pqkvtishcrqzmcmc",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Sure, I'll search for other flights with available seats for you.",
+            "user_response_option_en": "Is there a direct flight to my destination?",
+            "previous_turn_id": "xvugvpdjhrgmybje",
+            "order": 3,
+            "key_phrase_en": "direct flight"
+        },
+        {
+            "id": "koqjgqwsolxnqgxs",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, we can provide a meal voucher for your inconvenience. Let me get that arranged for you.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "noglwtvaafhafgeh",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qifhiezyfjwfaoux",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, we can provide a meal voucher for your inconvenience. Let me get that arranged for you.",
+            "user_response_option_en": "Can you also confirm my new flight details?",
+            "previous_turn_id": "noglwtvaafhafgeh",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kkqkekhnwkmiaits",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, we can provide a meal voucher for your inconvenience. Let me get that arranged for you.",
+            "user_response_option_en": "Will there be any additional costs for the rebooking?",
+            "previous_turn_id": "noglwtvaafhafgeh",
+            "order": 3,
+            "key_phrase_en": "additional costs"
+        },
+        {
+            "id": "kmgsllfnxxnsgozy",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, please fill out this form to request a hotel accommodation. We apologize for the inconvenience caused.",
+            "user_response_option_en": "Can you help me fill out form for hotel?",
+            "previous_turn_id": "awrlysjbhfdguvup",
+            "order": 3,
+            "key_phrase_en": "Fill out form"
+        },
+        {
+            "id": "heomplcaqxgkqgpo",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, please fill out this form to request a hotel accommodation. We apologize for the inconvenience caused.",
+            "user_response_option_en": "I appreciate your assistance.",
+            "previous_turn_id": "awrlysjbhfdguvup",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vnwafyhuceziemjw",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, please fill out this form to request a hotel accommodation. We apologize for the inconvenience caused.",
+            "user_response_option_en": "Will you provide transportation to the hotel?",
+            "previous_turn_id": "awrlysjbhfdguvup",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qcdkdtaryqavkfkl",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Let's look at available flight options. Is there a specific time or destination you need?",
+            "user_response_option_en": "Can you suggest an alternative route?",
+            "previous_turn_id": "bghpcowjxdwejeki",
+            "order": 3,
+            "key_phrase_en": "alternative route"
+        },
+        {
+            "id": "vvhmpmrnxflzaqnu",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Let's look at available flight options. Is there a specific time or destination you need?",
+            "user_response_option_en": "I need to arrive as soon as possible.",
+            "previous_turn_id": "bghpcowjxdwejeki",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tnytgoxqvrmbhfqn",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Let's look at available flight options. Is there a specific time or destination you need?",
+            "user_response_option_en": "Is it possible to fly with another carrier?",
+            "previous_turn_id": "bghpcowjxdwejeki",
+            "order": 3,
+            "key_phrase_en": "Another carrier"
+        },
+        {
+            "id": "czgcdnfepkjslylx",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "I can rebook you on the next available flight or offer you a refund.",
+            "user_response_option_en": "Can you tell me when the next flight is?",
+            "previous_turn_id": "rzwuwabidmzjfbvi",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kxwssibyukzbrojm",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "I can rebook you on the next available flight or offer you a refund.",
+            "user_response_option_en": "Is there any availability on a different airline?",
+            "previous_turn_id": "rzwuwabidmzjfbvi",
+            "order": 3,
+            "key_phrase_en": "availability on airline"
+        },
+        {
+            "id": "zvuqxzzfgsztkiqk",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "I can rebook you on the next available flight or offer you a refund.",
+            "user_response_option_en": "I'll take the refund, please.",
+            "previous_turn_id": "rzwuwabidmzjfbvi",
+            "order": 3,
+            "key_phrase_en": "take the refund"
+        },
+        {
+            "id": "ifnbvjfzuolufeym",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "The delay is approximately 3 hours, but we can rebook you on an earlier flight if available.",
+            "user_response_option_en": "Can I get hotel and meal vouchers?",
+            "previous_turn_id": "xfqywyfnebujgbzd",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vtlsleekjrrbnbzp",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "The delay is approximately 3 hours, but we can rebook you on an earlier flight if available.",
+            "user_response_option_en": "When is the next available flight?",
+            "previous_turn_id": "xfqywyfnebujgbzd",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wzuitvdveogapxfl",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "The delay is approximately 3 hours, but we can rebook you on an earlier flight if available.",
+            "user_response_option_en": "Can I change my flight to a different airport?",
+            "previous_turn_id": "xfqywyfnebujgbzd",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "igxedbyufscqnycw",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Please contact our customer service for compensation options.",
+            "user_response_option_en": "Can you explain more about options for compensation, please?",
+            "previous_turn_id": "knqknjeppiwfksuv",
+            "order": 3,
+            "key_phrase_en": "Compensation options"
+        },
+        {
+            "id": "auafuktuhbhshgxr",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Please contact our customer service for compensation options.",
+            "user_response_option_en": "Is there a specific number I should call for customer service?",
+            "previous_turn_id": "knqknjeppiwfksuv",
+            "order": 3,
+            "key_phrase_en": "customer service"
+        },
+        {
+            "id": "ojjgsasqgruohktg",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Please contact our customer service for compensation options.",
+            "user_response_option_en": "Thank you for your assistance. What's the next step to rebook?",
+            "previous_turn_id": "knqknjeppiwfksuv",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "lprfudgkrexkijxw",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We have three other flights available. Which one would you prefer?",
+            "user_response_option_en": "Can you please tell me the departure times for each of the flights?",
+            "previous_turn_id": "cnrrwkscxzblikby",
+            "order": 3,
+            "key_phrase_en": "departure times"
+        },
+        {
+            "id": "kunezahysrscbkaj",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We have three other flights available. Which one would you prefer?",
+            "user_response_option_en": "Which option would be the quickest way to get to my destination?",
+            "previous_turn_id": "cnrrwkscxzblikby",
+            "order": 3,
+            "key_phrase_en": "quickest way"
+        },
+        {
+            "id": "wlpqakrsyxlugvwg",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "We have three other flights available. Which one would you prefer?",
+            "user_response_option_en": "Is there a flight that would have more legroom available?",
+            "previous_turn_id": "cnrrwkscxzblikby",
+            "order": 3,
+            "key_phrase_en": "legroom available"
+        },
+        {
+            "id": "wcbwjacnukutyjut",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, please. We will transfer your luggage to the new flight.",
+            "user_response_option_en": "What are my options for rebooking the flight?",
+            "previous_turn_id": "gbzpuejgiqtvgwkv",
+            "order": 3,
+            "key_phrase_en": "rebooking the flight"
+        },
+        {
+            "id": "ldsjxxtikdccjhcu",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, please. We will transfer your luggage to the new flight.",
+            "user_response_option_en": "Can I get compensation for the inconvenience caused?",
+            "previous_turn_id": "gbzpuejgiqtvgwkv",
+            "order": 3,
+            "key_phrase_en": "compensation inconvenience caused"
+        },
+        {
+            "id": "rbgqarshqxqfxnjs",
+            "mission_id": "rhbddhatshpgljrt",
+            "ai_conversation_starter_en": "Yes, please. We will transfer your luggage to the new flight.",
+            "user_response_option_en": "How long will the transfer take?",
+            "previous_turn_id": "gbzpuejgiqtvgwkv",
+            "order": 3,
+            "key_phrase_en": "transfer take"
+        }
+    ]
+}

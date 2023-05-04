@@ -1,0 +1,370 @@
+{
+    "id": "njxookvxrkunvsfx",
+    "title": "The guest needs to ask for a late check-out",
+    "order": 5,
+    "turns": [
+        {
+            "id": "bmabyellrhiyvpeg",
+            "ai_conversation_starter_en": "Good morning. Welcome to our hotel. How can I assist you with your check-in today?",
+            "user_response_option_en": "Hi, can I request a late check-out please?",
+            "mission_id": "njxookvxrkunvsfx",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rhtfxqejeagjojgo",
+            "key_phrase_en": "Late check-out"
+        },
+        {
+            "id": "iwegpocgalodgdiy",
+            "ai_conversation_starter_en": "Good morning. Welcome to our hotel. How can I assist you with your check-in today?",
+            "user_response_option_en": "Excuse me, is it possible to have a late check-out?",
+            "mission_id": "njxookvxrkunvsfx",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "szujdwfbugzmkwmy",
+            "key_phrase_en": "Late check-out"
+        },
+        {
+            "id": "dpppglvlxtsmzzgk",
+            "ai_conversation_starter_en": "Good morning. Welcome to our hotel. How can I assist you with your check-in today?",
+            "user_response_option_en": "Could I ask for a late check-out time for tomorrow?",
+            "mission_id": "njxookvxrkunvsfx",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rcoiniszavqqdicg",
+            "key_phrase_en": "Late check-out time"
+        },
+        {
+            "id": "jszhxeteayujdutz",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, what time would you like to check-out?",
+            "user_response_option_en": "Thank you. I'd like to check-out at 2 pm, please.",
+            "previous_turn_id": "bmabyellrhiyvpeg",
+            "order": 2,
+            "next_turn_id": "rklzfdkzpndgoyeq",
+            "key_phrase_en": "check-out at 2 pm"
+        },
+        {
+            "id": "mtjafxnnouycvlmq",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, what time would you like to check-out?",
+            "user_response_option_en": "Thanks for the help. How about checking-out at 1 pm?",
+            "previous_turn_id": "bmabyellrhiyvpeg",
+            "order": 2,
+            "next_turn_id": "ytmbehpmxqcuqvwj",
+            "key_phrase_en": "Checking-out at"
+        },
+        {
+            "id": "rhtfxqejeagjojgo",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, what time would you like to check-out?",
+            "user_response_option_en": "Appreciate it. Can I check-out at 12:30 pm, please?",
+            "previous_turn_id": "bmabyellrhiyvpeg",
+            "order": 2,
+            "next_turn_id": "uwzmuwlgbqkemwyv",
+            "key_phrase_en": "Check-out at"
+        },
+        {
+            "id": "kpfyutosvxleupmk",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, we offer late check-out until 2 pm. Would you like to request that?",
+            "user_response_option_en": "Yes, please. Thank you.",
+            "previous_turn_id": "iwegpocgalodgdiy",
+            "order": 2,
+            "next_turn_id": "duesfxldmxwhlldg",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "teupyvphibbtvzro",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, we offer late check-out until 2 pm. Would you like to request that?",
+            "user_response_option_en": "Could I have until 3 pm please?",
+            "previous_turn_id": "iwegpocgalodgdiy",
+            "order": 2,
+            "next_turn_id": "vuwsqjnxkhoufbks",
+            "key_phrase_en": "Until 3 pm"
+        },
+        {
+            "id": "szujdwfbugzmkwmy",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, we offer late check-out until 2 pm. Would you like to request that?",
+            "user_response_option_en": "I'd like to request a late check-out until 2:30 pm.",
+            "previous_turn_id": "iwegpocgalodgdiy",
+            "order": 2,
+            "next_turn_id": "aslrkakfqubbgjre",
+            "key_phrase_en": "Late check-out"
+        },
+        {
+            "id": "dtikbzdvkwjgaqqu",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I can certainly check if a late check-out is available for your room, what time were you thinking?",
+            "user_response_option_en": "Maybe around noon?",
+            "previous_turn_id": "dpppglvlxtsmzzgk",
+            "order": 2,
+            "next_turn_id": "ohjnghwknegddwsn",
+            "key_phrase_en": "around noon"
+        },
+        {
+            "id": "kdhjsgkkugwvnzhl",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I can certainly check if a late check-out is available for your room, what time were you thinking?",
+            "user_response_option_en": "I was hoping for a later check-out time, maybe in the evening?",
+            "previous_turn_id": "dpppglvlxtsmzzgk",
+            "order": 2,
+            "next_turn_id": "fssobyuuplfhopfj",
+            "key_phrase_en": "Later check-out time"
+        },
+        {
+            "id": "rcoiniszavqqdicg",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I can certainly check if a late check-out is available for your room, what time were you thinking?",
+            "user_response_option_en": "Is there an additional fee for a late check-out?",
+            "previous_turn_id": "dpppglvlxtsmzzgk",
+            "order": 2,
+            "next_turn_id": "qkuopsbnxvcjdfhg",
+            "key_phrase_en": "late check-out fee"
+        },
+        {
+            "id": "pjpnecslgjouvrbg",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, the response of the hotel receptionist might be: Certainly, we will note that and arrange for a late check-out for you.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "jszhxeteayujdutz",
+            "order": 3,
+            "key_phrase_en": "Very helpful"
+        },
+        {
+            "id": "qtqluniljrgkebvz",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, the response of the hotel receptionist might be: Certainly, we will note that and arrange for a late check-out for you.",
+            "user_response_option_en": "Can I confirm this late check-out later today?",
+            "previous_turn_id": "jszhxeteayujdutz",
+            "order": 3,
+            "key_phrase_en": "Late check-out"
+        },
+        {
+            "id": "rklzfdkzpndgoyeq",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Sure, the response of the hotel receptionist might be: Certainly, we will note that and arrange for a late check-out for you.",
+            "user_response_option_en": "I appreciate the flexibility you've shown.",
+            "previous_turn_id": "jszhxeteayujdutz",
+            "order": 3,
+            "key_phrase_en": "flexibility shown"
+        },
+        {
+            "id": "izjubhdvyungmhkb",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Certainly, we can arrange the late check-out at 1 pm. Thank you for letting us know.",
+            "user_response_option_en": "Thanks, that'll be great as I need to catch a later flight.",
+            "previous_turn_id": "mtjafxnnouycvlmq",
+            "order": 3,
+            "key_phrase_en": "Later flight"
+        },
+        {
+            "id": "hdugyngodqmdgquz",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Certainly, we can arrange the late check-out at 1 pm. Thank you for letting us know.",
+            "user_response_option_en": "I appreciate your help. Could I also get a wake-up call at 10 am please?",
+            "previous_turn_id": "mtjafxnnouycvlmq",
+            "order": 3,
+            "key_phrase_en": "Wake-up call"
+        },
+        {
+            "id": "ytmbehpmxqcuqvwj",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Certainly, we can arrange the late check-out at 1 pm. Thank you for letting us know.",
+            "user_response_option_en": "If I change my mind, is that okay? Can I let you know later?",
+            "previous_turn_id": "mtjafxnnouycvlmq",
+            "order": 3,
+            "key_phrase_en": "let you know"
+        },
+        {
+            "id": "ynekidmahooruvhu",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "We can arrange that for you, Ms. Kim. Just let us know if you need anything else.",
+            "user_response_option_en": "Thank you. I appreciate your help.",
+            "previous_turn_id": "rhtfxqejeagjojgo",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "arlnrhhzlyrjhauw",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "We can arrange that for you, Ms. Kim. Just let us know if you need anything else.",
+            "user_response_option_en": "That's perfect. Thank you so much.",
+            "previous_turn_id": "rhtfxqejeagjojgo",
+            "order": 3,
+            "key_phrase_en": "Thank you so much"
+        },
+        {
+            "id": "uwzmuwlgbqkemwyv",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "We can arrange that for you, Ms. Kim. Just let us know if you need anything else.",
+            "user_response_option_en": "Great. Is there breakfast included?",
+            "previous_turn_id": "rhtfxqejeagjojgo",
+            "order": 3,
+            "key_phrase_en": "breakfast included"
+        },
+        {
+            "id": "mptnqjjabmhdxsox",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Great, we've noted your late check-out request at 2 pm. Enjoy your stay!",
+            "user_response_option_en": "Thank you so much!",
+            "previous_turn_id": "kpfyutosvxleupmk",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "zdhwkyvuvwscaacj",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Great, we've noted your late check-out request at 2 pm. Enjoy your stay!",
+            "user_response_option_en": "That's very helpful, thank you.",
+            "previous_turn_id": "kpfyutosvxleupmk",
+            "order": 3,
+            "key_phrase_en": "Very helpful"
+        },
+        {
+            "id": "duesfxldmxwhlldg",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Great, we've noted your late check-out request at 2 pm. Enjoy your stay!",
+            "user_response_option_en": "I appreciate it, thanks a lot.",
+            "previous_turn_id": "kpfyutosvxleupmk",
+            "order": 3,
+            "key_phrase_en": "thanks a lot"
+        },
+        {
+            "id": "jtxmxlwcpxsdqvvx",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Certainly, I will note that in your reservation. Enjoy your stay with us, Ms. Kim.",
+            "user_response_option_en": "Thank you so much, that's very helpful.",
+            "previous_turn_id": "teupyvphibbtvzro",
+            "order": 3,
+            "key_phrase_en": "Thank you so"
+        },
+        {
+            "id": "rwmwtuqteypjeyfj",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Certainly, I will note that in your reservation. Enjoy your stay with us, Ms. Kim.",
+            "user_response_option_en": "I appreciate it, thank you.",
+            "previous_turn_id": "teupyvphibbtvzro",
+            "order": 3,
+            "key_phrase_en": "Appreciate it"
+        },
+        {
+            "id": "vuwsqjnxkhoufbks",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Certainly, I will note that in your reservation. Enjoy your stay with us, Ms. Kim.",
+            "user_response_option_en": "That's perfect, thank you for your kindness.",
+            "previous_turn_id": "teupyvphibbtvzro",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "yvsgrptzodystgmu",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Absolutely, we can arrange a late check-out for you until 2:30 pm.",
+            "user_response_option_en": "Thank you so much; that's very kind of you!",
+            "previous_turn_id": "szujdwfbugzmkwmy",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "bukfqcgruennmofc",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Absolutely, we can arrange a late check-out for you until 2:30 pm.",
+            "user_response_option_en": "Could I request any documents or do I just confirm at reception?",
+            "previous_turn_id": "szujdwfbugzmkwmy",
+            "order": 3,
+            "key_phrase_en": "request documents"
+        },
+        {
+            "id": "aslrkakfqubbgjre",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Absolutely, we can arrange a late check-out for you until 2:30 pm.",
+            "user_response_option_en": "Will there be a charge for the late check-out?",
+            "previous_turn_id": "szujdwfbugzmkwmy",
+            "order": 3,
+            "key_phrase_en": "Late check-out charge"
+        },
+        {
+            "id": "jgznafkdwqiwejeb",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I'll make a note for a late check-out at noon. Kindly check with us tomorrow morning to confirm availability. Thank you.",
+            "user_response_option_en": "Thank you very much!",
+            "previous_turn_id": "dtikbzdvkwjgaqqu",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "lferlizmhetnedgc",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I'll make a note for a late check-out at noon. Kindly check with us tomorrow morning to confirm availability. Thank you.",
+            "user_response_option_en": "I appreciate your help.",
+            "previous_turn_id": "dtikbzdvkwjgaqqu",
+            "order": 3,
+            "key_phrase_en": "appreciate help"
+        },
+        {
+            "id": "ohjnghwknegddwsn",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I'll make a note for a late check-out at noon. Kindly check with us tomorrow morning to confirm availability. Thank you.",
+            "user_response_option_en": "Can you remind me where to check tomorrow morning?",
+            "previous_turn_id": "dtikbzdvkwjgaqqu",
+            "order": 3,
+            "key_phrase_en": "Remind me where"
+        },
+        {
+            "id": "nsqcnlwrgzhhpahq",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I understand. Let me check if an evening check-out time is available for your room.",
+            "user_response_option_en": "Oh, that would be great. Thank you so much for checking!",
+            "previous_turn_id": "kdhjsgkkugwvnzhl",
+            "order": 3,
+            "key_phrase_en": "Thank you so much"
+        },
+        {
+            "id": "ztypjqspmmcrtkow",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I understand. Let me check if an evening check-out time is available for your room.",
+            "user_response_option_en": "I really appreciate your help. Any time in the afternoon would be wonderful.",
+            "previous_turn_id": "kdhjsgkkugwvnzhl",
+            "order": 3,
+            "key_phrase_en": "Any time"
+        },
+        {
+            "id": "fssobyuuplfhopfj",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "I understand. Let me check if an evening check-out time is available for your room.",
+            "user_response_option_en": "I understand it depends on the hotel's availability. Just let me know.",
+            "previous_turn_id": "kdhjsgkkugwvnzhl",
+            "order": 3,
+            "key_phrase_en": "Let me know"
+        },
+        {
+            "id": "hgptnycgktcawwme",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Yes, there is a fee. It costs $XX up to 2 extra hours.",
+            "user_response_option_en": "Ok, I would like to request a late check-out for tomorrow.",
+            "previous_turn_id": "rcoiniszavqqdicg",
+            "order": 3,
+            "key_phrase_en": "Late check-out"
+        },
+        {
+            "id": "dqgvtmgrgngaikqe",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Yes, there is a fee. It costs $XX up to 2 extra hours.",
+            "user_response_option_en": "Sure, what's the latest time I can check out if I pay the fee?",
+            "previous_turn_id": "rcoiniszavqqdicg",
+            "order": 3,
+            "key_phrase_en": "check out time"
+        },
+        {
+            "id": "qkuopsbnxvcjdfhg",
+            "mission_id": "njxookvxrkunvsfx",
+            "ai_conversation_starter_en": "Yes, there is a fee. It costs $XX up to 2 extra hours.",
+            "user_response_option_en": "Understood. Can I pay for the late check-out now?",
+            "previous_turn_id": "rcoiniszavqqdicg",
+            "order": 3,
+            "key_phrase_en": "Late check-out"
+        }
+    ]
+}

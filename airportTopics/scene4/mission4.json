@@ -1,0 +1,370 @@
+{
+    "id": "vkudwltrvjdxjlnf",
+    "title": "Asking the shop staff for assistance or recommendations for specific products.",
+    "order": 4,
+    "turns": [
+        {
+            "id": "wjaijnvjsnqtakol",
+            "ai_conversation_starter_en": "Hi there, can I help you find anything in particular?",
+            "user_response_option_en": "Yes, I'm looking for a souvenir for my sister. Any recommendations?",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "oflvcuieshdrfmux",
+            "key_phrase_en": "Any recommendations"
+        },
+        {
+            "id": "totsmybckymypdir",
+            "ai_conversation_starter_en": "Hi there, can I help you find anything in particular?",
+            "user_response_option_en": "Excuse me, where can I find the perfumes? I'm not familiar with this store.",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "iixzpfhjhxyxumhi",
+            "key_phrase_en": "not familiar with"
+        },
+        {
+            "id": "jnppgizxzcfpgxpi",
+            "ai_conversation_starter_en": "Hi there, can I help you find anything in particular?",
+            "user_response_option_en": "Do you have any local snacks or treats here? Can you show me?",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xosjyrietlhlgrio",
+            "key_phrase_en": "local snacks"
+        },
+        {
+            "id": "hrohmsrcxayfpwjw",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "We have beautiful scarves and chocolates that make great souvenirs. Would you like to take a look?",
+            "user_response_option_en": "Can you tell me more about the scarves?",
+            "previous_turn_id": "wjaijnvjsnqtakol",
+            "order": 2,
+            "next_turn_id": "ndaqzwdllkxsbdab",
+            "key_phrase_en": "tell me more"
+        },
+        {
+            "id": "fyxsvbwpjkojgpto",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "We have beautiful scarves and chocolates that make great souvenirs. Would you like to take a look?",
+            "user_response_option_en": "Are the chocolates made locally here?",
+            "previous_turn_id": "wjaijnvjsnqtakol",
+            "order": 2,
+            "next_turn_id": "gxvjxxshtqjkdgfu",
+            "key_phrase_en": "made locally"
+        },
+        {
+            "id": "oflvcuieshdrfmux",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "We have beautiful scarves and chocolates that make great souvenirs. Would you like to take a look?",
+            "user_response_option_en": "Can I see some of the scarves in different colors?",
+            "previous_turn_id": "wjaijnvjsnqtakol",
+            "order": 2,
+            "next_turn_id": "utvenrkdacjacimi",
+            "key_phrase_en": "scarves in different colors"
+        },
+        {
+            "id": "sxwpyyhmbadvytmk",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Perfumes are located on the far left side of the store. Let me know if I can assist you with anything else.",
+            "user_response_option_en": "Can you recommend a popular fragrance?",
+            "previous_turn_id": "totsmybckymypdir",
+            "order": 2,
+            "next_turn_id": "dhoifrwegxhvdgzm",
+            "key_phrase_en": "popular fragrance"
+        },
+        {
+            "id": "mcufgahcnauwbcqz",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Perfumes are located on the far left side of the store. Let me know if I can assist you with anything else.",
+            "user_response_option_en": "Do you have any deals or promotions on perfumes?",
+            "previous_turn_id": "totsmybckymypdir",
+            "order": 2,
+            "next_turn_id": "rwdzhgnfpjvsxvdv",
+            "key_phrase_en": "deals or promotions"
+        },
+        {
+            "id": "iixzpfhjhxyxumhi",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Perfumes are located on the far left side of the store. Let me know if I can assist you with anything else.",
+            "user_response_option_en": "I'm looking for a scent that's not too strong, any suggestions?",
+            "previous_turn_id": "totsmybckymypdir",
+            "order": 2,
+            "next_turn_id": "qgrndnmnlinzesqu",
+            "key_phrase_en": "scent suggestions"
+        },
+        {
+            "id": "rlgmofimzqxpdumm",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, we have a variety of local snacks. Let me show you our bestsellers.",
+            "user_response_option_en": "What do you recommend for a quick snack?",
+            "previous_turn_id": "jnppgizxzcfpgxpi",
+            "order": 2,
+            "next_turn_id": "sohldqhdwxxrqmob",
+            "key_phrase_en": "Quick snack"
+        },
+        {
+            "id": "pcladxndfvnasfuh",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, we have a variety of local snacks. Let me show you our bestsellers.",
+            "user_response_option_en": "Can you suggest a local snack that's not too sweet?",
+            "previous_turn_id": "jnppgizxzcfpgxpi",
+            "order": 2,
+            "next_turn_id": "cylpkfzvexenietf",
+            "key_phrase_en": "local snack"
+        },
+        {
+            "id": "xosjyrietlhlgrio",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, we have a variety of local snacks. Let me show you our bestsellers.",
+            "user_response_option_en": "Do you have any snacks that are gluten-free?",
+            "previous_turn_id": "jnppgizxzcfpgxpi",
+            "order": 2,
+            "next_turn_id": "gsjhrbrzfqxfkvrf",
+            "key_phrase_en": "Gluten-free snacks"
+        },
+        {
+            "id": "uddjsetagnzxklbv",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Our scarves are made from high-quality materials and come in various colors and designs. They're perfect for gifts or personal use.",
+            "user_response_option_en": "Can I see them please?",
+            "previous_turn_id": "hrohmsrcxayfpwjw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kemqaljitqdqiihx",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Our scarves are made from high-quality materials and come in various colors and designs. They're perfect for gifts or personal use.",
+            "user_response_option_en": "How much do they cost?",
+            "previous_turn_id": "hrohmsrcxayfpwjw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ndaqzwdllkxsbdab",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Our scarves are made from high-quality materials and come in various colors and designs. They're perfect for gifts or personal use.",
+            "user_response_option_en": "Which ones are popular?",
+            "previous_turn_id": "hrohmsrcxayfpwjw",
+            "order": 3,
+            "key_phrase_en": "popular"
+        },
+        {
+            "id": "ojqgmhskreksgtmk",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Yes, they're made locally. We have a great selection.",
+            "user_response_option_en": "Can you recommend any specific flavors of local chocolates?",
+            "previous_turn_id": "fyxsvbwpjkojgpto",
+            "order": 3,
+            "key_phrase_en": "Local chocolates"
+        },
+        {
+            "id": "qngjxgrqabwrjmro",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Yes, they're made locally. We have a great selection.",
+            "user_response_option_en": "What are the most popular souvenirs among tourists here?",
+            "previous_turn_id": "fyxsvbwpjkojgpto",
+            "order": 3,
+            "key_phrase_en": "popular souvenirs"
+        },
+        {
+            "id": "gxvjxxshtqjkdgfu",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Yes, they're made locally. We have a great selection.",
+            "user_response_option_en": "Do you have any scarves with traditional designs or patterns?",
+            "previous_turn_id": "fyxsvbwpjkojgpto",
+            "order": 3,
+            "key_phrase_en": "traditional designs"
+        },
+        {
+            "id": "hreqpxhzgafvnsqn",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, here are some scarves in different colors. Is there a specific color you're looking for?",
+            "user_response_option_en": "I like the green one, can I see it up close?",
+            "previous_turn_id": "oflvcuieshdrfmux",
+            "order": 3,
+            "key_phrase_en": "up close"
+        },
+        {
+            "id": "zkgelinjvbtznrhr",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, here are some scarves in different colors. Is there a specific color you're looking for?",
+            "user_response_option_en": "Which scarf is your most popular one?",
+            "previous_turn_id": "oflvcuieshdrfmux",
+            "order": 3,
+            "key_phrase_en": "most popular"
+        },
+        {
+            "id": "utvenrkdacjacimi",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, here are some scarves in different colors. Is there a specific color you're looking for?",
+            "user_response_option_en": "Do you have any scarves with a pattern or design on them?",
+            "previous_turn_id": "oflvcuieshdrfmux",
+            "order": 3,
+            "key_phrase_en": "scarves with pattern"
+        },
+        {
+            "id": "jesuxruvclhokdwg",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, Chanel No.5 is a classic and popular fragrance.",
+            "user_response_option_en": "Can you describe the scent profile of Chanel No.5?",
+            "previous_turn_id": "sxwpyyhmbadvytmk",
+            "order": 3,
+            "key_phrase_en": "scent profile"
+        },
+        {
+            "id": "bprktxbpefjqkkhk",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, Chanel No.5 is a classic and popular fragrance.",
+            "user_response_option_en": "Do you have any other popular options I can smell?",
+            "previous_turn_id": "sxwpyyhmbadvytmk",
+            "order": 3,
+            "key_phrase_en": "popular options"
+        },
+        {
+            "id": "dhoifrwegxhvdgzm",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, Chanel No.5 is a classic and popular fragrance.",
+            "user_response_option_en": "What sizes of Chanel No.5 do you have available?",
+            "previous_turn_id": "sxwpyyhmbadvytmk",
+            "order": 3,
+            "key_phrase_en": "Chanel No.5 sizes"
+        },
+        {
+            "id": "smcetszszdxfzvca",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "We have a buy one get one half off special on select perfumes. Would you like me to show you which ones?",
+            "user_response_option_en": "Sure, please show me recommended perfumes in the offer.",
+            "previous_turn_id": "mcufgahcnauwbcqz",
+            "order": 3,
+            "key_phrase_en": "Recommended perfumes"
+        },
+        {
+            "id": "brsgwbfimvhbxpci",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "We have a buy one get one half off special on select perfumes. Would you like me to show you which ones?",
+            "user_response_option_en": "I'm looking for a floral fragrance, can you recommend any?",
+            "previous_turn_id": "mcufgahcnauwbcqz",
+            "order": 3,
+            "key_phrase_en": "floral fragrance"
+        },
+        {
+            "id": "rwdzhgnfpjvsxvdv",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "We have a buy one get one half off special on select perfumes. Would you like me to show you which ones?",
+            "user_response_option_en": "Can you help me find the perfume brand 'Glow'?",
+            "previous_turn_id": "mcufgahcnauwbcqz",
+            "order": 3,
+            "key_phrase_en": "'Perfume brand'"
+        },
+        {
+            "id": "xuimqpnmuvebqwdy",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, we have lighter scents from brands like Dior and Calvin Klein. Would you like to sample some?",
+            "user_response_option_en": "Sure, I'd love to sample some! Where can I find them?",
+            "previous_turn_id": "iixzpfhjhxyxumhi",
+            "order": 3,
+            "key_phrase_en": "sample some"
+        },
+        {
+            "id": "kifscicroodykdie",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, we have lighter scents from brands like Dior and Calvin Klein. Would you like to sample some?",
+            "user_response_option_en": "Thank you, which one do you recommend for daily use?",
+            "previous_turn_id": "iixzpfhjhxyxumhi",
+            "order": 3,
+            "key_phrase_en": "daily use"
+        },
+        {
+            "id": "qgrndnmnlinzesqu",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, we have lighter scents from brands like Dior and Calvin Klein. Would you like to sample some?",
+            "user_response_option_en": "Do you have any perfumes that are good for sensitive skin?",
+            "previous_turn_id": "iixzpfhjhxyxumhi",
+            "order": 3,
+            "key_phrase_en": "sensitive skin"
+        },
+        {
+            "id": "spxoaivejyeinxxa",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Our granola bars and chips are great options for a quick snack. Would you like to see them?",
+            "user_response_option_en": "How much do they cost?",
+            "previous_turn_id": "rlgmofimzqxpdumm",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "dzgnrawgfactqghk",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Our granola bars and chips are great options for a quick snack. Would you like to see them?",
+            "user_response_option_en": "Are there any vegan options?",
+            "previous_turn_id": "rlgmofimzqxpdumm",
+            "order": 3,
+            "key_phrase_en": "vegan options"
+        },
+        {
+            "id": "sohldqhdwxxrqmob",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Our granola bars and chips are great options for a quick snack. Would you like to see them?",
+            "user_response_option_en": "Do you have any locally-made snacks?",
+            "previous_turn_id": "rlgmofimzqxpdumm",
+            "order": 3,
+            "key_phrase_en": "locally-made snacks"
+        },
+        {
+            "id": "cnsetyamdadjybgt",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, how about trying our savory rice crackers or roasted seaweed snacks?",
+            "user_response_option_en": "Can I have a sample of each to taste, please?",
+            "previous_turn_id": "pcladxndfvnasfuh",
+            "order": 3,
+            "key_phrase_en": "To taste"
+        },
+        {
+            "id": "wmdkxmiuppdkzveq",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, how about trying our savory rice crackers or roasted seaweed snacks?",
+            "user_response_option_en": "Are there any allergens in these snacks?",
+            "previous_turn_id": "pcladxndfvnasfuh",
+            "order": 3,
+            "key_phrase_en": "Allergens in snacks"
+        },
+        {
+            "id": "cylpkfzvexenietf",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Sure, how about trying our savory rice crackers or roasted seaweed snacks?",
+            "user_response_option_en": "How long can I keep these snacks after I open them?",
+            "previous_turn_id": "pcladxndfvnasfuh",
+            "order": 3,
+            "key_phrase_en": "open snacks"
+        },
+        {
+            "id": "mopoysuiifqchmdw",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Yes, we do! Our gluten-free options include nuts, dried fruit, and rice crackers.",
+            "user_response_option_en": "Can you recommend a specific gluten-free snack?",
+            "previous_turn_id": "xosjyrietlhlgrio",
+            "order": 3,
+            "key_phrase_en": "gluten-free snack"
+        },
+        {
+            "id": "mbdbbrfilwajhvuy",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Yes, we do! Our gluten-free options include nuts, dried fruit, and rice crackers.",
+            "user_response_option_en": "Which of these three options do you personally like the most?",
+            "previous_turn_id": "xosjyrietlhlgrio",
+            "order": 3,
+            "key_phrase_en": "like the most"
+        },
+        {
+            "id": "gsjhrbrzfqxfkvrf",
+            "mission_id": "vkudwltrvjdxjlnf",
+            "ai_conversation_starter_en": "Yes, we do! Our gluten-free options include nuts, dried fruit, and rice crackers.",
+            "user_response_option_en": "What is the price range of your gluten-free snacks?",
+            "previous_turn_id": "xosjyrietlhlgrio",
+            "order": 3,
+            "key_phrase_en": "Price Range, Gluten-Free"
+        }
+    ]
+}

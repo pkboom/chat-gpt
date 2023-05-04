@@ -1,0 +1,370 @@
+{
+    "id": "ctnggfsqslughucb",
+    "title": "The guest needs to pay for their room and incidentals",
+    "order": 2,
+    "turns": [
+        {
+            "id": "cghjvrczbhutsryk",
+            "ai_conversation_starter_en": "Hello, how may I assist you with your check-in today?",
+            "user_response_option_en": "Yes, I need to pay for my room and any incidentals please.",
+            "mission_id": "ctnggfsqslughucb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "evevmsfudppagion",
+            "key_phrase_en": "Pay for room"
+        },
+        {
+            "id": "unefoigiffpmztfl",
+            "ai_conversation_starter_en": "Hello, how may I assist you with your check-in today?",
+            "user_response_option_en": "Can I settle my charges upon check-in?",
+            "mission_id": "ctnggfsqslughucb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gwkboipmfqhozysn",
+            "key_phrase_en": "settle charges check-in"
+        },
+        {
+            "id": "kpjaxgqqwrzjowmh",
+            "ai_conversation_starter_en": "Hello, how may I assist you with your check-in today?",
+            "user_response_option_en": "May I have the bill so I can pay for it now?",
+            "mission_id": "ctnggfsqslughucb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "iuwwwqpkvwegjdew",
+            "key_phrase_en": "The bill, please"
+        },
+        {
+            "id": "lxofqumjwtgjpuqh",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, I can process your payment now. Would you like to pay with cash or credit card?",
+            "user_response_option_en": "I'll pay with my Visa card, please.",
+            "previous_turn_id": "cghjvrczbhutsryk",
+            "order": 2,
+            "next_turn_id": "ohcuwbbleebseuxj",
+            "key_phrase_en": "Visa card"
+        },
+        {
+            "id": "pjxzsjqktamamyco",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, I can process your payment now. Would you like to pay with cash or credit card?",
+            "user_response_option_en": "Is there a fee for using a foreign credit card?",
+            "previous_turn_id": "cghjvrczbhutsryk",
+            "order": 2,
+            "next_turn_id": "dnbpllzrrhlyudan",
+            "key_phrase_en": "foreign credit card"
+        },
+        {
+            "id": "evevmsfudppagion",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, I can process your payment now. Would you like to pay with cash or credit card?",
+            "user_response_option_en": "Can I split the payment between two credit cards?",
+            "previous_turn_id": "cghjvrczbhutsryk",
+            "order": 2,
+            "next_turn_id": "eqaljxilqhjzsfhu",
+            "key_phrase_en": "Split the payment"
+        },
+        {
+            "id": "nsnvarrwxyfyryrp",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I can process your payment now.",
+            "user_response_option_en": "May I pay with credit card, please?\" ",
+            "previous_turn_id": "unefoigiffpmztfl",
+            "order": 2,
+            "next_turn_id": "kileekeszfswcwkn",
+            "key_phrase_en": "Credit card"
+        },
+        {
+            "id": "viuuhciwltaohadd",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I can process your payment now.",
+            "user_response_option_en": "Do you accept foreign currency?\" ",
+            "previous_turn_id": "unefoigiffpmztfl",
+            "order": 2,
+            "next_turn_id": "qxlvjprpehigiiru",
+            "key_phrase_en": "Foreign currency"
+        },
+        {
+            "id": "gwkboipmfqhozysn",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I can process your payment now.",
+            "user_response_option_en": "Can I have a receipt for my payment?",
+            "previous_turn_id": "unefoigiffpmztfl",
+            "order": 2,
+            "next_turn_id": "essukydyaqytflmf",
+            "key_phrase_en": "receipt for payment"
+        },
+        {
+            "id": "ajjcnrnfmsfwcrek",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Of course, I can process the payment for you now.",
+            "user_response_option_en": "Great, let me just grab my wallet.",
+            "previous_turn_id": "kpjaxgqqwrzjowmh",
+            "order": 2,
+            "next_turn_id": "thpqxeveucyecakh",
+            "key_phrase_en": "grab my wallet"
+        },
+        {
+            "id": "exyozritegjbztka",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Of course, I can process the payment for you now.",
+            "user_response_option_en": "Do you accept credit card payments?",
+            "previous_turn_id": "kpjaxgqqwrzjowmh",
+            "order": 2,
+            "next_turn_id": "vrgyivogzjjjnann",
+            "key_phrase_en": "Credit card payments"
+        },
+        {
+            "id": "iuwwwqpkvwegjdew",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Of course, I can process the payment for you now.",
+            "user_response_option_en": "Can you provide a receipt for my payment, please?",
+            "previous_turn_id": "kpjaxgqqwrzjowmh",
+            "order": 2,
+            "next_turn_id": "sryzksrvgktnzmqn",
+            "key_phrase_en": "Provide a receipt"
+        },
+        {
+            "id": "ggapcmvftfttikre",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly. Can you please provide your Visa card and a form of identification?",
+            "user_response_option_en": "Sure, let me pull it up on my phone.",
+            "previous_turn_id": "lxofqumjwtgjpuqh",
+            "order": 3,
+            "key_phrase_en": "Pull it up"
+        },
+        {
+            "id": "lbsyxmoifcjrxkxc",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly. Can you please provide your Visa card and a form of identification?",
+            "user_response_option_en": "Here you go, my ID and card.",
+            "previous_turn_id": "lxofqumjwtgjpuqh",
+            "order": 3,
+            "key_phrase_en": "Here you go"
+        },
+        {
+            "id": "ohcuwbbleebseuxj",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly. Can you please provide your Visa card and a form of identification?",
+            "user_response_option_en": "One moment please, I need to find my card.",
+            "previous_turn_id": "lxofqumjwtgjpuqh",
+            "order": 3,
+            "key_phrase_en": "One moment please"
+        },
+        {
+            "id": "xokqflfptyqhsrxw",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "No, there are no fees for using a foreign credit card.",
+            "user_response_option_en": "Can I get the receipt via email, please? ",
+            "previous_turn_id": "pjxzsjqktamamyco",
+            "order": 3,
+            "key_phrase_en": "via email"
+        },
+        {
+            "id": "xurohqyndvqqwvcz",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "No, there are no fees for using a foreign credit card.",
+            "user_response_option_en": "Could you split the payment between two cards, please? ",
+            "previous_turn_id": "pjxzsjqktamamyco",
+            "order": 3,
+            "key_phrase_en": "Split the payment"
+        },
+        {
+            "id": "dnbpllzrrhlyudan",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "No, there are no fees for using a foreign credit card.",
+            "user_response_option_en": "May I know how much I have been charged for incidentals?",
+            "previous_turn_id": "pjxzsjqktamamyco",
+            "order": 3,
+            "key_phrase_en": "incidentals charge"
+        },
+        {
+            "id": "yclceldscudwipap",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, of course. We can split the payment between both credit cards during the check-in process.",
+            "user_response_option_en": "Can I also get a copy of the receipt, please?",
+            "previous_turn_id": "evevmsfudppagion",
+            "order": 3,
+            "key_phrase_en": "get a copy"
+        },
+        {
+            "id": "lewazvayamhbydnd",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, of course. We can split the payment between both credit cards during the check-in process.",
+            "user_response_option_en": "Is there an option to prepay for parking?",
+            "previous_turn_id": "evevmsfudppagion",
+            "order": 3,
+            "key_phrase_en": "Prepay for parking"
+        },
+        {
+            "id": "eqaljxilqhjzsfhu",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, of course. We can split the payment between both credit cards during the check-in process.",
+            "user_response_option_en": "Can you confirm the room rate includes breakfast?",
+            "previous_turn_id": "evevmsfudppagion",
+            "order": 3,
+            "key_phrase_en": "room rate includes"
+        },
+        {
+            "id": "bnjsirvwlsigpyew",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, may I please see your credit card and ID, Ms. Kim?",
+            "user_response_option_en": "Sure, here's my credit card and ID.",
+            "previous_turn_id": "nsnvarrwxyfyryrp",
+            "order": 3,
+            "key_phrase_en": "Credit card ID"
+        },
+        {
+            "id": "ufoilndtbvhtbjnj",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, may I please see your credit card and ID, Ms. Kim?",
+            "user_response_option_en": "Here it is, thanks for your help.",
+            "previous_turn_id": "nsnvarrwxyfyryrp",
+            "order": 3,
+            "key_phrase_en": "Thanks for help"
+        },
+        {
+            "id": "kileekeszfswcwkn",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, may I please see your credit card and ID, Ms. Kim?",
+            "user_response_option_en": "Yes, here are my cards. Could you double-check the total, please?",
+            "previous_turn_id": "nsnvarrwxyfyryrp",
+            "order": 3,
+            "key_phrase_en": "double-check the total"
+        },
+        {
+            "id": "xyngfmilbieoxkos",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, we accept foreign currency. Which type of currency will you be paying with?",
+            "user_response_option_en": "I'd like to pay with US dollars, please.",
+            "previous_turn_id": "viuuhciwltaohadd",
+            "order": 3,
+            "key_phrase_en": "pay with dollars"
+        },
+        {
+            "id": "cxeglceuxpgatrsa",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, we accept foreign currency. Which type of currency will you be paying with?",
+            "user_response_option_en": "I have some euros to pay for my room.",
+            "previous_turn_id": "viuuhciwltaohadd",
+            "order": 3,
+            "key_phrase_en": "Some euros"
+        },
+        {
+            "id": "qxlvjprpehigiiru",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, we accept foreign currency. Which type of currency will you be paying with?",
+            "user_response_option_en": "Can I pay with a credit card in Japanese yen?",
+            "previous_turn_id": "viuuhciwltaohadd",
+            "order": 3,
+            "key_phrase_en": "Credit Card Payment"
+        },
+        {
+            "id": "vnvhypphnptoppga",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Of course, I'll print out a receipt for you now. Here you go!",
+            "user_response_option_en": "Could you tell me the final amount?",
+            "previous_turn_id": "gwkboipmfqhozysn",
+            "order": 3,
+            "key_phrase_en": "final amount"
+        },
+        {
+            "id": "hperluxdzxyjqvse",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Of course, I'll print out a receipt for you now. Here you go!",
+            "user_response_option_en": "May I have an additional invoice for taxes?",
+            "previous_turn_id": "gwkboipmfqhozysn",
+            "order": 3,
+            "key_phrase_en": "Additional invoice"
+        },
+        {
+            "id": "essukydyaqytflmf",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Of course, I'll print out a receipt for you now. Here you go!",
+            "user_response_option_en": "Can you split the bill into two payments, please?",
+            "previous_turn_id": "gwkboipmfqhozysn",
+            "order": 3,
+            "key_phrase_en": "Split the bill"
+        },
+        {
+            "id": "awqlslhimclzaghp",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Sure, the hotel receptionist can say No problem, please take your time.",
+            "user_response_option_en": "Could I split the payment between two credit cards?",
+            "previous_turn_id": "ajjcnrnfmsfwcrek",
+            "order": 3,
+            "key_phrase_en": "Split payment"
+        },
+        {
+            "id": "ezfhofbdwcycnpkx",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Sure, the hotel receptionist can say No problem, please take your time.",
+            "user_response_option_en": "Do I need to sign anything for the transaction?",
+            "previous_turn_id": "ajjcnrnfmsfwcrek",
+            "order": 3,
+            "key_phrase_en": "sign anything"
+        },
+        {
+            "id": "thpqxeveucyecakh",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Sure, the hotel receptionist can say No problem, please take your time.",
+            "user_response_option_en": "Can I get a receipt for the payment, please?",
+            "previous_turn_id": "ajjcnrnfmsfwcrek",
+            "order": 3,
+            "key_phrase_en": "get a receipt"
+        },
+        {
+            "id": "eolhkcfwrhcbsoup",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, we accept credit card payments. Which card will you be using today?",
+            "user_response_option_en": "I'll be using my Visa card, please.",
+            "previous_turn_id": "exyozritegjbztka",
+            "order": 3,
+            "key_phrase_en": "Visa card"
+        },
+        {
+            "id": "tkxeroswxisqksce",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, we accept credit card payments. Which card will you be using today?",
+            "user_response_option_en": "Can you confirm if you accept Discover Card?",
+            "previous_turn_id": "exyozritegjbztka",
+            "order": 3,
+            "key_phrase_en": "Discover Card"
+        },
+        {
+            "id": "vrgyivogzjjjnann",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Yes, we accept credit card payments. Which card will you be using today?",
+            "user_response_option_en": "I'd like to pay with Mastercard, is that okay?",
+            "previous_turn_id": "exyozritegjbztka",
+            "order": 3,
+            "key_phrase_en": "Mastercard payment"
+        },
+        {
+            "id": "hwmmrzdjiucdvuid",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, I'll print a receipt for your payment right now.",
+            "user_response_option_en": "Can you break a hundred?\" ",
+            "previous_turn_id": "iuwwwqpkvwegjdew",
+            "order": 3,
+            "key_phrase_en": "break a hundred"
+        },
+        {
+            "id": "ymvzzmonnxqpizxk",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, I'll print a receipt for your payment right now.",
+            "user_response_option_en": "Do you accept credit cards?\" ",
+            "previous_turn_id": "iuwwwqpkvwegjdew",
+            "order": 3,
+            "key_phrase_en": "Credit cards"
+        },
+        {
+            "id": "sryzksrvgktnzmqn",
+            "mission_id": "ctnggfsqslughucb",
+            "ai_conversation_starter_en": "Certainly, I'll print a receipt for your payment right now.",
+            "user_response_option_en": "Would you please give me additional details about the charges?",
+            "previous_turn_id": "iuwwwqpkvwegjdew",
+            "order": 3,
+            "key_phrase_en": "additional details"
+        }
+    ]
+}

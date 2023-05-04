@@ -1,0 +1,370 @@
+{
+    "id": "aabdfqwkrvjrbnxw",
+    "title": "Asking for directions to a specific attraction within the park",
+    "order": 1,
+    "turns": [
+        {
+            "id": "uqcanqrmnybdfhjz",
+            "ai_conversation_starter_en": "Hello, welcome to our park! Are you looking for something specific?",
+            "user_response_option_en": "Could you tell me where the playground is located?",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "sankubpdhhfevokr",
+            "key_phrase_en": "playground location"
+        },
+        {
+            "id": "ugjhltxwicxjeqjq",
+            "ai_conversation_starter_en": "Hello, welcome to our park! Are you looking for something specific?",
+            "user_response_option_en": "Excuse me, do you know how I can get to the rollercoaster?",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "wzwoswcdgtiocnvu",
+            "key_phrase_en": "rollercoaster"
+        },
+        {
+            "id": "rgfysejxvzxnlotv",
+            "ai_conversation_starter_en": "Hello, welcome to our park! Are you looking for something specific?",
+            "user_response_option_en": "Which way should I go to find the water park?",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "oaznnbwlvvabgtou",
+            "key_phrase_en": "Water park"
+        },
+        {
+            "id": "wqsotvdxrdkupqyv",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Certainly! The playground is just a short walk down the main path to your left. You can't miss it!",
+            "user_response_option_en": " \"Excuse me, can you tell me where the restroom is?",
+            "previous_turn_id": "uqcanqrmnybdfhjz",
+            "order": 2,
+            "next_turn_id": "fcywlbopfljwwcrk",
+            "key_phrase_en": "Restroom location"
+        },
+        {
+            "id": "wmsxgadptfzgrluw",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Certainly! The playground is just a short walk down the main path to your left. You can't miss it!",
+            "user_response_option_en": "Thank you! Is there a cafeteria nearby?",
+            "previous_turn_id": "uqcanqrmnybdfhjz",
+            "order": 2,
+            "next_turn_id": "fljwtpmtjfhgzjqj",
+            "key_phrase_en": "cafeteria nearby"
+        },
+        {
+            "id": "sankubpdhhfevokr",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Certainly! The playground is just a short walk down the main path to your left. You can't miss it!",
+            "user_response_option_en": "Great! How do I get to the entrance of the park?",
+            "previous_turn_id": "uqcanqrmnybdfhjz",
+            "order": 2,
+            "next_turn_id": "ttwxlobwdweknurq",
+            "key_phrase_en": "Get to entrance"
+        },
+        {
+            "id": "tssrphsvvvwwsiql",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the rollercoaster is just ahead to your left. You can follow the signs or ask any of our staff members for directions. Enjoy your ride!",
+            "user_response_option_en": "Excuse me, could you point me in the direction of the water ride?",
+            "previous_turn_id": "ugjhltxwicxjeqjq",
+            "order": 2,
+            "next_turn_id": "nvjdcmemqeccqkjj",
+            "key_phrase_en": "Water ride"
+        },
+        {
+            "id": "esmvbircmdwwrxqt",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the rollercoaster is just ahead to your left. You can follow the signs or ask any of our staff members for directions. Enjoy your ride!",
+            "user_response_option_en": "Thanks, could you tell me, is the haunted house nearby too?",
+            "previous_turn_id": "ugjhltxwicxjeqjq",
+            "order": 2,
+            "next_turn_id": "lcaoihfgylpoduye",
+            "key_phrase_en": "Haunted house nearby"
+        },
+        {
+            "id": "wzwoswcdgtiocnvu",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the rollercoaster is just ahead to your left. You can follow the signs or ask any of our staff members for directions. Enjoy your ride!",
+            "user_response_option_en": "Sorry, do you know where I can find the closest restroom?",
+            "previous_turn_id": "ugjhltxwicxjeqjq",
+            "order": 2,
+            "next_turn_id": "xlgnaoewrrsftknz",
+            "key_phrase_en": "closest restroom"
+        },
+        {
+            "id": "acrjwpdamthzbdnp",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Of course! If you go straight down this path and take a left at the fountain, you'll find the water park on your right-hand side.",
+            "user_response_option_en": "Thank you! Is it easy to get lost in this park?",
+            "previous_turn_id": "rgfysejxvzxnlotv",
+            "order": 2,
+            "next_turn_id": "srhmnitkoczczjca",
+            "key_phrase_en": "Get lost"
+        },
+        {
+            "id": "jubzzvvcxptvmoix",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Of course! If you go straight down this path and take a left at the fountain, you'll find the water park on your right-hand side.",
+            "user_response_option_en": "Great, I appreciate your help! Can I take any shortcuts?",
+            "previous_turn_id": "rgfysejxvzxnlotv",
+            "order": 2,
+            "next_turn_id": "lvlptpzpturlfjnr",
+            "key_phrase_en": "Shortcuts"
+        },
+        {
+            "id": "oaznnbwlvvabgtou",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Of course! If you go straight down this path and take a left at the fountain, you'll find the water park on your right-hand side.",
+            "user_response_option_en": "Perfect, got it! By the way, is the water park wheelchair accessible?",
+            "previous_turn_id": "rgfysejxvzxnlotv",
+            "order": 2,
+            "next_turn_id": "ljzmfnrzbbozrtwg",
+            "key_phrase_en": "wheelchair accessible"
+        },
+        {
+            "id": "ticbnthnjbmskpfy",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Of course! The restroom is just down the path to your right.",
+            "user_response_option_en": "Can you also help with directions to the bird sanctuary?",
+            "previous_turn_id": "wqsotvdxrdkupqyv",
+            "order": 3,
+            "key_phrase_en": "directions to sanctuary"
+        },
+        {
+            "id": "hznbyacxqqqupkvo",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Of course! The restroom is just down the path to your right.",
+            "user_response_option_en": "Thank you! Could you tell me how to get to the lake?",
+            "previous_turn_id": "wqsotvdxrdkupqyv",
+            "order": 3,
+            "key_phrase_en": "get to lake"
+        },
+        {
+            "id": "fcywlbopfljwwcrk",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Of course! The restroom is just down the path to your right.",
+            "user_response_option_en": "Excuse me, do you know where the flower garden is located?",
+            "previous_turn_id": "wqsotvdxrdkupqyv",
+            "order": 3,
+            "key_phrase_en": "Flower garden"
+        },
+        {
+            "id": "mfpiayqqefehgtni",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, there is a cafeteria located near the entrance of the park. You can find it by heading back in the direction you came from and turning right at the intersection.",
+            "user_response_option_en": "Excuse me, can you direct me to the botanical garden, please?",
+            "previous_turn_id": "wmsxgadptfzgrluw",
+            "order": 3,
+            "key_phrase_en": "Direct me"
+        },
+        {
+            "id": "wdzqpvexxzrzopda",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, there is a cafeteria located near the entrance of the park. You can find it by heading back in the direction you came from and turning right at the intersection.",
+            "user_response_option_en": "Sorry, I didn't catch that, could you tell me where the rollercoaster is?",
+            "previous_turn_id": "wmsxgadptfzgrluw",
+            "order": 3,
+            "key_phrase_en": "rollercoaster location"
+        },
+        {
+            "id": "fljwtpmtjfhgzjqj",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, there is a cafeteria located near the entrance of the park. You can find it by heading back in the direction you came from and turning right at the intersection.",
+            "user_response_option_en": "Can you show me the way to the museum on the map?",
+            "previous_turn_id": "wmsxgadptfzgrluw",
+            "order": 3,
+            "key_phrase_en": "show me the way"
+        },
+        {
+            "id": "fwdylxqtdpgkovos",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Certainly, which attraction are you looking for specifically, Iris? That way we can give you the most accurate directions.",
+            "user_response_option_en": "I'm looking for the roller coaster. Can you tell me how to get there?",
+            "previous_turn_id": "sankubpdhhfevokr",
+            "order": 3,
+            "key_phrase_en": "roller coaster"
+        },
+        {
+            "id": "vhkwujdmuqbfdwef",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Certainly, which attraction are you looking for specifically, Iris? That way we can give you the most accurate directions.",
+            "user_response_option_en": "Excuse me, could you direct me to the water ride please?",
+            "previous_turn_id": "sankubpdhhfevokr",
+            "order": 3,
+            "key_phrase_en": "water ride"
+        },
+        {
+            "id": "ttwxlobwdweknurq",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Certainly, which attraction are you looking for specifically, Iris? That way we can give you the most accurate directions.",
+            "user_response_option_en": "Which way to the haunted house? It's supposed to be very popular!",
+            "previous_turn_id": "sankubpdhhfevokr",
+            "order": 3,
+            "key_phrase_en": "Haunted house"
+        },
+        {
+            "id": "kskyckrhlvvrutvr",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the water ride is on the other side of the park, just follow the signs or ask any staff member for directions.",
+            "user_response_option_en": "Thank you! Is it far from here?",
+            "previous_turn_id": "tssrphsvvvwwsiql",
+            "order": 3,
+            "key_phrase_en": "Far from here"
+        },
+        {
+            "id": "nssxhgztcyspihqn",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the water ride is on the other side of the park, just follow the signs or ask any staff member for directions.",
+            "user_response_option_en": "Got it, I appreciate your help!",
+            "previous_turn_id": "tssrphsvvvwwsiql",
+            "order": 3,
+            "key_phrase_en": "Appreciate your help"
+        },
+        {
+            "id": "nvjdcmemqeccqkjj",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the water ride is on the other side of the park, just follow the signs or ask any staff member for directions.",
+            "user_response_option_en": "Which direction should I go after the sign?",
+            "previous_turn_id": "tssrphsvvvwwsiql",
+            "order": 3,
+            "key_phrase_en": "direction"
+        },
+        {
+            "id": "rvpivuposknkvefk",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, the haunted house is just across the bridge to your right.",
+            "user_response_option_en": "Thank you. Is it scary there?",
+            "previous_turn_id": "esmvbircmdwwrxqt",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kygkddizaqcrxwaq",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, the haunted house is just across the bridge to your right.",
+            "user_response_option_en": "Got it. Can I take photos inside?",
+            "previous_turn_id": "esmvbircmdwwrxqt",
+            "order": 3,
+            "key_phrase_en": "Take photos inside"
+        },
+        {
+            "id": "lcaoihfgylpoduye",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, the haunted house is just across the bridge to your right.",
+            "user_response_option_en": "Appreciate it. What time does it close?",
+            "previous_turn_id": "esmvbircmdwwrxqt",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "jqtztpqzedlblobm",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the closest restroom is located near the entrance of the park. You can follow the signs or ask any of our staff members for directions.",
+            "user_response_option_en": "Excuse me, can you tell me where the Ferris wheel is located?",
+            "previous_turn_id": "wzwoswcdgtiocnvu",
+            "order": 3,
+            "key_phrase_en": "Ferris wheel location"
+        },
+        {
+            "id": "ybhaxlkmrexbljrq",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the closest restroom is located near the entrance of the park. You can follow the signs or ask any of our staff members for directions.",
+            "user_response_option_en": "Thanks for your help. Could you direct me to the haunted house?",
+            "previous_turn_id": "wzwoswcdgtiocnvu",
+            "order": 3,
+            "key_phrase_en": "Haunted house"
+        },
+        {
+            "id": "xlgnaoewrrsftknz",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Sure, the closest restroom is located near the entrance of the park. You can follow the signs or ask any of our staff members for directions.",
+            "user_response_option_en": "Sorry, I missed it earlier. Can you show me the way to the petting zoo?",
+            "previous_turn_id": "wzwoswcdgtiocnvu",
+            "order": 3,
+            "key_phrase_en": "Show me the way"
+        },
+        {
+            "id": "hxqxojklnsgecfyq",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "No, it's not too difficult to navigate. You can refer to the park map for directions if needed.",
+            "user_response_option_en": "Can you tell me where the roller coaster is located?",
+            "previous_turn_id": "acrjwpdamthzbdnp",
+            "order": 3,
+            "key_phrase_en": "roller coaster location"
+        },
+        {
+            "id": "oiurifdzmrfujxtp",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "No, it's not too difficult to navigate. You can refer to the park map for directions if needed.",
+            "user_response_option_en": "which aisle has the cotton candy and snack stalls?",
+            "previous_turn_id": "acrjwpdamthzbdnp",
+            "order": 3,
+            "key_phrase_en": "cotton candy aisle"
+        },
+        {
+            "id": "srhmnitkoczczjca",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "No, it's not too difficult to navigate. You can refer to the park map for directions if needed.",
+            "user_response_option_en": "Excuse me, Could you please point me towards the gift shop?",
+            "previous_turn_id": "acrjwpdamthzbdnp",
+            "order": 3,
+            "key_phrase_en": "gift shop"
+        },
+        {
+            "id": "iylafwahkxqbhyfz",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "I'm glad to help. Unfortunately, there are no shortcuts available to the attraction that you are looking for.",
+            "user_response_option_en": "Can you tell me how far it is from here? ",
+            "previous_turn_id": "jubzzvvcxptvmoix",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gscmwzztqdtdxest",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "I'm glad to help. Unfortunately, there are no shortcuts available to the attraction that you are looking for.",
+            "user_response_option_en": "Is the attraction located next to the roller coaster?",
+            "previous_turn_id": "jubzzvvcxptvmoix",
+            "order": 3,
+            "key_phrase_en": "Next to roller coaster"
+        },
+        {
+            "id": "lvlptpzpturlfjnr",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "I'm glad to help. Unfortunately, there are no shortcuts available to the attraction that you are looking for.",
+            "user_response_option_en": "Which entrance is closer to the attraction?",
+            "previous_turn_id": "jubzzvvcxptvmoix",
+            "order": 3,
+            "key_phrase_en": "Closer to"
+        },
+        {
+            "id": "udwcxxfafalkdbws",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, the water park is wheelchair accessible. We have designated entrances and ramps for wheelchair users.",
+            "user_response_option_en": "Thanks a lot! Could you tell me where the lockers are located?",
+            "previous_turn_id": "oaznnbwlvvabgtou",
+            "order": 3,
+            "key_phrase_en": "Lockers located"
+        },
+        {
+            "id": "bzxpqmmxnzsltaif",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, the water park is wheelchair accessible. We have designated entrances and ramps for wheelchair users.",
+            "user_response_option_en": "Great to know. Is there a shuttle service available around the park?",
+            "previous_turn_id": "oaznnbwlvvabgtou",
+            "order": 3,
+            "key_phrase_en": "Shuttle service available"
+        },
+        {
+            "id": "ljzmfnrzbbozrtwg",
+            "mission_id": "aabdfqwkrvjrbnxw",
+            "ai_conversation_starter_en": "Yes, the water park is wheelchair accessible. We have designated entrances and ramps for wheelchair users.",
+            "user_response_option_en": "Appreciate it. Can you recommend any nearby restaurants for lunch?",
+            "previous_turn_id": "oaznnbwlvvabgtou",
+            "order": 3,
+            "key_phrase_en": "Nearby restaurants"
+        }
+    ]
+}

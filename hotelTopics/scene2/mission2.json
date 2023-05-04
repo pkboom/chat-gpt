@@ -1,0 +1,666 @@
+{
+    "id": "cvaeqjeggtnmizwr",
+    "title": "The guest wants to request a taxi or transportation",
+    "order": 2,
+    "turns": [
+        {
+            "id": "dsbhxbxmphouwbmw",
+            "ai_conversation_starter_en": "Good morning, how may I assist you today?",
+            "user_response_option_en": "Can you help me with transportation options?",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jblzpwujmgadwdiv",
+            "key_phrase_en": "transportation options"
+        },
+        {
+            "id": "wxkndlorpnzgpnsz",
+            "ai_conversation_starter_en": "Good morning, how may I assist you today?",
+            "user_response_option_en": "I need a taxi to go to the airport.",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "duophrttarfixpnp",
+            "key_phrase_en": "Need a taxi"
+        },
+        {
+            "id": "atuoxonyhsdwymgi",
+            "ai_conversation_starter_en": "Good morning, how may I assist you today?",
+            "user_response_option_en": "How can I arrange transportation for sightseeing?",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dvminhkylfbmjbsj",
+            "key_phrase_en": "transportation for sightseeing"
+        },
+        {
+            "id": "vbiifcisfndqlpgh",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, would you like us to arrange a taxi or do you have a preferred transportation service?",
+            "user_response_option_en": "Can you call a taxi for me, please?",
+            "previous_turn_id": "swtdvukwnuwgmgtj",
+            "order": 2,
+            "next_turn_id": "ugfaedqnhpawbsnh",
+            "key_phrase_en": "call a taxi"
+        },
+        {
+            "id": "opypjuehkobczopk",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, would you like us to arrange a taxi or do you have a preferred transportation service?",
+            "user_response_option_en": "I need a ride to the airport, do you have any recommendations?",
+            "previous_turn_id": "swtdvukwnuwgmgtj",
+            "order": 2,
+            "next_turn_id": "pmziehpwhogarmtb",
+            "key_phrase_en": "Recommendations for ride"
+        },
+        {
+            "id": "mbzjhlhrzpzqqzfp",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, would you like us to arrange a taxi or do you have a preferred transportation service?",
+            "user_response_option_en": "Could you help me book a transportation service?",
+            "previous_turn_id": "swtdvukwnuwgmgtj",
+            "order": 2,
+            "next_turn_id": "dnhnogbwcsintrdi",
+            "key_phrase_en": "Transportation service"
+        },
+        {
+            "id": "lodlvaugyfhtegnp",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we'd be happy to arrange a taxi or transportation service for you. When would you like it?",
+            "user_response_option_en": "Taxi to the airport, please.",
+            "previous_turn_id": "fipxvbotxnmngjhd",
+            "order": 2,
+            "next_turn_id": "lrawzolzbhnlomqq",
+            "key_phrase_en": "Taxi to airport"
+        },
+        {
+            "id": "mgahynwimezltgti",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we'd be happy to arrange a taxi or transportation service for you. When would you like it?",
+            "user_response_option_en": "Can you arrange a car for me now?",
+            "previous_turn_id": "fipxvbotxnmngjhd",
+            "order": 2,
+            "next_turn_id": "vboxosxevllwvxle",
+            "key_phrase_en": "Arrange a car"
+        },
+        {
+            "id": "vvtucepiperzkjce",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we'd be happy to arrange a taxi or transportation service for you. When would you like it?",
+            "user_response_option_en": "I need pickup at 3pm for a meeting.",
+            "previous_turn_id": "fipxvbotxnmngjhd",
+            "order": 2,
+            "next_turn_id": "trorlrbblgbycgoz",
+            "key_phrase_en": "pickup at 3pm"
+        },
+        {
+            "id": "wzgfchvbezmnrian",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a taxi for you. Where do you need to go?",
+            "user_response_option_en": "I would like a taxi to the airport, please.",
+            "previous_turn_id": "dsbhxbxmphouwbmw",
+            "order": 2,
+            "next_turn_id": "fmnqbfrzknxlongs",
+            "key_phrase_en": "Taxi to airport\""
+        },
+        {
+            "id": "tjqjeezniypmpddz",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a taxi for you. Where do you need to go?",
+            "user_response_option_en": "Can you tell me how much a taxi to the city center costs?",
+            "previous_turn_id": "dsbhxbxmphouwbmw",
+            "order": 2,
+            "next_turn_id": "uitnksljhlyhhkzt",
+            "key_phrase_en": "taxi cost"
+        },
+        {
+            "id": "jblzpwujmgadwdiv",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a taxi for you. Where do you need to go?",
+            "user_response_option_en": "I have a lot of luggage, do you have a shuttle service available?",
+            "previous_turn_id": "dsbhxbxmphouwbmw",
+            "order": 2,
+            "next_turn_id": "nutbuwjgtmqibkqx",
+            "key_phrase_en": "Shuttle service available"
+        },
+        {
+            "id": "jyegrngepnaltwco",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, here's an example response: Certainly, we can arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "Could you arrange a taxi for me now?\" ",
+            "previous_turn_id": "wxkndlorpnzgpnsz",
+            "order": 2,
+            "next_turn_id": "lyzgmbjaqauiuthx",
+            "key_phrase_en": "arrange a taxi"
+        },
+        {
+            "id": "gsrbiitfuihhhawb",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, here's an example response: Certainly, we can arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "",
+            "previous_turn_id": "wxkndlorpnzgpnsz",
+            "order": 2,
+            "next_turn_id": "jpickdgxcesgvwcc",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "unygpqewywpcbydi",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, here's an example response: Certainly, we can arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "I want to go to the airport at 4 PM.",
+            "previous_turn_id": "wxkndlorpnzgpnsz",
+            "order": 2,
+            "next_turn_id": "qynjvuvncmfmgvvo",
+            "key_phrase_en": "airport at 4PM"
+        },
+        {
+            "id": "cibqhnspdvrkyefi",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, here's an example response: Certainly, we can arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "",
+            "previous_turn_id": "wxkndlorpnzgpnsz",
+            "order": 2,
+            "next_turn_id": "tszoqqyahhzlvzyu",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "duophrttarfixpnp",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, here's an example response: Certainly, we can arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "Please, could you book a taxi for me to arrive at 6 AM tomorrow?",
+            "previous_turn_id": "wxkndlorpnzgpnsz",
+            "order": 2,
+            "next_turn_id": "xaitegvolxhdqnbt",
+            "key_phrase_en": "book a taxi"
+        },
+        {
+            "id": "leurjwbxjcdqcchj",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we would be happy to arrange transportation for you. Would you like us to book a taxi for you?",
+            "user_response_option_en": "Yes, please book me a taxi for later this afternoon.",
+            "previous_turn_id": "atuoxonyhsdwymgi",
+            "order": 2,
+            "next_turn_id": "tpdnnurrrtrknavd",
+            "key_phrase_en": "Book me taxi"
+        },
+        {
+            "id": "cqcshthrclfhkomz",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we would be happy to arrange transportation for you. Would you like us to book a taxi for you?",
+            "user_response_option_en": "Could you arrange transportation for a city tour tomorrow?",
+            "previous_turn_id": "atuoxonyhsdwymgi",
+            "order": 2,
+            "next_turn_id": "dlsisuimvlclxtae",
+            "key_phrase_en": "city tour transportation"
+        },
+        {
+            "id": "dvminhkylfbmjbsj",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we would be happy to arrange transportation for you. Would you like us to book a taxi for you?",
+            "user_response_option_en": "I need a ride to the airport tomorrow morning. Can you help?",
+            "previous_turn_id": "atuoxonyhsdwymgi",
+            "order": 2,
+            "next_turn_id": "ulavhcbumsqikvcn",
+            "key_phrase_en": "Ride to airport"
+        },
+        {
+            "id": "yjjhxztewjaatvqm",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, would you like us to arrange a taxi for now or for a specific time?",
+            "user_response_option_en": "Could you please call a taxi to the airport?",
+            "previous_turn_id": "vbiifcisfndqlpgh",
+            "order": 3,
+            "key_phrase_en": "Call a taxi"
+        },
+        {
+            "id": "oplzkcvuoagipvja",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, would you like us to arrange a taxi for now or for a specific time?",
+            "user_response_option_en": "I need a taxi to downtown for 5 pm, please.",
+            "previous_turn_id": "vbiifcisfndqlpgh",
+            "order": 3,
+            "key_phrase_en": "Taxi to downtown"
+        },
+        {
+            "id": "ugfaedqnhpawbsnh",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, would you like us to arrange a taxi for now or for a specific time?",
+            "user_response_option_en": "I would like to arrange a car rental for two days.",
+            "previous_turn_id": "vbiifcisfndqlpgh",
+            "order": 3,
+            "key_phrase_en": "car rental"
+        },
+        {
+            "id": "nuxcevkwqskdmvlo",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a taxi for you. Would you like me to do that now?",
+            "user_response_option_en": "Yes, please arrange a taxi for me.",
+            "previous_turn_id": "opypjuehkobczopk",
+            "order": 3,
+            "key_phrase_en": "Arrange a taxi"
+        },
+        {
+            "id": "ilqiefldelrrimfn",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a taxi for you. Would you like me to do that now?",
+            "user_response_option_en": "Do you have a shuttle bus service to the airport?",
+            "previous_turn_id": "opypjuehkobczopk",
+            "order": 3,
+            "key_phrase_en": "Shuttle bus service"
+        },
+        {
+            "id": "pmziehpwhogarmtb",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a taxi for you. Would you like me to do that now?",
+            "user_response_option_en": "Can you recommend any transportation apps for me to use?",
+            "previous_turn_id": "opypjuehkobczopk",
+            "order": 3,
+            "key_phrase_en": "transportation apps"
+        },
+        {
+            "id": "imctxiimqarbmccp",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Of course. Where do you need to go and what time would you like to leave?",
+            "user_response_option_en": "I need to go to the airport at 9am.",
+            "previous_turn_id": "mbzjhlhrzpzqqzfp",
+            "order": 3,
+            "key_phrase_en": "go to airport"
+        },
+        {
+            "id": "cjutrdnxckqjrsyg",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Of course. Where do you need to go and what time would you like to leave?",
+            "user_response_option_en": "Can I please book a transportation service for tonight at 7pm?",
+            "previous_turn_id": "mbzjhlhrzpzqqzfp",
+            "order": 3,
+            "key_phrase_en": "book transportation service"
+        },
+        {
+            "id": "dnhnogbwcsintrdi",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Of course. Where do you need to go and what time would you like to leave?",
+            "user_response_option_en": "I want to go to the city center. Can you arrange a taxi for me?",
+            "previous_turn_id": "mbzjhlhrzpzqqzfp",
+            "order": 3,
+            "key_phrase_en": "city center"
+        },
+        {
+            "id": "sudwtuffispizdve",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, what time would you like the taxi to be arranged for?",
+            "user_response_option_en": "At 11:00 am, please.",
+            "previous_turn_id": "lodlvaugyfhtegnp",
+            "order": 3,
+            "key_phrase_en": "please"
+        },
+        {
+            "id": "evmnjepuqwttkurf",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, what time would you like the taxi to be arranged for?",
+            "user_response_option_en": "Can I pay for taxi with credit card?",
+            "previous_turn_id": "lodlvaugyfhtegnp",
+            "order": 3,
+            "key_phrase_en": "Credit card"
+        },
+        {
+            "id": "lrawzolzbhnlomqq",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, what time would you like the taxi to be arranged for?",
+            "user_response_option_en": "Is it possible to get a receipt for the transportation?",
+            "previous_turn_id": "lodlvaugyfhtegnp",
+            "order": 3,
+            "key_phrase_en": "get a receipt"
+        },
+        {
+            "id": "uamzvdzxsssaqzej",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we'll have a taxi ready for you in five minutes.",
+            "user_response_option_en": "Thank you for your assistance.",
+            "previous_turn_id": "mgahynwimezltgti",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "iqdaumbltdzxuagz",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we'll have a taxi ready for you in five minutes.",
+            "user_response_option_en": "Where do I wait for the taxi?",
+            "previous_turn_id": "mgahynwimezltgti",
+            "order": 3,
+            "key_phrase_en": "Wait for taxi"
+        },
+        {
+            "id": "vboxosxevllwvxle",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we'll have a taxi ready for you in five minutes.",
+            "user_response_option_en": "Can you tell me how much the taxi ride will be?",
+            "previous_turn_id": "mgahynwimezltgti",
+            "order": 3,
+            "key_phrase_en": "taxi ride cost"
+        },
+        {
+            "id": "qwmsxksdxdtoymyh",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "We can arrange a taxi for you at 3 pm. May I have your destination and contact details, please?",
+            "user_response_option_en": "My destination is the downtown area.",
+            "previous_turn_id": "vvtucepiperzkjce",
+            "order": 3,
+            "key_phrase_en": "downtown area"
+        },
+        {
+            "id": "ckvvpldhcdqwmxwv",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "We can arrange a taxi for you at 3 pm. May I have your destination and contact details, please?",
+            "user_response_option_en": "Here's my contact number",
+            "previous_turn_id": "vvtucepiperzkjce",
+            "order": 3,
+            "key_phrase_en": "contact number"
+        },
+        {
+            "id": "trorlrbblgbycgoz",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "We can arrange a taxi for you at 3 pm. May I have your destination and contact details, please?",
+            "user_response_option_en": "Please confirm the taxi pickup time and location.",
+            "previous_turn_id": "vvtucepiperzkjce",
+            "order": 3,
+            "key_phrase_en": "pickup time"
+        },
+        {
+            "id": "slvysrqvrqggfqzh",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, I can arrange that for you. What time do you need the taxi?",
+            "user_response_option_en": "Can the taxi come in 30 minutes?",
+            "previous_turn_id": "wzgfchvbezmnrian",
+            "order": 3,
+            "key_phrase_en": "taxi come 30"
+        },
+        {
+            "id": "aoyajorqwbaqeczr",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, I can arrange that for you. What time do you need the taxi?",
+            "user_response_option_en": "Is there a fee for the airport pickup service?",
+            "previous_turn_id": "wzgfchvbezmnrian",
+            "order": 3,
+            "key_phrase_en": "Airport pickup fee"
+        },
+        {
+            "id": "fmnqbfrzknxlongs",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, I can arrange that for you. What time do you need the taxi?",
+            "user_response_option_en": "Can I pay for the taxi with my credit card?",
+            "previous_turn_id": "wzgfchvbezmnrian",
+            "order": 3,
+            "key_phrase_en": "Credit card"
+        },
+        {
+            "id": "xoojghzbprdhaxgl",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, I can arrange a taxi to the city center for you. It should cost around $20.",
+            "user_response_option_en": "That's great. Could you please call the taxi for me?",
+            "previous_turn_id": "tjqjeezniypmpddz",
+            "order": 3,
+            "key_phrase_en": "call the taxi"
+        },
+        {
+            "id": "jpettlxsjvboyaas",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, I can arrange a taxi to the city center for you. It should cost around $20.",
+            "user_response_option_en": "Thank you, can you tell me how long it will take to arrive?",
+            "previous_turn_id": "tjqjeezniypmpddz",
+            "order": 3,
+            "key_phrase_en": "Long it will take"
+        },
+        {
+            "id": "uitnksljhlyhhkzt",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, I can arrange a taxi to the city center for you. It should cost around $20.",
+            "user_response_option_en": "Is it possible to pay for the taxi with a credit card?",
+            "previous_turn_id": "tjqjeezniypmpddz",
+            "order": 3,
+            "key_phrase_en": "Credit card"
+        },
+        {
+            "id": "eyxxldtbxokqvdai",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "I'm sorry, we don't have a shuttle service, but we can arrange a taxi for you.",
+            "user_response_option_en": "What's the estimated cost of the taxi service?",
+            "previous_turn_id": "jblzpwujmgadwdiv",
+            "order": 3,
+            "key_phrase_en": "Estimated cost"
+        },
+        {
+            "id": "szkajdbaktkdaxjh",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "I'm sorry, we don't have a shuttle service, but we can arrange a taxi for you.",
+            "user_response_option_en": "Can you please confirm the pick-up time?",
+            "previous_turn_id": "jblzpwujmgadwdiv",
+            "order": 3,
+            "key_phrase_en": "Confirm pick-up time"
+        },
+        {
+            "id": "nutbuwjgtmqibkqx",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "I'm sorry, we don't have a shuttle service, but we can arrange a taxi for you.",
+            "user_response_option_en": "Could you write the address and telephone number of the taxi company?",
+            "previous_turn_id": "jblzpwujmgadwdiv",
+            "order": 3,
+            "key_phrase_en": "taxi company address"
+        },
+        {
+            "id": "rxirmqurdkyvytlp",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I'll call the taxi service for you now.",
+            "user_response_option_en": "How long will the taxi take?",
+            "previous_turn_id": "jyegrngepnaltwco",
+            "order": 3,
+            "key_phrase_en": "taxi take"
+        },
+        {
+            "id": "laqyorlqyudomhgh",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I'll call the taxi service for you now.",
+            "user_response_option_en": "Can you remind me how much the taxi costs?",
+            "previous_turn_id": "jyegrngepnaltwco",
+            "order": 3,
+            "key_phrase_en": "Remind me"
+        },
+        {
+            "id": "lyzgmbjaqauiuthx",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I'll call the taxi service for you now.",
+            "user_response_option_en": "Is it possible to have a taxi with a child seat?",
+            "previous_turn_id": "jyegrngepnaltwco",
+            "order": 3,
+            "key_phrase_en": "Child seat"
+        },
+        {
+            "id": "hgsewsxdcatmicqt",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I'll arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "Can the taxi arrive in 30 minutes?",
+            "previous_turn_id": "gsrbiitfuihhhawb",
+            "order": 3,
+            "key_phrase_en": "Taxi arrive 30"
+        },
+        {
+            "id": "vfrjkjbegrenpacr",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I'll arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "Is there an estimated cost for the taxi?",
+            "previous_turn_id": "gsrbiitfuihhhawb",
+            "order": 3,
+            "key_phrase_en": "estimated cost"
+        },
+        {
+            "id": "jpickdgxcesgvwcc",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I'll arrange a taxi for you. When would you like to leave?",
+            "user_response_option_en": "Could you please recommend a reliable taxi service?",
+            "previous_turn_id": "gsrbiitfuihhhawb",
+            "order": 3,
+            "key_phrase_en": "Taxi service"
+        },
+        {
+            "id": "jinkbacrbdunsfsr",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "I'll be happy to arrange a taxi for you. May I have your name?",
+            "user_response_option_en": "My name is Iris Kim.",
+            "previous_turn_id": "unygpqewywpcbydi",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tubdctgzvpejgiow",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "I'll be happy to arrange a taxi for you. May I have your name?",
+            "user_response_option_en": "Sure, it's Iris.",
+            "previous_turn_id": "unygpqewywpcbydi",
+            "order": 3,
+            "key_phrase_en": "Sure, it's"
+        },
+        {
+            "id": "qynjvuvncmfmgvvo",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "I'll be happy to arrange a taxi for you. May I have your name?",
+            "user_response_option_en": "Iris, that's me.",
+            "previous_turn_id": "unygpqewywpcbydi",
+            "order": 3,
+            "key_phrase_en": "That's me"
+        },
+        {
+            "id": "ndmktjocizvensgr",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we can arrange a taxi for you. When and where would you like to go?",
+            "user_response_option_en": "To the airport, please. At 3 PM.",
+            "previous_turn_id": "cibqhnspdvrkyefi",
+            "order": 3,
+            "key_phrase_en": "Airport, 3 PM"
+        },
+        {
+            "id": "qpqgjwvbszqdigbd",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we can arrange a taxi for you. When and where would you like to go?",
+            "user_response_option_en": "I need to go to the train station at noon.",
+            "previous_turn_id": "cibqhnspdvrkyefi",
+            "order": 3,
+            "key_phrase_en": "train station"
+        },
+        {
+            "id": "tszoqqyahhzlvzyu",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we can arrange a taxi for you. When and where would you like to go?",
+            "user_response_option_en": "Can you call me a taxi to go sightseeing at 10 AM?",
+            "previous_turn_id": "cibqhnspdvrkyefi",
+            "order": 3,
+            "key_phrase_en": "Call me taxi"
+        },
+        {
+            "id": "kwpesqrrzmsfdbsi",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I have arranged a taxi to pick you up at 6 AM tomorrow.",
+            "user_response_option_en": "What's the estimated fare for the taxi?",
+            "previous_turn_id": "duophrttarfixpnp",
+            "order": 3,
+            "key_phrase_en": "Estimated fare"
+        },
+        {
+            "id": "qqhthngqdlfbjlnw",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I have arranged a taxi to pick you up at 6 AM tomorrow.",
+            "user_response_option_en": "Do I need to pay in cash or with a credit card?",
+            "previous_turn_id": "duophrttarfixpnp",
+            "order": 3,
+            "key_phrase_en": "Credit card"
+        },
+        {
+            "id": "xaitegvolxhdqnbt",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, I have arranged a taxi to pick you up at 6 AM tomorrow.",
+            "user_response_option_en": "Could I get a receipt for the taxi fare please?",
+            "previous_turn_id": "duophrttarfixpnp",
+            "order": 3,
+            "key_phrase_en": "Receipt for taxi"
+        },
+        {
+            "id": "spolorpcllccyxvr",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, what time would you like the taxi to arrive?",
+            "user_response_option_en": "I need it at four p.m.",
+            "previous_turn_id": "leurjwbxjcdqcchj",
+            "order": 3,
+            "key_phrase_en": "at four p.m"
+        },
+        {
+            "id": "rltpvnzezdcxpxvb",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, what time would you like the taxi to arrive?",
+            "user_response_option_en": "Can you book a taxi for me to go to the airport?",
+            "previous_turn_id": "leurjwbxjcdqcchj",
+            "order": 3,
+            "key_phrase_en": "Book a taxi"
+        },
+        {
+            "id": "tpdnnurrrtrknavd",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, what time would you like the taxi to arrive?",
+            "user_response_option_en": "How much does it cost to go to the central station?",
+            "previous_turn_id": "leurjwbxjcdqcchj",
+            "order": 3,
+            "key_phrase_en": "Central Station cost"
+        },
+        {
+            "id": "wspcuycfnqbjelur",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a city tour transportation for you. What time would you like to depart, and where would you like to visit?",
+            "user_response_option_en": "I would like to depart at 10 am and visit the downtown area.",
+            "previous_turn_id": "cqcshthrclfhkomz",
+            "order": 3,
+            "key_phrase_en": "visit downtown area"
+        },
+        {
+            "id": "dqvcbfnxbxerbyxi",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a city tour transportation for you. What time would you like to depart, and where would you like to visit?",
+            "user_response_option_en": "Can you recommend a good tour company?",
+            "previous_turn_id": "cqcshthrclfhkomz",
+            "order": 3,
+            "key_phrase_en": "good tour company"
+        },
+        {
+            "id": "dlsisuimvlclxtae",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a city tour transportation for you. What time would you like to depart, and where would you like to visit?",
+            "user_response_option_en": "Do you accept credit card payment for transportation arrangements?",
+            "previous_turn_id": "cqcshthrclfhkomz",
+            "order": 3,
+            "key_phrase_en": "Credit card payment"
+        },
+        {
+            "id": "kkxkoedbfdempdby",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we would be happy to arrange a taxi for you. What time do you need it?",
+            "user_response_option_en": "Can you also arrange transportation to the train station?",
+            "previous_turn_id": "dvminhkylfbmjbsj",
+            "order": 3,
+            "key_phrase_en": "transportation arrangement"
+        },
+        {
+            "id": "vecoffjhzlzovand",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we would be happy to arrange a taxi for you. What time do you need it?",
+            "user_response_option_en": "Is there a flat rate for airport taxi service?",
+            "previous_turn_id": "dvminhkylfbmjbsj",
+            "order": 3,
+            "key_phrase_en": "Flat rate"
+        },
+        {
+            "id": "ulavhcbumsqikvcn",
+            "mission_id": "cvaeqjeggtnmizwr",
+            "ai_conversation_starter_en": "Sure, we would be happy to arrange a taxi for you. What time do you need it?",
+            "user_response_option_en": "Could you please recommend a reliable transportation service for sightseeing?",
+            "previous_turn_id": "dvminhkylfbmjbsj",
+            "order": 3,
+            "key_phrase_en": "Transportation service"
+        }
+    ]
+}

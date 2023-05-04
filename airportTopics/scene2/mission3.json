@@ -1,0 +1,370 @@
+{
+    "id": "aevneaqjcmbpheei",
+    "title": "Forgetting to remove a prohibited item from your carry-on luggage and having it confiscated during the screening process.",
+    "order": 3,
+    "turns": [
+        {
+            "id": "mnaqmxrwwxouvauw",
+            "ai_conversation_starter_en": "Can you please place all of your carry-on luggage into the screening bin on the conveyor belt, remove your shoes and belt, and proceed through the metal detector?",
+            "user_response_option_en": "Okay, thank you. Just one moment to find what I have missed.\" ",
+            "mission_id": "aevneaqjcmbpheei",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "stlagjvarhxaovzh",
+            "key_phrase_en": "find what I've missed"
+        },
+        {
+            "id": "knxnyhwsuxaxklmr",
+            "ai_conversation_starter_en": "Can you please place all of your carry-on luggage into the screening bin on the conveyor belt, remove your shoes and belt, and proceed through the metal detector?",
+            "user_response_option_en": "I apologize. I think I forget to remove something. Can you help me?\" ",
+            "mission_id": "aevneaqjcmbpheei",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rhaquptqtlcidwem",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "brhzorocumqqwebm",
+            "ai_conversation_starter_en": "Can you please place all of your carry-on luggage into the screening bin on the conveyor belt, remove your shoes and belt, and proceed through the metal detector?",
+            "user_response_option_en": "I'm sorry, could you please repeat what I should do? I am new to this.",
+            "mission_id": "aevneaqjcmbpheei",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ioflfxqeaujvxsye",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "atvncfqmjidwlzjm",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please take your time and make sure you don't have any prohibited items in your carry-on luggage.",
+            "user_response_option_en": "I'm sorry, what items cannot be in my carry-on?",
+            "previous_turn_id": "mnaqmxrwwxouvauw",
+            "order": 2,
+            "next_turn_id": "jesemgpwqcnhabrn",
+            "key_phrase_en": "carry-on items"
+        },
+        {
+            "id": "frfclzewnarubtkj",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please take your time and make sure you don't have any prohibited items in your carry-on luggage.",
+            "user_response_option_en": "May I double-check the prohibited items list?",
+            "previous_turn_id": "mnaqmxrwwxouvauw",
+            "order": 2,
+            "next_turn_id": "piltbnsvegioyqnx",
+            "key_phrase_en": "prohibited items"
+        },
+        {
+            "id": "stlagjvarhxaovzh",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please take your time and make sure you don't have any prohibited items in your carry-on luggage.",
+            "user_response_option_en": "Can I remove the item and try again?",
+            "previous_turn_id": "mnaqmxrwwxouvauw",
+            "order": 2,
+            "next_turn_id": "cfrhthetzhrtisfp",
+            "key_phrase_en": "remove the item"
+        },
+        {
+            "id": "xwrnuufdlrilgszc",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Sure, I can assist you, what item did you forget to remove?",
+            "user_response_option_en": "I think I left a liquid in my bag, can you check?",
+            "previous_turn_id": "knxnyhwsuxaxklmr",
+            "order": 2,
+            "next_turn_id": "ipsrpbxqgieneajt",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tpifyqnqhofsefxa",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Sure, I can assist you, what item did you forget to remove?",
+            "user_response_option_en": "I have medicine in my bag, is this allowed?",
+            "previous_turn_id": "knxnyhwsuxaxklmr",
+            "order": 2,
+            "next_turn_id": "wxwazmmhqorairbv",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "rhaquptqtlcidwem",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Sure, I can assist you, what item did you forget to remove?",
+            "user_response_option_en": "I have a small knife, I didn't know it wasn't allowed.",
+            "previous_turn_id": "knxnyhwsuxaxklmr",
+            "order": 2,
+            "next_turn_id": "fcskfafbsbxsllck",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "arascnctgbhouhex",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please double-check your bag for any prohibited items before going through security.",
+            "user_response_option_en": "I apologize, may I know what items are prohibited?\" ",
+            "previous_turn_id": "brhzorocumqqwebm",
+            "order": 2,
+            "next_turn_id": "xsssqoksfzwrmzie",
+            "key_phrase_en": "prohibited items"
+        },
+        {
+            "id": "ntkngdrnvfczviex",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please double-check your bag for any prohibited items before going through security.",
+            "user_response_option_en": "Could you please give me an example of a prohibited item?\" ",
+            "previous_turn_id": "brhzorocumqqwebm",
+            "order": 2,
+            "next_turn_id": "hunccpohwxhqayjj",
+            "key_phrase_en": "prohibited item"
+        },
+        {
+            "id": "ioflfxqeaujvxsye",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please double-check your bag for any prohibited items before going through security.",
+            "user_response_option_en": "Thank you for reminding me, I'll check my bag again.",
+            "previous_turn_id": "brhzorocumqqwebm",
+            "order": 2,
+            "next_turn_id": "kvjsmberseqsvcdh",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hlbauybjyzpmwocy",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Items like liquids, gels, and weapons are prohibited in carry-on luggage.",
+            "user_response_option_en": "I apologize, I forgot. May I discard it outside the security area?\" ",
+            "previous_turn_id": "atvncfqmjidwlzjm",
+            "order": 3,
+            "key_phrase_en": "discard it outside"
+        },
+        {
+            "id": "rmqtqzlqxmrozhmo",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Items like liquids, gels, and weapons are prohibited in carry-on luggage.",
+            "user_response_option_en": "Thank you for reminding me. Can you please dispose of it for me?\" ",
+            "previous_turn_id": "atvncfqmjidwlzjm",
+            "order": 3,
+            "key_phrase_en": "Dispose of"
+        },
+        {
+            "id": "jesemgpwqcnhabrn",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Items like liquids, gels, and weapons are prohibited in carry-on luggage.",
+            "user_response_option_en": "I understand, I'll remove the item now. Thank you for your patience.",
+            "previous_turn_id": "atvncfqmjidwlzjm",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tygbzipingscqafw",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Certainly, let me pull it up for you on my computer.",
+            "user_response_option_en": "Can I ask what items are not allowed?",
+            "previous_turn_id": "frfclzewnarubtkj",
+            "order": 3,
+            "key_phrase_en": "Not allowed"
+        },
+        {
+            "id": "wfcrruouyyqrwuzn",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Certainly, let me pull it up for you on my computer.",
+            "user_response_option_en": "I'm not sure if I have any prohibited items.",
+            "previous_turn_id": "frfclzewnarubtkj",
+            "order": 3,
+            "key_phrase_en": "prohibited items"
+        },
+        {
+            "id": "piltbnsvegioyqnx",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Certainly, let me pull it up for you on my computer.",
+            "user_response_option_en": "May I check my bag again?",
+            "previous_turn_id": "frfclzewnarubtkj",
+            "order": 3,
+            "key_phrase_en": "check bag again"
+        },
+        {
+            "id": "tgmglfzguhvbttje",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, once an item is identified as prohibited, it cannot be allowed through screening.",
+            "user_response_option_en": "I should have checked your website before packing.",
+            "previous_turn_id": "stlagjvarhxaovzh",
+            "order": 3,
+            "key_phrase_en": "checked website"
+        },
+        {
+            "id": "pdvauvlxiecymdwc",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, once an item is identified as prohibited, it cannot be allowed through screening.",
+            "user_response_option_en": "Can I confirm which items are okay to bring next time?",
+            "previous_turn_id": "stlagjvarhxaovzh",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "cfrhthetzhrtisfp",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, once an item is identified as prohibited, it cannot be allowed through screening.",
+            "user_response_option_en": "Thank you, I will be more careful next time.",
+            "previous_turn_id": "stlagjvarhxaovzh",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gpdthhghhvqncnfs",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, liquids aren't allowed. Please hand it over for disposal.",
+            "user_response_option_en": "Can I drink it now before handing it over?",
+            "previous_turn_id": "xwrnuufdlrilgszc",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "pqagdakperiulxqn",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, liquids aren't allowed. Please hand it over for disposal.",
+            "user_response_option_en": "Oh no, I forgot. Okay, I understand.",
+            "previous_turn_id": "xwrnuufdlrilgszc",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ipsrpbxqgieneajt",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, liquids aren't allowed. Please hand it over for disposal.",
+            "user_response_option_en": "Can I leave liquids in checked baggage instead?",
+            "previous_turn_id": "xwrnuufdlrilgszc",
+            "order": 3,
+            "key_phrase_en": "checked baggage"
+        },
+        {
+            "id": "siwomdkipddqqgek",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Medicine is allowed, but prohibited items must be removed before screening. Please remove any prohibited items before we proceed with the screening process.",
+            "user_response_option_en": "Sorry, I didn't know. Which items are prohibited?",
+            "previous_turn_id": "tpifyqnqhofsefxa",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mjbmpwdnmacuzclw",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Medicine is allowed, but prohibited items must be removed before screening. Please remove any prohibited items before we proceed with the screening process.",
+            "user_response_option_en": "Can I check my bag again and remove the item?",
+            "previous_turn_id": "tpifyqnqhofsefxa",
+            "order": 3,
+            "key_phrase_en": "check again"
+        },
+        {
+            "id": "wxwazmmhqorairbv",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Medicine is allowed, but prohibited items must be removed before screening. Please remove any prohibited items before we proceed with the screening process.",
+            "user_response_option_en": "I understand. Please go ahead and dispose of the item.",
+            "previous_turn_id": "tpifyqnqhofsefxa",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bapsshclvuzgbxbn",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, but knives aren't allowed in carry-on luggage. We'll have to confiscate it.",
+            "user_response_option_en": "I didn't know, sorry. What is allowed?",
+            "previous_turn_id": "rhaquptqtlcidwem",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wcyedtbtxjsldcgz",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, but knives aren't allowed in carry-on luggage. We'll have to confiscate it.",
+            "user_response_option_en": "Can I still board the plane without it?",
+            "previous_turn_id": "rhaquptqtlcidwem",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "fcskfafbsbxsllck",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "I'm sorry, but knives aren't allowed in carry-on luggage. We'll have to confiscate it.",
+            "user_response_option_en": "Okay, please take it.",
+            "previous_turn_id": "rhaquptqtlcidwem",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mcsmujgquuhalzbw",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Liquids over 3.4 ounces, sharp objects, firearms, and explosives are prohibited.",
+            "user_response_option_en": "Oh no, I forgot to remove something. ",
+            "previous_turn_id": "arascnctgbhouhex",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bbtmxsjbeuekjnwy",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Liquids over 3.4 ounces, sharp objects, firearms, and explosives are prohibited.",
+            "user_response_option_en": "I'm sorry, could you repeat what items are prohibited?",
+            "previous_turn_id": "arascnctgbhouhex",
+            "order": 3,
+            "key_phrase_en": "Prohibited items"
+        },
+        {
+            "id": "xsssqoksfzwrmzie",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Liquids over 3.4 ounces, sharp objects, firearms, and explosives are prohibited.",
+            "user_response_option_en": "Thank you for reminding me, I'll remove it now.",
+            "previous_turn_id": "arascnctgbhouhex",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "fxrytmcqjhgfdlrj",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Certain liquids, gels, and sharp objects are not allowed in carry-on luggage. Please check your bags for these items.",
+            "user_response_option_en": "I'm sorry, but could you remind me of some prohibited items again?",
+            "previous_turn_id": "ntkngdrnvfczviex",
+            "order": 3,
+            "key_phrase_en": "prohibited items"
+        },
+        {
+            "id": "ytnovqpnezcpiuvo",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Certain liquids, gels, and sharp objects are not allowed in carry-on luggage. Please check your bags for these items.",
+            "user_response_option_en": "Do you have any examples of items that are not allowed?",
+            "previous_turn_id": "ntkngdrnvfczviex",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hunccpohwxhqayjj",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Certain liquids, gels, and sharp objects are not allowed in carry-on luggage. Please check your bags for these items.",
+            "user_response_option_en": "Is there anything else I should take out of my bag?",
+            "previous_turn_id": "ntkngdrnvfczviex",
+            "order": 3,
+            "key_phrase_en": "take out"
+        },
+        {
+            "id": "xttxwnmevfsdpvqx",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please make sure to remove all prohibited items before proceeding through security.",
+            "user_response_option_en": "Sorry, I didn't know this was prohibited.",
+            "previous_turn_id": "ioflfxqeaujvxsye",
+            "order": 3,
+            "key_phrase_en": "prohibited None"
+        },
+        {
+            "id": "oiaxvottxkogdwvt",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please make sure to remove all prohibited items before proceeding through security.",
+            "user_response_option_en": "May I know what items are not allowed?",
+            "previous_turn_id": "ioflfxqeaujvxsye",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kvjsmberseqsvcdh",
+            "mission_id": "aevneaqjcmbpheei",
+            "ai_conversation_starter_en": "Please make sure to remove all prohibited items before proceeding through security.",
+            "user_response_option_en": "Thank you for reminding me, I'll check again.",
+            "previous_turn_id": "ioflfxqeaujvxsye",
+            "order": 3,
+            "key_phrase_en": "None"
+        }
+    ]
+}

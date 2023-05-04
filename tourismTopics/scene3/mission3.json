@@ -1,0 +1,370 @@
+{
+    "id": "zmxoyxqyzilunslv",
+    "title": "Asking for directions to a nearby restaurant or shop",
+    "order": 3,
+    "turns": [
+        {
+            "id": "wdluissxvmprlsvh",
+            "ai_conversation_starter_en": "Staff: Hello, welcome to our tourist attraction. May I help you with anything? Are you looking for any particular restaurant or shop nearby?",
+            "user_response_option_en": "Can you recommend any nearby restaurants?\" ",
+            "mission_id": "zmxoyxqyzilunslv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ealryummkitlaixc",
+            "key_phrase_en": "nearby restaurants"
+        },
+        {
+            "id": "ygvgghfnordqlzyy",
+            "ai_conversation_starter_en": "Staff: Hello, welcome to our tourist attraction. May I help you with anything? Are you looking for any particular restaurant or shop nearby?",
+            "user_response_option_en": "Excuse me, where's the nearest coffee shop from here?\" ",
+            "mission_id": "zmxoyxqyzilunslv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ithnrdwrqfbgxnet",
+            "key_phrase_en": "nearest coffee shop"
+        },
+        {
+            "id": "iqjwzcevfvccfegi",
+            "ai_conversation_starter_en": "Staff: Hello, welcome to our tourist attraction. May I help you with anything? Are you looking for any particular restaurant or shop nearby?",
+            "user_response_option_en": "Is there a grocery store around here?",
+            "mission_id": "zmxoyxqyzilunslv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ibjzedofyhdhvcfb",
+            "key_phrase_en": "Grocery store"
+        },
+        {
+            "id": "gmyujewwvxperueb",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure! There's a great restaurant called 'La Petite Creperie' just around the corner. They serve delicious French crepes and other savory dishes.",
+            "user_response_option_en": "Where exactly is it located?\" ",
+            "previous_turn_id": "wdluissxvmprlsvh",
+            "order": 2,
+            "next_turn_id": "ddtmcuvivtrrqrdn",
+            "key_phrase_en": "Exactly located where?"
+        },
+        {
+            "id": "wsgbysctrxjzzgsj",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure! There's a great restaurant called 'La Petite Creperie' just around the corner. They serve delicious French crepes and other savory dishes.",
+            "user_response_option_en": "Is it far from here?\" ",
+            "previous_turn_id": "wdluissxvmprlsvh",
+            "order": 2,
+            "next_turn_id": "hjgpnzivvfvalpxv",
+            "key_phrase_en": "Far from here"
+        },
+        {
+            "id": "ealryummkitlaixc",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure! There's a great restaurant called 'La Petite Creperie' just around the corner. They serve delicious French crepes and other savory dishes.",
+            "user_response_option_en": "What time does it close?",
+            "previous_turn_id": "wdluissxvmprlsvh",
+            "order": 2,
+            "next_turn_id": "vcpwyggynynqfwgd",
+            "key_phrase_en": "Close time"
+        },
+        {
+            "id": "vssvrovicatcsrcq",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure! Here's an example response that the staff might give to Iris Kim: - Staff: The nearest coffee shop is just a few blocks to the east. If you turn right and walk straight, you'll see it on your right-hand side.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "ygvgghfnordqlzyy",
+            "order": 2,
+            "next_turn_id": "ojhvutxgfafqsyzf",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "ltownwpwncmdtsax",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure! Here's an example response that the staff might give to Iris Kim: - Staff: The nearest coffee shop is just a few blocks to the east. If you turn right and walk straight, you'll see it on your right-hand side.",
+            "user_response_option_en": "Do you recommend any particular coffee or food there?",
+            "previous_turn_id": "ygvgghfnordqlzyy",
+            "order": 2,
+            "next_turn_id": "anycifvffeazmayi",
+            "key_phrase_en": "particular coffee"
+        },
+        {
+            "id": "ithnrdwrqfbgxnet",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure! Here's an example response that the staff might give to Iris Kim: - Staff: The nearest coffee shop is just a few blocks to the east. If you turn right and walk straight, you'll see it on your right-hand side.",
+            "user_response_option_en": "Is it open now or should I come back later?",
+            "previous_turn_id": "ygvgghfnordqlzyy",
+            "order": 2,
+            "next_turn_id": "xamunamzaxmkrpua",
+            "key_phrase_en": "Come back later"
+        },
+        {
+            "id": "msujoikmqslcehcd",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure, here's an example response by the staff:Yes, there's a grocery store just a few blocks away from here. You can turn left at the next intersection and walk straight for two blocks, and you'll see it on your right.",
+            "user_response_option_en": "Do you know if there's a coffee shop nearby?",
+            "previous_turn_id": "iqjwzcevfvccfegi",
+            "order": 2,
+            "next_turn_id": "njweezcyqlnjqfbh",
+            "key_phrase_en": "coffee shop nearby"
+        },
+        {
+            "id": "pnrlgenrazjwczen",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure, here's an example response by the staff:Yes, there's a grocery store just a few blocks away from here. You can turn left at the next intersection and walk straight for two blocks, and you'll see it on your right.",
+            "user_response_option_en": "Excuse me, where can I find a souvenir shop?",
+            "previous_turn_id": "iqjwzcevfvccfegi",
+            "order": 2,
+            "next_turn_id": "znrthwqzvhcdqjpr",
+            "key_phrase_en": "souvenir shop"
+        },
+        {
+            "id": "ibjzedofyhdhvcfb",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure, here's an example response by the staff:Yes, there's a grocery store just a few blocks away from here. You can turn left at the next intersection and walk straight for two blocks, and you'll see it on your right.",
+            "user_response_option_en": "Is there a nice restaurant that you recommend in this area?",
+            "previous_turn_id": "iqjwzcevfvccfegi",
+            "order": 2,
+            "next_turn_id": "fmgprpewjkcvfhwj",
+            "key_phrase_en": "Nice restaurant"
+        },
+        {
+            "id": "ncftejtrijgmkutu",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "It's just a few steps away from here. You can turn left at the end of this street and you'll see it on the corner.",
+            "user_response_option_en": "Thanks! I'll be sure to check it out.\" ",
+            "previous_turn_id": "gmyujewwvxperueb",
+            "order": 3,
+            "key_phrase_en": "check it out"
+        },
+        {
+            "id": "tjlemqlnkonempup",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "It's just a few steps away from here. You can turn left at the end of this street and you'll see it on the corner.",
+            "user_response_option_en": "Is it open for lunch?\" ",
+            "previous_turn_id": "gmyujewwvxperueb",
+            "order": 3,
+            "key_phrase_en": "Open for lunch"
+        },
+        {
+            "id": "ddtmcuvivtrrqrdn",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "It's just a few steps away from here. You can turn left at the end of this street and you'll see it on the corner.",
+            "user_response_option_en": "Do they have vegetarian options?",
+            "previous_turn_id": "gmyujewwvxperueb",
+            "order": 3,
+            "key_phrase_en": "Vegetarian options"
+        },
+        {
+            "id": "bioddyacfjlzqrbz",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: No, it's just a short walk from here, about five minutes. Just head out the door and turn right on Main Street. You'll see the restaurant on the corner.",
+            "user_response_option_en": "Thank you for the recommendation, I appreciate it.",
+            "previous_turn_id": "wsgbysctrxjzzgsj",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "dnphtclxtgswdlgv",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: No, it's just a short walk from here, about five minutes. Just head out the door and turn right on Main Street. You'll see the restaurant on the corner.",
+            "user_response_option_en": "Is the restaurant open now? What time does it close?",
+            "previous_turn_id": "wsgbysctrxjzzgsj",
+            "order": 3,
+            "key_phrase_en": "Restaurant opening hours"
+        },
+        {
+            "id": "hjgpnzivvfvalpxv",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: No, it's just a short walk from here, about five minutes. Just head out the door and turn right on Main Street. You'll see the restaurant on the corner.",
+            "user_response_option_en": "Can you tell me the name of the street again, please?",
+            "previous_turn_id": "wsgbysctrxjzzgsj",
+            "order": 3,
+            "key_phrase_en": "Name of street"
+        },
+        {
+            "id": "pimfpxdbrxyswrdj",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: It closes at 9 pm tonight. Enjoy your meal!",
+            "user_response_option_en": "Thanks, can you show me on a map?\" ",
+            "previous_turn_id": "ealryummkitlaixc",
+            "order": 3,
+            "key_phrase_en": "On a map"
+        },
+        {
+            "id": "vyucxgjwlgvvobtc",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: It closes at 9 pm tonight. Enjoy your meal!",
+            "user_response_option_en": "Do they have vegetarian options?\" ",
+            "previous_turn_id": "ealryummkitlaixc",
+            "order": 3,
+            "key_phrase_en": "Vegetarian options"
+        },
+        {
+            "id": "vcpwyggynynqfwgd",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: It closes at 9 pm tonight. Enjoy your meal!",
+            "user_response_option_en": "Is it a good place for a group?",
+            "previous_turn_id": "ealryummkitlaixc",
+            "order": 3,
+            "key_phrase_en": "group"
+        },
+        {
+            "id": "nafjdeigndowadof",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: Not a problem. Is there anything else I can help you with? Perhaps you're looking for a specific type of cuisine or shop?",
+            "user_response_option_en": "Yes, do you know where I can find a good burger joint?",
+            "previous_turn_id": "vssvrovicatcsrcq",
+            "order": 3,
+            "key_phrase_en": "Good burger joint"
+        },
+        {
+            "id": "sbrkatmbmjaixoay",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: Not a problem. Is there anything else I can help you with? Perhaps you're looking for a specific type of cuisine or shop?",
+            "user_response_option_en": "Actually, I was hoping to find a nearby gift shop. Any suggestions?",
+            "previous_turn_id": "vssvrovicatcsrcq",
+            "order": 3,
+            "key_phrase_en": "Nearby gift shop"
+        },
+        {
+            "id": "ojhvutxgfafqsyzf",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: Not a problem. Is there anything else I can help you with? Perhaps you're looking for a specific type of cuisine or shop?",
+            "user_response_option_en": "Is there a grocery store close by where I can buy some snacks?",
+            "previous_turn_id": "vssvrovicatcsrcq",
+            "order": 3,
+            "key_phrase_en": "grocery store"
+        },
+        {
+            "id": "jsqanpvuntbdiuwf",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, I would definitely recommend their latte and croissant.",
+            "user_response_option_en": "Thanks! Is it within walking distance?",
+            "previous_turn_id": "ltownwpwncmdtsax",
+            "order": 3,
+            "key_phrase_en": "Walking distance"
+        },
+        {
+            "id": "barjoigbvtbcftwb",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, I would definitely recommend their latte and croissant.",
+            "user_response_option_en": "How long does it take to get there from here?",
+            "previous_turn_id": "ltownwpwncmdtsax",
+            "order": 3,
+            "key_phrase_en": "get there"
+        },
+        {
+            "id": "anycifvffeazmayi",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, I would definitely recommend their latte and croissant.",
+            "user_response_option_en": "Great! What time does it close?",
+            "previous_turn_id": "ltownwpwncmdtsax",
+            "order": 3,
+            "key_phrase_en": "What time?"
+        },
+        {
+            "id": "oqgyxeyokrufagtq",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: I am not so sure which restaurant or shop you're referring to, please specify so I can check if it's open or not.",
+            "user_response_option_en": "I am looking for a grocery store.",
+            "previous_turn_id": "ithnrdwrqfbgxnet",
+            "order": 3,
+            "key_phrase_en": "Grocery store"
+        },
+        {
+            "id": "fkgdizmiztycxtrp",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: I am not so sure which restaurant or shop you're referring to, please specify so I can check if it's open or not.",
+            "user_response_option_en": "Do you know any good cafes around here?",
+            "previous_turn_id": "ithnrdwrqfbgxnet",
+            "order": 3,
+            "key_phrase_en": "Good cafes"
+        },
+        {
+            "id": "xamunamzaxmkrpua",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Staff: I am not so sure which restaurant or shop you're referring to, please specify so I can check if it's open or not.",
+            "user_response_option_en": "Could you recommend a restaurant with local cuisine?",
+            "previous_turn_id": "ithnrdwrqfbgxnet",
+            "order": 3,
+            "key_phrase_en": "Local cuisine"
+        },
+        {
+            "id": "dssijnjbygsddmbd",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, there's a nice coffee shop just around the corner from here. You can turn right at the next intersection and walk straight for about 100 meters, and you'll see it on your left.",
+            "user_response_option_en": "Is it open now?",
+            "previous_turn_id": "msujoikmqslcehcd",
+            "order": 3,
+            "key_phrase_en": "Open now"
+        },
+        {
+            "id": "lejfjeueriqsxcza",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, there's a nice coffee shop just around the corner from here. You can turn right at the next intersection and walk straight for about 100 meters, and you'll see it on your left.",
+            "user_response_option_en": "Any other coffee shops nearby?",
+            "previous_turn_id": "msujoikmqslcehcd",
+            "order": 3,
+            "key_phrase_en": "coffee shops nearby"
+        },
+        {
+            "id": "njweezcyqlnjqfbh",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, there's a nice coffee shop just around the corner from here. You can turn right at the next intersection and walk straight for about 100 meters, and you'll see it on your left.",
+            "user_response_option_en": "Do you recommend any specific drink?",
+            "previous_turn_id": "msujoikmqslcehcd",
+            "order": 3,
+            "key_phrase_en": "specific drink"
+        },
+        {
+            "id": "anyyjsxjcgmvyvmh",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure, there's a souvenir shop just down the road on the left. You can't miss it.",
+            "user_response_option_en": "Can you tell me the working hours of that shop?",
+            "previous_turn_id": "pnrlgenrazjwczen",
+            "order": 3,
+            "key_phrase_en": "working hours"
+        },
+        {
+            "id": "dbqxnwbftguxvskp",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure, there's a souvenir shop just down the road on the left. You can't miss it.",
+            "user_response_option_en": "What type of souvenirs do they sell there?",
+            "previous_turn_id": "pnrlgenrazjwczen",
+            "order": 3,
+            "key_phrase_en": "Souvenir type"
+        },
+        {
+            "id": "znrthwqzvhcdqjpr",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Sure, there's a souvenir shop just down the road on the left. You can't miss it.",
+            "user_response_option_en": "Is there a good restaurant nearby you can recommend?",
+            "previous_turn_id": "pnrlgenrazjwczen",
+            "order": 3,
+            "key_phrase_en": "nearby restaurant recommend"
+        },
+        {
+            "id": "ovbiqlprudbcrugm",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, there is a nice restaurant just down the street. If you walk straight ahead for about two blocks, you'll see it on your left-hand side.",
+            "user_response_option_en": "Do I need to make a reservation there?",
+            "previous_turn_id": "ibjzedofyhdhvcfb",
+            "order": 3,
+            "key_phrase_en": "Reservation"
+        },
+        {
+            "id": "jcbvvtoqfdwgtqdj",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, there is a nice restaurant just down the street. If you walk straight ahead for about two blocks, you'll see it on your left-hand side.",
+            "user_response_option_en": "Are there any vegetarian options on the menu?",
+            "previous_turn_id": "ibjzedofyhdhvcfb",
+            "order": 3,
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "fmgprpewjkcvfhwj",
+            "mission_id": "zmxoyxqyzilunslv",
+            "ai_conversation_starter_en": "Yes, there is a nice restaurant just down the street. If you walk straight ahead for about two blocks, you'll see it on your left-hand side.",
+            "user_response_option_en": "What time do they close?",
+            "previous_turn_id": "ibjzedofyhdhvcfb",
+            "order": 3,
+            "key_phrase_en": "What time?"
+        }
+    ]
+}

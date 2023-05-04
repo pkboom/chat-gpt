@@ -1,0 +1,370 @@
+{
+    "id": "qpnkxzuydipwidih",
+    "title": "The guest wants to order food from the hotel restaurant",
+    "order": 1,
+    "turns": [
+        {
+            "id": "hddlgbcmxwcricfn",
+            "ai_conversation_starter_en": "Good evening, welcome to our hotel. How may I assist you?",
+            "user_response_option_en": "Can I order food from the hotel restaurant, please?",
+            "mission_id": "qpnkxzuydipwidih",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "vthohgivcuyxinet",
+            "key_phrase_en": "order food"
+        },
+        {
+            "id": "alfxyaynvsogdhap",
+            "ai_conversation_starter_en": "Good evening, welcome to our hotel. How may I assist you?",
+            "user_response_option_en": "I would like to request room service for dinner.",
+            "mission_id": "qpnkxzuydipwidih",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ylojmiqjgslyfznt",
+            "key_phrase_en": "Room service"
+        },
+        {
+            "id": "jqtksakphgczvjfg",
+            "ai_conversation_starter_en": "Good evening, welcome to our hotel. How may I assist you?",
+            "user_response_option_en": "Could you help me order food from the hotel's restaurant?",
+            "mission_id": "qpnkxzuydipwidih",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ndbpxfgsagngyiqn",
+            "key_phrase_en": "order food"
+        },
+        {
+            "id": "tiboupmdzcnnpumx",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, would you like me to bring you a menu or call the restaurant for you?",
+            "user_response_option_en": "Can you recommend any vegetarian options?",
+            "previous_turn_id": "hddlgbcmxwcricfn",
+            "order": 2,
+            "next_turn_id": "wtencijmjigpbcik",
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "tmldyzpkhuuqylip",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, would you like me to bring you a menu or call the restaurant for you?",
+            "user_response_option_en": "Please bring me a menu. ",
+            "previous_turn_id": "hddlgbcmxwcricfn",
+            "order": 2,
+            "next_turn_id": "xtffxeaovxbcvelu",
+            "key_phrase_en": "bring me menu"
+        },
+        {
+            "id": "vthohgivcuyxinet",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, would you like me to bring you a menu or call the restaurant for you?",
+            "user_response_option_en": "How long will it take for in-room delivery?",
+            "previous_turn_id": "hddlgbcmxwcricfn",
+            "order": 2,
+            "next_turn_id": "gzpptdjyngbtpjgy",
+            "key_phrase_en": "In-room delivery"
+        },
+        {
+            "id": "nrlmpuegucgljqkf",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Absolutely. Would you like to view our restaurant menu, or may I help you with any recommendations?",
+            "user_response_option_en": "Can you recommend any vegetarian dishes?",
+            "previous_turn_id": "alfxyaynvsogdhap",
+            "order": 2,
+            "next_turn_id": "fsbaylgeooxfnlkt",
+            "key_phrase_en": "Vegetarian dishes"
+        },
+        {
+            "id": "vjpjuswbwitoesuf",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Absolutely. Would you like to view our restaurant menu, or may I help you with any recommendations?",
+            "user_response_option_en": "What is the most popular dish on the menu?",
+            "previous_turn_id": "alfxyaynvsogdhap",
+            "order": 2,
+            "next_turn_id": "dmtttrbbtwmehxuh",
+            "key_phrase_en": "Popular dish menu"
+        },
+        {
+            "id": "ylojmiqjgslyfznt",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Absolutely. Would you like to view our restaurant menu, or may I help you with any recommendations?",
+            "user_response_option_en": "Do you offer gluten-free options?",
+            "previous_turn_id": "alfxyaynvsogdhap",
+            "order": 2,
+            "next_turn_id": "ljzbrhqxsglksfyh",
+            "key_phrase_en": "gluten-free options"
+        },
+        {
+            "id": "nptyvjbllgwyfhnh",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Sure, would you like me to bring you the restaurant menu or would you prefer for me to go over the options with you?",
+            "user_response_option_en": "Could you recommend any vegetarian options on the menu, please?\" ",
+            "previous_turn_id": "jqtksakphgczvjfg",
+            "order": 2,
+            "next_turn_id": "qongipdwkecqiduj",
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "lurnllxesnjythhw",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Sure, would you like me to bring you the restaurant menu or would you prefer for me to go over the options with you?",
+            "user_response_option_en": "How long does it usually take for the food to arrive?\" ",
+            "previous_turn_id": "jqtksakphgczvjfg",
+            "order": 2,
+            "next_turn_id": "odbhkhepoamjddjv",
+            "key_phrase_en": "food to arrive"
+        },
+        {
+            "id": "ndbpxfgsagngyiqn",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Sure, would you like me to bring you the restaurant menu or would you prefer for me to go over the options with you?",
+            "user_response_option_en": "Can I modify the menu items to suit my dietary requirements?",
+            "previous_turn_id": "jqtksakphgczvjfg",
+            "order": 2,
+            "next_turn_id": "wkkbqwxmyddmiqkg",
+            "key_phrase_en": "modify menu items"
+        },
+        {
+            "id": "vxwuftkkaxxcfbwk",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, we have a delicious vegetarian pasta dish and a garden salad that are both popular options.",
+            "user_response_option_en": "I'll have the vegetarian pasta, please.",
+            "previous_turn_id": "tiboupmdzcnnpumx",
+            "order": 3,
+            "key_phrase_en": "Vegetarian pasta"
+        },
+        {
+            "id": "weosgeduilbtuvag",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, we have a delicious vegetarian pasta dish and a garden salad that are both popular options.",
+            "user_response_option_en": "Can I get the salad with no cheese, please?",
+            "previous_turn_id": "tiboupmdzcnnpumx",
+            "order": 3,
+            "key_phrase_en": "No cheese"
+        },
+        {
+            "id": "wtencijmjigpbcik",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, we have a delicious vegetarian pasta dish and a garden salad that are both popular options.",
+            "user_response_option_en": "Could you recommend a good red wine to pair with the pasta?",
+            "previous_turn_id": "tiboupmdzcnnpumx",
+            "order": 3,
+            "key_phrase_en": "Pair with pasta"
+        },
+        {
+            "id": "tsfvnholzwruoqbe",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, our room service is available 24/7. Please fill out the menu and inform us when you're ready to place your order.",
+            "user_response_option_en": "Can you recommend a dish?",
+            "previous_turn_id": "tmldyzpkhuuqylip",
+            "order": 3,
+            "key_phrase_en": "Recommend a dish"
+        },
+        {
+            "id": "ksprfwrohguddtpd",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, our room service is available 24/7. Please fill out the menu and inform us when you're ready to place your order.",
+            "user_response_option_en": "How long does delivery take?",
+            "previous_turn_id": "tmldyzpkhuuqylip",
+            "order": 3,
+            "key_phrase_en": "delivery take"
+        },
+        {
+            "id": "xtffxeaovxbcvelu",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, our room service is available 24/7. Please fill out the menu and inform us when you're ready to place your order.",
+            "user_response_option_en": "Is there a vegetarian option?",
+            "previous_turn_id": "tmldyzpkhuuqylip",
+            "order": 3,
+            "key_phrase_en": "Vegetarian option"
+        },
+        {
+            "id": "iefkibnqvktqrgnr",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "The delivery time is typically 30-45 minutes. Would you like me to place an order for you now?",
+            "user_response_option_en": "Yes, please place the order for me. Can I pay by card?",
+            "previous_turn_id": "vthohgivcuyxinet",
+            "order": 3,
+            "key_phrase_en": "Pay by card"
+        },
+        {
+            "id": "teomxdwhsmjlgkuu",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "The delivery time is typically 30-45 minutes. Would you like me to place an order for you now?",
+            "user_response_option_en": "Can I order a vegetarian dish? Any recommendations?",
+            "previous_turn_id": "vthohgivcuyxinet",
+            "order": 3,
+            "key_phrase_en": "Vegetarian dish"
+        },
+        {
+            "id": "gzpptdjyngbtpjgy",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "The delivery time is typically 30-45 minutes. Would you like me to place an order for you now?",
+            "user_response_option_en": "Thank you. Can you confirm the order and delivery time?",
+            "previous_turn_id": "vthohgivcuyxinet",
+            "order": 3,
+            "key_phrase_en": "confirm the order"
+        },
+        {
+            "id": "wlwrmsgdgnayzywx",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, we have a great veggie burger that's very popular with our vegetarian guests.",
+            "user_response_option_en": "Can you tell me the ingredients in the veggie burger?",
+            "previous_turn_id": "nrlmpuegucgljqkf",
+            "order": 3,
+            "key_phrase_en": "Veggie burger ingredients"
+        },
+        {
+            "id": "pjyjcggkpzyahbqg",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, we have a great veggie burger that's very popular with our vegetarian guests.",
+            "user_response_option_en": "How long will it take for my food to arrive?",
+            "previous_turn_id": "nrlmpuegucgljqkf",
+            "order": 3,
+            "key_phrase_en": "food arrival time"
+        },
+        {
+            "id": "fsbaylgeooxfnlkt",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Certainly, we have a great veggie burger that's very popular with our vegetarian guests.",
+            "user_response_option_en": "I want to order garlic bread as well, is that possible?",
+            "previous_turn_id": "nrlmpuegucgljqkf",
+            "order": 3,
+            "key_phrase_en": "Garlic bread order"
+        },
+        {
+            "id": "atukrhhpolfhsvfw",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "One of our most popular dishes is the grilled salmon with vegetables.",
+            "user_response_option_en": "I'll have the grilled salmon please.",
+            "previous_turn_id": "vjpjuswbwitoesuf",
+            "order": 3,
+            "key_phrase_en": "grilled salmon please"
+        },
+        {
+            "id": "xaaddkqhuiffuahk",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "One of our most popular dishes is the grilled salmon with vegetables.",
+            "user_response_option_en": "Does the dish come with sides?",
+            "previous_turn_id": "vjpjuswbwitoesuf",
+            "order": 3,
+            "key_phrase_en": "come with sides"
+        },
+        {
+            "id": "dmtttrbbtwmehxuh",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "One of our most popular dishes is the grilled salmon with vegetables.",
+            "user_response_option_en": "Can I have a glass of red wine with it?",
+            "previous_turn_id": "vjpjuswbwitoesuf",
+            "order": 3,
+            "key_phrase_en": "red wine"
+        },
+        {
+            "id": "ywcirfsniulxdshl",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Yes, we do have gluten-free options. What would you like to order?",
+            "user_response_option_en": "Can I have the grilled chicken breast with vegetables, please?",
+            "previous_turn_id": "ylojmiqjgslyfznt",
+            "order": 3,
+            "key_phrase_en": "Grilled chicken breast"
+        },
+        {
+            "id": "sblrrdzpohjjqmid",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Yes, we do have gluten-free options. What would you like to order?",
+            "user_response_option_en": "What type of soup do you have that's gluten-free?",
+            "previous_turn_id": "ylojmiqjgslyfznt",
+            "order": 3,
+            "key_phrase_en": "Gluten-free soup"
+        },
+        {
+            "id": "ljzbrhqxsglksfyh",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Yes, we do have gluten-free options. What would you like to order?",
+            "user_response_option_en": "I would like to order the smoked salmon with a side salad.",
+            "previous_turn_id": "ylojmiqjgslyfznt",
+            "order": 3,
+            "key_phrase_en": "smoked salmon"
+        },
+        {
+            "id": "wxjsywradaikdsnx",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Of course, our veggie burger and roasted vegetable pasta are great vegetarian options.",
+            "user_response_option_en": "I'll have the veggie burger.",
+            "previous_turn_id": "nptyvjbllgwyfhnh",
+            "order": 3,
+            "key_phrase_en": "veggie burger"
+        },
+        {
+            "id": "jmaexhfrbhkoikxx",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Of course, our veggie burger and roasted vegetable pasta are great vegetarian options.",
+            "user_response_option_en": "Can you recommend a side dish?",
+            "previous_turn_id": "nptyvjbllgwyfhnh",
+            "order": 3,
+            "key_phrase_en": "recommend a dish"
+        },
+        {
+            "id": "qongipdwkecqiduj",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Of course, our veggie burger and roasted vegetable pasta are great vegetarian options.",
+            "user_response_option_en": "Could you deliver it to my room, please?",
+            "previous_turn_id": "nptyvjbllgwyfhnh",
+            "order": 3,
+            "key_phrase_en": "deliver to room"
+        },
+        {
+            "id": "adwnmrthkzafxkiv",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "It usually takes around 30 minutes for the food to arrive.",
+            "user_response_option_en": "Can you recommend a popular dish?",
+            "previous_turn_id": "lurnllxesnjythhw",
+            "order": 3,
+            "key_phrase_en": "popular dish"
+        },
+        {
+            "id": "dmtdlczredactmvl",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "It usually takes around 30 minutes for the food to arrive.",
+            "user_response_option_en": "Is there a vegan/vegetarian option?",
+            "previous_turn_id": "lurnllxesnjythhw",
+            "order": 3,
+            "key_phrase_en": "vegan option"
+        },
+        {
+            "id": "odbhkhepoamjddjv",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "It usually takes around 30 minutes for the food to arrive.",
+            "user_response_option_en": "Can I change the side dish that comes with the main course?",
+            "previous_turn_id": "lurnllxesnjythhw",
+            "order": 3,
+            "key_phrase_en": "Change side dish"
+        },
+        {
+            "id": "plmyracnasgsesut",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Sure, our chef can tailor the dishes to fit your dietary needs. What would you like to order?",
+            "user_response_option_en": "Could you recommend a vegan option?",
+            "previous_turn_id": "ndbpxfgsagngyiqn",
+            "order": 3,
+            "key_phrase_en": "vegan option"
+        },
+        {
+            "id": "jctebyizxsamfqrp",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Sure, our chef can tailor the dishes to fit your dietary needs. What would you like to order?",
+            "user_response_option_en": "Do you have gluten-free dishes?",
+            "previous_turn_id": "ndbpxfgsagngyiqn",
+            "order": 3,
+            "key_phrase_en": "gluten-free dishes"
+        },
+        {
+            "id": "wkkbqwxmyddmiqkg",
+            "mission_id": "qpnkxzuydipwidih",
+            "ai_conversation_starter_en": "Sure, our chef can tailor the dishes to fit your dietary needs. What would you like to order?",
+            "user_response_option_en": "I'm allergic to nuts, what do you suggest?",
+            "previous_turn_id": "ndbpxfgsagngyiqn",
+            "order": 3,
+            "key_phrase_en": "Allergic to nuts"
+        }
+    ]
+}

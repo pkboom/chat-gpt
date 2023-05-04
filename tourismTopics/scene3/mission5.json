@@ -1,0 +1,370 @@
+{
+    "id": "rtressuprmzajios",
+    "title": "Asking for recommendations on places to visit within the park",
+    "order": 5,
+    "turns": [
+        {
+            "id": "hqvyyeqxxmczvirh",
+            "ai_conversation_starter_en": "Welcome to our park! Are you visiting from out of town?",
+            "user_response_option_en": "Yes, what attractions do you suggest for today?",
+            "mission_id": "rtressuprmzajios",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hxmrzrgcgkqkzree",
+            "key_phrase_en": "Attractions today"
+        },
+        {
+            "id": "nfudukufnfhqkpnz",
+            "ai_conversation_starter_en": "Welcome to our park! Are you visiting from out of town?",
+            "user_response_option_en": "Could you recommend some popular sites in the park?",
+            "mission_id": "rtressuprmzajios",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "yiankrkvwfwzowlx",
+            "key_phrase_en": "recommend popular sites"
+        },
+        {
+            "id": "vvgjafipjdenyzea",
+            "ai_conversation_starter_en": "Welcome to our park! Are you visiting from out of town?",
+            "user_response_option_en": "Excuse me, which direction to the must-see spots in the park?",
+            "mission_id": "rtressuprmzajios",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "zpffenigavrbcqvb",
+            "key_phrase_en": "must-see spots"
+        },
+        {
+            "id": "biizjccdggrkslxh",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure, I can suggest some attractions for you to visit. Have you seen our botanical garden and the petting zoo?",
+            "user_response_option_en": "Sounds lovely! Can you show me where they are located?",
+            "previous_turn_id": "hqvyyeqxxmczvirh",
+            "order": 2,
+            "next_turn_id": "blostaraziuobwxa",
+            "key_phrase_en": "Show me where"
+        },
+        {
+            "id": "aklamupzimtotqkv",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure, I can suggest some attractions for you to visit. Have you seen our botanical garden and the petting zoo?",
+            "user_response_option_en": "Oh, I'm intrigued! Are they nearby each other?",
+            "previous_turn_id": "hqvyyeqxxmczvirh",
+            "order": 2,
+            "next_turn_id": "dsxlyosriroabhwb",
+            "key_phrase_en": "Nearby each other"
+        },
+        {
+            "id": "hxmrzrgcgkqkzree",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure, I can suggest some attractions for you to visit. Have you seen our botanical garden and the petting zoo?",
+            "user_response_option_en": "I'm interested, what animals can I see in the zoo?",
+            "previous_turn_id": "hqvyyeqxxmczvirh",
+            "order": 2,
+            "next_turn_id": "ovuozremcfofrtnu",
+            "key_phrase_en": "Animals in zoo"
+        },
+        {
+            "id": "gmgnuqnlnymnqzpt",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure! One of our most popular sites is the botanical gardens. They're just down this path on the right-hand side.",
+            "user_response_option_en": "Is there a view point in the park?",
+            "previous_turn_id": "nfudukufnfhqkpnz",
+            "order": 2,
+            "next_turn_id": "hqzcjncloztzxfug",
+            "key_phrase_en": "View point"
+        },
+        {
+            "id": "ixbalfiiydhzscxy",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure! One of our most popular sites is the botanical gardens. They're just down this path on the right-hand side.",
+            "user_response_option_en": "How long does it take to get to the gardens?",
+            "previous_turn_id": "nfudukufnfhqkpnz",
+            "order": 2,
+            "next_turn_id": "upeejrwxvjxyvyiu",
+            "key_phrase_en": "Take to get"
+        },
+        {
+            "id": "yiankrkvwfwzowlx",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure! One of our most popular sites is the botanical gardens. They're just down this path on the right-hand side.",
+            "user_response_option_en": "Any other recommendations for nature lovers in the park?",
+            "previous_turn_id": "nfudukufnfhqkpnz",
+            "order": 2,
+            "next_turn_id": "crwxgwmouknpeeui",
+            "key_phrase_en": "Nature lovers"
+        },
+        {
+            "id": "fxhynyaegbceflrs",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure! Here's an example of what the staff might say to Iris Kim: - Of course! Our most popular spots are located in the center of the park. Just follow this main pathway and you'll see them all.",
+            "user_response_option_en": "What's the best spot for photos?",
+            "previous_turn_id": "vvgjafipjdenyzea",
+            "order": 2,
+            "next_turn_id": "bxizbycoxznpbcgk",
+            "key_phrase_en": "Best spot photos"
+        },
+        {
+            "id": "mjjttzvtcbewgnsc",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure! Here's an example of what the staff might say to Iris Kim: - Of course! Our most popular spots are located in the center of the park. Just follow this main pathway and you'll see them all.",
+            "user_response_option_en": "Which attraction do locals like the most?",
+            "previous_turn_id": "vvgjafipjdenyzea",
+            "order": 2,
+            "next_turn_id": "rmypyzrnqzefbzug",
+            "key_phrase_en": "locals like most"
+        },
+        {
+            "id": "zpffenigavrbcqvb",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure! Here's an example of what the staff might say to Iris Kim: - Of course! Our most popular spots are located in the center of the park. Just follow this main pathway and you'll see them all.",
+            "user_response_option_en": "What's your favorite place to recommend?",
+            "previous_turn_id": "vvgjafipjdenyzea",
+            "order": 2,
+            "next_turn_id": "xucehbmisyvmlabl",
+            "key_phrase_en": "favorite place"
+        },
+        {
+            "id": "rxhlwjzwrcdywgxu",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure, I can draw you a map and provide directions to the botanical garden and petting zoo.",
+            "user_response_option_en": "Thanks, I'd appreciate that. Which one do you think is better to visit first, the petting zoo or botanical garden?",
+            "previous_turn_id": "biizjccdggrkslxh",
+            "order": 3,
+            "key_phrase_en": "petting zoo"
+        },
+        {
+            "id": "caiowvwporyugulg",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure, I can draw you a map and provide directions to the botanical garden and petting zoo.",
+            "user_response_option_en": "Great! By any chance, can you tell me how much time it takes to get to the botanical garden?",
+            "previous_turn_id": "biizjccdggrkslxh",
+            "order": 3,
+            "key_phrase_en": "Botanical garden"
+        },
+        {
+            "id": "blostaraziuobwxa",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Sure, I can draw you a map and provide directions to the botanical garden and petting zoo.",
+            "user_response_option_en": "Thank you. I'm just hoping that these places are not too crowded today.",
+            "previous_turn_id": "biizjccdggrkslxh",
+            "order": 3,
+            "key_phrase_en": "too crowded today"
+        },
+        {
+            "id": "umjlepifwyxrrufq",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Yes, they are very close to each other. You can find the entrance to the botanical garden to your left, and the petting zoo is just a short walk away from there.",
+            "user_response_option_en": "Sounds great! Is there a map I can have?",
+            "previous_turn_id": "aklamupzimtotqkv",
+            "order": 3,
+            "key_phrase_en": "Sounds great"
+        },
+        {
+            "id": "sjssevshktfyswno",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Yes, they are very close to each other. You can find the entrance to the botanical garden to your left, and the petting zoo is just a short walk away from there.",
+            "user_response_option_en": "Thanks, what time do they both close?",
+            "previous_turn_id": "aklamupzimtotqkv",
+            "order": 3,
+            "key_phrase_en": "both close"
+        },
+        {
+            "id": "dsxlyosriroabhwb",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Yes, they are very close to each other. You can find the entrance to the botanical garden to your left, and the petting zoo is just a short walk away from there.",
+            "user_response_option_en": "Any restrooms nearby?",
+            "previous_turn_id": "aklamupzimtotqkv",
+            "order": 3,
+            "key_phrase_en": "restrooms nearby"
+        },
+        {
+            "id": "dfyqmpdmtroaegkl",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "We have goats, sheep, ponies, and even a llama!",
+            "user_response_option_en": "Can you tell me where to see the botanical garden?",
+            "previous_turn_id": "hxmrzrgcgkqkzree",
+            "order": 3,
+            "key_phrase_en": "Botanical garden"
+        },
+        {
+            "id": "aoxmrnbwjioisawa",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "We have goats, sheep, ponies, and even a llama!",
+            "user_response_option_en": "Which attraction do you recommend for children?",
+            "previous_turn_id": "hxmrzrgcgkqkzree",
+            "order": 3,
+            "key_phrase_en": "attraction for children"
+        },
+        {
+            "id": "ovuozremcfofrtnu",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "We have goats, sheep, ponies, and even a llama!",
+            "user_response_option_en": "How can I get to the petting zoo from here?",
+            "previous_turn_id": "hxmrzrgcgkqkzree",
+            "order": 3,
+            "key_phrase_en": "Petting zoo"
+        },
+        {
+            "id": "lkzopiwevzmiktok",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Yes, there is a beautiful view point just up this hill.",
+            "user_response_option_en": "Can I take pictures there?",
+            "previous_turn_id": "gmgnuqnlnymnqzpt",
+            "order": 3,
+            "key_phrase_en": "pictures there"
+        },
+        {
+            "id": "mkqzujzfawcxbabx",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Yes, there is a beautiful view point just up this hill.",
+            "user_response_option_en": "How long does it take to get there?",
+            "previous_turn_id": "gmgnuqnlnymnqzpt",
+            "order": 3,
+            "key_phrase_en": "How long"
+        },
+        {
+            "id": "hqzcjncloztzxfug",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Yes, there is a beautiful view point just up this hill.",
+            "user_response_option_en": "Is it easy to find the viewpoint?",
+            "previous_turn_id": "gmgnuqnlnymnqzpt",
+            "order": 3,
+            "key_phrase_en": "viewpoint"
+        },
+        {
+            "id": "gmltbuczcmfdsxqb",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "It usually takes around 10-15 minutes to walk to the gardens.",
+            "user_response_option_en": "Any good spots for pictures with a scenic view?",
+            "previous_turn_id": "ixbalfiiydhzscxy",
+            "order": 3,
+            "key_phrase_en": "scenic view"
+        },
+        {
+            "id": "xnkdrirahkgrzrkr",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "It usually takes around 10-15 minutes to walk to the gardens.",
+            "user_response_option_en": "Is there a children's playground nearby?",
+            "previous_turn_id": "ixbalfiiydhzscxy",
+            "order": 3,
+            "key_phrase_en": "Children's playground"
+        },
+        {
+            "id": "upeejrwxvjxyvyiu",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "It usually takes around 10-15 minutes to walk to the gardens.",
+            "user_response_option_en": "Are there any restaurants or food stalls in this area?",
+            "previous_turn_id": "ixbalfiiydhzscxy",
+            "order": 3,
+            "key_phrase_en": "food stalls"
+        },
+        {
+            "id": "bgxynedfsuikktny",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Another beautiful spot to visit is the lakeside trail. You can get there by following the signs that say Lake Trail just past the rose garden.",
+            "user_response_option_en": "Sounds great! Where's the rose garden?",
+            "previous_turn_id": "yiankrkvwfwzowlx",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "patwxodkvrkfdxnn",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Another beautiful spot to visit is the lakeside trail. You can get there by following the signs that say Lake Trail just past the rose garden.",
+            "user_response_option_en": "Got it, thanks! Should I bring snacks for the trail?",
+            "previous_turn_id": "yiankrkvwfwzowlx",
+            "order": 3,
+            "key_phrase_en": "Bring snacks"
+        },
+        {
+            "id": "crwxgwmouknpeeui",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Another beautiful spot to visit is the lakeside trail. You can get there by following the signs that say Lake Trail just past the rose garden.",
+            "user_response_option_en": "Is the lake path safe at night?",
+            "previous_turn_id": "yiankrkvwfwzowlx",
+            "order": 3,
+            "key_phrase_en": "Lake Path Safe"
+        },
+        {
+            "id": "jefmbqiauvoqvqoo",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Our observation deck provides the best view for photos. It offers a panoramic view of the park and the city skyline.",
+            "user_response_option_en": "Is the deck far? I don't want to miss the sunset.",
+            "previous_turn_id": "fxhynyaegbceflrs",
+            "order": 3,
+            "key_phrase_en": "Miss the sunset"
+        },
+        {
+            "id": "xpvwustwbsevqhni",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Our observation deck provides the best view for photos. It offers a panoramic view of the park and the city skyline.",
+            "user_response_option_en": "Any recommended trails? I like to see nature up close.",
+            "previous_turn_id": "fxhynyaegbceflrs",
+            "order": 3,
+            "key_phrase_en": "recommended trails"
+        },
+        {
+            "id": "bxizbycoxznpbcgk",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Our observation deck provides the best view for photos. It offers a panoramic view of the park and the city skyline.",
+            "user_response_option_en": "Do you have a map? Can you circle your recommendations?",
+            "previous_turn_id": "fxhynyaegbceflrs",
+            "order": 3,
+            "key_phrase_en": "Map recommendations"
+        },
+        {
+            "id": "wupsshnarojcyhkx",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Locals love the botanical gardens here, with all of the different plants from around the world. That's definitely a must-see!",
+            "user_response_option_en": "Sounds great! Where can I find the botanical gardens?",
+            "previous_turn_id": "mjjttzvtcbewgnsc",
+            "order": 3,
+            "key_phrase_en": "Botanical gardens"
+        },
+        {
+            "id": "qiqgetkpiuoujqiq",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Locals love the botanical gardens here, with all of the different plants from around the world. That's definitely a must-see!",
+            "user_response_option_en": "What other places do you recommend to visit in the park?",
+            "previous_turn_id": "mjjttzvtcbewgnsc",
+            "order": 3,
+            "key_phrase_en": "Other places"
+        },
+        {
+            "id": "rmypyzrnqzefbzug",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "Locals love the botanical gardens here, with all of the different plants from around the world. That's definitely a must-see!",
+            "user_response_option_en": "Do you have a map of the park with these attractions pointed out?",
+            "previous_turn_id": "mjjttzvtcbewgnsc",
+            "order": 3,
+            "key_phrase_en": "map of park"
+        },
+        {
+            "id": "mszcjzovaoivnsjj",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "My personal favorite is the botanical garden, it's very peaceful and has beautiful flowers.",
+            "user_response_option_en": "Thank you! Where can I find the entrance to the botanical garden?",
+            "previous_turn_id": "zpffenigavrbcqvb",
+            "order": 3,
+            "key_phrase_en": "Botanical garden entrance"
+        },
+        {
+            "id": "qfrwcegnbdftjudl",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "My personal favorite is the botanical garden, it's very peaceful and has beautiful flowers.",
+            "user_response_option_en": "Sounds lovely! Will I need a map to find it?",
+            "previous_turn_id": "zpffenigavrbcqvb",
+            "order": 3,
+            "key_phrase_en": "map needed"
+        },
+        {
+            "id": "xucehbmisyvmlabl",
+            "mission_id": "rtressuprmzajios",
+            "ai_conversation_starter_en": "My personal favorite is the botanical garden, it's very peaceful and has beautiful flowers.",
+            "user_response_option_en": "Great recommendation! How long do people usually spend there?",
+            "previous_turn_id": "zpffenigavrbcqvb",
+            "order": 3,
+            "key_phrase_en": "Great recommendation!"
+        }
+    ]
+}

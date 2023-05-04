@@ -1,0 +1,370 @@
+{
+    "id": "hadhqsmojmqbthhl",
+    "title": "Holding up the line due to not following security protocols, such as removing electronic devices from your luggage.",
+    "order": 4,
+    "turns": [
+        {
+            "id": "enkumttbonlzylpj",
+            "ai_conversation_starter_en": "Excuse me, sir. Can you please remove any electronic devices from your luggage and place them in a separate tray for screening?",
+            "user_response_option_en": "Sorry, I did not know. Thank you for letting me know.",
+            "mission_id": "hadhqsmojmqbthhl",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rtbyyizsxocswciq",
+            "key_phrase_en": "letting me know"
+        },
+        {
+            "id": "uionawmstbyvhrrj",
+            "ai_conversation_starter_en": "Excuse me, sir. Can you please remove any electronic devices from your luggage and place them in a separate tray for screening?",
+            "user_response_option_en": "Oh, yes, of course. My apologies.",
+            "mission_id": "hadhqsmojmqbthhl",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rlfczlnuzgmrkvei",
+            "key_phrase_en": "My apologies"
+        },
+        {
+            "id": "ftqansuljpahhpdj",
+            "ai_conversation_starter_en": "Excuse me, sir. Can you please remove any electronic devices from your luggage and place them in a separate tray for screening?",
+            "user_response_option_en": "Sure thing, let me do that right away.",
+            "mission_id": "hadhqsmojmqbthhl",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "wayeyyfcirunzhxl",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "fcvnvrvrcltdsakr",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "It's okay. Please be sure to follow all instructions on the signs next time.",
+            "user_response_option_en": "Sorry for the misunderstanding, I'll do it now.",
+            "previous_turn_id": "enkumttbonlzylpj",
+            "order": 2,
+            "next_turn_id": "ucdnxzvswsenqymw",
+            "key_phrase_en": "misunderstanding"
+        },
+        {
+            "id": "hilgqvxzahfznxpe",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "It's okay. Please be sure to follow all instructions on the signs next time.",
+            "user_response_option_en": "Thank you for reminding me, I will cooperate fully.",
+            "previous_turn_id": "enkumttbonlzylpj",
+            "order": 2,
+            "next_turn_id": "tbnvibzgzvoqrptw",
+            "key_phrase_en": "cooperate fully"
+        },
+        {
+            "id": "rtbyyizsxocswciq",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "It's okay. Please be sure to follow all instructions on the signs next time.",
+            "user_response_option_en": "I apologize for holding up the line, I understand now.",
+            "previous_turn_id": "enkumttbonlzylpj",
+            "order": 2,
+            "next_turn_id": "lwnhriwsliqvyxyn",
+            "key_phrase_en": "Holding up the line\""
+        },
+        {
+            "id": "sctokhzbabrfvmxw",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please make sure to remove all electronic devices from your luggage before screening. Thank you for your cooperation.",
+            "user_response_option_en": "Sorry for the delay. I'll remove the devices now.",
+            "previous_turn_id": "uionawmstbyvhrrj",
+            "order": 2,
+            "next_turn_id": "pkxlqynlvyzpulwu",
+            "key_phrase_en": "remove the devices"
+        },
+        {
+            "id": "eeuzyhptnajwxmso",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please make sure to remove all electronic devices from your luggage before screening. Thank you for your cooperation.",
+            "user_response_option_en": "Sure thing. Thanks for reminding me.",
+            "previous_turn_id": "uionawmstbyvhrrj",
+            "order": 2,
+            "next_turn_id": "hvjbnimzzhizsjtp",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "rlfczlnuzgmrkvei",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please make sure to remove all electronic devices from your luggage before screening. Thank you for your cooperation.",
+            "user_response_option_en": "My mistake. I'll follow the protocol next time.",
+            "previous_turn_id": "uionawmstbyvhrrj",
+            "order": 2,
+            "next_turn_id": "cijmkshxmtndfylu",
+            "key_phrase_en": "follow the protocol"
+        },
+        {
+            "id": "xzhkrpdyrzljlnfz",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you sir, please proceed to the metal detector.",
+            "user_response_option_en": "Sorry, I forgot. Thank you for reminding me.",
+            "previous_turn_id": "ftqansuljpahhpdj",
+            "order": 2,
+            "next_turn_id": "oucgzfcbdsimjelr",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ygffozehmriymrck",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you sir, please proceed to the metal detector.",
+            "user_response_option_en": "I'm so sorry to hold up the line. Thank you for your patience.",
+            "previous_turn_id": "ftqansuljpahhpdj",
+            "order": 2,
+            "next_turn_id": "wwdclwnfcsckxtpz",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "wayeyyfcirunzhxl",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you sir, please proceed to the metal detector.",
+            "user_response_option_en": "Can you please guide me where to place my electronic devices?",
+            "previous_turn_id": "ftqansuljpahhpdj",
+            "order": 2,
+            "next_turn_id": "hbzmuyrixgvvxphk",
+            "key_phrase_en": "electronic devices"
+        },
+        {
+            "id": "laehaetdeqkpshiz",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you for cooperating, please place all electronics in a separate bin and step through the scanner.",
+            "user_response_option_en": "Sorry for the delay, thank you for notifying me.",
+            "previous_turn_id": "fcvnvrvrcltdsakr",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "eokzkqjonqonjpwr",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you for cooperating, please place all electronics in a separate bin and step through the scanner.",
+            "user_response_option_en": "Okay, thank you for informing me.",
+            "previous_turn_id": "fcvnvrvrcltdsakr",
+            "order": 3,
+            "key_phrase_en": "learning English"
+        },
+        {
+            "id": "ucdnxzvswsenqymw",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you for cooperating, please place all electronics in a separate bin and step through the scanner.",
+            "user_response_option_en": "Can you help me, where should I place my electronics?",
+            "previous_turn_id": "fcvnvrvrcltdsakr",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tqnwgmieefiajxim",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you, please remove all electronic devices in a separate tray to help speed up the screening process for everyone.",
+            "user_response_option_en": "Sorry, I will separate my electronic devices in a tray.",
+            "previous_turn_id": "hilgqvxzahfznxpe",
+            "order": 3,
+            "key_phrase_en": "Electronic devices tray"
+        },
+        {
+            "id": "rtllobjgghcurdut",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you, please remove all electronic devices in a separate tray to help speed up the screening process for everyone.",
+            "user_response_option_en": "Thank you for reminding me, I'll be more careful.",
+            "previous_turn_id": "hilgqvxzahfznxpe",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tbnvibzgzvoqrptw",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you, please remove all electronic devices in a separate tray to help speed up the screening process for everyone.",
+            "user_response_option_en": "Apologies, I'll cooperate with security process in the future.",
+            "previous_turn_id": "hilgqvxzahfznxpe",
+            "order": 3,
+            "key_phrase_en": "Cooperate with security"
+        },
+        {
+            "id": "bembheknpjohlqtq",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you for understanding. Please remember to remove all electronics from your bags next time.",
+            "user_response_option_en": "Sorry, I will remember next time.",
+            "previous_turn_id": "rtbyyizsxocswciq",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "jojwgzvgsdjdjgvu",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you for understanding. Please remember to remove all electronics from your bags next time.",
+            "user_response_option_en": "Apologies, I will take out my electronics now.",
+            "previous_turn_id": "rtbyyizsxocswciq",
+            "order": 3,
+            "key_phrase_en": "take out electronics"
+        },
+        {
+            "id": "lwnhriwsliqvyxyn",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Thank you for understanding. Please remember to remove all electronics from your bags next time.",
+            "user_response_option_en": "Thank you for telling me, I will follow the rules.",
+            "previous_turn_id": "rtbyyizsxocswciq",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hibdezogwupogttx",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "No worries, please place them in a separate tray for screening.",
+            "user_response_option_en": "Sorry, first time flying. Can you show me what to do?",
+            "previous_turn_id": "sctokhzbabrfvmxw",
+            "order": 3,
+            "key_phrase_en": "first time flying"
+        },
+        {
+            "id": "zwtckzqczteyempo",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "No worries, please place them in a separate tray for screening.",
+            "user_response_option_en": "I didn't know. Thank you for your help.",
+            "previous_turn_id": "sctokhzbabrfvmxw",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "pkxlqynlvyzpulwu",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "No worries, please place them in a separate tray for screening.",
+            "user_response_option_en": "Thank you. I understand the procedure now.",
+            "previous_turn_id": "sctokhzbabrfvmxw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nsfihklyshcwdcst",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please proceed to place your luggage in the scanning machine so we can clear the line.",
+            "user_response_option_en": "Sorry, I forgot. Can I remove them now?",
+            "previous_turn_id": "eeuzyhptnajwxmso",
+            "order": 3,
+            "key_phrase_en": "Remove them now"
+        },
+        {
+            "id": "smguudwohmvxtjsf",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please proceed to place your luggage in the scanning machine so we can clear the line.",
+            "user_response_option_en": "Are shoes supposed to come off too?",
+            "previous_turn_id": "eeuzyhptnajwxmso",
+            "order": 3,
+            "key_phrase_en": "Shoes off"
+        },
+        {
+            "id": "hvjbnimzzhizsjtp",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please proceed to place your luggage in the scanning machine so we can clear the line.",
+            "user_response_option_en": "Is there anything else I need to do?",
+            "previous_turn_id": "eeuzyhptnajwxmso",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "zjljpxoikhmspaoq",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "No worries, sir. Please make sure to follow security protocols in the future to help expedite the screening process for everyone's safety. Thank you.",
+            "user_response_option_en": "Sorry, I didn't know. Teach me about security protocols for next time.",
+            "previous_turn_id": "rlfczlnuzgmrkvei",
+            "order": 3,
+            "key_phrase_en": "security protocols"
+        },
+        {
+            "id": "ererjmlmmdfbblpa",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "No worries, sir. Please make sure to follow security protocols in the future to help expedite the screening process for everyone's safety. Thank you.",
+            "user_response_option_en": "Thanks for reminding me. I'm new to this airport.",
+            "previous_turn_id": "rlfczlnuzgmrkvei",
+            "order": 3,
+            "key_phrase_en": "new to this"
+        },
+        {
+            "id": "cijmkshxmtndfylu",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "No worries, sir. Please make sure to follow security protocols in the future to help expedite the screening process for everyone's safety. Thank you.",
+            "user_response_option_en": "I'm sorry. I'm nervous. Can you guide me through the process?",
+            "previous_turn_id": "rlfczlnuzgmrkvei",
+            "order": 3,
+            "key_phrase_en": "Guide me through"
+        },
+        {
+            "id": "xzeqzoikuefsemyp",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "It's alright. Please remove your items and proceed to the metal detector.",
+            "user_response_option_en": "Thank you for your patience.",
+            "previous_turn_id": "xzhkrpdyrzljlnfz",
+            "order": 3,
+            "key_phrase_en": "patience"
+        },
+        {
+            "id": "xvvdhvoaawugyump",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "It's alright. Please remove your items and proceed to the metal detector.",
+            "user_response_option_en": "Sorry, I'm still learning.",
+            "previous_turn_id": "xzhkrpdyrzljlnfz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "oucgzfcbdsimjelr",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "It's alright. Please remove your items and proceed to the metal detector.",
+            "user_response_option_en": "I'll remember next time.",
+            "previous_turn_id": "xzhkrpdyrzljlnfz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wuepfjmiceikcabz",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "That's alright. Please remember to remove your electronics for a smoother process.",
+            "user_response_option_en": "I'll make sure to follow the rules next time.",
+            "previous_turn_id": "ygffozehmriymrck",
+            "order": 3,
+            "key_phrase_en": "follow the rules"
+        },
+        {
+            "id": "hmujizmxdcjfalto",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "That's alright. Please remember to remove your electronics for a smoother process.",
+            "user_response_option_en": "I apologize for the inconvenience, thank you for reminding me.",
+            "previous_turn_id": "ygffozehmriymrck",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wwdclwnfcsckxtpz",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "That's alright. Please remember to remove your electronics for a smoother process.",
+            "user_response_option_en": "I didn't know about that, thank you for letting me know.",
+            "previous_turn_id": "ygffozehmriymrck",
+            "order": 3,
+            "key_phrase_en": "letting me know"
+        },
+        {
+            "id": "dlymyhfiqzrmciom",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please place all electronic devices in the tray provided and proceed to the metal detector.",
+            "user_response_option_en": "I'm sorry, I didn't know. Thank you for letting me know.",
+            "previous_turn_id": "wayeyyfcirunzhxl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "jwixlzjcitlapmyg",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please place all electronic devices in the tray provided and proceed to the metal detector.",
+            "user_response_option_en": "Where do I put the tray after I place the electronic devices?",
+            "previous_turn_id": "wayeyyfcirunzhxl",
+            "order": 3,
+            "key_phrase_en": "electronic devices"
+        },
+        {
+            "id": "hbzmuyrixgvvxphk",
+            "mission_id": "hadhqsmojmqbthhl",
+            "ai_conversation_starter_en": "Please place all electronic devices in the tray provided and proceed to the metal detector.",
+            "user_response_option_en": "Is there a limit to the number of electronic devices I can bring?",
+            "previous_turn_id": "wayeyyfcirunzhxl",
+            "order": 3,
+            "key_phrase_en": "Electronic devices"
+        }
+    ]
+}

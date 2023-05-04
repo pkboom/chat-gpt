@@ -1,0 +1,630 @@
+{
+    "id": "nzoxmvdiaugsbnqr",
+    "title": "Asking for recommendations on the best way to navigate through the park",
+    "order": 6,
+    "turns": [
+        {
+            "id": "qlzmeeewflrdqnwd",
+            "ai_conversation_starter_en": "Hello! Welcome to our tourist attraction. Are you visiting for the first time? Do you need any assistance with navigation or directions within the park?",
+            "user_response_option_en": "Yes, I'm new here. Can you suggest the best routes to see the park?",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "oqcrmpczuxvdwttu",
+            "key_phrase_en": "Best routes"
+        },
+        {
+            "id": "gamdjcnvqjrpsona",
+            "ai_conversation_starter_en": "Hello! Welcome to our tourist attraction. Are you visiting for the first time? Do you need any assistance with navigation or directions within the park?",
+            "user_response_option_en": "",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "yoralffgtnbsadic",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qcaivmvxbsgezteq",
+            "ai_conversation_starter_en": "Hello! Welcome to our tourist attraction. Are you visiting for the first time? Do you need any assistance with navigation or directions within the park?",
+            "user_response_option_en": "I need directions to the most famous attractions, please.",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "sgvpldoakyiwyewy",
+            "key_phrase_en": "directions to attractions"
+        },
+        {
+            "id": "tppjexefvhnfrhcp",
+            "ai_conversation_starter_en": "Hello! Welcome to our tourist attraction. Are you visiting for the first time? Do you need any assistance with navigation or directions within the park?",
+            "user_response_option_en": "",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "arjwcxwjtyvmfbgu",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ikhmfoaruikyqavf",
+            "ai_conversation_starter_en": "Hello! Welcome to our tourist attraction. Are you visiting for the first time? Do you need any assistance with navigation or directions within the park?",
+            "user_response_option_en": "Could you recommend the easiest way to get to the main sights?",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "cxczajqtxgbbgmdi",
+            "key_phrase_en": "main sights"
+        },
+        {
+            "id": "iuqowcgxhcfxpyug",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, I suggest starting with the main attraction and following the designated path. From there, you can veer off to different areas of interest. Would you like a map to help guide you?",
+            "user_response_option_en": "Yes, please give me a map to follow the route. Thanks!",
+            "previous_turn_id": "qlzmeeewflrdqnwd",
+            "order": 2,
+            "next_turn_id": "itnnvepkbuirlgvt",
+            "key_phrase_en": "give me map"
+        },
+        {
+            "id": "kwdeyevkfulxzgdw",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, I suggest starting with the main attraction and following the designated path. From there, you can veer off to different areas of interest. Would you like a map to help guide you?",
+            "user_response_option_en": "Can you tell me where the restrooms are located, please?",
+            "previous_turn_id": "qlzmeeewflrdqnwd",
+            "order": 2,
+            "next_turn_id": "rjuoyzbonoiewxho",
+            "key_phrase_en": "Restrooms location"
+        },
+        {
+            "id": "oqcrmpczuxvdwttu",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, I suggest starting with the main attraction and following the designated path. From there, you can veer off to different areas of interest. Would you like a map to help guide you?",
+            "user_response_option_en": "Is there a shuttle service available to move around easily?",
+            "previous_turn_id": "qlzmeeewflrdqnwd",
+            "order": 2,
+            "next_turn_id": "reubpnjrmjbujugo",
+            "key_phrase_en": "shuttle service available"
+        },
+        {
+            "id": "ttjwbfjvnzyfeknd",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, I would recommend taking a map of the park as it will help navigate through the park easily. I can also provide you directions to the most popular attractions here.",
+            "user_response_option_en": "Can you recommend the shortest route to the zoo?",
+            "previous_turn_id": "gamdjcnvqjrpsona",
+            "order": 2,
+            "next_turn_id": "phnhujjguhyyptva",
+            "key_phrase_en": "shortest route"
+        },
+        {
+            "id": "ezqndvwdfjqnmoah",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, I would recommend taking a map of the park as it will help navigate through the park easily. I can also provide you directions to the most popular attractions here.",
+            "user_response_option_en": "Which path leads to the park's best view?",
+            "previous_turn_id": "gamdjcnvqjrpsona",
+            "order": 2,
+            "next_turn_id": "lufhrquvhxssyqry",
+            "key_phrase_en": "Best view"
+        },
+        {
+            "id": "yoralffgtnbsadic",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, I would recommend taking a map of the park as it will help navigate through the park easily. I can also provide you directions to the most popular attractions here.",
+            "user_response_option_en": "Where can I find the park's iconic sculpture?",
+            "previous_turn_id": "gamdjcnvqjrpsona",
+            "order": 2,
+            "next_turn_id": "biiyplddcppctkmz",
+            "key_phrase_en": "iconic sculpture"
+        },
+        {
+            "id": "ijxgvlqtkgyflfhl",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, an appropriate response would be Sure thing! I recommend starting at the park's entrance, and making your way to the left. That way, you can see the most famous attractions in order.",
+            "user_response_option_en": "Thank you! How long does it usually take to see all the attractions?\", ",
+            "previous_turn_id": "qcaivmvxbsgezteq",
+            "order": 2,
+            "next_turn_id": "nxwjllsqppbixkaq",
+            "key_phrase_en": "usually take"
+        },
+        {
+            "id": "zdbbezfhpmetwagk",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, an appropriate response would be Sure thing! I recommend starting at the park's entrance, and making your way to the left. That way, you can see the most famous attractions in order.",
+            "user_response_option_en": "Sounds great! Are there any restrooms or benches along the way?\", ",
+            "previous_turn_id": "qcaivmvxbsgezteq",
+            "order": 2,
+            "next_turn_id": "lsbdxzikpvashbye",
+            "key_phrase_en": "Restrooms or benches"
+        },
+        {
+            "id": "sgvpldoakyiwyewy",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, an appropriate response would be Sure thing! I recommend starting at the park's entrance, and making your way to the left. That way, you can see the most famous attractions in order.",
+            "user_response_option_en": "Got it, thanks! Would you recommend taking photos along the way?",
+            "previous_turn_id": "qcaivmvxbsgezteq",
+            "order": 2,
+            "next_turn_id": "mxsgnkvfseyeoeng",
+            "key_phrase_en": "taking photos"
+        },
+        {
+            "id": "kyodwpmczhmaqqxs",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, here's a response that the staff might say to Iris Kim:Well, we have park maps available that show all the attractions and directions. You can pick one up at the entrance, and we also have staff members stationed throughout the park who can help you find your way. Is there a particular attraction you'd like to see first?",
+            "user_response_option_en": "Can you recommend any must-see attractions?\" ",
+            "previous_turn_id": "tppjexefvhnfrhcp",
+            "order": 2,
+            "next_turn_id": "ojdovtnkjrtrfquz",
+            "key_phrase_en": "must-see attractions"
+        },
+        {
+            "id": "tnguhctlniborzsd",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, here's a response that the staff might say to Iris Kim:Well, we have park maps available that show all the attractions and directions. You can pick one up at the entrance, and we also have staff members stationed throughout the park who can help you find your way. Is there a particular attraction you'd like to see first?",
+            "user_response_option_en": "Are there any popular food spots to try?\" ",
+            "previous_turn_id": "tppjexefvhnfrhcp",
+            "order": 2,
+            "next_turn_id": "frvzefvfhntyocxl",
+            "key_phrase_en": "food spots"
+        },
+        {
+            "id": "arjwcxwjtyvmfbgu",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, here's a response that the staff might say to Iris Kim:Well, we have park maps available that show all the attractions and directions. You can pick one up at the entrance, and we also have staff members stationed throughout the park who can help you find your way. Is there a particular attraction you'd like to see first?",
+            "user_response_option_en": "Which direction should I head to get to the nearest restroom?",
+            "previous_turn_id": "tppjexefvhnfrhcp",
+            "order": 2,
+            "next_turn_id": "bkdszvecummivump",
+            "key_phrase_en": "nearest restroom"
+        },
+        {
+            "id": "crlmwlzfskucgkwl",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Certainly! The easiest way to get all the main sights is by following the walking path.",
+            "user_response_option_en": "Are there any restrooms along the path?",
+            "previous_turn_id": "ikhmfoaruikyqavf",
+            "order": 2,
+            "next_turn_id": "aiodxhmnopnaruaa",
+            "key_phrase_en": "Restrooms along path"
+        },
+        {
+            "id": "rxdntzgpgkqilmvw",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Certainly! The easiest way to get all the main sights is by following the walking path.",
+            "user_response_option_en": "How long is the walking path?",
+            "previous_turn_id": "ikhmfoaruikyqavf",
+            "order": 2,
+            "next_turn_id": "duuvjrktyeoeneye",
+            "key_phrase_en": "walking path length"
+        },
+        {
+            "id": "cxczajqtxgbbgmdi",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Certainly! The easiest way to get all the main sights is by following the walking path.",
+            "user_response_option_en": "Which sight is the most popular in the park?",
+            "previous_turn_id": "ikhmfoaruikyqavf",
+            "order": 2,
+            "next_turn_id": "wyunclyklrluexjg",
+            "key_phrase_en": "Most popular sight"
+        },
+        {
+            "id": "jbyhhbeakmbynoyp",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Great! The map will be very helpful in guiding you through the park. Enjoy your visit!",
+            "user_response_option_en": "Excuse me, can you tell me where the restrooms are located?",
+            "previous_turn_id": "iuqowcgxhcfxpyug",
+            "order": 3,
+            "key_phrase_en": "restrooms location"
+        },
+        {
+            "id": "xfxrjjiqrykdmtwd",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Great! The map will be very helpful in guiding you through the park. Enjoy your visit!",
+            "user_response_option_en": "Sorry, can you repeat how to get to the main attraction?",
+            "previous_turn_id": "iuqowcgxhcfxpyug",
+            "order": 3,
+            "key_phrase_en": "Main attraction"
+        },
+        {
+            "id": "itnnvepkbuirlgvt",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Great! The map will be very helpful in guiding you through the park. Enjoy your visit!",
+            "user_response_option_en": "Thank you! Do you have any food recommendations within the park?",
+            "previous_turn_id": "iuqowcgxhcfxpyug",
+            "order": 3,
+            "key_phrase_en": "Food recommendations"
+        },
+        {
+            "id": "hpwaoppdxecnygpk",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Certainly, the restrooms are located just past the main attraction area.",
+            "user_response_option_en": "Thank you, can you recommend any attractions?",
+            "previous_turn_id": "kwdeyevkfulxzgdw",
+            "order": 3,
+            "key_phrase_en": "recommend attractions"
+        },
+        {
+            "id": "fldnmktdhitfblsv",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Certainly, the restrooms are located just past the main attraction area.",
+            "user_response_option_en": "Is there a shuttle for people with mobility issues?",
+            "previous_turn_id": "kwdeyevkfulxzgdw",
+            "order": 3,
+            "key_phrase_en": "mobility issues"
+        },
+        {
+            "id": "rjuoyzbonoiewxho",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Certainly, the restrooms are located just past the main attraction area.",
+            "user_response_option_en": "Which areas are popular among families with children?",
+            "previous_turn_id": "kwdeyevkfulxzgdw",
+            "order": 3,
+            "key_phrase_en": "popular areas families"
+        },
+        {
+            "id": "iozhzovdhyifwzrs",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there is a shuttle service available to help you get around the park easily.",
+            "user_response_option_en": "Can you tell me where to catch the shuttle service?",
+            "previous_turn_id": "oqcrmpczuxvdwttu",
+            "order": 3,
+            "key_phrase_en": "shuttle service"
+        },
+        {
+            "id": "kuueeffooyctpaus",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there is a shuttle service available to help you get around the park easily.",
+            "user_response_option_en": "What time does the shuttle service start operating?",
+            "previous_turn_id": "oqcrmpczuxvdwttu",
+            "order": 3,
+            "key_phrase_en": "shuttle service start"
+        },
+        {
+            "id": "reubpnjrmjbujugo",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there is a shuttle service available to help you get around the park easily.",
+            "user_response_option_en": "Do I need to pay extra for the shuttle service?",
+            "previous_turn_id": "oqcrmpczuxvdwttu",
+            "order": 3,
+            "key_phrase_en": "shuttle service"
+        },
+        {
+            "id": "uzaznuuwlguwqfid",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, of course! If you head straight down this path, take a left turn at the fountain, and continue on for about 5 minutes, you'll reach the zoo. Enjoy your visit!",
+            "user_response_option_en": "Thank you! Is there a restroom nearby?",
+            "previous_turn_id": "ttjwbfjvnzyfeknd",
+            "order": 3,
+            "key_phrase_en": "Restroom nearby"
+        },
+        {
+            "id": "gpmjyhnxccyciipc",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, of course! If you head straight down this path, take a left turn at the fountain, and continue on for about 5 minutes, you'll reach the zoo. Enjoy your visit!",
+            "user_response_option_en": "Got it! Where can I find food in the park?",
+            "previous_turn_id": "ttjwbfjvnzyfeknd",
+            "order": 3,
+            "key_phrase_en": "find food park"
+        },
+        {
+            "id": "phnhujjguhyyptva",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, of course! If you head straight down this path, take a left turn at the fountain, and continue on for about 5 minutes, you'll reach the zoo. Enjoy your visit!",
+            "user_response_option_en": "Thanks! Can you tell me more about the shows in the amphitheater?",
+            "previous_turn_id": "ttjwbfjvnzyfeknd",
+            "order": 3,
+            "key_phrase_en": "Tell me more"
+        },
+        {
+            "id": "gpmbjualqyfxanum",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Oh, you don't want to miss out on the view from the hilltop. Take the path on your left, and it will take you there.",
+            "user_response_option_en": "Thanks, I'll head that way. How long does it take to climb?",
+            "previous_turn_id": "ezqndvwdfjqnmoah",
+            "order": 3,
+            "key_phrase_en": "Head that way"
+        },
+        {
+            "id": "hwathrfetkydoqhd",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Oh, you don't want to miss out on the view from the hilltop. Take the path on your left, and it will take you there.",
+            "user_response_option_en": "Is there any activities along the way? Maybe a scenic spot?",
+            "previous_turn_id": "ezqndvwdfjqnmoah",
+            "order": 3,
+            "key_phrase_en": "scenic spot"
+        },
+        {
+            "id": "lufhrquvhxssyqry",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Oh, you don't want to miss out on the view from the hilltop. Take the path on your left, and it will take you there.",
+            "user_response_option_en": "Is there a shortcut or a faster route to get to this hilltop?",
+            "previous_turn_id": "ezqndvwdfjqnmoah",
+            "order": 3,
+            "key_phrase_en": "Shortcut or faster"
+        },
+        {
+            "id": "geachqpecdxlfhbq",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Iris, you can find the park's iconic sculpture by heading straight and turning right at the big fountain.",
+            "user_response_option_en": "Thank you! Could you also tell me where the nearest restroom is?",
+            "previous_turn_id": "yoralffgtnbsadic",
+            "order": 3,
+            "key_phrase_en": "nearest restroom"
+        },
+        {
+            "id": "gbiyqyqwtnbyiurg",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Iris, you can find the park's iconic sculpture by heading straight and turning right at the big fountain.",
+            "user_response_option_en": "Great, thanks! How about a good spot to take photos in the park?",
+            "previous_turn_id": "yoralffgtnbsadic",
+            "order": 3,
+            "key_phrase_en": "good spot"
+        },
+        {
+            "id": "biiyplddcppctkmz",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Iris, you can find the park's iconic sculpture by heading straight and turning right at the big fountain.",
+            "user_response_option_en": "Got it, thank you! Is there a cafe or snack bar around here?",
+            "previous_turn_id": "yoralffgtnbsadic",
+            "order": 3,
+            "key_phrase_en": "Cafe or snack bar"
+        },
+        {
+            "id": "qwkervujttsxpcwt",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Well, it depends on your pace. It usually takes around 3-4 hours to see everything if you take your time. However, if you're in a rush or want to see only the highlights, you can finish in about 2 hours.",
+            "user_response_option_en": "Can you suggest a walking route that hits all the top spots?",
+            "previous_turn_id": "ijxgvlqtkgyflfhl",
+            "order": 3,
+            "key_phrase_en": "walking route"
+        },
+        {
+            "id": "snrhzouvkiqphkzt",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Well, it depends on your pace. It usually takes around 3-4 hours to see everything if you take your time. However, if you're in a rush or want to see only the highlights, you can finish in about 2 hours.",
+            "user_response_option_en": "",
+            "previous_turn_id": "ijxgvlqtkgyflfhl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kjpyjkturiqvlxjf",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Well, it depends on your pace. It usually takes around 3-4 hours to see everything if you take your time. However, if you're in a rush or want to see only the highlights, you can finish in about 2 hours.",
+            "user_response_option_en": "Which section has the most popular attractions?",
+            "previous_turn_id": "ijxgvlqtkgyflfhl",
+            "order": 3,
+            "key_phrase_en": "popular attractions"
+        },
+        {
+            "id": "gwhtccnkxmdkgxll",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Well, it depends on your pace. It usually takes around 3-4 hours to see everything if you take your time. However, if you're in a rush or want to see only the highlights, you can finish in about 2 hours.",
+            "user_response_option_en": "",
+            "previous_turn_id": "ijxgvlqtkgyflfhl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nxwjllsqppbixkaq",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Well, it depends on your pace. It usually takes around 3-4 hours to see everything if you take your time. However, if you're in a rush or want to see only the highlights, you can finish in about 2 hours.",
+            "user_response_option_en": "Do you have a map showing the recommended route to take?",
+            "previous_turn_id": "ijxgvlqtkgyflfhl",
+            "order": 3,
+            "key_phrase_en": "recommended route"
+        },
+        {
+            "id": "mdtavyvjwvvhvcwd",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there are restrooms and benches located throughout the park for your convenience.",
+            "user_response_option_en": "Can I grab a map somewhere?",
+            "previous_turn_id": "zdbbezfhpmetwagk",
+            "order": 3,
+            "key_phrase_en": "Grab a map"
+        },
+        {
+            "id": "rdvtnyghpokfmqfq",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there are restrooms and benches located throughout the park for your convenience.",
+            "user_response_option_en": "Are there any activities or shows going on today?",
+            "previous_turn_id": "zdbbezfhpmetwagk",
+            "order": 3,
+            "key_phrase_en": "Activities or shows"
+        },
+        {
+            "id": "lsbdxzikpvashbye",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there are restrooms and benches located throughout the park for your convenience.",
+            "user_response_option_en": "What's the most popular attraction you would recommend?",
+            "previous_turn_id": "zdbbezfhpmetwagk",
+            "order": 3,
+            "key_phrase_en": "Popular attraction"
+        },
+        {
+            "id": "wstjvvwesdeqdjeh",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Absolutely! This park is full of picture-perfect moments. Make sure to charge your phone or camera before heading out.",
+            "user_response_option_en": "Thanks. Can you tell me which attraction is the most popular?",
+            "previous_turn_id": "sgvpldoakyiwyewy",
+            "order": 3,
+            "key_phrase_en": "most popular"
+        },
+        {
+            "id": "vezmwysfrkfphwtw",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Absolutely! This park is full of picture-perfect moments. Make sure to charge your phone or camera before heading out.",
+            "user_response_option_en": "Got it. Do I need a map?",
+            "previous_turn_id": "sgvpldoakyiwyewy",
+            "order": 3,
+            "key_phrase_en": "Got it"
+        },
+        {
+            "id": "mxsgnkvfseyeoeng",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Absolutely! This park is full of picture-perfect moments. Make sure to charge your phone or camera before heading out.",
+            "user_response_option_en": "Ok, perfect. How long does it take to walk the whole park?",
+            "previous_turn_id": "sgvpldoakyiwyewy",
+            "order": 3,
+            "key_phrase_en": "walk the park"
+        },
+        {
+            "id": "shmqrugolbuceakx",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, here's an example sentence that the staff might say to Iris Kim: If you don't mind walking, I'd recommend starting at the north end of the park and working your way south. That way, you'll see most of the major attractions in a convenient order.",
+            "user_response_option_en": "Thanks, do you have a restroom map?",
+            "previous_turn_id": "kyodwpmczhmaqqxs",
+            "order": 3,
+            "key_phrase_en": "Restroom map"
+        },
+        {
+            "id": "gjqlxvhccqoxrwsi",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, here's an example sentence that the staff might say to Iris Kim: If you don't mind walking, I'd recommend starting at the north end of the park and working your way south. That way, you'll see most of the major attractions in a convenient order.",
+            "user_response_option_en": "How about a shopping map, is that available?",
+            "previous_turn_id": "kyodwpmczhmaqqxs",
+            "order": 3,
+            "key_phrase_en": "shopping map available"
+        },
+        {
+            "id": "ojdovtnkjrtrfquz",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure, here's an example sentence that the staff might say to Iris Kim: If you don't mind walking, I'd recommend starting at the north end of the park and working your way south. That way, you'll see most of the major attractions in a convenient order.",
+            "user_response_option_en": "Is there a restaurant guide I can get?",
+            "previous_turn_id": "kyodwpmczhmaqqxs",
+            "order": 3,
+            "key_phrase_en": "restaurant guide"
+        },
+        {
+            "id": "rcwockaigszqfqkw",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure! We have a food court located near the entrance that serves a variety of popular local dishes. It's a great spot to grab a quick bite before exploring the park.",
+            "user_response_option_en": "Can you suggest the most efficient way to tour the entire park?\" ",
+            "previous_turn_id": "tnguhctlniborzsd",
+            "order": 3,
+            "key_phrase_en": "efficient way"
+        },
+        {
+            "id": "erdgxcogryxsuxyv",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure! We have a food court located near the entrance that serves a variety of popular local dishes. It's a great spot to grab a quick bite before exploring the park.",
+            "user_response_option_en": "Which direction should I head first to see the main attractions?\" ",
+            "previous_turn_id": "tnguhctlniborzsd",
+            "order": 3,
+            "key_phrase_en": "Main attractions direction"
+        },
+        {
+            "id": "frvzefvfhntyocxl",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Sure! We have a food court located near the entrance that serves a variety of popular local dishes. It's a great spot to grab a quick bite before exploring the park.",
+            "user_response_option_en": "Is there a walking path or shuttle service to navigate the park?",
+            "previous_turn_id": "tnguhctlniborzsd",
+            "order": 3,
+            "key_phrase_en": "walking path"
+        },
+        {
+            "id": "edrgcwbawzwkjmic",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "If you head towards the entrance and turn left, the restrooms will be on your right-hand side.",
+            "user_response_option_en": "Can you recommend the best route to get to the popular attractions?",
+            "previous_turn_id": "arjwcxwjtyvmfbgu",
+            "order": 3,
+            "key_phrase_en": "popular attractions"
+        },
+        {
+            "id": "zvlzxmdhdhbphpwc",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "If you head towards the entrance and turn left, the restrooms will be on your right-hand side.",
+            "user_response_option_en": "How can I navigate the park without getting lost?",
+            "previous_turn_id": "arjwcxwjtyvmfbgu",
+            "order": 3,
+            "key_phrase_en": "navigate the park"
+        },
+        {
+            "id": "bkdszvecummivump",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "If you head towards the entrance and turn left, the restrooms will be on your right-hand side.",
+            "user_response_option_en": "Is there a particular pathway you recommend for families with young children?",
+            "previous_turn_id": "arjwcxwjtyvmfbgu",
+            "order": 3,
+            "key_phrase_en": "young children"
+        },
+        {
+            "id": "jhnbzlvymxwyxgbo",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there are restrooms located along the walking path.",
+            "user_response_option_en": "Is the walking path easy to follow?",
+            "previous_turn_id": "crlmwlzfskucgkwl",
+            "order": 3,
+            "key_phrase_en": "walking path follow"
+        },
+        {
+            "id": "bzppoxejymuqsqvv",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there are restrooms located along the walking path.",
+            "user_response_option_en": "Where exactly are the restrooms located?",
+            "previous_turn_id": "crlmwlzfskucgkwl",
+            "order": 3,
+            "key_phrase_en": "restrooms located"
+        },
+        {
+            "id": "aiodxhmnopnaruaa",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "Yes, there are restrooms located along the walking path.",
+            "user_response_option_en": "Can you suggest the best order to see the sights?",
+            "previous_turn_id": "crlmwlzfskucgkwl",
+            "order": 3,
+            "key_phrase_en": "best order"
+        },
+        {
+            "id": "jswtbsfpqpxzvhhl",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "The walking path is approximately 2.5 miles long.",
+            "user_response_option_en": "Is there a map available?",
+            "previous_turn_id": "rxdntzgpgkqilmvw",
+            "order": 3,
+            "key_phrase_en": "map available"
+        },
+        {
+            "id": "spclzlqeakpzgozg",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "The walking path is approximately 2.5 miles long.",
+            "user_response_option_en": "Will the walking path take me to the restaurants?",
+            "previous_turn_id": "rxdntzgpgkqilmvw",
+            "order": 3,
+            "key_phrase_en": "walking path"
+        },
+        {
+            "id": "duuvjrktyeoeneye",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "The walking path is approximately 2.5 miles long.",
+            "user_response_option_en": "Should I bring snacks for the walk?",
+            "previous_turn_id": "rxdntzgpgkqilmvw",
+            "order": 3,
+            "key_phrase_en": "Bring snacks"
+        },
+        {
+            "id": "pvmodeurcjqfbhpx",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "The staff responds, The most popular sight in the park would have to be the waterfall. It's definitely a must-see!",
+            "user_response_option_en": "How long does the walking path take to complete?",
+            "previous_turn_id": "cxczajqtxgbbgmdi",
+            "order": 3,
+            "key_phrase_en": "Walking Path Duration"
+        },
+        {
+            "id": "kuddmcomfiwbpknd",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "The staff responds, The most popular sight in the park would have to be the waterfall. It's definitely a must-see!",
+            "user_response_option_en": "Is there a gift shop nearby the waterfall? So I can buy a souvenir?",
+            "previous_turn_id": "cxczajqtxgbbgmdi",
+            "order": 3,
+            "key_phrase_en": "Gift shop nearby"
+        },
+        {
+            "id": "wyunclyklrluexjg",
+            "mission_id": "nzoxmvdiaugsbnqr",
+            "ai_conversation_starter_en": "The staff responds, The most popular sight in the park would have to be the waterfall. It's definitely a must-see!",
+            "user_response_option_en": "Can I take a map with me to explore the park?",
+            "previous_turn_id": "cxczajqtxgbbgmdi",
+            "order": 3,
+            "key_phrase_en": "take a map"
+        }
+    ]
+}

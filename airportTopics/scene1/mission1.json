@@ -1,0 +1,370 @@
+{
+    "id": "dawkgddfgpndqpkz",
+    "title": "Having issues with your ticket or reservation and needing to speak with the airline representative to resolve the problem",
+    "order": 1,
+    "turns": [
+        {
+            "id": "lhbypcbznjknmnfr",
+            "ai_conversation_starter_en": "Good evening, how may I assist you with your check-in today?",
+            "user_response_option_en": "“I seem to have an issue with my ticket, can you help me?” ",
+            "mission_id": "dawkgddfgpndqpkz",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dsjcqppczxsyqgjm",
+            "key_phrase_en": "Can you help me?"
+        },
+        {
+            "id": "gzppaelfsjnpjthj",
+            "ai_conversation_starter_en": "Good evening, how may I assist you with your check-in today?",
+            "user_response_option_en": "“I need to speak with you regarding my reservation problem.” ",
+            "mission_id": "dawkgddfgpndqpkz",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hmesyunlyisrqffa",
+            "key_phrase_en": "speak with you"
+        },
+        {
+            "id": "ehxngcmogizhnqeg",
+            "ai_conversation_starter_en": "Good evening, how may I assist you with your check-in today?",
+            "user_response_option_en": "“Sorry, my reservation is not showing up, can you check please?”",
+            "mission_id": "dawkgddfgpndqpkz",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "atojtzjbqdruebbw",
+            "key_phrase_en": "reservation not showing"
+        },
+        {
+            "id": "tprcmrbymrobegnq",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Of course, please provide me with your reservation details and we'll sort it out together.",
+            "user_response_option_en": "Here's my boarding pass and passport, can you check my reservation?",
+            "previous_turn_id": "lhbypcbznjknmnfr",
+            "order": 2,
+            "next_turn_id": "xnirvfskglrnoyxp",
+            "key_phrase_en": "Check reservation"
+        },
+        {
+            "id": "rrqysbnshvctnqtw",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Of course, please provide me with your reservation details and we'll sort it out together.",
+            "user_response_option_en": "I think there's a mistake on my ticket, can you please double check?",
+            "previous_turn_id": "lhbypcbznjknmnfr",
+            "order": 2,
+            "next_turn_id": "yisaiulbvdvdpsjn",
+            "key_phrase_en": "Double check"
+        },
+        {
+            "id": "dsjcqppczxsyqgjm",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Of course, please provide me with your reservation details and we'll sort it out together.",
+            "user_response_option_en": "I'm not sure if my name is spelled correctly on the reservation.",
+            "previous_turn_id": "lhbypcbznjknmnfr",
+            "order": 2,
+            "next_turn_id": "hyipzqnqejbrbsdj",
+            "key_phrase_en": "correctly spelled"
+        },
+        {
+            "id": "iurnpwksnphbchnr",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Hi, I'm here to help. What seems to be the problem with your reservation?",
+            "user_response_option_en": "I made a mistake, can you help me fix it please?",
+            "previous_turn_id": "gzppaelfsjnpjthj",
+            "order": 2,
+            "next_turn_id": "kyjqlprqqulvqpdd",
+            "key_phrase_en": "fix it"
+        },
+        {
+            "id": "ernntdjmaofidona",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Hi, I'm here to help. What seems to be the problem with your reservation?",
+            "user_response_option_en": "My flight was canceled, what are my options?",
+            "previous_turn_id": "gzppaelfsjnpjthj",
+            "order": 2,
+            "next_turn_id": "elhnyeyazzdvoccq",
+            "key_phrase_en": "canceled flight options"
+        },
+        {
+            "id": "hmesyunlyisrqffa",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Hi, I'm here to help. What seems to be the problem with your reservation?",
+            "user_response_option_en": "I can't find my confirmation email, can you resend it?",
+            "previous_turn_id": "gzppaelfsjnpjthj",
+            "order": 2,
+            "next_turn_id": "jgzniayebyujdjzo",
+            "key_phrase_en": "Resend confirmation email"
+        },
+        {
+            "id": "fihtbnzdwnuthawo",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, what's your name and booking reference number?",
+            "user_response_option_en": "My name is Iris Kim, but booking number is lost.",
+            "previous_turn_id": "ehxngcmogizhnqeg",
+            "order": 2,
+            "next_turn_id": "cfllzpvqqkthmksd",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "iszyevfaxdxgryrd",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, what's your name and booking reference number?",
+            "user_response_option_en": "Booking reference number is 1234.",
+            "previous_turn_id": "ehxngcmogizhnqeg",
+            "order": 2,
+            "next_turn_id": "dzzxlbbecmdykpcs",
+            "key_phrase_en": "Booking reference number"
+        },
+        {
+            "id": "atojtzjbqdruebbw",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, what's your name and booking reference number?",
+            "user_response_option_en": "I think there might be a mistake in the reservation.",
+            "previous_turn_id": "ehxngcmogizhnqeg",
+            "order": 2,
+            "next_turn_id": "pnruqcubixnzouqr",
+            "key_phrase_en": "mistake in reservation"
+        },
+        {
+            "id": "aswxseqezutodaiu",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, let me check that for you. Can you please explain the issue you're having?",
+            "user_response_option_en": "I think my connecting flight was cancelled.",
+            "previous_turn_id": "tprcmrbymrobegnq",
+            "order": 3,
+            "key_phrase_en": "connecting flight cancelled"
+        },
+        {
+            "id": "tybceslacjageelv",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, let me check that for you. Can you please explain the issue you're having?",
+            "user_response_option_en": "The name on my ticket is misspelled.",
+            "previous_turn_id": "tprcmrbymrobegnq",
+            "order": 3,
+            "key_phrase_en": "misspelled"
+        },
+        {
+            "id": "xnirvfskglrnoyxp",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, let me check that for you. Can you please explain the issue you're having?",
+            "user_response_option_en": "I accidentally booked for the wrong date.",
+            "previous_turn_id": "tprcmrbymrobegnq",
+            "order": 3,
+            "key_phrase_en": "wrong date"
+        },
+        {
+            "id": "dheflrqmflnjjxpv",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, can you please show me your ticket and passport?",
+            "user_response_option_en": "Here's my ticket and passport, can you help me?",
+            "previous_turn_id": "rrqysbnshvctnqtw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "uolwklueomromzeh",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, can you please show me your ticket and passport?",
+            "user_response_option_en": "Is there a problem with my ticket, what can I do?",
+            "previous_turn_id": "rrqysbnshvctnqtw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "yisaiulbvdvdpsjn",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, can you please show me your ticket and passport?",
+            "user_response_option_en": "I'm not sure what's wrong, can you explain the issue?",
+            "previous_turn_id": "rrqysbnshvctnqtw",
+            "order": 3,
+            "key_phrase_en": "explain the issue"
+        },
+        {
+            "id": "gfxfieornlnxgoao",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, I can check the spelling for you. What's your full name and reservation confirmation number?",
+            "user_response_option_en": "My name is Iris Kim and the confirmation number is ABC123.",
+            "previous_turn_id": "dsjcqppczxsyqgjm",
+            "order": 3,
+            "key_phrase_en": "Confirmation number"
+        },
+        {
+            "id": "hirjcnlljekczfqq",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, I can check the spelling for you. What's your full name and reservation confirmation number?",
+            "user_response_option_en": "Reservation number is missing, can you find it with my name?",
+            "previous_turn_id": "dsjcqppczxsyqgjm",
+            "order": 3,
+            "key_phrase_en": "Reservation Number"
+        },
+        {
+            "id": "hyipzqnqejbrbsdj",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, I can check the spelling for you. What's your full name and reservation confirmation number?",
+            "user_response_option_en": "My name is spelled 이리스 김. Please make sure it's correct.",
+            "previous_turn_id": "dsjcqppczxsyqgjm",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "envekvnfsyejofbs",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure. What mistake did you make? Let me check for possible solutions.",
+            "user_response_option_en": "I booked the wrong date, can I change it?",
+            "previous_turn_id": "iurnpwksnphbchnr",
+            "order": 3,
+            "key_phrase_en": "Change the date"
+        },
+        {
+            "id": "serniaftjccofxzr",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure. What mistake did you make? Let me check for possible solutions.",
+            "user_response_option_en": "My flight got cancelled, can I get a refund?",
+            "previous_turn_id": "iurnpwksnphbchnr",
+            "order": 3,
+            "key_phrase_en": "cancelled flight refund"
+        },
+        {
+            "id": "kyjqlprqqulvqpdd",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure. What mistake did you make? Let me check for possible solutions.",
+            "user_response_option_en": "My name is misspelled, how can I fix it?",
+            "previous_turn_id": "iurnpwksnphbchnr",
+            "order": 3,
+            "key_phrase_en": "fix misspelled name"
+        },
+        {
+            "id": "limiscrlpoegpgcs",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "I'm sorry to hear that. We can reschedule you on the next available flight or offer a refund.",
+            "user_response_option_en": "Can you please reschedule my flight?",
+            "previous_turn_id": "ernntdjmaofidona",
+            "order": 3,
+            "key_phrase_en": "reschedule my flight"
+        },
+        {
+            "id": "lswmyschrnxcmiir",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "I'm sorry to hear that. We can reschedule you on the next available flight or offer a refund.",
+            "user_response_option_en": "Please, refund my ticket.",
+            "previous_turn_id": "ernntdjmaofidona",
+            "order": 3,
+            "key_phrase_en": "refund my ticket"
+        },
+        {
+            "id": "elhnyeyazzdvoccq",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "I'm sorry to hear that. We can reschedule you on the next available flight or offer a refund.",
+            "user_response_option_en": "What other options do I have?",
+            "previous_turn_id": "ernntdjmaofidona",
+            "order": 3,
+            "key_phrase_en": "options"
+        },
+        {
+            "id": "tpwtngcrzqziclvd",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, may I have your name and booking reference number, please?",
+            "user_response_option_en": "My name is Iris Kim, booking reference number is 1234.",
+            "previous_turn_id": "hmesyunlyisrqffa",
+            "order": 3,
+            "key_phrase_en": "booking reference number"
+        },
+        {
+            "id": "qrpjmweejeiqolkk",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, may I have your name and booking reference number, please?",
+            "user_response_option_en": "Iris Kim, reservation number 1234. Can you help me, please?",
+            "previous_turn_id": "hmesyunlyisrqffa",
+            "order": 3,
+            "key_phrase_en": "reservation number"
+        },
+        {
+            "id": "jgzniayebyujdjzo",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Sure, may I have your name and booking reference number, please?",
+            "user_response_option_en": "Iris Kim, booking number 1234. Resend email, please.",
+            "previous_turn_id": "hmesyunlyisrqffa",
+            "order": 3,
+            "key_phrase_en": "Resend email"
+        },
+        {
+            "id": "zgfdysaaagowiqab",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "No problem, can I have your passport or ID?",
+            "user_response_option_en": "Here's my passport, I'm traveling to New York today.",
+            "previous_turn_id": "fihtbnzdwnuthawo",
+            "order": 3,
+            "key_phrase_en": "traveling to New York"
+        },
+        {
+            "id": "zngydjxzcbnducsm",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "No problem, can I have your passport or ID?",
+            "user_response_option_en": "I forgot my ID, but I have my e-ticket confirmation email.",
+            "previous_turn_id": "fihtbnzdwnuthawo",
+            "order": 3,
+            "key_phrase_en": "e-ticket confirmation"
+        },
+        {
+            "id": "cfllzpvqqkthmksd",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "No problem, can I have your passport or ID?",
+            "user_response_option_en": "My name is spelled wrong on the ticket, can you fix it?",
+            "previous_turn_id": "fihtbnzdwnuthawo",
+            "order": 3,
+            "key_phrase_en": "spelled wrong"
+        },
+        {
+            "id": "vfzovcslvzwpguww",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Let me take a look for you. Can I see your passport and/or ID please?",
+            "user_response_option_en": "Here is my passport.",
+            "previous_turn_id": "iszyevfaxdxgryrd",
+            "order": 3,
+            "key_phrase_en": "passport"
+        },
+        {
+            "id": "pbfqoybgshgdyuol",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Let me take a look for you. Can I see your passport and/or ID please?",
+            "user_response_option_en": "Can you please check again using my name?",
+            "previous_turn_id": "iszyevfaxdxgryrd",
+            "order": 3,
+            "key_phrase_en": "check again using"
+        },
+        {
+            "id": "dzzxlbbecmdykpcs",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Let me take a look for you. Can I see your passport and/or ID please?",
+            "user_response_option_en": "Is there another person I can speak with?",
+            "previous_turn_id": "iszyevfaxdxgryrd",
+            "order": 3,
+            "key_phrase_en": "Another person"
+        },
+        {
+            "id": "yvdpkkuszmjgllgj",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Alright, let me check and see what the issue might be.",
+            "user_response_option_en": "Can you please explain what's happening?",
+            "previous_turn_id": "atojtzjbqdruebbw",
+            "order": 3,
+            "key_phrase_en": "explain what's happening"
+        },
+        {
+            "id": "buwukfcphpledcsa",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Alright, let me check and see what the issue might be.",
+            "user_response_option_en": "Is there another flight available?",
+            "previous_turn_id": "atojtzjbqdruebbw",
+            "order": 3,
+            "key_phrase_en": "flight available"
+        },
+        {
+            "id": "pnruqcubixnzouqr",
+            "mission_id": "dawkgddfgpndqpkz",
+            "ai_conversation_starter_en": "Alright, let me check and see what the issue might be.",
+            "user_response_option_en": "Could you tell me the reason for the mistake?",
+            "previous_turn_id": "atojtzjbqdruebbw",
+            "order": 3,
+            "key_phrase_en": "reason for mistake"
+        }
+    ]
+}

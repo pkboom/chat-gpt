@@ -1,0 +1,370 @@
+{
+    "id": "ecvtrxsuonxwowjy",
+    "title": "Discovering that your luggage is overweight and having to pay additional fees or rearrange your belongings to meet the weight limit.",
+    "order": 2,
+    "turns": [
+        {
+            "id": "agxgolowygwlhtoi",
+            "ai_conversation_starter_en": "Good morning! May I see your passport and flight details, please? Oh, I see that you have two checked bags. Do you happen to know the weight limit for each bag?",
+            "user_response_option_en": "I did not know about the weight limit. Can you help?",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dinerwxossssnabl",
+            "key_phrase_en": "weight limit (Note: \"about the\" is not part of the key phrase)"
+        },
+        {
+            "id": "cpzfbvropaltbdxs",
+            "ai_conversation_starter_en": "Good morning! May I see your passport and flight details, please? Oh, I see that you have two checked bags. Do you happen to know the weight limit for each bag?",
+            "user_response_option_en": "Could I remove some items to adjust the weight?",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hjlqzjungqzjuyuj",
+            "key_phrase_en": "adjust weight"
+        },
+        {
+            "id": "dfceefuaxnhuwrbb",
+            "ai_conversation_starter_en": "Good morning! May I see your passport and flight details, please? Oh, I see that you have two checked bags. Do you happen to know the weight limit for each bag?",
+            "user_response_option_en": "I am willing to pay, can you tell me how much?",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "skxqxgjxsxpiekrz",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "oxpdyweojyhqpfdc",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, the weight limit is 20 kilograms per bag. Your bag is overweight, that will be an additional fee.",
+            "user_response_option_en": "Can I remove something from my bag?",
+            "previous_turn_id": "agxgolowygwlhtoi",
+            "order": 2,
+            "next_turn_id": "hzvsugopegxxswwz",
+            "key_phrase_en": "Remove something"
+        },
+        {
+            "id": "pbegjefdkppygtyj",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, the weight limit is 20 kilograms per bag. Your bag is overweight, that will be an additional fee.",
+            "user_response_option_en": "What is the fee for an overweight bag?",
+            "previous_turn_id": "agxgolowygwlhtoi",
+            "order": 2,
+            "next_turn_id": "juqfpjgvxufafkci",
+            "key_phrase_en": "overweight bag"
+        },
+        {
+            "id": "dinerwxossssnabl",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, the weight limit is 20 kilograms per bag. Your bag is overweight, that will be an additional fee.",
+            "user_response_option_en": "Can I pay with a credit card?",
+            "previous_turn_id": "agxgolowygwlhtoi",
+            "order": 2,
+            "next_turn_id": "slkyczrsgcqxywkq",
+            "key_phrase_en": "credit card"
+        },
+        {
+            "id": "oynhkprojpxkmumm",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, the weight limit is 23 kg per bag. Please do so quickly, the line is building up.",
+            "user_response_option_en": "Can you tell me how much the additional fee is?",
+            "previous_turn_id": "cpzfbvropaltbdxs",
+            "order": 2,
+            "next_turn_id": "pztoenisinocpumx",
+            "key_phrase_en": "Additional fee"
+        },
+        {
+            "id": "dnqfnsbfaogjkwnw",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, the weight limit is 23 kg per bag. Please do so quickly, the line is building up.",
+            "user_response_option_en": "Sorry, I didn't know about the weight limit.",
+            "previous_turn_id": "cpzfbvropaltbdxs",
+            "order": 2,
+            "next_turn_id": "zksvfogwxmaacxuv",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hjlqzjungqzjuyuj",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, the weight limit is 23 kg per bag. Please do so quickly, the line is building up.",
+            "user_response_option_en": "Okay, I'll rearrange my things right now.",
+            "previous_turn_id": "cpzfbvropaltbdxs",
+            "order": 2,
+            "next_turn_id": "hwysipqqnrbhfiok",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "lvyfclkrokunftbj",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "The fee is $50 for each overweight bag. Do you want to proceed with payment or remove items?",
+            "user_response_option_en": "I'll remove items to meet the limit, please wait.",
+            "previous_turn_id": "dfceefuaxnhuwrbb",
+            "order": 2,
+            "next_turn_id": "ljeohhplscuzuxdj",
+            "key_phrase_en": "meet the limit"
+        },
+        {
+            "id": "ydantvprbqgwqcua",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "The fee is $50 for each overweight bag. Do you want to proceed with payment or remove items?",
+            "user_response_option_en": "Can you tell me the exact weight of the bag, please?",
+            "previous_turn_id": "dfceefuaxnhuwrbb",
+            "order": 2,
+            "next_turn_id": "ubscdvaqyzzpkpiq",
+            "key_phrase_en": "exact weight"
+        },
+        {
+            "id": "skxqxgjxsxpiekrz",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "The fee is $50 for each overweight bag. Do you want to proceed with payment or remove items?",
+            "user_response_option_en": "I'll pay the fees, do you accept credit cards?",
+            "previous_turn_id": "dfceefuaxnhuwrbb",
+            "order": 2,
+            "next_turn_id": "gypewaavypsjrodm",
+            "key_phrase_en": "credit cards"
+        },
+        {
+            "id": "erqkzfrulwosvlzf",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Yes, you can. I can provide a weigh scale in case you need to weigh your bags again.",
+            "user_response_option_en": "Can you tell me how much the overweight fee is?",
+            "previous_turn_id": "oxpdyweojyhqpfdc",
+            "order": 3,
+            "key_phrase_en": "overweight fee"
+        },
+        {
+            "id": "cxtqdadlpdowujsy",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Yes, you can. I can provide a weigh scale in case you need to weigh your bags again.",
+            "user_response_option_en": "I'll try to rearrange my stuff, thank you.",
+            "previous_turn_id": "oxpdyweojyhqpfdc",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hzvsugopegxxswwz",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Yes, you can. I can provide a weigh scale in case you need to weigh your bags again.",
+            "user_response_option_en": "Can I split the weight between my two checked bags?",
+            "previous_turn_id": "oxpdyweojyhqpfdc",
+            "order": 3,
+            "key_phrase_en": "split the weight"
+        },
+        {
+            "id": "jewkxbkkuvuyrhla",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "The fee is $50 USD for an overweight bag.",
+            "user_response_option_en": "Can I pay with credit card?\" ",
+            "previous_turn_id": "pbegjefdkppygtyj",
+            "order": 3,
+            "key_phrase_en": "Pay with credit"
+        },
+        {
+            "id": "bamtdykoziogfybz",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "The fee is $50 USD for an overweight bag.",
+            "user_response_option_en": "I have some things I can remove from my bag.",
+            "previous_turn_id": "pbegjefdkppygtyj",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "juqfpjgvxufafkci",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "The fee is $50 USD for an overweight bag.",
+            "user_response_option_en": "What's the maximum weight per carry-on?",
+            "previous_turn_id": "pbegjefdkppygtyj",
+            "order": 3,
+            "key_phrase_en": "carry-on weight limit"
+        },
+        {
+            "id": "vrygoyxxozcdaqjg",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Yes, we accept all major credit cards. Visa, Mastercard, American Express, and Discover.",
+            "user_response_option_en": "Can I please know how much is the additional fee?",
+            "previous_turn_id": "dinerwxossssnabl",
+            "order": 3,
+            "key_phrase_en": "additional fee"
+        },
+        {
+            "id": "cgtnsksjjgaimeps",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Yes, we accept all major credit cards. Visa, Mastercard, American Express, and Discover.",
+            "user_response_option_en": "Is there a way to remove items from one bag to the other?",
+            "previous_turn_id": "dinerwxossssnabl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "slkyczrsgcqxywkq",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Yes, we accept all major credit cards. Visa, Mastercard, American Express, and Discover.",
+            "user_response_option_en": "Can you help me weigh my bags again after I rearrange them?",
+            "previous_turn_id": "dinerwxossssnabl",
+            "order": 3,
+            "key_phrase_en": "rearrange bags"
+        },
+        {
+            "id": "dqarcwvfhycfopkq",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "That will be $50 for the excess baggage, please.",
+            "user_response_option_en": "May I remove items, instead of paying?",
+            "previous_turn_id": "oynhkprojpxkmumm",
+            "order": 3,
+            "key_phrase_en": "May I remove"
+        },
+        {
+            "id": "tjeadcxwyviabiko",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "That will be $50 for the excess baggage, please.",
+            "user_response_option_en": "Can I have a few moments to rearrange?",
+            "previous_turn_id": "oynhkprojpxkmumm",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "pztoenisinocpumx",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "That will be $50 for the excess baggage, please.",
+            "user_response_option_en": "I'm sorry, I didn't know about the weight limit.",
+            "previous_turn_id": "oynhkprojpxkmumm",
+            "order": 3,
+            "key_phrase_en": "weight limit"
+        },
+        {
+            "id": "fdwqctbgzbnlgrke",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "No problem, let's weigh your bags now and see how we can manage the situation.",
+            "user_response_option_en": "Can I pay the additional fee with credit card?\" ",
+            "previous_turn_id": "dnqfnsbfaogjkwnw",
+            "order": 3,
+            "key_phrase_en": "additional fee with"
+        },
+        {
+            "id": "yfsjrqmgyolkaxue",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "No problem, let's weigh your bags now and see how we can manage the situation.",
+            "user_response_option_en": "Can I ship some of my belongings ahead of time?\" ",
+            "previous_turn_id": "dnqfnsbfaogjkwnw",
+            "order": 3,
+            "key_phrase_en": "None\""
+        },
+        {
+            "id": "zksvfogwxmaacxuv",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "No problem, let's weigh your bags now and see how we can manage the situation.",
+            "user_response_option_en": "Can I rearrange items here to meet the weight limit?",
+            "previous_turn_id": "dnqfnsbfaogjkwnw",
+            "order": 3,
+            "key_phrase_en": "weight limit"
+        },
+        {
+            "id": "vmetvkbrybtuordb",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Thank you, we appreciate your cooperation. Please step aside when you're done.",
+            "user_response_option_en": "I didn't know there was a weight limit.",
+            "previous_turn_id": "hjlqzjungqzjuyuj",
+            "order": 3,
+            "key_phrase_en": "weight limit"
+        },
+        {
+            "id": "naficnjnuifaivvv",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Thank you, we appreciate your cooperation. Please step aside when you're done.",
+            "user_response_option_en": "Can I pay the additional fees now?",
+            "previous_turn_id": "hjlqzjungqzjuyuj",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hwysipqqnrbhfiok",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Thank you, we appreciate your cooperation. Please step aside when you're done.",
+            "user_response_option_en": "This is very inconvenient for me, but I understand.",
+            "previous_turn_id": "hjlqzjungqzjuyuj",
+            "order": 3,
+            "key_phrase_en": "inconvenient for me"
+        },
+        {
+            "id": "advlptgrpudqjuvc",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "No problem, take your time. I'll put your bags aside while you make adjustments.",
+            "user_response_option_en": "Can I come back later with less items?",
+            "previous_turn_id": "lvyfclkrokunftbj",
+            "order": 3,
+            "key_phrase_en": "Come back later"
+        },
+        {
+            "id": "qylxlgulxmlkrkyf",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "No problem, take your time. I'll put your bags aside while you make adjustments.",
+            "user_response_option_en": "Sorry, I didn't know about the weight limit.",
+            "previous_turn_id": "lvyfclkrokunftbj",
+            "order": 3,
+            "key_phrase_en": "Weight limit"
+        },
+        {
+            "id": "ljeohhplscuzuxdj",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "No problem, take your time. I'll put your bags aside while you make adjustments.",
+            "user_response_option_en": "What if I pay now and my bag is underweight?",
+            "previous_turn_id": "lvyfclkrokunftbj",
+            "order": 3,
+            "key_phrase_en": "underweight bag"
+        },
+        {
+            "id": "jcjdivyzucqdzvmh",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, let me weigh it for you.",
+            "user_response_option_en": "I didn't realize there was a limit.",
+            "previous_turn_id": "ydantvprbqgwqcua",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tabtqgeqpkuhrknx",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, let me weigh it for you.",
+            "user_response_option_en": "Can I remove something and check-in the bag again?",
+            "previous_turn_id": "ydantvprbqgwqcua",
+            "order": 3,
+            "key_phrase_en": "Remove something"
+        },
+        {
+            "id": "ubscdvaqyzzpkpiq",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "Sure, let me weigh it for you.",
+            "user_response_option_en": "I'll pay the fee. What is the total amount?",
+            "previous_turn_id": "ydantvprbqgwqcua",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gutlwbvwfkcnleli",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "That's perfect! We accept major credit cards.",
+            "user_response_option_en": "Can I pay now?\" (Learning to ask about making a payment)",
+            "previous_turn_id": "skxqxgjxsxpiekrz",
+            "order": 3,
+            "key_phrase_en": "Pay now"
+        },
+        {
+            "id": "rtmgfrykbckfzwrv",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "That's perfect! We accept major credit cards.",
+            "user_response_option_en": "How much will it be?\" (Learning to ask for the cost)",
+            "previous_turn_id": "skxqxgjxsxpiekrz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gypewaavypsjrodm",
+            "mission_id": "ecvtrxsuonxwowjy",
+            "ai_conversation_starter_en": "That's perfect! We accept major credit cards.",
+            "user_response_option_en": "I need to take things out.\" (Learning to express the need to remove items)",
+            "previous_turn_id": "skxqxgjxsxpiekrz",
+            "order": 3,
+            "key_phrase_en": "take out things"
+        }
+    ]
+}

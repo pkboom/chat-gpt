@@ -1,0 +1,370 @@
+{
+    "id": "icsoyssaokrbbhvk",
+    "title": "Realizing that you forgot to buy a necessary item, such as a travel adapter or phone charger, and trying to find it in the shop.",
+    "order": 2,
+    "turns": [
+        {
+            "id": "uuaqxkmpilxqpcas",
+            "ai_conversation_starter_en": "Is there anything else you need before your flight? We have a wide range of travel essentials that you might find useful during your trip.",
+            "user_response_option_en": "Do you sell phone chargers?",
+            "mission_id": "icsoyssaokrbbhvk",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "wgcxgsjdsyxzzuzd",
+            "key_phrase_en": "Phone chargers"
+        },
+        {
+            "id": "naovnetfxepbfxcf",
+            "ai_conversation_starter_en": "Is there anything else you need before your flight? We have a wide range of travel essentials that you might find useful during your trip.",
+            "user_response_option_en": "I need a travel adapter. Any recommendations?",
+            "mission_id": "icsoyssaokrbbhvk",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ssjtnapetebgnjln",
+            "key_phrase_en": "Travel adapter recommendations"
+        },
+        {
+            "id": "ncgmdmynlbahmbmm",
+            "ai_conversation_starter_en": "Is there anything else you need before your flight? We have a wide range of travel essentials that you might find useful during your trip.",
+            "user_response_option_en": "I forgot my phone charger. Can you help me?",
+            "mission_id": "icsoyssaokrbbhvk",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dbnknmwanbnaaiav",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hcqyfqmsjgcjkybo",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do! Can I help you find the one you need?",
+            "user_response_option_en": "Could you show me different types of chargers?",
+            "previous_turn_id": "uuaqxkmpilxqpcas",
+            "order": 2,
+            "next_turn_id": "vgnvdepukyczvnzi",
+            "key_phrase_en": "different types of"
+        },
+        {
+            "id": "rdxmsreidrkeqagt",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do! Can I help you find the one you need?",
+            "user_response_option_en": "Do you have chargers compatible with Samsung phone?",
+            "previous_turn_id": "uuaqxkmpilxqpcas",
+            "order": 2,
+            "next_turn_id": "jfillygquqqjdfpn",
+            "key_phrase_en": "compatible with"
+        },
+        {
+            "id": "wgcxgsjdsyxzzuzd",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do! Can I help you find the one you need?",
+            "user_response_option_en": "What's the price range of your chargers?",
+            "previous_turn_id": "uuaqxkmpilxqpcas",
+            "order": 2,
+            "next_turn_id": "qmxmuwmjbjnemgln",
+            "key_phrase_en": "price range"
+        },
+        {
+            "id": "mfvcxufvnigxgrtz",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do have travel adapters. Which type do you need? Maybe I can help you find it.",
+            "user_response_option_en": "Sorry, I forgot which type I need. Can you explain?",
+            "previous_turn_id": "naovnetfxepbfxcf",
+            "order": 2,
+            "next_turn_id": "refcngeviaooxsja",
+            "key_phrase_en": "Can you explain?"
+        },
+        {
+            "id": "ivspupapcnzpebzq",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do have travel adapters. Which type do you need? Maybe I can help you find it.",
+            "user_response_option_en": "I need a travel adapter, but I can't find the right one.",
+            "previous_turn_id": "naovnetfxepbfxcf",
+            "order": 2,
+            "next_turn_id": "ongndqhgwjmlxbym",
+            "key_phrase_en": "Travel adapter"
+        },
+        {
+            "id": "ssjtnapetebgnjln",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do have travel adapters. Which type do you need? Maybe I can help you find it.",
+            "user_response_option_en": "I realized I need a phone charger too. Do you have any?",
+            "previous_turn_id": "naovnetfxepbfxcf",
+            "order": 2,
+            "next_turn_id": "jysoswajyrooqjrm",
+            "key_phrase_en": "phone charger"
+        },
+        {
+            "id": "gykrkwjqvumhdpgn",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Sure, we have phone chargers over there. Let me show you.",
+            "user_response_option_en": "I didn't realize I needed a travel adapter, do you have any?",
+            "previous_turn_id": "ncgmdmynlbahmbmm",
+            "order": 2,
+            "next_turn_id": "mdfxwnbusifwzswb",
+            "key_phrase_en": "travel adapter"
+        },
+        {
+            "id": "vnyvauwbrfkyumrw",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Sure, we have phone chargers over there. Let me show you.",
+            "user_response_option_en": "Thank you, but do you also have an international phone charger?",
+            "previous_turn_id": "ncgmdmynlbahmbmm",
+            "order": 2,
+            "next_turn_id": "qhkueqyfcrkfsozi",
+            "key_phrase_en": "international phone charger"
+        },
+        {
+            "id": "dbnknmwanbnaaiav",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Sure, we have phone chargers over there. Let me show you.",
+            "user_response_option_en": "Would you have a portable battery charger too, just in case?",
+            "previous_turn_id": "ncgmdmynlbahmbmm",
+            "order": 2,
+            "next_turn_id": "qipiourechajmzrq",
+            "key_phrase_en": "portable battery charger"
+        },
+        {
+            "id": "oysvcorcsjopxyvm",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Of course, let me know if you have any questions or need help choosing.",
+            "user_response_option_en": "Excuse me, could you help me find a charger?",
+            "previous_turn_id": "hcqyfqmsjgcjkybo",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mzqcmjokvmwiebkl",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Of course, let me know if you have any questions or need help choosing.",
+            "user_response_option_en": "I'm looking for a travel adapter for my phone.",
+            "previous_turn_id": "hcqyfqmsjgcjkybo",
+            "order": 3,
+            "key_phrase_en": "Travel Adapter"
+        },
+        {
+            "id": "vgnvdepukyczvnzi",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Of course, let me know if you have any questions or need help choosing.",
+            "user_response_option_en": "Do you have any chargers that work in my country?",
+            "previous_turn_id": "hcqyfqmsjgcjkybo",
+            "order": 3,
+            "key_phrase_en": "chargers that work"
+        },
+        {
+            "id": "zzlwrnqxgymewlpa",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do have Samsung phone chargers. Is that the item you're looking for?",
+            "user_response_option_en": "May I see the Samsung phone chargers, please?",
+            "previous_turn_id": "rdxmsreidrkeqagt",
+            "order": 3,
+            "key_phrase_en": "Samsung chargers"
+        },
+        {
+            "id": "icrunwntboncwpfc",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do have Samsung phone chargers. Is that the item you're looking for?",
+            "user_response_option_en": "Do you have a charger for Apple devices?",
+            "previous_turn_id": "rdxmsreidrkeqagt",
+            "order": 3,
+            "key_phrase_en": "charger for Apple"
+        },
+        {
+            "id": "jfillygquqqjdfpn",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do have Samsung phone chargers. Is that the item you're looking for?",
+            "user_response_option_en": "Can you recommend a charger with fast charging capabilities?",
+            "previous_turn_id": "rdxmsreidrkeqagt",
+            "order": 3,
+            "key_phrase_en": "fast charging capabilities"
+        },
+        {
+            "id": "eahlqmgyoxzeskhe",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Our phone chargers range from $25 to $45 depending on the type and brand. Can I help you find the one you need?",
+            "user_response_option_en": "I think I forgot my phone charger, can you recommend one?",
+            "previous_turn_id": "wgcxgsjdsyxzzuzd",
+            "order": 3,
+            "key_phrase_en": "phone charger"
+        },
+        {
+            "id": "ltzjyauhnajeocxk",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Our phone chargers range from $25 to $45 depending on the type and brand. Can I help you find the one you need?",
+            "user_response_option_en": "Is there a universal travel adapter that fits all outlets?",
+            "previous_turn_id": "wgcxgsjdsyxzzuzd",
+            "order": 3,
+            "key_phrase_en": "universal travel adapter"
+        },
+        {
+            "id": "qmxmuwmjbjnemgln",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Our phone chargers range from $25 to $45 depending on the type and brand. Can I help you find the one you need?",
+            "user_response_option_en": "Do you have a phone charger that's compatible with iPhone?",
+            "previous_turn_id": "wgcxgsjdsyxzzuzd",
+            "order": 3,
+            "key_phrase_en": "phone charger compatible"
+        },
+        {
+            "id": "pivirlqfxodsctgk",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "No worries. Do you have the device you need the adapter for with you? We can check which one you need.",
+            "user_response_option_en": "I don't have it with me. Can you suggest a universal adapter?",
+            "previous_turn_id": "mfvcxufvnigxgrtz",
+            "order": 3,
+            "key_phrase_en": "Universal adapter"
+        },
+        {
+            "id": "kefsrsqbvlurmaqr",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "No worries. Do you have the device you need the adapter for with you? We can check which one you need.",
+            "user_response_option_en": "It's a Samsung phone. Will any adapter work for it?",
+            "previous_turn_id": "mfvcxufvnigxgrtz",
+            "order": 3,
+            "key_phrase_en": "adapter work"
+        },
+        {
+            "id": "refcngeviaooxsja",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "No worries. Do you have the device you need the adapter for with you? We can check which one you need.",
+            "user_response_option_en": "I think it's a European plug. Can you help me find one?",
+            "previous_turn_id": "mfvcxufvnigxgrtz",
+            "order": 3,
+            "key_phrase_en": "European plug"
+        },
+        {
+            "id": "anvcssdldymgkgoc",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Let me check if we have it in stock. Can you tell me the exact type of adapter you need?",
+            "user_response_option_en": "I am not sure what type of adapter my device uses.",
+            "previous_turn_id": "ivspupapcnzpebzq",
+            "order": 3,
+            "key_phrase_en": "type of adapter"
+        },
+        {
+            "id": "tilhxtgphkillrfo",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Let me check if we have it in stock. Can you tell me the exact type of adapter you need?",
+            "user_response_option_en": "Can you recommend a universal travel adapter?",
+            "previous_turn_id": "ivspupapcnzpebzq",
+            "order": 3,
+            "key_phrase_en": "Travel adapter"
+        },
+        {
+            "id": "ongndqhgwjmlxbym",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Let me check if we have it in stock. Can you tell me the exact type of adapter you need?",
+            "user_response_option_en": "Do you have a charger for a Samsung Galaxy phone?",
+            "previous_turn_id": "ivspupapcnzpebzq",
+            "order": 3,
+            "key_phrase_en": "charger for Samsung"
+        },
+        {
+            "id": "doapwygdpzybsfui",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Sure, we have a variety of phone chargers. Let me show you where they are located.",
+            "user_response_option_en": "Excuse me, do you have any universal adapters?",
+            "previous_turn_id": "ssjtnapetebgnjln",
+            "order": 3,
+            "key_phrase_en": "Universal Adapters"
+        },
+        {
+            "id": "tnqadlemlxkvveec",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Sure, we have a variety of phone chargers. Let me show you where they are located.",
+            "user_response_option_en": "Sorry, I also forgot my laptop charger. Do you have any?",
+            "previous_turn_id": "ssjtnapetebgnjln",
+            "order": 3,
+            "key_phrase_en": "laptop charger"
+        },
+        {
+            "id": "jysoswajyrooqjrm",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Sure, we have a variety of phone chargers. Let me show you where they are located.",
+            "user_response_option_en": "I need a USB-C charger. Can you help me find one?",
+            "previous_turn_id": "ssjtnapetebgnjln",
+            "order": 3,
+            "key_phrase_en": "USB-C charger"
+        },
+        {
+            "id": "juavbvtolrwftgto",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we have a variety of travel adapters over there.",
+            "user_response_option_en": "Thank you, can you show me where they are located?",
+            "previous_turn_id": "gykrkwjqvumhdpgn",
+            "order": 3,
+            "key_phrase_en": "Located"
+        },
+        {
+            "id": "bvojlgwqcjpcrlfg",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we have a variety of travel adapters over there.",
+            "user_response_option_en": "Great, what kind of adapter should I get for my phone?",
+            "previous_turn_id": "gykrkwjqvumhdpgn",
+            "order": 3,
+            "key_phrase_en": "adapter for phone"
+        },
+        {
+            "id": "mdfxwnbusifwzswb",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we have a variety of travel adapters over there.",
+            "user_response_option_en": "I need a dual voltage adapter, do you have one?",
+            "previous_turn_id": "gykrkwjqvumhdpgn",
+            "order": 3,
+            "key_phrase_en": "dual voltage adapter"
+        },
+        {
+            "id": "nsnvassuiginzkdu",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do. They are located over there.",
+            "user_response_option_en": "Do you have any other types of chargers for different devices?",
+            "previous_turn_id": "vnyvauwbrfkyumrw",
+            "order": 3,
+            "key_phrase_en": "types of chargers"
+        },
+        {
+            "id": "nsclayasgusasvvz",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do. They are located over there.",
+            "user_response_option_en": "Can you show me where the international adapters are?",
+            "previous_turn_id": "vnyvauwbrfkyumrw",
+            "order": 3,
+            "key_phrase_en": "international adapters"
+        },
+        {
+            "id": "qhkueqyfcrkfsozi",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Yes, we do. They are located over there.",
+            "user_response_option_en": "Is there a warranty on the chargers in case they don't work?",
+            "previous_turn_id": "vnyvauwbrfkyumrw",
+            "order": 3,
+            "key_phrase_en": "warranty on"
+        },
+        {
+            "id": "newpukyuhhchqwnp",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Absolutely, our chargers are near the entrance. Don't worry; we'll find the perfect one for your needs!",
+            "user_response_option_en": "Excuse me, I'm not sure which one I need. Can you assist me?",
+            "previous_turn_id": "dbnknmwanbnaaiav",
+            "order": 3,
+            "key_phrase_en": "assist me"
+        },
+        {
+            "id": "jjfprvhstxqxqkoa",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Absolutely, our chargers are near the entrance. Don't worry; we'll find the perfect one for your needs!",
+            "user_response_option_en": "Do you have an adapter too, just in case?",
+            "previous_turn_id": "dbnknmwanbnaaiav",
+            "order": 3,
+            "key_phrase_en": "adapter"
+        },
+        {
+            "id": "qipiourechajmzrq",
+            "mission_id": "icsoyssaokrbbhvk",
+            "ai_conversation_starter_en": "Absolutely, our chargers are near the entrance. Don't worry; we'll find the perfect one for your needs!",
+            "user_response_option_en": "Can you please recommend a good quality one?",
+            "previous_turn_id": "dbnknmwanbnaaiav",
+            "order": 3,
+            "key_phrase_en": "good quality"
+        }
+    ]
+}

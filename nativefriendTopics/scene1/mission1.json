@@ -1,0 +1,370 @@
+{
+    "id": "zcqsvdekmbbbrewf",
+    "title": "Asking for their name",
+    "order": 1,
+    "turns": [
+        {
+            "id": "dnvmzjndkcixjysn",
+            "ai_conversation_starter_en": "Hi, my name is David. Nice to meet you! Do you live around here?",
+            "user_response_option_en": "Nice to meet you, David. What's your name? ",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "vcksrncdfvdtparb",
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "xepxpuoawazogosm",
+            "ai_conversation_starter_en": "Hi, my name is David. Nice to meet you! Do you live around here?",
+            "user_response_option_en": "Hi, David. I'm Iris. What's yours? ",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "lnyygthpiqukhzcx",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "pamhjezqzwyqztsj",
+            "ai_conversation_starter_en": "Hi, my name is David. Nice to meet you! Do you live around here?",
+            "user_response_option_en": "Hello, David. What can I call you?",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "azhednuatayhwsvn",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xnonfpjdihygmyxf",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi Iris, my name is Emily. Nice to meet you too!",
+            "user_response_option_en": "What brings you here, Emily?\" ",
+            "previous_turn_id": "dnvmzjndkcixjysn",
+            "order": 2,
+            "next_turn_id": "hgbmjkbyfgzjxtya",
+            "key_phrase_en": "Brings you here"
+        },
+        {
+            "id": "finuikqrvizvrkqk",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi Iris, my name is Emily. Nice to meet you too!",
+            "user_response_option_en": "Where are you from, Emily?\" ",
+            "previous_turn_id": "dnvmzjndkcixjysn",
+            "order": 2,
+            "next_turn_id": "lshzzarucwsxnlsa",
+            "key_phrase_en": "Where are you"
+        },
+        {
+            "id": "vcksrncdfvdtparb",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi Iris, my name is Emily. Nice to meet you too!",
+            "user_response_option_en": "What do you like to do, Emily?",
+            "previous_turn_id": "dnvmzjndkcixjysn",
+            "order": 2,
+            "next_turn_id": "bevuxjoafuiinzrf",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "onojhpycbqeqrzas",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Nice to meet you, Iris. My name is Sarah.",
+            "user_response_option_en": "Nice to meet you, Sarah. Where are you from?",
+            "previous_turn_id": "xepxpuoawazogosm",
+            "order": 2,
+            "next_turn_id": "rhxnxbxwrelhmukb",
+            "key_phrase_en": "Nice to meet you"
+        },
+        {
+            "id": "djvkeiawllckndds",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Nice to meet you, Iris. My name is Sarah.",
+            "user_response_option_en": "It's great to meet you, Sarah. What brings you here?",
+            "previous_turn_id": "xepxpuoawazogosm",
+            "order": 2,
+            "next_turn_id": "jcnttdmmjxuemppp",
+            "key_phrase_en": "Meet you here"
+        },
+        {
+            "id": "lnyygthpiqukhzcx",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Nice to meet you, Iris. My name is Sarah.",
+            "user_response_option_en": "Hi Sarah, pleasure to meet you. Have you been here before?",
+            "previous_turn_id": "xepxpuoawazogosm",
+            "order": 2,
+            "next_turn_id": "hylvpgaiqmfctuyg",
+            "key_phrase_en": "Pleasure to meet"
+        },
+        {
+            "id": "weyzgvjzwpvqscat",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "You can respond by saying, You can call me John.",
+            "user_response_option_en": "Nice to meet you, John. What's your name?",
+            "previous_turn_id": "pamhjezqzwyqztsj",
+            "order": 2,
+            "next_turn_id": "vzldlpnxrobjxgje",
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "xlhafsugslbywyum",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "You can respond by saying, You can call me John.",
+            "user_response_option_en": "John, could you tell me your name please?",
+            "previous_turn_id": "pamhjezqzwyqztsj",
+            "order": 2,
+            "next_turn_id": "hvlnlbdtnitycnri",
+            "key_phrase_en": "Tell me please"
+        },
+        {
+            "id": "azhednuatayhwsvn",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "You can respond by saying, You can call me John.",
+            "user_response_option_en": "Sorry, I didn't catch your name. What is it?",
+            "previous_turn_id": "pamhjezqzwyqztsj",
+            "order": 2,
+            "next_turn_id": "elescvbztmfinfis",
+            "key_phrase_en": "Catch your name"
+        },
+        {
+            "id": "tkqpsqgwcgdzfkpt",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "I'm sorry, Iris. I didn't catch your name earlier. What is it?",
+            "user_response_option_en": "My name is Iris. Yours?\".",
+            "previous_turn_id": "xnonfpjdihygmyxf",
+            "order": 3,
+            "key_phrase_en": "Yours?"
+        },
+        {
+            "id": "yaqorfznhbfjjdnz",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "I'm sorry, Iris. I didn't catch your name earlier. What is it?",
+            "user_response_option_en": "Iris Kim, nice to meet you. What's your name?\".",
+            "previous_turn_id": "xnonfpjdihygmyxf",
+            "order": 3,
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "hgbmjkbyfgzjxtya",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "I'm sorry, Iris. I didn't catch your name earlier. What is it?",
+            "user_response_option_en": "The name's Iris. What should I call you?",
+            "previous_turn_id": "xnonfpjdihygmyxf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ioefvenwltrtvvdu",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "I'm sorry, I didn't introduce myself. My name is Sarah. And I'm from Canada. Nice to meet you, Iris!",
+            "user_response_option_en": "Nice to meet you, Sarah. What brings you to Canada?",
+            "previous_turn_id": "finuikqrvizvrkqk",
+            "order": 3,
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "quvkbujzhruaqyse",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "I'm sorry, I didn't introduce myself. My name is Sarah. And I'm from Canada. Nice to meet you, Iris!",
+            "user_response_option_en": "Welcome to Canada, Sarah. What is your native language?",
+            "previous_turn_id": "finuikqrvizvrkqk",
+            "order": 3,
+            "key_phrase_en": "Welcome to Canada"
+        },
+        {
+            "id": "lshzzarucwsxnlsa",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "I'm sorry, I didn't introduce myself. My name is Sarah. And I'm from Canada. Nice to meet you, Iris!",
+            "user_response_option_en": "Hi, Sarah. How long will you be staying in Canada?",
+            "previous_turn_id": "finuikqrvizvrkqk",
+            "order": 3,
+            "key_phrase_en": "staying in Canada"
+        },
+        {
+            "id": "njzghrygvtzuljye",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Iris, sorry I forgot to introduce myself earlier. My name is John. Nice to meet you!",
+            "user_response_option_en": "No problem, John. Nice to meet you too!",
+            "previous_turn_id": "vcksrncdfvdtparb",
+            "order": 3,
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "pvzaatesrqnpwmed",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Iris, sorry I forgot to introduce myself earlier. My name is John. Nice to meet you!",
+            "user_response_option_en": "John, it's great to finally know your name. Hi again!",
+            "previous_turn_id": "vcksrncdfvdtparb",
+            "order": 3,
+            "key_phrase_en": "Hi again"
+        },
+        {
+            "id": "bevuxjoafuiinzrf",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Iris, sorry I forgot to introduce myself earlier. My name is John. Nice to meet you!",
+            "user_response_option_en": "John, nice to meet you properly. What brings you here?",
+            "previous_turn_id": "vcksrncdfvdtparb",
+            "order": 3,
+            "key_phrase_en": "Nice to meet you"
+        },
+        {
+            "id": "ussrickxhzekqgae",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi, Iris. My name is Nancy. What's your name?",
+            "user_response_option_en": "Nice to meet you, Nancy. I'm Iris. Where are you from?\" ",
+            "previous_turn_id": "onojhpycbqeqrzas",
+            "order": 3,
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "aaitnszzoctjgwao",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi, Iris. My name is Nancy. What's your name?",
+            "user_response_option_en": "Hey Nancy, my name is Iris. Where are you visiting from?",
+            "previous_turn_id": "onojhpycbqeqrzas",
+            "order": 3,
+            "key_phrase_en": "Visiting from"
+        },
+        {
+            "id": "rhxnxbxwrelhmukb",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi, Iris. My name is Nancy. What's your name?",
+            "user_response_option_en": "Hi Nancy, I'm Iris. And you?",
+            "previous_turn_id": "onojhpycbqeqrzas",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "sdpmjqelfaorgwep",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Nice to meet you, Iris. By the way, my name is David.",
+            "user_response_option_en": "Nice to meet you too, David. Is there a nickname you prefer?\" ",
+            "previous_turn_id": "djvkeiawllckndds",
+            "order": 3,
+            "key_phrase_en": "Nickname preferred?"
+        },
+        {
+            "id": "rfcwchqalroqngkd",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Nice to meet you, Iris. By the way, my name is David.",
+            "user_response_option_en": "Thank you for introducing yourself, David. How may I address you?\" ",
+            "previous_turn_id": "djvkeiawllckndds",
+            "order": 3,
+            "key_phrase_en": "How may I address"
+        },
+        {
+            "id": "jcnttdmmjxuemppp",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Nice to meet you, Iris. By the way, my name is David.",
+            "user_response_option_en": "Thanks for sharing. Do you have a preferred name, David?",
+            "previous_turn_id": "djvkeiawllckndds",
+            "order": 3,
+            "key_phrase_en": "preferred name"
+        },
+        {
+            "id": "mzrvathvbyqtszum",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi there, my name is John. What's yours?",
+            "user_response_option_en": "Nice to meet you, John. What's your name?",
+            "previous_turn_id": "lnyygthpiqukhzcx",
+            "order": 3,
+            "key_phrase_en": "Nice to meet you"
+        },
+        {
+            "id": "tzqldjgexmpjhaep",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi there, my name is John. What's yours?",
+            "user_response_option_en": "Hi John, my name is Iris. What about you?",
+            "previous_turn_id": "lnyygthpiqukhzcx",
+            "order": 3,
+            "key_phrase_en": "Hi John"
+        },
+        {
+            "id": "hylvpgaiqmfctuyg",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Hi there, my name is John. What's yours?",
+            "user_response_option_en": "Hey John, I didn't catch your name. Can you tell me?",
+            "previous_turn_id": "lnyygthpiqukhzcx",
+            "order": 3,
+            "key_phrase_en": "Catch your name"
+        },
+        {
+            "id": "xziefvjsshpnuuck",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "My apologies, I misread the prompt earlier. Here's an example of what the tourist might say to Iris:Hi Iris, my name is Sarah. It's nice to meet you too!",
+            "user_response_option_en": "Nice to meet you, Sarah. What brings you to this city?",
+            "previous_turn_id": "weyzgvjzwpvqscat",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qylprszkxamkxqdb",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "My apologies, I misread the prompt earlier. Here's an example of what the tourist might say to Iris:Hi Iris, my name is Sarah. It's nice to meet you too!",
+            "user_response_option_en": "Hi Sarah, what do you do for a living?",
+            "previous_turn_id": "weyzgvjzwpvqscat",
+            "order": 3,
+            "key_phrase_en": "for a living"
+        },
+        {
+            "id": "vzldlpnxrobjxgje",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "My apologies, I misread the prompt earlier. Here's an example of what the tourist might say to Iris:Hi Iris, my name is Sarah. It's nice to meet you too!",
+            "user_response_option_en": "Sarah, where are you from originally?",
+            "previous_turn_id": "weyzgvjzwpvqscat",
+            "order": 3,
+            "key_phrase_en": "originally"
+        },
+        {
+            "id": "sacvpcxrdcwlzovm",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Sure! Here's an example response: My name is David. Nice to meet you, Iris!",
+            "user_response_option_en": "What's your full name?",
+            "previous_turn_id": "xlhafsugslbywyum",
+            "order": 3,
+            "key_phrase_en": "Full name"
+        },
+        {
+            "id": "rrsmejlhnibtzzxs",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Sure! Here's an example response: My name is David. Nice to meet you, Iris!",
+            "user_response_option_en": "Can I get your name again, please?",
+            "previous_turn_id": "xlhafsugslbywyum",
+            "order": 3,
+            "key_phrase_en": "get your name"
+        },
+        {
+            "id": "hvlnlbdtnitycnri",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "Sure! Here's an example response: My name is David. Nice to meet you, Iris!",
+            "user_response_option_en": "Sorry, what name did you say?",
+            "previous_turn_id": "xlhafsugslbywyum",
+            "order": 3,
+            "key_phrase_en": "What name?"
+        },
+        {
+            "id": "oybpmhugyulpwotq",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "No problem, my name is Sarah. Nice to meet you, Iris.",
+            "user_response_option_en": "Nice to meet you, Sarah. Where are you from?",
+            "previous_turn_id": "azhednuatayhwsvn",
+            "order": 3,
+            "key_phrase_en": "Nice to meet"
+        },
+        {
+            "id": "rcwxaxomajawdqgo",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "No problem, my name is Sarah. Nice to meet you, Iris.",
+            "user_response_option_en": "It's great to make new friends. What brought you here?",
+            "previous_turn_id": "azhednuatayhwsvn",
+            "order": 3,
+            "key_phrase_en": "new friends"
+        },
+        {
+            "id": "elescvbztmfinfis",
+            "mission_id": "zcqsvdekmbbbrewf",
+            "ai_conversation_starter_en": "No problem, my name is Sarah. Nice to meet you, Iris.",
+            "user_response_option_en": "Hi Sarah, do you need any help exploring the area?",
+            "previous_turn_id": "azhednuatayhwsvn",
+            "order": 3,
+            "key_phrase_en": "Explore the area"
+        }
+    ]
+}

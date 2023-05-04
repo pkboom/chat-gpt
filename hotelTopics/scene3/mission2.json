@@ -1,0 +1,592 @@
+{
+    "id": "nsvmpriceanomtwb",
+    "title": "Complaining about a malfunctioning air conditioning unit",
+    "order": 2,
+    "turns": [
+        {
+            "id": "zjdhtzqjvbnnfedk",
+            "ai_conversation_starter_en": "Good evening, how may I assist you?",
+            "user_response_option_en": "Can you please fix my air conditioning, it's not working properly?",
+            "mission_id": "nsvmpriceanomtwb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jeulotqymcazrbqm",
+            "key_phrase_en": "Fix my air conditioning"
+        },
+        {
+            "id": "kjzhutzvansdqbme",
+            "ai_conversation_starter_en": "Good evening, how may I assist you?",
+            "user_response_option_en": "The air conditioning isn't cooling the room, can you check it?",
+            "mission_id": "nsvmpriceanomtwb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "fghieamhvwvhnztk",
+            "key_phrase_en": "air conditioning cooling room"
+        },
+        {
+            "id": "nuhnxsqzuiqfomzj",
+            "ai_conversation_starter_en": "Good evening, how may I assist you?",
+            "user_response_option_en": "My room is too hot, is there anything you can do?",
+            "mission_id": "nsvmpriceanomtwb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dsfdwdnnaaizexwz",
+            "key_phrase_en": "too hot"
+        },
+        {
+            "id": "yplkeyixbaltazex",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll have someone come up to your room to fix the air conditioning unit as soon as possible.",
+            "user_response_option_en": "Can I please request a different room?",
+            "previous_turn_id": "mmmhqpxohyutdmkg",
+            "order": 2,
+            "next_turn_id": "avfxhucxslupxnck",
+            "key_phrase_en": "different room"
+        },
+        {
+            "id": "txbibeigkvhyuusb",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll have someone come up to your room to fix the air conditioning unit as soon as possible.",
+            "user_response_option_en": "Is there an estimate on when it will be fixed?",
+            "previous_turn_id": "mmmhqpxohyutdmkg",
+            "order": 2,
+            "next_turn_id": "xrufnxwbhxclvygf",
+            "key_phrase_en": "estimate on when"
+        },
+        {
+            "id": "epsehbdsbdjfwazc",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll have someone come up to your room to fix the air conditioning unit as soon as possible.",
+            "user_response_option_en": "Thank you for your help. Is there anything else I can do?",
+            "previous_turn_id": "mmmhqpxohyutdmkg",
+            "order": 2,
+            "next_turn_id": "ljrmldbsenlusfjl",
+            "key_phrase_en": "Anything else"
+        },
+        {
+            "id": "octhdhtvmpwyqxnl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll send maintenance to check the air conditioning unit right away.",
+            "user_response_option_en": "Is there another room available?",
+            "previous_turn_id": "csmmocarzpzhwnvc",
+            "order": 2,
+            "next_turn_id": "tbxodfsxhmifxpiv",
+            "key_phrase_en": "Another room available"
+        },
+        {
+            "id": "smxldsvokcsxzxkg",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll send maintenance to check the air conditioning unit right away.",
+            "user_response_option_en": "Can you discount my room rate?",
+            "previous_turn_id": "csmmocarzpzhwnvc",
+            "order": 2,
+            "next_turn_id": "cywtpoxjyfpvhcej",
+            "key_phrase_en": "discount my rate"
+        },
+        {
+            "id": "bkviwcibsnocsnri",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll send maintenance to check the air conditioning unit right away.",
+            "user_response_option_en": "Can I speak to the manager, please?",
+            "previous_turn_id": "csmmocarzpzhwnvc",
+            "order": 2,
+            "next_turn_id": "bffczwlhmgklwsrb",
+            "key_phrase_en": "speak to manager"
+        },
+        {
+            "id": "hywhvyutnhzlbati",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I am sorry for the inconvenience. We'll send maintenance to fix it right away.",
+            "user_response_option_en": "Thank you for your quick response.",
+            "previous_turn_id": "zjdhtzqjvbnnfedk",
+            "order": 2,
+            "next_turn_id": "extdzqedkvzqmfnr",
+            "key_phrase_en": "Quick response"
+        },
+        {
+            "id": "shvhsybkvyqnmyvc",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I am sorry for the inconvenience. We'll send maintenance to fix it right away.",
+            "user_response_option_en": "Is there any other room available with functioning air conditioning?",
+            "previous_turn_id": "zjdhtzqjvbnnfedk",
+            "order": 2,
+            "next_turn_id": "wqhvhebkjekvattt",
+            "key_phrase_en": "Functioning air conditioning"
+        },
+        {
+            "id": "jeulotqymcazrbqm",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I am sorry for the inconvenience. We'll send maintenance to fix it right away.",
+            "user_response_option_en": "Could you provide a fan to alleviate the heat?",
+            "previous_turn_id": "zjdhtzqjvbnnfedk",
+            "order": 2,
+            "next_turn_id": "ptbkeuwrymilgxrl",
+            "key_phrase_en": "alleviate the heat"
+        },
+        {
+            "id": "ndumlishhualgrrl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll send someone to check it right away.",
+            "user_response_option_en": "Thank you.",
+            "previous_turn_id": "kjzhutzvansdqbme",
+            "order": 2,
+            "next_turn_id": "lraipnvzeicgvydn",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "ykyiywyptfsfczsx",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll send someone to check it right away.",
+            "user_response_option_en": "Can I switch to another room?",
+            "previous_turn_id": "kjzhutzvansdqbme",
+            "order": 2,
+            "next_turn_id": "ulllvwfiblgfjjtl",
+            "key_phrase_en": "switch room"
+        },
+        {
+            "id": "fghieamhvwvhnztk",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. We'll send someone to check it right away.",
+            "user_response_option_en": "I appreciate your help.",
+            "previous_turn_id": "kjzhutzvansdqbme",
+            "order": 2,
+            "next_turn_id": "sgalvcivqldplqsr",
+            "key_phrase_en": "Appreciate your help"
+        },
+        {
+            "id": "xxzcicloanulbeqs",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, we will send someone to fix it for you right away.",
+            "user_response_option_en": "Thank you, I appreciate your help.",
+            "previous_turn_id": "nuhnxsqzuiqfomzj",
+            "order": 2,
+            "next_turn_id": "stvjjbzwtenrqzfz",
+            "key_phrase_en": "Appreciate your help"
+        },
+        {
+            "id": "hnwemplusebkhqmp",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, we will send someone to fix it for you right away.",
+            "user_response_option_en": "Can I get an extra fan while I wait?",
+            "previous_turn_id": "nuhnxsqzuiqfomzj",
+            "order": 2,
+            "next_turn_id": "otuvrgnusjvbjlfn",
+            "key_phrase_en": "extra fan"
+        },
+        {
+            "id": "dsfdwdnnaaizexwz",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, we will send someone to fix it for you right away.",
+            "user_response_option_en": "Is there a possibility of changing my room?",
+            "previous_turn_id": "nuhnxsqzuiqfomzj",
+            "order": 2,
+            "next_turn_id": "ziqhakfegcplyisj",
+            "key_phrase_en": "Changing my room"
+        },
+        {
+            "id": "jvopgxzyfrgtdsxy",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I understand. Let me check our room availability for you.",
+            "user_response_option_en": "Can I be moved to a different room now?",
+            "previous_turn_id": "yplkeyixbaltazex",
+            "order": 3,
+            "key_phrase_en": "Moved to different"
+        },
+        {
+            "id": "bzlqpixuvulvkacl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I understand. Let me check our room availability for you.",
+            "user_response_option_en": "When will the air conditioning be fixed?",
+            "previous_turn_id": "yplkeyixbaltazex",
+            "order": 3,
+            "key_phrase_en": "air conditioning be fixed"
+        },
+        {
+            "id": "avfxhucxslupxnck",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I understand. Let me check our room availability for you.",
+            "user_response_option_en": "Is there a discount for the inconvenience?",
+            "previous_turn_id": "yplkeyixbaltazex",
+            "order": 3,
+            "key_phrase_en": "discount for inconvenience"
+        },
+        {
+            "id": "osfafshmgxckfesy",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Our technician will address the issue within 30 minutes.",
+            "user_response_option_en": "Can I get another room?",
+            "previous_turn_id": "txbibeigkvhyuusb",
+            "order": 3,
+            "key_phrase_en": "Another room"
+        },
+        {
+            "id": "fwhthtvqdoasgoyq",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Our technician will address the issue within 30 minutes.",
+            "user_response_option_en": "How can I stay cool until then?",
+            "previous_turn_id": "txbibeigkvhyuusb",
+            "order": 3,
+            "key_phrase_en": "stay cool"
+        },
+        {
+            "id": "xrufnxwbhxclvygf",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Our technician will address the issue within 30 minutes.",
+            "user_response_option_en": "Do you have a fan I could use?",
+            "previous_turn_id": "txbibeigkvhyuusb",
+            "order": 3,
+            "key_phrase_en": "have a fan"
+        },
+        {
+            "id": "wkdekvaecbzajsvc",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We'll make sure to follow up with you regarding the status of the air conditioning unit.",
+            "user_response_option_en": "Can you provide extra blankets?",
+            "previous_turn_id": "epsehbdsbdjfwazc",
+            "order": 3,
+            "key_phrase_en": "Extra blankets"
+        },
+        {
+            "id": "agpxgytihbtohoqe",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We'll make sure to follow up with you regarding the status of the air conditioning unit.",
+            "user_response_option_en": "Is it possible to move me to a different room?",
+            "previous_turn_id": "epsehbdsbdjfwazc",
+            "order": 3,
+            "key_phrase_en": "Different room"
+        },
+        {
+            "id": "ljrmldbsenlusfjl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We'll make sure to follow up with you regarding the status of the air conditioning unit.",
+            "user_response_option_en": "What time will the technician arrive?",
+            "previous_turn_id": "epsehbdsbdjfwazc",
+            "order": 3,
+            "key_phrase_en": "technician arrive"
+        },
+        {
+            "id": "sxcutikrvzywgxtm",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Yes, we have another room available. I can assist you with transferring your belongings.",
+            "user_response_option_en": "Thank you, that's very kind of you.",
+            "previous_turn_id": "octhdhtvmpwyqxnl",
+            "order": 3,
+            "key_phrase_en": "Very kind"
+        },
+        {
+            "id": "elidqlzuoecwzfhp",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Yes, we have another room available. I can assist you with transferring your belongings.",
+            "user_response_option_en": "I appreciate your help with the transfer.",
+            "previous_turn_id": "octhdhtvmpwyqxnl",
+            "order": 3,
+            "key_phrase_en": "Appreciate your help"
+        },
+        {
+            "id": "tbxodfsxhmifxpiv",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Yes, we have another room available. I can assist you with transferring your belongings.",
+            "user_response_option_en": "Could you provide extra blankets and towels for the inconvenience?",
+            "previous_turn_id": "octhdhtvmpwyqxnl",
+            "order": 3,
+            "key_phrase_en": "Extra blankets"
+        },
+        {
+            "id": "kaxfykcamwhmpgpz",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I understand, and I apologize for the inconvenience. Let me speak to my manager about a possible discount.",
+            "user_response_option_en": "Is there a different room available?",
+            "previous_turn_id": "smxldsvokcsxzxkg",
+            "order": 3,
+            "key_phrase_en": "different room available"
+        },
+        {
+            "id": "ykfcmjtacryasybc",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I understand, and I apologize for the inconvenience. Let me speak to my manager about a possible discount.",
+            "user_response_option_en": "I appreciate your help. Thank you.",
+            "previous_turn_id": "smxldsvokcsxzxkg",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "cywtpoxjyfpvhcej",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I understand, and I apologize for the inconvenience. Let me speak to my manager about a possible discount.",
+            "user_response_option_en": "Can someone fix it tonight?",
+            "previous_turn_id": "smxldsvokcsxzxkg",
+            "order": 3,
+            "key_phrase_en": "fix it tonight"
+        },
+        {
+            "id": "fhpvmbjsyjegnxwm",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Of course, let me arrange that for you right away.",
+            "user_response_option_en": "Thank you, I appreciate your help.",
+            "previous_turn_id": "bkviwcibsnocsnri",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "vnhgfdqpqcisucjs",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Of course, let me arrange that for you right away.",
+            "user_response_option_en": "Could you please provide a fan as a temporary solution?",
+            "previous_turn_id": "bkviwcibsnocsnri",
+            "order": 3,
+            "key_phrase_en": "Temporary solution"
+        },
+        {
+            "id": "bffczwlhmgklwsrb",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Of course, let me arrange that for you right away.",
+            "user_response_option_en": "Is there any way to move to another room with working air conditioning?",
+            "previous_turn_id": "bkviwcibsnocsnri",
+            "order": 3,
+            "key_phrase_en": "working air conditioning"
+        },
+        {
+            "id": "lbeobpppfrwzfsdk",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for any inconvenience caused, we'll make sure your air conditioning is working properly soon.",
+            "user_response_option_en": "Thank you, I appreciate it.",
+            "previous_turn_id": "hywhvyutnhzlbati",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "lbsayrfwxooihljf",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for any inconvenience caused, we'll make sure your air conditioning is working properly soon.",
+            "user_response_option_en": "When can someone come to my room?",
+            "previous_turn_id": "hywhvyutnhzlbati",
+            "order": 3,
+            "key_phrase_en": "Someone come when"
+        },
+        {
+            "id": "extdzqedkvzqmfnr",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for any inconvenience caused, we'll make sure your air conditioning is working properly soon.",
+            "user_response_option_en": "Is there another room available?",
+            "previous_turn_id": "hywhvyutnhzlbati",
+            "order": 3,
+            "key_phrase_en": "Another room available"
+        },
+        {
+            "id": "njuauelvdonppykl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, we have another room available on a higher floor with a functioning air conditioning.",
+            "user_response_option_en": "That would be great, thank you for your help. ",
+            "previous_turn_id": "shvhsybkvyqnmyvc",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "fihnjjchidefgifg",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, we have another room available on a higher floor with a functioning air conditioning.",
+            "user_response_option_en": "Can you provide extra blankets for the current room? ",
+            "previous_turn_id": "shvhsybkvyqnmyvc",
+            "order": 3,
+            "key_phrase_en": "Extra blankets"
+        },
+        {
+            "id": "wqhvhebkjekvattt",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, we have another room available on a higher floor with a functioning air conditioning.",
+            "user_response_option_en": "What compensation would you offer for the air conditioning issue?",
+            "previous_turn_id": "shvhsybkvyqnmyvc",
+            "order": 3,
+            "key_phrase_en": "Compensation for air conditioning"
+        },
+        {
+            "id": "trkxfhgdftbwvglj",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Yes, certainly. A fan will be provided in your room shortly.",
+            "user_response_option_en": "Thank you. Please keep me updated.",
+            "previous_turn_id": "jeulotqymcazrbqm",
+            "order": 3,
+            "key_phrase_en": "Keep me updated"
+        },
+        {
+            "id": "rfzyvyyctfhldwet",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Yes, certainly. A fan will be provided in your room shortly.",
+            "user_response_option_en": "I appreciate it. Will it be replaced?",
+            "previous_turn_id": "jeulotqymcazrbqm",
+            "order": 3,
+            "key_phrase_en": "replaced"
+        },
+        {
+            "id": "ptbkeuwrymilgxrl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Yes, certainly. A fan will be provided in your room shortly.",
+            "user_response_option_en": "Is there a refund for this inconvenience?",
+            "previous_turn_id": "jeulotqymcazrbqm",
+            "order": 3,
+            "key_phrase_en": "refund for inconvenience"
+        },
+        {
+            "id": "wodfvjgjwcaxuofi",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Our maintenance team will attend to it promptly.",
+            "user_response_option_en": "Can I get a new room?",
+            "previous_turn_id": "ndumlishhualgrrl",
+            "order": 3,
+            "key_phrase_en": "new room"
+        },
+        {
+            "id": "zqfpsexsdwrkuilp",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Our maintenance team will attend to it promptly.",
+            "user_response_option_en": "Is there a fan I can use?",
+            "previous_turn_id": "ndumlishhualgrrl",
+            "order": 3,
+            "key_phrase_en": "fan I can"
+        },
+        {
+            "id": "lraipnvzeicgvydn",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Our maintenance team will attend to it promptly.",
+            "user_response_option_en": "How long will it take to fix?",
+            "previous_turn_id": "ndumlishhualgrrl",
+            "order": 3,
+            "key_phrase_en": "How long"
+        },
+        {
+            "id": "tcsxhgiltpfbksfi",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience, we'll prepare another room for you right away.",
+            "user_response_option_en": "Thank you for your prompt assistance.",
+            "previous_turn_id": "ykyiywyptfsfczsx",
+            "order": 3,
+            "key_phrase_en": "Prompt assistance"
+        },
+        {
+            "id": "hajkevekejmpxevg",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience, we'll prepare another room for you right away.",
+            "user_response_option_en": "Can I have extra pillows in the new room?",
+            "previous_turn_id": "ykyiywyptfsfczsx",
+            "order": 3,
+            "key_phrase_en": "Extra pillows"
+        },
+        {
+            "id": "ulllvwfiblgfjjtl",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "I apologize for the inconvenience, we'll prepare another room for you right away.",
+            "user_response_option_en": "Do you call a taxi or should I use Uber?",
+            "previous_turn_id": "ykyiywyptfsfczsx",
+            "order": 3,
+            "key_phrase_en": "Use Uber"
+        },
+        {
+            "id": "qwkmkimvrvvzwbvv",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We'll do our best to resolve the issue as soon as possible, Ms. Kim.",
+            "user_response_option_en": "Thank you for your prompt assistance.",
+            "previous_turn_id": "fghieamhvwvhnztk",
+            "order": 3,
+            "key_phrase_en": "Prompt assistance"
+        },
+        {
+            "id": "aowivsoohmyyyenu",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We'll do our best to resolve the issue as soon as possible, Ms. Kim.",
+            "user_response_option_en": "Could you provide an estimate on when it will be fixed?",
+            "previous_turn_id": "fghieamhvwvhnztk",
+            "order": 3,
+            "key_phrase_en": "an estimate"
+        },
+        {
+            "id": "sgalvcivqldplqsr",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We'll do our best to resolve the issue as soon as possible, Ms. Kim.",
+            "user_response_option_en": "Is there a discount available for this inconvenience?",
+            "previous_turn_id": "fghieamhvwvhnztk",
+            "order": 3,
+            "key_phrase_en": "Discount available"
+        },
+        {
+            "id": "xvrgholkbwzxztjh",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Can you please tell me your room number?",
+            "user_response_option_en": "Can you send someone to check the A/C, please?",
+            "previous_turn_id": "xxzcicloanulbeqs",
+            "order": 3,
+            "key_phrase_en": "check the A/C"
+        },
+        {
+            "id": "jmnnmlhpucvxdlxg",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Can you please tell me your room number?",
+            "user_response_option_en": "I need a different room to sleep comfortably.",
+            "previous_turn_id": "xxzcicloanulbeqs",
+            "order": 3,
+            "key_phrase_en": "sleep comfortably"
+        },
+        {
+            "id": "stvjjbzwtenrqzfz",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "We apologize for the inconvenience. Can you please tell me your room number?",
+            "user_response_option_en": "Could I get a refund for this inconvenience?",
+            "previous_turn_id": "xxzcicloanulbeqs",
+            "order": 3,
+            "key_phrase_en": "get a refund"
+        },
+        {
+            "id": "nlpnaelrrijjsiin",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, I'll have a fan brought up to your room. Our apologies for the inconvenience.",
+            "user_response_option_en": "Can I speak to a manager about a refund?",
+            "previous_turn_id": "hnwemplusebkhqmp",
+            "order": 3,
+            "key_phrase_en": "manager, refund"
+        },
+        {
+            "id": "iyzskgqppubtrdui",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, I'll have a fan brought up to your room. Our apologies for the inconvenience.",
+            "user_response_option_en": "How can I prevent this from happening in the future?",
+            "previous_turn_id": "hnwemplusebkhqmp",
+            "order": 3,
+            "key_phrase_en": "prevent from happening"
+        },
+        {
+            "id": "otuvrgnusjvbjlfn",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, I'll have a fan brought up to your room. Our apologies for the inconvenience.",
+            "user_response_option_en": "Is there a discount for the inconvenience caused?",
+            "previous_turn_id": "hnwemplusebkhqmp",
+            "order": 3,
+            "key_phrase_en": "discount for inconvenience"
+        },
+        {
+            "id": "ndfbfgmkgwqkohgr",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, would you like our staff to help you move your belongings to a new room?",
+            "user_response_option_en": "Thank you, that would be helpful.",
+            "previous_turn_id": "dsfdwdnnaaizexwz",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "mnvytwvyztgmvufd",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, would you like our staff to help you move your belongings to a new room?",
+            "user_response_option_en": "Could you please ensure the next room's air conditioning is working?",
+            "previous_turn_id": "dsfdwdnnaaizexwz",
+            "order": 3,
+            "key_phrase_en": "air conditioning"
+        },
+        {
+            "id": "ziqhakfegcplyisj",
+            "mission_id": "nsvmpriceanomtwb",
+            "ai_conversation_starter_en": "Certainly, would you like our staff to help you move your belongings to a new room?",
+            "user_response_option_en": "I appreciate your assistance in resolving this issue.",
+            "previous_turn_id": "dsfdwdnnaaizexwz",
+            "order": 3,
+            "key_phrase_en": "appreciate assistance resolving"
+        }
+    ]
+}

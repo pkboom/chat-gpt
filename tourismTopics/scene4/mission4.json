@@ -1,0 +1,370 @@
+{
+    "id": "erbmrwirtwdfpjvi",
+    "title": "Asking if the park has any special accommodations for guests with disabilities",
+    "order": 4,
+    "turns": [
+        {
+            "id": "uquyfhznlihhqylg",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction! How can I assist you today?",
+            "user_response_option_en": "Do you have wheelchair access at your park?",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ihrwarssmlbdjgod",
+            "key_phrase_en": "Wheelchair access"
+        },
+        {
+            "id": "jccaluunjuhpvswj",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction! How can I assist you today?",
+            "user_response_option_en": "Are there any facilities for disabled people?",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "cyhipwkwefxioxnt",
+            "key_phrase_en": "disabled facilities"
+        },
+        {
+            "id": "jdohxjabqcofrsyu",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction! How can I assist you today?",
+            "user_response_option_en": "Is your park accessible for guests with disabilities?",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rkanjvkeirqmqzfj",
+            "key_phrase_en": "Guests with disabilities"
+        },
+        {
+            "id": "gcrayklycyzqdxhb",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, all our attractions provide wheelchair access. Are you looking for any other special accommodations? Also, our park operating hours are from 9 am to 6 pm daily.",
+            "user_response_option_en": "Do you have a handicap restroom?",
+            "previous_turn_id": "uquyfhznlihhqylg",
+            "order": 2,
+            "next_turn_id": "pimubnzjjlvjqvrv",
+            "key_phrase_en": "Handicap restroom"
+        },
+        {
+            "id": "ojgovnfcxxkwvoem",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, all our attractions provide wheelchair access. Are you looking for any other special accommodations? Also, our park operating hours are from 9 am to 6 pm daily.",
+            "user_response_option_en": "Are there reserved seating areas for disabled guests?",
+            "previous_turn_id": "uquyfhznlihhqylg",
+            "order": 2,
+            "next_turn_id": "wssqxyllhmeozxbm",
+            "key_phrase_en": "Reserved seating areas"
+        },
+        {
+            "id": "ihrwarssmlbdjgod",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, all our attractions provide wheelchair access. Are you looking for any other special accommodations? Also, our park operating hours are from 9 am to 6 pm daily.",
+            "user_response_option_en": "Is there a map indicating the location of elevators?",
+            "previous_turn_id": "uquyfhznlihhqylg",
+            "order": 2,
+            "next_turn_id": "exriuavzsdbauyvu",
+            "key_phrase_en": "map of elevators"
+        },
+        {
+            "id": "eaxtpryofkqsrelr",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have special accommodations for guests with disabilities. Could you please let me know what specific accommodations you need? Also, our operating hours are from 9 am to 5 pm every day.",
+            "user_response_option_en": "Do you have wheelchair accessible ramps?",
+            "previous_turn_id": "jccaluunjuhpvswj",
+            "order": 2,
+            "next_turn_id": "zkiufmfkblexffba",
+            "key_phrase_en": "wheelchair accessible ramps"
+        },
+        {
+            "id": "ivehohcmskotwjko",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have special accommodations for guests with disabilities. Could you please let me know what specific accommodations you need? Also, our operating hours are from 9 am to 5 pm every day.",
+            "user_response_option_en": "Are there Braille signs for blind visitors?",
+            "previous_turn_id": "jccaluunjuhpvswj",
+            "order": 2,
+            "next_turn_id": "znwihgxdpfwbuwsx",
+            "key_phrase_en": "Braille signs"
+        },
+        {
+            "id": "cyhipwkwefxioxnt",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have special accommodations for guests with disabilities. Could you please let me know what specific accommodations you need? Also, our operating hours are from 9 am to 5 pm every day.",
+            "user_response_option_en": "Is there an audio guide for hearing-impaired guests?",
+            "previous_turn_id": "jccaluunjuhpvswj",
+            "order": 2,
+            "next_turn_id": "jvpbnhroqwvmhjmd",
+            "key_phrase_en": "Audio guide"
+        },
+        {
+            "id": "qclvomcltpbinhgl",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do! We have accessible entrances, wheelchair rentals, and accessible restrooms available for our guests with disabilities. Would you like more information? Also, our operating hours are from 9am to 7pm.",
+            "user_response_option_en": "Can you show me where to rent a wheelchair, please?",
+            "previous_turn_id": "jdohxjabqcofrsyu",
+            "order": 2,
+            "next_turn_id": "lkmhxgundhrxdsbj",
+            "key_phrase_en": "rent a wheelchair"
+        },
+        {
+            "id": "gmdiuvgbekkbiery",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do! We have accessible entrances, wheelchair rentals, and accessible restrooms available for our guests with disabilities. Would you like more information? Also, our operating hours are from 9am to 7pm.",
+            "user_response_option_en": "What about visual impairments, do you have any Braille maps?",
+            "previous_turn_id": "jdohxjabqcofrsyu",
+            "order": 2,
+            "next_turn_id": "ywhcoewgkijtfnog",
+            "key_phrase_en": "Braille maps"
+        },
+        {
+            "id": "rkanjvkeirqmqzfj",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do! We have accessible entrances, wheelchair rentals, and accessible restrooms available for our guests with disabilities. Would you like more information? Also, our operating hours are from 9am to 7pm.",
+            "user_response_option_en": "Is there a designated area for service animals in the park?",
+            "previous_turn_id": "jdohxjabqcofrsyu",
+            "order": 2,
+            "next_turn_id": "ocwgrmcyngrantel",
+            "key_phrase_en": "Service animals"
+        },
+        {
+            "id": "utpeavemnoxuyqkn",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have a handicap restroom. Additionally, we offer free wheelchair rentals for our guests who require them. Is there anything else you need assistance with?",
+            "user_response_option_en": "Can I request accessibility maps for the park?",
+            "previous_turn_id": "gcrayklycyzqdxhb",
+            "order": 3,
+            "key_phrase_en": "accessibility maps"
+        },
+        {
+            "id": "uzpwbxqyxkjcgqlq",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have a handicap restroom. Additionally, we offer free wheelchair rentals for our guests who require them. Is there anything else you need assistance with?",
+            "user_response_option_en": "Is there any designated parking spaces for disabled guests?\" ",
+            "previous_turn_id": "gcrayklycyzqdxhb",
+            "order": 3,
+            "key_phrase_en": "Disabled parking spaces"
+        },
+        {
+            "id": "pimubnzjjlvjqvrv",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have a handicap restroom. Additionally, we offer free wheelchair rentals for our guests who require them. Is there anything else you need assistance with?",
+            "user_response_option_en": "Do you have any auditory devices for hearing-impaired guests?",
+            "previous_turn_id": "gcrayklycyzqdxhb",
+            "order": 3,
+            "key_phrase_en": "auditory devices"
+        },
+        {
+            "id": "lztipansidxikmph",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have reserved seating areas for disabled guests.",
+            "user_response_option_en": "How do we locate these areas?",
+            "previous_turn_id": "ojgovnfcxxkwvoem",
+            "order": 3,
+            "key_phrase_en": "locate areas"
+        },
+        {
+            "id": "tgsndtukwnpmdbsj",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have reserved seating areas for disabled guests.",
+            "user_response_option_en": "Can I reserve seating in advance?",
+            "previous_turn_id": "ojgovnfcxxkwvoem",
+            "order": 3,
+            "key_phrase_en": "Reserve seating"
+        },
+        {
+            "id": "wssqxyllhmeozxbm",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have reserved seating areas for disabled guests.",
+            "user_response_option_en": "Is there a map for visitors with disabilities?",
+            "previous_turn_id": "ojgovnfcxxkwvoem",
+            "order": 3,
+            "key_phrase_en": "map for disabilities"
+        },
+        {
+            "id": "xyppegcispxwajpc",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have a map that indicates the location of elevators.",
+            "user_response_option_en": "Can you tell me more about the accessible parking spots?\" ",
+            "previous_turn_id": "ihrwarssmlbdjgod",
+            "order": 3,
+            "key_phrase_en": "accessible parking spots"
+        },
+        {
+            "id": "okxevwolvxdnazzv",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have a map that indicates the location of elevators.",
+            "user_response_option_en": "Do you have wheelchair rentals available?\" ",
+            "previous_turn_id": "ihrwarssmlbdjgod",
+            "order": 3,
+            "key_phrase_en": "wheelchair rentals available"
+        },
+        {
+            "id": "exriuavzsdbauyvu",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have a map that indicates the location of elevators.",
+            "user_response_option_en": "Are there any hearing-impaired assistive devices?",
+            "previous_turn_id": "ihrwarssmlbdjgod",
+            "order": 3,
+            "key_phrase_en": "hearing-impaired devices"
+        },
+        {
+            "id": "hifcqaxywvmsmjtg",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have wheelchair accessible ramps for guests with disabilities.",
+            "user_response_option_en": "Thank you. Is there a designated parking area for wheelchair users?",
+            "previous_turn_id": "eaxtpryofkqsrelr",
+            "order": 3,
+            "key_phrase_en": "Designated parking area"
+        },
+        {
+            "id": "vkpzjcnwugkizfju",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have wheelchair accessible ramps for guests with disabilities.",
+            "user_response_option_en": "Great. Are there any discounts for persons with disabilities?",
+            "previous_turn_id": "eaxtpryofkqsrelr",
+            "order": 3,
+            "key_phrase_en": "discounts for disabilities"
+        },
+        {
+            "id": "zkiufmfkblexffba",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have wheelchair accessible ramps for guests with disabilities.",
+            "user_response_option_en": "Appreciate it. Is there a special entrance for guests with disabilities?",
+            "previous_turn_id": "eaxtpryofkqsrelr",
+            "order": 3,
+            "key_phrase_en": "special entrance"
+        },
+        {
+            "id": "xiarvotyiktwnqhu",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have Braille signs available for our blind visitors as well.",
+            "user_response_option_en": "Thanks, that's great. Can I get a wheelchair?",
+            "previous_turn_id": "ivehohcmskotwjko",
+            "order": 3,
+            "key_phrase_en": "wheelchair"
+        },
+        {
+            "id": "cqkqlqluyzkndbmq",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have Braille signs available for our blind visitors as well.",
+            "user_response_option_en": "Is there a phone number I can call for more information?",
+            "previous_turn_id": "ivehohcmskotwjko",
+            "order": 3,
+            "key_phrase_en": "phone number"
+        },
+        {
+            "id": "znwihgxdpfwbuwsx",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have Braille signs available for our blind visitors as well.",
+            "user_response_option_en": "Where can I find the restrooms for disabled visitors?",
+            "previous_turn_id": "ivehohcmskotwjko",
+            "order": 3,
+            "key_phrase_en": "restrooms for disabled"
+        },
+        {
+            "id": "oiqkckdfmhraogyc",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have an audio guide available for our hearing-impaired guests.",
+            "user_response_option_en": "Can I get a Braille guide?",
+            "previous_turn_id": "cyhipwkwefxioxnt",
+            "order": 3,
+            "key_phrase_en": "Braille guide"
+        },
+        {
+            "id": "jjpaquxkivvnrxwf",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have an audio guide available for our hearing-impaired guests.",
+            "user_response_option_en": "Do you have wheelchair ramps?",
+            "previous_turn_id": "cyhipwkwefxioxnt",
+            "order": 3,
+            "key_phrase_en": "Wheelchair ramps"
+        },
+        {
+            "id": "jvpbnhroqwvmhjmd",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we have an audio guide available for our hearing-impaired guests.",
+            "user_response_option_en": "Are dogs allowed for visually-impaired people?",
+            "previous_turn_id": "cyhipwkwefxioxnt",
+            "order": 3,
+            "key_phrase_en": "Visually-impaired dogs"
+        },
+        {
+            "id": "daoozszwdkpnculm",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Certainly, we also have audio guides available in English, Spanish, and Chinese to enhance your experience. Our special accommodations are designed to cater to the diverse needs of our guests.",
+            "user_response_option_en": "Do you offer any sign language interpretation services?",
+            "previous_turn_id": "qclvomcltpbinhgl",
+            "order": 3,
+            "key_phrase_en": "Sign language interpretation"
+        },
+        {
+            "id": "ewvtnhbwdsmqrpeo",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Certainly, we also have audio guides available in English, Spanish, and Chinese to enhance your experience. Our special accommodations are designed to cater to the diverse needs of our guests.",
+            "user_response_option_en": "Is there a lift to go to all levels? ",
+            "previous_turn_id": "qclvomcltpbinhgl",
+            "order": 3,
+            "key_phrase_en": "lift to levels"
+        },
+        {
+            "id": "lkmhxgundhrxdsbj",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Certainly, we also have audio guides available in English, Spanish, and Chinese to enhance your experience. Our special accommodations are designed to cater to the diverse needs of our guests.",
+            "user_response_option_en": "What other facilities do you have for guests with disabilities?",
+            "previous_turn_id": "qclvomcltpbinhgl",
+            "order": 3,
+            "key_phrase_en": "facilities for disabilities"
+        },
+        {
+            "id": "fouwzebzrnfcjwki",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have Braille maps available for guests with visual impairments. Our operating hours are from 9am to 7pm.",
+            "user_response_option_en": "Could you tell me where I can find the wheelchair rental?",
+            "previous_turn_id": "gmdiuvgbekkbiery",
+            "order": 3,
+            "key_phrase_en": "wheelchair rental"
+        },
+        {
+            "id": "jnhlfadhxhujjijx",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have Braille maps available for guests with visual impairments. Our operating hours are from 9am to 7pm.",
+            "user_response_option_en": "Is there a discount for disabled guests?",
+            "previous_turn_id": "gmdiuvgbekkbiery",
+            "order": 3,
+            "key_phrase_en": "Disabled guests"
+        },
+        {
+            "id": "ywhcoewgkijtfnog",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do have Braille maps available for guests with visual impairments. Our operating hours are from 9am to 7pm.",
+            "user_response_option_en": "Do you have hearing assistance devices available?",
+            "previous_turn_id": "gmdiuvgbekkbiery",
+            "order": 3,
+            "key_phrase_en": "Hearing assistance devices"
+        },
+        {
+            "id": "hrdqhrtwukjgffmz",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do! We have a designated relief area for service animals.",
+            "user_response_option_en": "Do you have sign language interpreters for tours?",
+            "previous_turn_id": "rkanjvkeirqmqzfj",
+            "order": 3,
+            "key_phrase_en": "Sign language interpreters"
+        },
+        {
+            "id": "kjkxbavlsrtoczhz",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do! We have a designated relief area for service animals.",
+            "user_response_option_en": "Are mobility devices available for rent?",
+            "previous_turn_id": "rkanjvkeirqmqzfj",
+            "order": 3,
+            "key_phrase_en": "mobility devices rent"
+        },
+        {
+            "id": "ocwgrmcyngrantel",
+            "mission_id": "erbmrwirtwdfpjvi",
+            "ai_conversation_starter_en": "Yes, we do! We have a designated relief area for service animals.",
+            "user_response_option_en": "Is there an emergency evacuation plan for guests with disabilities?",
+            "previous_turn_id": "rkanjvkeirqmqzfj",
+            "order": 3,
+            "key_phrase_en": "emergency evacuation plan"
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "id": "vqsbdwugpauvxpsv",
+    "title": "Asking if there are any discounts available for visiting during specific hours",
+    "order": 6,
+    "turns": [
+        {
+            "id": "wzlypdvypdvunjpx",
+            "ai_conversation_starter_en": "Hello, welcome to our attraction! Would you like to know our operating hours?",
+            "user_response_option_en": "Yes, what time is the happy hour?",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rpclmbmfrxmfecjz",
+            "key_phrase_en": "happy hour"
+        },
+        {
+            "id": "ntuxnzpsrgnacven",
+            "ai_conversation_starter_en": "Hello, welcome to our attraction! Would you like to know our operating hours?",
+            "user_response_option_en": "Thanks! Are there any discounts for early bird visits?",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hseouoqshyywnuso",
+            "key_phrase_en": "Early bird discounts"
+        },
+        {
+            "id": "jnkbpbghkimbauap",
+            "ai_conversation_starter_en": "Hello, welcome to our attraction! Would you like to know our operating hours?",
+            "user_response_option_en": "Great! Is there a special rate for tourists during weekdays?",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "zwvgndfpkjmnmahk",
+            "key_phrase_en": "special rate"
+        },
+        {
+            "id": "sbfbfmgujkeoebeo",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Oh, I see what you mean. Well, we don't have a happy hour promotion here, but we do offer discounted rates if you visit during our off-peak hours. Would you like to know more about that?",
+            "user_response_option_en": "Are off-peak hours cheaper?",
+            "previous_turn_id": "wzlypdvypdvunjpx",
+            "order": 2,
+            "next_turn_id": "aohskexsrqtxallc",
+            "key_phrase_en": "off-peak hours"
+        },
+        {
+            "id": "zvwigljpzzvlxjep",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Oh, I see what you mean. Well, we don't have a happy hour promotion here, but we do offer discounted rates if you visit during our off-peak hours. Would you like to know more about that?",
+            "user_response_option_en": "What's the discounted rate on non-peak hours?",
+            "previous_turn_id": "wzlypdvypdvunjpx",
+            "order": 2,
+            "next_turn_id": "onydjzselrjzrhnj",
+            "key_phrase_en": "discounted rate"
+        },
+        {
+            "id": "rpclmbmfrxmfecjz",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Oh, I see what you mean. Well, we don't have a happy hour promotion here, but we do offer discounted rates if you visit during our off-peak hours. Would you like to know more about that?",
+            "user_response_option_en": "Can you tell me what time the off-peak hours start?",
+            "previous_turn_id": "wzlypdvypdvunjpx",
+            "order": 2,
+            "next_turn_id": "pukcuhkgihmnjkjy",
+            "key_phrase_en": "Off-peak hours"
+        },
+        {
+            "id": "uovquvttmlarshfa",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Yes, we offer a discount for visitors who come before 10am.",
+            "user_response_option_en": "Are there any other specific hours that have discounts available?",
+            "previous_turn_id": "ntuxnzpsrgnacven",
+            "order": 2,
+            "next_turn_id": "hkgyftmcaasimbdm",
+            "key_phrase_en": "discounts available"
+        },
+        {
+            "id": "kdksaistzdajegcv",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Yes, we offer a discount for visitors who come before 10am.",
+            "user_response_option_en": "What about nighttime discounts? Are they available as well?",
+            "previous_turn_id": "ntuxnzpsrgnacven",
+            "order": 2,
+            "next_turn_id": "yogscujiolyixyll",
+            "key_phrase_en": "nighttime discounts"
+        },
+        {
+            "id": "hseouoqshyywnuso",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Yes, we offer a discount for visitors who come before 10am.",
+            "user_response_option_en": "Do you offer weekend discounts for early bird visits?",
+            "previous_turn_id": "ntuxnzpsrgnacven",
+            "order": 2,
+            "next_turn_id": "rjwksdvntpygjffq",
+            "key_phrase_en": "Weekend discounts"
+        },
+        {
+            "id": "ylgxxykvuoeyadat",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any special rates for visiting during specific hours.",
+            "user_response_option_en": "Are there any promotions available for visitors?",
+            "previous_turn_id": "jnkbpbghkimbauap",
+            "order": 2,
+            "next_turn_id": "wwzlwggsiwsxbmkx",
+            "key_phrase_en": "promotions available"
+        },
+        {
+            "id": "vkfuzrbryiddywwk",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any special rates for visiting during specific hours.",
+            "user_response_option_en": "Is there a special price for tourists?",
+            "previous_turn_id": "jnkbpbghkimbauap",
+            "order": 2,
+            "next_turn_id": "nfxojhidcbnjvhbr",
+            "key_phrase_en": "special price"
+        },
+        {
+            "id": "zwvgndfpkjmnmahk",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any special rates for visiting during specific hours.",
+            "user_response_option_en": "Do you offer coupons for visiting at a specific time?",
+            "previous_turn_id": "jnkbpbghkimbauap",
+            "order": 2,
+            "next_turn_id": "uvtqdrvnsmvffaas",
+            "key_phrase_en": "Coupons"
+        },
+        {
+            "id": "jwfdxmzkxwvxnlpd",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Yes, that's right. Our admission tickets are 10% cheaper if you visit during our off-peak hours.",
+            "user_response_option_en": "What constitutes off-peak hours?",
+            "previous_turn_id": "sbfbfmgujkeoebeo",
+            "order": 3,
+            "key_phrase_en": "off-peak hours"
+        },
+        {
+            "id": "nwscfqiwczfhvkup",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Yes, that's right. Our admission tickets are 10% cheaper if you visit during our off-peak hours.",
+            "user_response_option_en": "Do you have any peak hours discounts?",
+            "previous_turn_id": "sbfbfmgujkeoebeo",
+            "order": 3,
+            "key_phrase_en": "peak hours discounts"
+        },
+        {
+            "id": "aohskexsrqtxallc",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Yes, that's right. Our admission tickets are 10% cheaper if you visit during our off-peak hours.",
+            "user_response_option_en": "Can you tell me which days have off-peak hours?",
+            "previous_turn_id": "sbfbfmgujkeoebeo",
+            "order": 3,
+            "key_phrase_en": "off-peak hours"
+        },
+        {
+            "id": "cceooofaweyxkhns",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Our discounted rates vary depending on the specific day and time, but on average, you can save around 20% off our regular admission price.",
+            "user_response_option_en": "What times qualify for discounted rates?",
+            "previous_turn_id": "zvwigljpzzvlxjep",
+            "order": 3,
+            "key_phrase_en": "discounted rates"
+        },
+        {
+            "id": "vcpxmghxmmttyrmy",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Our discounted rates vary depending on the specific day and time, but on average, you can save around 20% off our regular admission price.",
+            "user_response_option_en": "Is there a certain day or time for bigger discounts?",
+            "previous_turn_id": "zvwigljpzzvlxjep",
+            "order": 3,
+            "key_phrase_en": "Bigger discounts"
+        },
+        {
+            "id": "onydjzselrjzrhnj",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Our discounted rates vary depending on the specific day and time, but on average, you can save around 20% off our regular admission price.",
+            "user_response_option_en": "Can you tell me which hours have discounted rates?",
+            "previous_turn_id": "zvwigljpzzvlxjep",
+            "order": 3,
+            "key_phrase_en": "Discounted rates"
+        },
+        {
+            "id": "ethcuicsdpfzyhhe",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Our off-peak hours usually start from 10:00 AM to 3:00 PM. During those hours, we offer a 10% discount on admission fees.",
+            "user_response_option_en": "That's great! Are there any other discounted hours available?\" ",
+            "previous_turn_id": "rpclmbmfrxmfecjz",
+            "order": 3,
+            "key_phrase_en": "Discounted hours"
+        },
+        {
+            "id": "sfaszlyoaygdflnj",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Our off-peak hours usually start from 10:00 AM to 3:00 PM. During those hours, we offer a 10% discount on admission fees.",
+            "user_response_option_en": "Thanks for letting me know. What time does peak hour start?\" ",
+            "previous_turn_id": "rpclmbmfrxmfecjz",
+            "order": 3,
+            "key_phrase_en": "peak hour start"
+        },
+        {
+            "id": "pukcuhkgihmnjkjy",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Our off-peak hours usually start from 10:00 AM to 3:00 PM. During those hours, we offer a 10% discount on admission fees.",
+            "user_response_option_en": "Got it. Can you tell me more about the discount?",
+            "previous_turn_id": "rpclmbmfrxmfecjz",
+            "order": 3,
+            "key_phrase_en": "discount"
+        },
+        {
+            "id": "cltvifkoudemhwij",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Iris, currently, we only offer discounts for early bird visitors arriving before 10 am.",
+            "user_response_option_en": "Are there discounts for evening visits?\" ",
+            "previous_turn_id": "uovquvttmlarshfa",
+            "order": 3,
+            "key_phrase_en": "discounts for evening"
+        },
+        {
+            "id": "pyewkqzfupvcopnf",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Iris, currently, we only offer discounts for early bird visitors arriving before 10 am.",
+            "user_response_option_en": "Is there a late-night discount?\" ",
+            "previous_turn_id": "uovquvttmlarshfa",
+            "order": 3,
+            "key_phrase_en": "Late-night discount"
+        },
+        {
+            "id": "hkgyftmcaasimbdm",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "Iris, currently, we only offer discounts for early bird visitors arriving before 10 am.",
+            "user_response_option_en": "Are there any weekend discounts available?",
+            "previous_turn_id": "uovquvttmlarshfa",
+            "order": 3,
+            "key_phrase_en": "Weekend discounts"
+        },
+        {
+            "id": "unfebwrzcrnnwotr",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, we do not offer nighttime discounts at the moment.",
+            "user_response_option_en": "Do you offer discounts for afternoon visits?",
+            "previous_turn_id": "kdksaistzdajegcv",
+            "order": 3,
+            "key_phrase_en": "Discounts for afternoon"
+        },
+        {
+            "id": "ufwryvaxyesrhylg",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, we do not offer nighttime discounts at the moment.",
+            "user_response_option_en": "Are there any deals for weekend tours?",
+            "previous_turn_id": "kdksaistzdajegcv",
+            "order": 3,
+            "key_phrase_en": "Weekend tours deals"
+        },
+        {
+            "id": "yogscujiolyixyll",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, we do not offer nighttime discounts at the moment.",
+            "user_response_option_en": "Is there a student discount available?",
+            "previous_turn_id": "kdksaistzdajegcv",
+            "order": 3,
+            "key_phrase_en": "student discount available"
+        },
+        {
+            "id": "khuofwjvhmmfegpj",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, we only offer early bird discounts on weekdays.",
+            "user_response_option_en": "Are there any night discounts available?\" ",
+            "previous_turn_id": "hseouoqshyywnuso",
+            "order": 3,
+            "key_phrase_en": "night discounts available"
+        },
+        {
+            "id": "lwyfnahgasglfvub",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, we only offer early bird discounts on weekdays.",
+            "user_response_option_en": "How about during happy hour?\" ",
+            "previous_turn_id": "hseouoqshyywnuso",
+            "order": 3,
+            "key_phrase_en": "Happy hour"
+        },
+        {
+            "id": "rjwksdvntpygjffq",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, we only offer early bird discounts on weekdays.",
+            "user_response_option_en": "Is there a student discount?",
+            "previous_turn_id": "hseouoqshyywnuso",
+            "order": 3,
+            "key_phrase_en": "Student discount"
+        },
+        {
+            "id": "fdiywnjuiaeewvvh",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, there are no discounts available for visiting during specific hours.",
+            "user_response_option_en": "Oh, I see. What about early bird specials?",
+            "previous_turn_id": "ylgxxykvuoeyadat",
+            "order": 3,
+            "key_phrase_en": "early bird specials"
+        },
+        {
+            "id": "topkeitwqlbipztf",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, there are no discounts available for visiting during specific hours.",
+            "user_response_option_en": "Got it. How about group rates for large groups?",
+            "previous_turn_id": "ylgxxykvuoeyadat",
+            "order": 3,
+            "key_phrase_en": "Group rates"
+        },
+        {
+            "id": "wwzlwggsiwsxbmkx",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, there are no discounts available for visiting during specific hours.",
+            "user_response_option_en": "Okay. Can I buy tickets online for a lower rate?",
+            "previous_turn_id": "ylgxxykvuoeyadat",
+            "order": 3,
+            "key_phrase_en": "Lower rate"
+        },
+        {
+            "id": "pqbhiujyxvqovkob",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any special discounts available for visiting during specific hours.",
+            "user_response_option_en": "Do you have any student discounts?",
+            "previous_turn_id": "vkfuzrbryiddywwk",
+            "order": 3,
+            "key_phrase_en": "student discounts"
+        },
+        {
+            "id": "fbfqddpffppshzyn",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any special discounts available for visiting during specific hours.",
+            "user_response_option_en": "Are there any group discounts available?",
+            "previous_turn_id": "vkfuzrbryiddywwk",
+            "order": 3,
+            "key_phrase_en": "Group discounts available"
+        },
+        {
+            "id": "nfxojhidcbnjvhbr",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any special discounts available for visiting during specific hours.",
+            "user_response_option_en": "Is there a package deal for multiple attractions?",
+            "previous_turn_id": "vkfuzrbryiddywwk",
+            "order": 3,
+            "key_phrase_en": "Package deal"
+        },
+        {
+            "id": "monhksnuwmrkfhjf",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm afraid we don't offer coupons for specific visiting times.",
+            "user_response_option_en": "Is it cheaper during the night?\" ",
+            "previous_turn_id": "zwvgndfpkjmnmahk",
+            "order": 3,
+            "key_phrase_en": "During the night"
+        },
+        {
+            "id": "wmicjcxxalcnsvmu",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm afraid we don't offer coupons for specific visiting times.",
+            "user_response_option_en": "Are there any student discounts available?\" ",
+            "previous_turn_id": "zwvgndfpkjmnmahk",
+            "order": 3,
+            "key_phrase_en": "Student discounts available"
+        },
+        {
+            "id": "uvtqdrvnsmvffaas",
+            "mission_id": "vqsbdwugpauvxpsv",
+            "ai_conversation_starter_en": "I'm afraid we don't offer coupons for specific visiting times.",
+            "user_response_option_en": "Do you have any offers for senior citizens?",
+            "previous_turn_id": "zwvgndfpkjmnmahk",
+            "order": 3,
+            "key_phrase_en": "Senior Offers"
+        }
+    ]
+}

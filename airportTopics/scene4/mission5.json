@@ -1,0 +1,370 @@
+{
+    "id": "yycucnlpjnttaqnc",
+    "title": "Trying out samples of fragrances, cosmetics, or other products before making a purchase.",
+    "order": 5,
+    "turns": [
+        {
+            "id": "ojdxddxqzjwkmyhp",
+            "ai_conversation_starter_en": "Hello! Can I help you find anything today?",
+            "user_response_option_en": "May I sample a few products, please?",
+            "mission_id": "yycucnlpjnttaqnc",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rzdvbjyklawitaym",
+            "key_phrase_en": "sample a few"
+        },
+        {
+            "id": "figuqoztwafjlbzq",
+            "ai_conversation_starter_en": "Hello! Can I help you find anything today?",
+            "user_response_option_en": "Can I try it before I buy it?",
+            "mission_id": "yycucnlpjnttaqnc",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "spreggjhhqksbzjv",
+            "key_phrase_en": "Try it before"
+        },
+        {
+            "id": "qiwqrfydekkvygeu",
+            "ai_conversation_starter_en": "Hello! Can I help you find anything today?",
+            "user_response_option_en": "Could you recommend some fragrances to me?",
+            "mission_id": "yycucnlpjnttaqnc",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "vvivirybybwzguvg",
+            "key_phrase_en": "Recommend fragrances"
+        },
+        {
+            "id": "goadkpmiltlahkof",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Sure, which products are you interested in trying?",
+            "user_response_option_en": "Can you suggest your most popular fragrances?",
+            "previous_turn_id": "ojdxddxqzjwkmyhp",
+            "order": 2,
+            "next_turn_id": "zpiouqtidtdugwyx",
+            "key_phrase_en": "popular fragrances"
+        },
+        {
+            "id": "axmywabnolxidnre",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Sure, which products are you interested in trying?",
+            "user_response_option_en": "Are there any new cosmetic products you suggest trying?",
+            "previous_turn_id": "ojdxddxqzjwkmyhp",
+            "order": 2,
+            "next_turn_id": "ovnhwzbkmwhcfpbi",
+            "key_phrase_en": "cosmetic products"
+        },
+        {
+            "id": "rzdvbjyklawitaym",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Sure, which products are you interested in trying?",
+            "user_response_option_en": "I would like to try out some skincare products, do you have any recommendations?",
+            "previous_turn_id": "ojdxddxqzjwkmyhp",
+            "order": 2,
+            "next_turn_id": "tivhhewdhdnizuxu",
+            "key_phrase_en": "skincare products"
+        },
+        {
+            "id": "iiisiheayavyppud",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Would you like me to get a sample for you?",
+            "user_response_option_en": "Yes please, I want to test a few perfumes before deciding.",
+            "previous_turn_id": "figuqoztwafjlbzq",
+            "order": 2,
+            "next_turn_id": "nxgqhvbsgpwejqal",
+            "key_phrase_en": "test perfumes"
+        },
+        {
+            "id": "awkdndvqrhelingk",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Would you like me to get a sample for you?",
+            "user_response_option_en": "Can I try the new lip gloss shades before buying them?",
+            "previous_turn_id": "figuqoztwafjlbzq",
+            "order": 2,
+            "next_turn_id": "earzmvtzdctonepj",
+            "key_phrase_en": "lip gloss shades"
+        },
+        {
+            "id": "spreggjhhqksbzjv",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Would you like me to get a sample for you?",
+            "user_response_option_en": "Could I have a small sample of the moisturizer for sensitive skin?",
+            "previous_turn_id": "figuqoztwafjlbzq",
+            "order": 2,
+            "next_turn_id": "dqenzsezynjntmds",
+            "key_phrase_en": "sensitive skin"
+        },
+        {
+            "id": "xihcicopggbesuwx",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here are some fragrance samples for you to try out.",
+            "user_response_option_en": "Could I try this one on my wrist?",
+            "previous_turn_id": "qiwqrfydekkvygeu",
+            "order": 2,
+            "next_turn_id": "qgvkicqlgigkcfka",
+            "key_phrase_en": "Try on wrist"
+        },
+        {
+            "id": "umnqcuoamleotxih",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here are some fragrance samples for you to try out.",
+            "user_response_option_en": "Do you have samples for the foundation?",
+            "previous_turn_id": "qiwqrfydekkvygeu",
+            "order": 2,
+            "next_turn_id": "oeqezeqnwujkiloz",
+            "key_phrase_en": "foundation samples"
+        },
+        {
+            "id": "vvivirybybwzguvg",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here are some fragrance samples for you to try out.",
+            "user_response_option_en": "May I test the moisturizer before buying it?",
+            "previous_turn_id": "qiwqrfydekkvygeu",
+            "order": 2,
+            "next_turn_id": "gwbyqsdjafuyhjgr",
+            "key_phrase_en": "test the moisturizer"
+        },
+        {
+            "id": "zvcbdnzpvsbdtrjg",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Our bestsellers are Chanel No.5, Dior J'adore, and Marc Jacobs Daisy. Would you like to try them out?",
+            "user_response_option_en": "Could you also recommend some other fragrances?",
+            "previous_turn_id": "goadkpmiltlahkof",
+            "order": 3,
+            "key_phrase_en": "fragrances"
+        },
+        {
+            "id": "syeaqbtysugdwnyv",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Our bestsellers are Chanel No.5, Dior J'adore, and Marc Jacobs Daisy. Would you like to try them out?",
+            "user_response_option_en": "I'm looking for a floral scent. Which one would you suggest?",
+            "previous_turn_id": "goadkpmiltlahkof",
+            "order": 3,
+            "key_phrase_en": "floral scent"
+        },
+        {
+            "id": "zpiouqtidtdugwyx",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Our bestsellers are Chanel No.5, Dior J'adore, and Marc Jacobs Daisy. Would you like to try them out?",
+            "user_response_option_en": "That smells nice! How much does this cost?",
+            "previous_turn_id": "goadkpmiltlahkof",
+            "order": 3,
+            "key_phrase_en": "That smells nice"
+        },
+        {
+            "id": "pzzdfvuyisrclgai",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Absolutely, we have some new lipsticks from MAC and a new eye shadow palette from Urban Decay. Would you like to try them?",
+            "user_response_option_en": "Can you recommend a shade that will suit my skin tone?",
+            "previous_turn_id": "axmywabnolxidnre",
+            "order": 3,
+            "key_phrase_en": "skin tone"
+        },
+        {
+            "id": "ofqurvxtaomghpur",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Absolutely, we have some new lipsticks from MAC and a new eye shadow palette from Urban Decay. Would you like to try them?",
+            "user_response_option_en": "I'm looking for a long-lasting lipstick, any suggestions?",
+            "previous_turn_id": "axmywabnolxidnre",
+            "order": 3,
+            "key_phrase_en": "long-lasting lipstick"
+        },
+        {
+            "id": "ovnhwzbkmwhcfpbi",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Absolutely, we have some new lipsticks from MAC and a new eye shadow palette from Urban Decay. Would you like to try them?",
+            "user_response_option_en": "Do you have any fragrance samples I can try, please?",
+            "previous_turn_id": "axmywabnolxidnre",
+            "order": 3,
+            "key_phrase_en": "fragrance samples"
+        },
+        {
+            "id": "pjtexucaubqmwrwd",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here are some samples. Let me know if you need help with anything.",
+            "user_response_option_en": "This smells good, but do you have any others?",
+            "previous_turn_id": "rzdvbjyklawitaym",
+            "order": 3,
+            "key_phrase_en": "smells good"
+        },
+        {
+            "id": "kqlcrhfhkennqkxh",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here are some samples. Let me know if you need help with anything.",
+            "user_response_option_en": "Can you recommend a moisturizer for dry skin?",
+            "previous_turn_id": "rzdvbjyklawitaym",
+            "order": 3,
+            "key_phrase_en": "moisturizer for dry skin"
+        },
+        {
+            "id": "tivhhewdhdnizuxu",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here are some samples. Let me know if you need help with anything.",
+            "user_response_option_en": "Thanks, I need some time to decide. I'll let you know.",
+            "previous_turn_id": "rzdvbjyklawitaym",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "iasfvgormuizhztz",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Here are the perfume samples. If you need any help, just let me know.",
+            "user_response_option_en": "Thank you, I'll let you know if I need help.",
+            "previous_turn_id": "iiisiheayavyppud",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hexojdqnahwptnvq",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Here are the perfume samples. If you need any help, just let me know.",
+            "user_response_option_en": "Can I also try the lotion and lipstick samples?",
+            "previous_turn_id": "iiisiheayavyppud",
+            "order": 3,
+            "key_phrase_en": "lotion samples"
+        },
+        {
+            "id": "nxgqhvbsgpwejqal",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Here are the perfume samples. If you need any help, just let me know.",
+            "user_response_option_en": "I'm looking for a fresh floral scent, any recommendations?",
+            "previous_turn_id": "iiisiheayavyppud",
+            "order": 3,
+            "key_phrase_en": "fresh floral scent"
+        },
+        {
+            "id": "ioucjhzqiajihqdw",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Sure, let me get a tester for you to try.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "awkdndvqrhelingk",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gptrvohnvvmwfove",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Sure, let me get a tester for you to try.",
+            "user_response_option_en": "I need a moment to decide.",
+            "previous_turn_id": "awkdndvqrhelingk",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "earzmvtzdctonepj",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Sure, let me get a tester for you to try.",
+            "user_response_option_en": "Do you have other shades/scents?",
+            "previous_turn_id": "awkdndvqrhelingk",
+            "order": 3,
+            "key_phrase_en": "shades/scents"
+        },
+        {
+            "id": "ebsnfmwtwqkndteg",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here's a small amount for you to try. Let me know if you need anything else.",
+            "user_response_option_en": "Can I also try the shampoo for oily hair?",
+            "previous_turn_id": "spreggjhhqksbzjv",
+            "order": 3,
+            "key_phrase_en": "oily hair"
+        },
+        {
+            "id": "ohvfbqmlcyknanpd",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here's a small amount for you to try. Let me know if you need anything else.",
+            "user_response_option_en": "This smells great! I'll take two bottles.",
+            "previous_turn_id": "spreggjhhqksbzjv",
+            "order": 3,
+            "key_phrase_en": "smells great"
+        },
+        {
+            "id": "dqenzsezynjntmds",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course! Here's a small amount for you to try. Let me know if you need anything else.",
+            "user_response_option_en": "Do you have a sample of the foundation in a darker shade?",
+            "previous_turn_id": "spreggjhhqksbzjv",
+            "order": 3,
+            "key_phrase_en": "foundation shade sample"
+        },
+        {
+            "id": "cnhkhtnjlylzyfhb",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Yes, please go ahead and try it on your wrist. Let me know if you need any assistance.",
+            "user_response_option_en": "Thank you, I like this one. Do you have more options?",
+            "previous_turn_id": "xihcicopggbesuwx",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xksyejaypfokncmg",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Yes, please go ahead and try it on your wrist. Let me know if you need any assistance.",
+            "user_response_option_en": "I don't think this is the one. Could you suggest another fragrance?",
+            "previous_turn_id": "xihcicopggbesuwx",
+            "order": 3,
+            "key_phrase_en": "suggest another fragrance"
+        },
+        {
+            "id": "qgvkicqlgigkcfka",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Yes, please go ahead and try it on your wrist. Let me know if you need any assistance.",
+            "user_response_option_en": "Could you explain the ingredients? I have allergies to some chemicals.",
+            "previous_turn_id": "xihcicopggbesuwx",
+            "order": 3,
+            "key_phrase_en": "Allergies to chemicals"
+        },
+        {
+            "id": "dgiobsnzspfwyaiv",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Yes, we have foundation samples available. Let me get them for you to try.",
+            "user_response_option_en": "I like this shade. Do you have it in the full size?",
+            "previous_turn_id": "umnqcuoamleotxih",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kmtewdmepwwhxniu",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Yes, we have foundation samples available. Let me get them for you to try.",
+            "user_response_option_en": "This scent is too strong. Do you have a milder one?",
+            "previous_turn_id": "umnqcuoamleotxih",
+            "order": 3,
+            "key_phrase_en": "milder one"
+        },
+        {
+            "id": "oeqezeqnwujkiloz",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Yes, we have foundation samples available. Let me get them for you to try.",
+            "user_response_option_en": "This texture is too greasy. Do you have a matte one?",
+            "previous_turn_id": "umnqcuoamleotxih",
+            "order": 3,
+            "key_phrase_en": "Matte texture"
+        },
+        {
+            "id": "mgkwxnwuuhvihzut",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course, we have a tester available for you to try. Enjoy!",
+            "user_response_option_en": "Thank you. How much does this cost?",
+            "previous_turn_id": "vvivirybybwzguvg",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gejhyuryrjlsfiks",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course, we have a tester available for you to try. Enjoy!",
+            "user_response_option_en": "Which one is your best seller?",
+            "previous_turn_id": "vvivirybybwzguvg",
+            "order": 3,
+            "key_phrase_en": "best seller"
+        },
+        {
+            "id": "gwbyqsdjafuyhjgr",
+            "mission_id": "yycucnlpjnttaqnc",
+            "ai_conversation_starter_en": "Of course, we have a tester available for you to try. Enjoy!",
+            "user_response_option_en": "Could you help me find the right shade?",
+            "previous_turn_id": "vvivirybybwzguvg",
+            "order": 3,
+            "key_phrase_en": "right shade"
+        }
+    ]
+}

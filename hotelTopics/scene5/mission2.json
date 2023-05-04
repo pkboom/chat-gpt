@@ -1,0 +1,370 @@
+{
+    "id": "hfhpyqdkxhlmktnp",
+    "title": "Asking for a copy of their bill",
+    "order": 2,
+    "turns": [
+        {
+            "id": "wurdzqdstsfvxpah",
+            "ai_conversation_starter_en": "Good morning! How was your stay with us? Would you like to check out now?",
+            "user_response_option_en": "I would like a copy of my bill, please.",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ymaawmbmywriyiza",
+            "key_phrase_en": "Copy of bill"
+        },
+        {
+            "id": "ogvegovrzdlwfthh",
+            "ai_conversation_starter_en": "Good morning! How was your stay with us? Would you like to check out now?",
+            "user_response_option_en": "Could I get a printout of my charges, please?",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jnnrzvgbdpmczhrg",
+            "key_phrase_en": "printout of charges"
+        },
+        {
+            "id": "jymwblwzodwnyiqi",
+            "ai_conversation_starter_en": "Good morning! How was your stay with us? Would you like to check out now?",
+            "user_response_option_en": "Can you give me an itemized list of my expenses, please?",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ccfipwntaxujmpdx",
+            "key_phrase_en": "itemized list"
+        },
+        {
+            "id": "tgfhtxwhvuvjigvz",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, may I confirm your name and room number for checkout purposes?",
+            "user_response_option_en": "Yes, my name is Iris Kim and my room number is 315.",
+            "previous_turn_id": "wurdzqdstsfvxpah",
+            "order": 2,
+            "next_turn_id": "shksxyhwmbtdvkol",
+            "key_phrase_en": "Room number 315"
+        },
+        {
+            "id": "axpsalxdmwomovfd",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, may I confirm your name and room number for checkout purposes?",
+            "user_response_option_en": "I need a detailed receipt, please.",
+            "previous_turn_id": "wurdzqdstsfvxpah",
+            "order": 2,
+            "next_turn_id": "pfjtwwmrvdsjqabn",
+            "key_phrase_en": "detailed receipt"
+        },
+        {
+            "id": "ymaawmbmywriyiza",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, may I confirm your name and room number for checkout purposes?",
+            "user_response_option_en": "Could you please explain the charges on my bill?",
+            "previous_turn_id": "wurdzqdstsfvxpah",
+            "order": 2,
+            "next_turn_id": "ruvipvnaejculcqb",
+            "key_phrase_en": "charges on bill"
+        },
+        {
+            "id": "bmomfccfoywykztc",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, I will print a copy of your bill for you. Is there anything else I can assist you with?",
+            "user_response_option_en": "Could please explain the charges? I don't understand some of them.",
+            "previous_turn_id": "ogvegovrzdlwfthh",
+            "order": 2,
+            "next_turn_id": "iofbmjdnhrzvvhxv",
+            "key_phrase_en": "explain charges"
+        },
+        {
+            "id": "uygfxwprmtpbimls",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, I will print a copy of your bill for you. Is there anything else I can assist you with?",
+            "user_response_option_en": "Thank you, is it possible to pay with credit card?",
+            "previous_turn_id": "ogvegovrzdlwfthh",
+            "order": 2,
+            "next_turn_id": "blvofqnxgxyivnyx",
+            "key_phrase_en": "Credit card payment"
+        },
+        {
+            "id": "jnnrzvgbdpmczhrg",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, I will print a copy of your bill for you. Is there anything else I can assist you with?",
+            "user_response_option_en": "Excuse me, I think there might be an error on the bill.",
+            "previous_turn_id": "ogvegovrzdlwfthh",
+            "order": 2,
+            "next_turn_id": "uhyxaazltokwlwam",
+            "key_phrase_en": "Error on bill"
+        },
+        {
+            "id": "vgccvtqkhqsfyigf",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, I can provide you with a detailed receipt of your expenses.",
+            "user_response_option_en": "Can I pay with credit card?",
+            "previous_turn_id": "jymwblwzodwnyiqi",
+            "order": 2,
+            "next_turn_id": "nwsgxnofeqjzxhsr",
+            "key_phrase_en": "Credit card"
+        },
+        {
+            "id": "fyonktjxnifwpqor",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, I can provide you with a detailed receipt of your expenses.",
+            "user_response_option_en": "How much do I owe?",
+            "previous_turn_id": "jymwblwzodwnyiqi",
+            "order": 2,
+            "next_turn_id": "ewxdirpelcwqhzhe",
+            "key_phrase_en": "How much owe?"
+        },
+        {
+            "id": "ccfipwntaxujmpdx",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, I can provide you with a detailed receipt of your expenses.",
+            "user_response_option_en": "May I have a printed copy instead?",
+            "previous_turn_id": "jymwblwzodwnyiqi",
+            "order": 2,
+            "next_turn_id": "mihqdqmymkoiqlri",
+            "key_phrase_en": "printed copy"
+        },
+        {
+            "id": "dcizhwendvvpcayj",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I will print out a copy of your bill and have it ready shortly.",
+            "user_response_option_en": "Can you explain these charges more clearly?",
+            "previous_turn_id": "tgfhtxwhvuvjigvz",
+            "order": 3,
+            "key_phrase_en": "explain charges clearly"
+        },
+        {
+            "id": "fvlsmlfdnxttbxli",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I will print out a copy of your bill and have it ready shortly.",
+            "user_response_option_en": "Is it possible to receive an email copy as well?",
+            "previous_turn_id": "tgfhtxwhvuvjigvz",
+            "order": 3,
+            "key_phrase_en": "email copy possible"
+        },
+        {
+            "id": "shksxyhwmbtdvkol",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I will print out a copy of your bill and have it ready shortly.",
+            "user_response_option_en": "Thank you, have a good day!",
+            "previous_turn_id": "tgfhtxwhvuvjigvz",
+            "order": 3,
+            "key_phrase_en": "Good day"
+        },
+        {
+            "id": "pdsoqahufisqqnkn",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, we can print out a detailed receipt for you. Would you like it emailed or printed?",
+            "user_response_option_en": "Can you please email it to me?",
+            "previous_turn_id": "axpsalxdmwomovfd",
+            "order": 3,
+            "key_phrase_en": "email it please"
+        },
+        {
+            "id": "ogytjfvdnwgdhjjc",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, we can print out a detailed receipt for you. Would you like it emailed or printed?",
+            "user_response_option_en": "I prefer a printed copy, please.",
+            "previous_turn_id": "axpsalxdmwomovfd",
+            "order": 3,
+            "key_phrase_en": "printed copy, please"
+        },
+        {
+            "id": "pfjtwwmrvdsjqabn",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, we can print out a detailed receipt for you. Would you like it emailed or printed?",
+            "user_response_option_en": "Is it possible to get it in my native language?",
+            "previous_turn_id": "axpsalxdmwomovfd",
+            "order": 3,
+            "key_phrase_en": "Native language"
+        },
+        {
+            "id": "pwiutzmnagybsvuq",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, I'd be happy to clarify any charges.",
+            "user_response_option_en": "Thank you, that would be helpful to review the charges.",
+            "previous_turn_id": "ymaawmbmywriyiza",
+            "order": 3,
+            "key_phrase_en": "helpful to review"
+        },
+        {
+            "id": "wmtfdgsuwpmjyeri",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, I'd be happy to clarify any charges.",
+            "user_response_option_en": "Could you explain the taxes and fees, please?",
+            "previous_turn_id": "ymaawmbmywriyiza",
+            "order": 3,
+            "key_phrase_en": "taxes and fees"
+        },
+        {
+            "id": "ruvipvnaejculcqb",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly, I'd be happy to clarify any charges.",
+            "user_response_option_en": "May I have a receipt, please?",
+            "previous_turn_id": "ymaawmbmywriyiza",
+            "order": 3,
+            "key_phrase_en": "May I have"
+        },
+        {
+            "id": "tvigzonohlurngmj",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Do you have any specific charges that you would like me to clarify?",
+            "user_response_option_en": "Could you please explain the tax charges?",
+            "previous_turn_id": "bmomfccfoywykztc",
+            "order": 3,
+            "key_phrase_en": "tax charges"
+        },
+        {
+            "id": "xtvsvdrjskanmeob",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Do you have any specific charges that you would like me to clarify?",
+            "user_response_option_en": "Can you clarify the cost of room service?",
+            "previous_turn_id": "bmomfccfoywykztc",
+            "order": 3,
+            "key_phrase_en": "clarify cost room"
+        },
+        {
+            "id": "iofbmjdnhrzvvhxv",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Do you have any specific charges that you would like me to clarify?",
+            "user_response_option_en": "I don't understand the hotel fee, could you explain it?",
+            "previous_turn_id": "bmomfccfoywykztc",
+            "order": 3,
+            "key_phrase_en": "Hotel fee explanation"
+        },
+        {
+            "id": "sqrfbvqupsojzveo",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Yes, you can pay with a credit card. May I have your card, please?",
+            "user_response_option_en": "Can you tell me the total amount to pay?",
+            "previous_turn_id": "uygfxwprmtpbimls",
+            "order": 3,
+            "key_phrase_en": "total amount pay"
+        },
+        {
+            "id": "ycwujnvhiastofxm",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Yes, you can pay with a credit card. May I have your card, please?",
+            "user_response_option_en": "Is there a payment deadline or late fee?",
+            "previous_turn_id": "uygfxwprmtpbimls",
+            "order": 3,
+            "key_phrase_en": "late fee"
+        },
+        {
+            "id": "blvofqnxgxyivnyx",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Yes, you can pay with a credit card. May I have your card, please?",
+            "user_response_option_en": "Could you explain the details of the charges, please?",
+            "previous_turn_id": "uygfxwprmtpbimls",
+            "order": 3,
+            "key_phrase_en": "details of charges"
+        },
+        {
+            "id": "ymaufszmrqfomovv",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. Can you please point out the error to me?",
+            "user_response_option_en": "Could you explain this charge, please?",
+            "previous_turn_id": "jnnrzvgbdpmczhrg",
+            "order": 3,
+            "key_phrase_en": "explain this charge"
+        },
+        {
+            "id": "btmqkatnljljloxz",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. Can you please point out the error to me?",
+            "user_response_option_en": "I think I was charged twice for room service.",
+            "previous_turn_id": "jnnrzvgbdpmczhrg",
+            "order": 3,
+            "key_phrase_en": "Charged twice"
+        },
+        {
+            "id": "uhyxaazltokwlwam",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "I apologize for the inconvenience. Can you please point out the error to me?",
+            "user_response_option_en": "I didn't use the minibar. Can you remove this charge?",
+            "previous_turn_id": "jnnrzvgbdpmczhrg",
+            "order": 3,
+            "key_phrase_en": "Mini bar charge"
+        },
+        {
+            "id": "upyozzydetztujcc",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly. I'll print a copy of your bill and process your credit card payment.",
+            "user_response_option_en": "How much was the room rate per night?",
+            "previous_turn_id": "vgccvtqkhqsfyigf",
+            "order": 3,
+            "key_phrase_en": "Room rate per"
+        },
+        {
+            "id": "ddswhgfvofdescdh",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly. I'll print a copy of your bill and process your credit card payment.",
+            "user_response_option_en": "I have a question about one of the charges.",
+            "previous_turn_id": "vgccvtqkhqsfyigf",
+            "order": 3,
+            "key_phrase_en": "one of the"
+        },
+        {
+            "id": "nwsgxnofeqjzxhsr",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Certainly. I'll print a copy of your bill and process your credit card payment.",
+            "user_response_option_en": "Can you explain the tax amount on the bill?",
+            "previous_turn_id": "vgccvtqkhqsfyigf",
+            "order": 3,
+            "key_phrase_en": "Tax amount explanation"
+        },
+        {
+            "id": "jlcdayjzkdhmufda",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "As per the bill, your total expense is $200. Here is a copy of the detailed receipt.",
+            "user_response_option_en": "Can I pay with a credit card?",
+            "previous_turn_id": "fyonktjxnifwpqor",
+            "order": 3,
+            "key_phrase_en": "credit card"
+        },
+        {
+            "id": "abrkrsyxreaohcas",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "As per the bill, your total expense is $200. Here is a copy of the detailed receipt.",
+            "user_response_option_en": "Thank you, can you also confirm my check-out time?",
+            "previous_turn_id": "fyonktjxnifwpqor",
+            "order": 3,
+            "key_phrase_en": "confirm check-out time"
+        },
+        {
+            "id": "ewxdirpelcwqhzhe",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "As per the bill, your total expense is $200. Here is a copy of the detailed receipt.",
+            "user_response_option_en": "I have a question about the minibar charge.",
+            "previous_turn_id": "fyonktjxnifwpqor",
+            "order": 3,
+            "key_phrase_en": "Minibar charge"
+        },
+        {
+            "id": "gxktsedwfljvfskz",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, one moment please. I will print it out for you now.",
+            "user_response_option_en": "Excuse me, is the printed copy free?",
+            "previous_turn_id": "ccfipwntaxujmpdx",
+            "order": 3,
+            "key_phrase_en": "printed copy free"
+        },
+        {
+            "id": "ztzkxpgcwxeesxti",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, one moment please. I will print it out for you now.",
+            "user_response_option_en": "Thank you for your help. Have a nice day!",
+            "previous_turn_id": "ccfipwntaxujmpdx",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "mihqdqmymkoiqlri",
+            "mission_id": "hfhpyqdkxhlmktnp",
+            "ai_conversation_starter_en": "Sure, one moment please. I will print it out for you now.",
+            "user_response_option_en": "Could you explain this charge? I don't understand it.",
+            "previous_turn_id": "ccfipwntaxujmpdx",
+            "order": 3,
+            "key_phrase_en": "explain this charge"
+        }
+    ]
+}

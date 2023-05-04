@@ -1,0 +1,370 @@
+{
+    "id": "fdcbdnkkrqpdeego",
+    "title": "Forgetting your ID or passport and not being able to check in or board your flight.",
+    "order": 3,
+    "turns": [
+        {
+            "id": "pdqtssawlcupewdg",
+            "ai_conversation_starter_en": "Good morning, how may I help you today?",
+            "user_response_option_en": "I forgot my ID. What can I do?",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "kdxffvheayojkqjz",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ozabotskxsbuwpjp",
+            "ai_conversation_starter_en": "Good morning, how may I help you today?",
+            "user_response_option_en": "My passport is at home. What are my options?",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rxoeiloewbjvddbi",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "yomwpymwmyjzlgrc",
+            "ai_conversation_starter_en": "Good morning, how may I help you today?",
+            "user_response_option_en": "I don't have any identification. Is there a solution?",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "kbaiehzzqdrlgsys",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "oouzbqazjieqahju",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "You will need some form of identification. Do you have a passport with you?",
+            "user_response_option_en": "Can I show other ID, like driver's license or student card?",
+            "previous_turn_id": "pdqtssawlcupewdg",
+            "order": 2,
+            "next_turn_id": "scxqzdcarbgaukiu",
+            "key_phrase_en": "driver's license"
+        },
+        {
+            "id": "oowzdtpgdsirvokt",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "You will need some form of identification. Do you have a passport with you?",
+            "user_response_option_en": "What if I go back home and bring my passport?",
+            "previous_turn_id": "pdqtssawlcupewdg",
+            "order": 2,
+            "next_turn_id": "raempdkeulosszti",
+            "key_phrase_en": "passport"
+        },
+        {
+            "id": "kdxffvheayojkqjz",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "You will need some form of identification. Do you have a passport with you?",
+            "user_response_option_en": "Is it possible to verify my identity with birth certificate or credit card?",
+            "previous_turn_id": "pdqtssawlcupewdg",
+            "order": 2,
+            "next_turn_id": "bpbiuulixeezycfo",
+            "key_phrase_en": "verify identity"
+        },
+        {
+            "id": "pqloduokpfemwdem",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "You'll need a valid ID to board. You may retrieve your passport or contact your embassy.",
+            "user_response_option_en": "Where can I find my embassy?",
+            "previous_turn_id": "ozabotskxsbuwpjp",
+            "order": 2,
+            "next_turn_id": "thiozgjzghwbugdg",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mimxktqesbwdzaqx",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "You'll need a valid ID to board. You may retrieve your passport or contact your embassy.",
+            "user_response_option_en": "Can you accept a photocopy of my passport?",
+            "previous_turn_id": "ozabotskxsbuwpjp",
+            "order": 2,
+            "next_turn_id": "bepuwfuwkyzzzhjy",
+            "key_phrase_en": "photocopy of passport"
+        },
+        {
+            "id": "rxoeiloewbjvddbi",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "You'll need a valid ID to board. You may retrieve your passport or contact your embassy.",
+            "user_response_option_en": "How long do I have to retrieve my passport?",
+            "previous_turn_id": "ozabotskxsbuwpjp",
+            "order": 2,
+            "next_turn_id": "zwdkodfmupnepqoh",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ujzspdxwbnohefyf",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Please wait here while we check if there are any alternative identification documents that we can accept.",
+            "user_response_option_en": "Is there another way I can prove my identity?",
+            "previous_turn_id": "yomwpymwmyjzlgrc",
+            "order": 2,
+            "next_turn_id": "fqcgyckswtjxzwgl",
+            "key_phrase_en": "prove identity"
+        },
+        {
+            "id": "hrmppjbdfqkapdeu",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Please wait here while we check if there are any alternative identification documents that we can accept.",
+            "user_response_option_en": "Can I use a copy of my ID or passport?",
+            "previous_turn_id": "yomwpymwmyjzlgrc",
+            "order": 2,
+            "next_turn_id": "boyhrljgtlrpejcm",
+            "key_phrase_en": "copy of ID"
+        },
+        {
+            "id": "kbaiehzzqdrlgsys",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Please wait here while we check if there are any alternative identification documents that we can accept.",
+            "user_response_option_en": "Are there any other documents I can show you?",
+            "previous_turn_id": "yomwpymwmyjzlgrc",
+            "order": 2,
+            "next_turn_id": "vgvklnlalezanpov",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xhxtqwxdawjqwkqz",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Unfortunately, we require a government-issued ID for check-in and boarding.",
+            "user_response_option_en": "Can I use a photocopy of my passport?",
+            "previous_turn_id": "oouzbqazjieqahju",
+            "order": 3,
+            "key_phrase_en": "photocopy of passport"
+        },
+        {
+            "id": "ihctkcmhabfdmmyu",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Unfortunately, we require a government-issued ID for check-in and boarding.",
+            "user_response_option_en": "What about my birth certificate?",
+            "previous_turn_id": "oouzbqazjieqahju",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "scxqzdcarbgaukiu",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Unfortunately, we require a government-issued ID for check-in and boarding.",
+            "user_response_option_en": "Is there a way to verify my identity without an ID?",
+            "previous_turn_id": "oouzbqazjieqahju",
+            "order": 3,
+            "key_phrase_en": "verify identity without"
+        },
+        {
+            "id": "cziqhgrmvqecebnt",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "If you have time, that would be best. Let's rebook you on a later flight.",
+            "user_response_option_en": "When is the next available flight?",
+            "previous_turn_id": "oowzdtpgdsirvokt",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mphwfcaydurhdkyz",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "If you have time, that would be best. Let's rebook you on a later flight.",
+            "user_response_option_en": "Can I use a different form of ID?",
+            "previous_turn_id": "oowzdtpgdsirvokt",
+            "order": 3,
+            "key_phrase_en": "Different form ID"
+        },
+        {
+            "id": "raempdkeulosszti",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "If you have time, that would be best. Let's rebook you on a later flight.",
+            "user_response_option_en": "I'm sorry, what do I need to do now?",
+            "previous_turn_id": "oowzdtpgdsirvokt",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "fyxbicevcfxtivzu",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we require a valid photo ID or passport for international flights.",
+            "user_response_option_en": "Can I show you my driving license instead?",
+            "previous_turn_id": "kdxffvheayojkqjz",
+            "order": 3,
+            "key_phrase_en": "driving license"
+        },
+        {
+            "id": "xsvkflxgxdfijnkv",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we require a valid photo ID or passport for international flights.",
+            "user_response_option_en": "Could I provide my student ID card?",
+            "previous_turn_id": "kdxffvheayojkqjz",
+            "order": 3,
+            "key_phrase_en": "student ID card"
+        },
+        {
+            "id": "bpbiuulixeezycfo",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we require a valid photo ID or passport for international flights.",
+            "user_response_option_en": "Is there a consulate office nearby to get a passport?",
+            "previous_turn_id": "kdxffvheayojkqjz",
+            "order": 3,
+            "key_phrase_en": "consulate office nearby"
+        },
+        {
+            "id": "ykoslfmplyhkyteh",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Embassies are located in the city. You may find more information on the airport website.",
+            "user_response_option_en": "Can you give me the airport website address, please?",
+            "previous_turn_id": "pqloduokpfemwdem",
+            "order": 3,
+            "key_phrase_en": "airport website address"
+        },
+        {
+            "id": "spruajcebomfzhzo",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Embassies are located in the city. You may find more information on the airport website.",
+            "user_response_option_en": "Is there a phone number for my embassy?",
+            "previous_turn_id": "pqloduokpfemwdem",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "thiozgjzghwbugdg",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Embassies are located in the city. You may find more information on the airport website.",
+            "user_response_option_en": "How can I retrieve my passport from home quickly?",
+            "previous_turn_id": "pqloduokpfemwdem",
+            "order": 3,
+            "key_phrase_en": "retrieve passport quickly"
+        },
+        {
+            "id": "aosajdbekqhauyqf",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we cannot accept a photocopy of your passport.",
+            "user_response_option_en": "Can I show you any other forms of identification?",
+            "previous_turn_id": "mimxktqesbwdzaqx",
+            "order": 3,
+            "key_phrase_en": "other forms of identification"
+        },
+        {
+            "id": "xrgfanpsphfmbsjr",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we cannot accept a photocopy of your passport.",
+            "user_response_option_en": "Is there anyone who can retrieve my passport for me?",
+            "previous_turn_id": "mimxktqesbwdzaqx",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bepuwfuwkyzzzhjy",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we cannot accept a photocopy of your passport.",
+            "user_response_option_en": "Can you help me contact my embassy for further assistance?",
+            "previous_turn_id": "mimxktqesbwdzaqx",
+            "order": 3,
+            "key_phrase_en": "Further Assistance"
+        },
+        {
+            "id": "fxzxjbqzagcwundg",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, but you'll need to retrieve it before your flight or contact your embassy as soon as possible.",
+            "user_response_option_en": "Can you advise me on how to contact my embassy?",
+            "previous_turn_id": "rxoeiloewbjvddbi",
+            "order": 3,
+            "key_phrase_en": "contact embassy"
+        },
+        {
+            "id": "subnxntduankogyq",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, but you'll need to retrieve it before your flight or contact your embassy as soon as possible.",
+            "user_response_option_en": "Is there an alternative identification method I can use?",
+            "previous_turn_id": "rxoeiloewbjvddbi",
+            "order": 3,
+            "key_phrase_en": "alternative identification method"
+        },
+        {
+            "id": "zwdkodfmupnepqoh",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, but you'll need to retrieve it before your flight or contact your embassy as soon as possible.",
+            "user_response_option_en": "Thank you. I'll try to get my passport as soon as possible.",
+            "previous_turn_id": "rxoeiloewbjvddbi",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qcexntdbalitieqo",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Unfortunately, we cannot allow you to board without proper identification.",
+            "user_response_option_en": "Is there a way to retrieve a copy of my identification?",
+            "previous_turn_id": "ujzspdxwbnohefyf",
+            "order": 3,
+            "key_phrase_en": "retrieve a copy"
+        },
+        {
+            "id": "mqueczynpnqakdym",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Unfortunately, we cannot allow you to board without proper identification.",
+            "user_response_option_en": "Can I provide additional information to verify my identity?",
+            "previous_turn_id": "ujzspdxwbnohefyf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "fqcgyckswtjxzwgl",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Unfortunately, we cannot allow you to board without proper identification.",
+            "user_response_option_en": "Do you have any other suggestions to help me board my flight?",
+            "previous_turn_id": "ujzspdxwbnohefyf",
+            "order": 3,
+            "key_phrase_en": "board my flight"
+        },
+        {
+            "id": "kguzbhehsyhcqnqr",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we need the original ID or passport.",
+            "user_response_option_en": "Can I show you a copy on my smartphone instead?",
+            "previous_turn_id": "hrmppjbdfqkapdeu",
+            "order": 3,
+            "key_phrase_en": "on my smartphone"
+        },
+        {
+            "id": "ueibdwrxlpfgzvcw",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we need the original ID or passport.",
+            "user_response_option_en": "What options do I have if there's no alternative ID?",
+            "previous_turn_id": "hrmppjbdfqkapdeu",
+            "order": 3,
+            "key_phrase_en": "alternative ID"
+        },
+        {
+            "id": "boyhrljgtlrpejcm",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "I'm sorry, we need the original ID or passport.",
+            "user_response_option_en": "Is there someone I can contact for help?",
+            "previous_turn_id": "hrmppjbdfqkapdeu",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "fjuybigbxlvmlyav",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Do you have any other form of identification, such as a driver's license or birth certificate?",
+            "user_response_option_en": "I have a photocopy of my passport, will that work?",
+            "previous_turn_id": "kbaiehzzqdrlgsys",
+            "order": 3,
+            "key_phrase_en": "photocopy of passport"
+        },
+        {
+            "id": "rkgmfqsbjynwwdxt",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Do you have any other form of identification, such as a driver's license or birth certificate?",
+            "user_response_option_en": "My home country's ID card, can I use it?",
+            "previous_turn_id": "kbaiehzzqdrlgsys",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vgvklnlalezanpov",
+            "mission_id": "fdcbdnkkrqpdeego",
+            "ai_conversation_starter_en": "Do you have any other form of identification, such as a driver's license or birth certificate?",
+            "user_response_option_en": "Can someone fax me a copy of my passport?",
+            "previous_turn_id": "kbaiehzzqdrlgsys",
+            "order": 3,
+            "key_phrase_en": "Fax me a copy"
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "id": "twxjddkgbyjmcypg",
+    "title": "Asking if there are any seasonal changes to the park's operating hours",
+    "order": 5,
+    "turns": [
+        {
+            "id": "kkuichgeajchjyaa",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction. Is there anything specific that you would like to see today? Also, I just want to confirm our operating hours with you. What time would you like to visit the park?",
+            "user_response_option_en": "Are there any seasonal changes to the park's hours?",
+            "mission_id": "twxjddkgbyjmcypg",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "axyqjhqdnuzlacke",
+            "key_phrase_en": "Seasonal changes"
+        },
+        {
+            "id": "ddqgocbpjcychidl",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction. Is there anything specific that you would like to see today? Also, I just want to confirm our operating hours with you. What time would you like to visit the park?",
+            "user_response_option_en": "Are your hours different in the winter vs the summer?",
+            "mission_id": "twxjddkgbyjmcypg",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rhecvoojglcaxfic",
+            "key_phrase_en": "Different hours"
+        },
+        {
+            "id": "useskdwbxtcczpol",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction. Is there anything specific that you would like to see today? Also, I just want to confirm our operating hours with you. What time would you like to visit the park?",
+            "user_response_option_en": "Are there any changes to your hours based on the holiday season?",
+            "mission_id": "twxjddkgbyjmcypg",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "nuesbumswnirlcfl",
+            "key_phrase_en": "holiday season"
+        },
+        {
+            "id": "dwjwluoiwrymmqgy",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, our park's operating hours may change during certain seasons. For example, during the winter months, we may close earlier due to shorter daylight hours.",
+            "user_response_option_en": "What's the earliest closing time during winter?",
+            "previous_turn_id": "kkuichgeajchjyaa",
+            "order": 2,
+            "next_turn_id": "zfdfiyrruuuyixkq",
+            "key_phrase_en": "earliest closing time"
+        },
+        {
+            "id": "fjrbqhjesxpvmvek",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, our park's operating hours may change during certain seasons. For example, during the winter months, we may close earlier due to shorter daylight hours.",
+            "user_response_option_en": "What's the latest closing time during summer?",
+            "previous_turn_id": "kkuichgeajchjyaa",
+            "order": 2,
+            "next_turn_id": "ngsepcyrzfukdrxa",
+            "key_phrase_en": "closing time"
+        },
+        {
+            "id": "axyqjhqdnuzlacke",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, our park's operating hours may change during certain seasons. For example, during the winter months, we may close earlier due to shorter daylight hours.",
+            "user_response_option_en": "When does the park usually change its operating hours?",
+            "previous_turn_id": "kkuichgeajchjyaa",
+            "order": 2,
+            "next_turn_id": "whtmhhtzomgdudtm",
+            "key_phrase_en": "operating hours"
+        },
+        {
+            "id": "kmimplryzwrltoqx",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, we have shorter operating hours during the winter months.",
+            "user_response_option_en": "Are the hours shorter on holidays too?\" ",
+            "previous_turn_id": "ddqgocbpjcychidl",
+            "order": 2,
+            "next_turn_id": "exeigipvvjnfpvbo",
+            "key_phrase_en": "Shorter on holidays"
+        },
+        {
+            "id": "naszsvpozwnokgjx",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, we have shorter operating hours during the winter months.",
+            "user_response_option_en": "Is there a different schedule on weekends?\" ",
+            "previous_turn_id": "ddqgocbpjcychidl",
+            "order": 2,
+            "next_turn_id": "mcmupooeylqmumks",
+            "key_phrase_en": "Weekend schedule"
+        },
+        {
+            "id": "rhecvoojglcaxfic",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, we have shorter operating hours during the winter months.",
+            "user_response_option_en": "Are the hours different for indoor and outdoor activities?",
+            "previous_turn_id": "ddqgocbpjcychidl",
+            "order": 2,
+            "next_turn_id": "sugkcitrekjsgfmy",
+            "key_phrase_en": "Different hours"
+        },
+        {
+            "id": "cbqniwibmezpjjdm",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, we do have some changes to our operating hours during the holiday season. Would you like to know our holiday hours?",
+            "user_response_option_en": "When does the holiday season start?\" ",
+            "previous_turn_id": "useskdwbxtcczpol",
+            "order": 2,
+            "next_turn_id": "vwtxczmpfpcxygrl",
+            "key_phrase_en": "Holiday season start"
+        },
+        {
+            "id": "xnbwbamvnqwggngd",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, we do have some changes to our operating hours during the holiday season. Would you like to know our holiday hours?",
+            "user_response_option_en": "What are your holiday hours?\" ",
+            "previous_turn_id": "useskdwbxtcczpol",
+            "order": 2,
+            "next_turn_id": "yjbbdsmriomodlev",
+            "key_phrase_en": "Holiday hours"
+        },
+        {
+            "id": "nuesbumswnirlcfl",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, we do have some changes to our operating hours during the holiday season. Would you like to know our holiday hours?",
+            "user_response_option_en": "What time does the park close during the holidays?",
+            "previous_turn_id": "useskdwbxtcczpol",
+            "order": 2,
+            "next_turn_id": "mcjkfniignacqhwh",
+            "key_phrase_en": "Park close time"
+        },
+        {
+            "id": "hcgsnedyzbkejbhm",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "During the winter months, we may close at 5 pm, which is two hours earlier than our usual closing time.",
+            "user_response_option_en": "Okay, got it. What about summer?\" ",
+            "previous_turn_id": "dwjwluoiwrymmqgy",
+            "order": 3,
+            "key_phrase_en": "Summer"
+        },
+        {
+            "id": "kqraikjxpcfccsdj",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "During the winter months, we may close at 5 pm, which is two hours earlier than our usual closing time.",
+            "user_response_option_en": "So winter closing time is 5 pm. Any other changes?\" ",
+            "previous_turn_id": "dwjwluoiwrymmqgy",
+            "order": 3,
+            "key_phrase_en": "Closing Time"
+        },
+        {
+            "id": "zfdfiyrruuuyixkq",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "During the winter months, we may close at 5 pm, which is two hours earlier than our usual closing time.",
+            "user_response_option_en": "Thanks for letting me know. Are there any discounts during these hours?",
+            "previous_turn_id": "dwjwluoiwrymmqgy",
+            "order": 3,
+            "key_phrase_en": "discounts during hours"
+        },
+        {
+            "id": "sizceektnnswkmnm",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "During the summer months, our park typically closes at 9 PM.",
+            "user_response_option_en": "Do you have an autumn schedule?",
+            "previous_turn_id": "fjrbqhjesxpvmvek",
+            "order": 3,
+            "key_phrase_en": "Autumn schedule"
+        },
+        {
+            "id": "fgiwwudxhzzxnptb",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "During the summer months, our park typically closes at 9 PM.",
+            "user_response_option_en": "Are the winter hours posted online?",
+            "previous_turn_id": "fjrbqhjesxpvmvek",
+            "order": 3,
+            "key_phrase_en": "Winter hours online"
+        },
+        {
+            "id": "ngsepcyrzfukdrxa",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "During the summer months, our park typically closes at 9 PM.",
+            "user_response_option_en": "Can I check for holiday hours?",
+            "previous_turn_id": "fjrbqhjesxpvmvek",
+            "order": 3,
+            "key_phrase_en": "holiday hours"
+        },
+        {
+            "id": "pejlqgippmsqlaci",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, of course. Usually, the park changes its operating hours around the beginning and end of major holiday periods.",
+            "user_response_option_en": "Is there a holiday coming up soon that will affect the park's hours?\" ",
+            "previous_turn_id": "axyqjhqdnuzlacke",
+            "order": 3,
+            "key_phrase_en": "Park's hours"
+        },
+        {
+            "id": "kjicjazufmsebvur",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, of course. Usually, the park changes its operating hours around the beginning and end of major holiday periods.",
+            "user_response_option_en": "What are the park's hours during the summer?\" ",
+            "previous_turn_id": "axyqjhqdnuzlacke",
+            "order": 3,
+            "key_phrase_en": "park's hours summer"
+        },
+        {
+            "id": "whtmhhtzomgdudtm",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, of course. Usually, the park changes its operating hours around the beginning and end of major holiday periods.",
+            "user_response_option_en": "Do the park's hours change during weekends and weekdays?",
+            "previous_turn_id": "axyqjhqdnuzlacke",
+            "order": 3,
+            "key_phrase_en": "Park Hours"
+        },
+        {
+            "id": "aosjpgrocusqxgch",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, our operating hours may vary during the holiday season, so it's always a good idea to double-check with us ahead of time.",
+            "user_response_option_en": "When is the holiday season typically?\" ",
+            "previous_turn_id": "kmimplryzwrltoqx",
+            "order": 3,
+            "key_phrase_en": "Holiday season typically"
+        },
+        {
+            "id": "twgsrmxjyfbviwno",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, our operating hours may vary during the holiday season, so it's always a good idea to double-check with us ahead of time.",
+            "user_response_option_en": "Is the park closed on any specific holiday?\" ",
+            "previous_turn_id": "kmimplryzwrltoqx",
+            "order": 3,
+            "key_phrase_en": "Specific holiday"
+        },
+        {
+            "id": "exeigipvvjnfpvbo",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, our operating hours may vary during the holiday season, so it's always a good idea to double-check with us ahead of time.",
+            "user_response_option_en": "Can you tell me which holiday season has the most changes to the schedule?",
+            "previous_turn_id": "kmimplryzwrltoqx",
+            "order": 3,
+            "key_phrase_en": "Holiday season changes"
+        },
+        {
+            "id": "pclwawnbabbjoked",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "No, the schedule on weekends is the same throughout the year.",
+            "user_response_option_en": "Do holiday hours apply any time of year?",
+            "previous_turn_id": "naszsvpozwnokgjx",
+            "order": 3,
+            "key_phrase_en": "Holiday hours"
+        },
+        {
+            "id": "qmozndniejgxrzsz",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "No, the schedule on weekends is the same throughout the year.",
+            "user_response_option_en": "Is the park open the same times on weekdays?",
+            "previous_turn_id": "naszsvpozwnokgjx",
+            "order": 3,
+            "key_phrase_en": "same times weekdays"
+        },
+        {
+            "id": "mcmupooeylqmumks",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "No, the schedule on weekends is the same throughout the year.",
+            "user_response_option_en": "Do you have extended hours during special events?",
+            "previous_turn_id": "naszsvpozwnokgjx",
+            "order": 3,
+            "key_phrase_en": "Extended Hours"
+        },
+        {
+            "id": "sbajnjmxftbihxkk",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "The staff might respond by saying, Yes, the operating hours may vary depending on the season and the weather conditions.",
+            "user_response_option_en": "Could you tell me what the hours are for summer?",
+            "previous_turn_id": "rhecvoojglcaxfic",
+            "order": 3,
+            "key_phrase_en": "hours for summer"
+        },
+        {
+            "id": "mcmfpawemjlhrroz",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "The staff might respond by saying, Yes, the operating hours may vary depending on the season and the weather conditions.",
+            "user_response_option_en": "Are the hours different on weekends?",
+            "previous_turn_id": "rhecvoojglcaxfic",
+            "order": 3,
+            "key_phrase_en": "Weekend hours"
+        },
+        {
+            "id": "sugkcitrekjsgfmy",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "The staff might respond by saying, Yes, the operating hours may vary depending on the season and the weather conditions.",
+            "user_response_option_en": "Do you have extended hours during peak season?",
+            "previous_turn_id": "rhecvoojglcaxfic",
+            "order": 3,
+            "key_phrase_en": "Extended hours"
+        },
+        {
+            "id": "ineaobyxvjhttuox",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, the holiday season starts on December 1st, and our operating hours will be extended during that time. Would you like to know our holiday hours?",
+            "user_response_option_en": "What are your holiday hours?\" ",
+            "previous_turn_id": "cbqniwibmezpjjdm",
+            "order": 3,
+            "key_phrase_en": "Holiday hours"
+        },
+        {
+            "id": "rkltsuelmogcuzjo",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, the holiday season starts on December 1st, and our operating hours will be extended during that time. Would you like to know our holiday hours?",
+            "user_response_option_en": "Are you open on Christmas Eve?\" ",
+            "previous_turn_id": "cbqniwibmezpjjdm",
+            "order": 3,
+            "key_phrase_en": "Christmas Eve"
+        },
+        {
+            "id": "vwtxczmpfpcxygrl",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, the holiday season starts on December 1st, and our operating hours will be extended during that time. Would you like to know our holiday hours?",
+            "user_response_option_en": "Do the extended hours apply to all the park's amenities?",
+            "previous_turn_id": "cbqniwibmezpjjdm",
+            "order": 3,
+            "key_phrase_en": "Extended hours"
+        },
+        {
+            "id": "nccikvgcjsdibmgn",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, during the holiday season, we open one hour earlier at 9 am and close one hour later at 6 pm.",
+            "user_response_option_en": "Thanks for letting me know. What's the last admission time?",
+            "previous_turn_id": "xnbwbamvnqwggngd",
+            "order": 3,
+            "key_phrase_en": "last admission time"
+        },
+        {
+            "id": "tzaejwwjqbqlfbqt",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, during the holiday season, we open one hour earlier at 9 am and close one hour later at 6 pm.",
+            "user_response_option_en": "That sounds lovely. Is there a holiday event schedule?",
+            "previous_turn_id": "xnbwbamvnqwggngd",
+            "order": 3,
+            "key_phrase_en": "holiday event schedule"
+        },
+        {
+            "id": "yjbbdsmriomodlev",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, during the holiday season, we open one hour earlier at 9 am and close one hour later at 6 pm.",
+            "user_response_option_en": "I see. Can I buy tickets online or only in person?",
+            "previous_turn_id": "xnbwbamvnqwggngd",
+            "order": 3,
+            "key_phrase_en": "buy tickets online"
+        },
+        {
+            "id": "dovhsqzmowgnwitp",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, during the holiday season, the park will close at 7 pm instead of the usual 6 pm. Are there any other questions I can answer for you?",
+            "user_response_option_en": "Are there any other holiday-specific hours I should know?",
+            "previous_turn_id": "nuesbumswnirlcfl",
+            "order": 3,
+            "key_phrase_en": "holiday-specific hours"
+        },
+        {
+            "id": "wrehzwxgwyqpnplo",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, during the holiday season, the park will close at 7 pm instead of the usual 6 pm. Are there any other questions I can answer for you?",
+            "user_response_option_en": "Do you have a schedule of holiday hours for me to take?",
+            "previous_turn_id": "nuesbumswnirlcfl",
+            "order": 3,
+            "key_phrase_en": "Holiday hours schedule"
+        },
+        {
+            "id": "mcjkfniignacqhwh",
+            "mission_id": "twxjddkgbyjmcypg",
+            "ai_conversation_starter_en": "Yes, during the holiday season, the park will close at 7 pm instead of the usual 6 pm. Are there any other questions I can answer for you?",
+            "user_response_option_en": "Are there any annual events or festivals that change the hours?",
+            "previous_turn_id": "nuesbumswnirlcfl",
+            "order": 3,
+            "key_phrase_en": "Annual events"
+        }
+    ]
+}

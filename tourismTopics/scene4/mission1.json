@@ -1,0 +1,370 @@
+{
+    "id": "yjvqlelnjknrdkss",
+    "title": "Asking if the park has any special events or extended hours",
+    "order": 1,
+    "turns": [
+        {
+            "id": "agtjwnwtafdiklsa",
+            "ai_conversation_starter_en": "Hello, welcome to our park. Are you visiting for the day or do you have a specific event planned?",
+            "user_response_option_en": "Do you have any special events today?",
+            "mission_id": "yjvqlelnjknrdkss",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qmedpmvdkhyxzwmu",
+            "key_phrase_en": "Special events today"
+        },
+        {
+            "id": "xudbzclsdkxlutmo",
+            "ai_conversation_starter_en": "Hello, welcome to our park. Are you visiting for the day or do you have a specific event planned?",
+            "user_response_option_en": "Are you open later than usual?",
+            "mission_id": "yjvqlelnjknrdkss",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "sjyjaepsxuadgurd",
+            "key_phrase_en": "later than usual"
+        },
+        {
+            "id": "dpvmkhcmrofddvit",
+            "ai_conversation_starter_en": "Hello, welcome to our park. Are you visiting for the day or do you have a specific event planned?",
+            "user_response_option_en": "What are your extended hours?",
+            "mission_id": "yjvqlelnjknrdkss",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xmpfhpfawecklwyq",
+            "key_phrase_en": "Extended hours"
+        },
+        {
+            "id": "rxyzpulmsgnvhidl",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Our park currently does not have any special events scheduled for today, but we do have extended hours for nighttime illuminations.",
+            "user_response_option_en": "Is there a light show at night?",
+            "previous_turn_id": "agtjwnwtafdiklsa",
+            "order": 2,
+            "next_turn_id": "yezqvugcwwehpeiy",
+            "key_phrase_en": "light show night"
+        },
+        {
+            "id": "hocbxtfgwazppufn",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Our park currently does not have any special events scheduled for today, but we do have extended hours for nighttime illuminations.",
+            "user_response_option_en": "Is the park open late today?",
+            "previous_turn_id": "agtjwnwtafdiklsa",
+            "order": 2,
+            "next_turn_id": "mlbvdzrfswexzwxu",
+            "key_phrase_en": "Open late today"
+        },
+        {
+            "id": "qmedpmvdkhyxzwmu",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Our park currently does not have any special events scheduled for today, but we do have extended hours for nighttime illuminations.",
+            "user_response_option_en": "What time do the illuminations start?",
+            "previous_turn_id": "agtjwnwtafdiklsa",
+            "order": 2,
+            "next_turn_id": "yjjechsusevmgjsq",
+            "key_phrase_en": "Illuminations start"
+        },
+        {
+            "id": "taaflfqgrdyegteb",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "We don't have any special events planned for today, but we do have extended hours on Fridays and Saturdays.",
+            "user_response_option_en": "Can I check the timetable for Friday and Saturday?",
+            "previous_turn_id": "xudbzclsdkxlutmo",
+            "order": 2,
+            "next_turn_id": "zbzadoisnsnzlyxj",
+            "key_phrase_en": "timetable check"
+        },
+        {
+            "id": "oezyczfvkrnnvssj",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "We don't have any special events planned for today, but we do have extended hours on Fridays and Saturdays.",
+            "user_response_option_en": "What's the latest time I can stay on Fridays and Saturdays?",
+            "previous_turn_id": "xudbzclsdkxlutmo",
+            "order": 2,
+            "next_turn_id": "bnrbrcrtqanndlyz",
+            "key_phrase_en": "Latest time"
+        },
+        {
+            "id": "sjyjaepsxuadgurd",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "We don't have any special events planned for today, but we do have extended hours on Fridays and Saturdays.",
+            "user_response_option_en": "Do you have any discounted rates for extended hours?",
+            "previous_turn_id": "xudbzclsdkxlutmo",
+            "order": 2,
+            "next_turn_id": "navhtofehmseinvy",
+            "key_phrase_en": "discounted rates"
+        },
+        {
+            "id": "jdyailkgalahhxel",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "We have extended hours on Saturdays until 10 pm. And we also have a special event this weekend, a live concert on our stage.",
+            "user_response_option_en": "What time does the concert start?",
+            "previous_turn_id": "dpvmkhcmrofddvit",
+            "order": 2,
+            "next_turn_id": "wnkplgdzpzgsyihz",
+            "key_phrase_en": "Concert start time"
+        },
+        {
+            "id": "fvkequnzjhkhabva",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "We have extended hours on Saturdays until 10 pm. And we also have a special event this weekend, a live concert on our stage.",
+            "user_response_option_en": "Is there a fee for the concert?",
+            "previous_turn_id": "dpvmkhcmrofddvit",
+            "order": 2,
+            "next_turn_id": "mtfysmwnhoynmffi",
+            "key_phrase_en": "Fee for concert"
+        },
+        {
+            "id": "xmpfhpfawecklwyq",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "We have extended hours on Saturdays until 10 pm. And we also have a special event this weekend, a live concert on our stage.",
+            "user_response_option_en": "Could you tell me more about the concert?",
+            "previous_turn_id": "dpvmkhcmrofddvit",
+            "order": 2,
+            "next_turn_id": "nyqzdjszmaykfisz",
+            "key_phrase_en": "Tell me more"
+        },
+        {
+            "id": "fsztrbpwgyxcwmts",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Iris, we don't have any special events for today, but we have extended hours for nighttime illuminations.",
+            "user_response_option_en": "What time do the nighttime illuminations start?",
+            "previous_turn_id": "rxyzpulmsgnvhidl",
+            "order": 3,
+            "key_phrase_en": "Nighttime illuminations"
+        },
+        {
+            "id": "ztydqqbcwibqdscn",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Iris, we don't have any special events for today, but we have extended hours for nighttime illuminations.",
+            "user_response_option_en": "How long will the park stay open for illuminations?",
+            "previous_turn_id": "rxyzpulmsgnvhidl",
+            "order": 3,
+            "key_phrase_en": "Stay open"
+        },
+        {
+            "id": "yezqvugcwwehpeiy",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Iris, we don't have any special events for today, but we have extended hours for nighttime illuminations.",
+            "user_response_option_en": "Is it possible to buy tickets for the illuminations online?",
+            "previous_turn_id": "rxyzpulmsgnvhidl",
+            "order": 3,
+            "key_phrase_en": "buy tickets online"
+        },
+        {
+            "id": "nmvijskpixdnjbyj",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "I'm sorry, we don't have any special events planned for today. Our park is open until 10 p.m. for the nighttime illuminations.",
+            "user_response_option_en": "Are there any nighttime shows?\" ",
+            "previous_turn_id": "hocbxtfgwazppufn",
+            "order": 3,
+            "key_phrase_en": "Nighttime shows"
+        },
+        {
+            "id": "rfqswxioidzcdypi",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "I'm sorry, we don't have any special events planned for today. Our park is open until 10 p.m. for the nighttime illuminations.",
+            "user_response_option_en": "Is the park open later on weekends?\" ",
+            "previous_turn_id": "hocbxtfgwazppufn",
+            "order": 3,
+            "key_phrase_en": "park open weekends"
+        },
+        {
+            "id": "mlbvdzrfswexzwxu",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "I'm sorry, we don't have any special events planned for today. Our park is open until 10 p.m. for the nighttime illuminations.",
+            "user_response_option_en": "Any upcoming events planned?",
+            "previous_turn_id": "hocbxtfgwazppufn",
+            "order": 3,
+            "key_phrase_en": "upcoming events planned"
+        },
+        {
+            "id": "ixwylmzkstdomkeq",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "The illuminations start at 7 pm.",
+            "user_response_option_en": "What time do you close?",
+            "previous_turn_id": "qmedpmvdkhyxzwmu",
+            "order": 3,
+            "key_phrase_en": "Close time"
+        },
+        {
+            "id": "ctjdupatefyfrdjl",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "The illuminations start at 7 pm.",
+            "user_response_option_en": "Okay, I'll come back for the illuminations.",
+            "previous_turn_id": "qmedpmvdkhyxzwmu",
+            "order": 3,
+            "key_phrase_en": "Illuminations"
+        },
+        {
+            "id": "yjjechsusevmgjsq",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "The illuminations start at 7 pm.",
+            "user_response_option_en": "Is there anything else to do here in the meantime?",
+            "previous_turn_id": "qmedpmvdkhyxzwmu",
+            "order": 3,
+            "key_phrase_en": "Anything else"
+        },
+        {
+            "id": "riqcgbybwzketjgh",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Sure, you can check the timetable for Friday and Saturday at the entrance or on our website.",
+            "user_response_option_en": "Is there anything special planned for Fridays and Saturdays?",
+            "previous_turn_id": "taaflfqgrdyegteb",
+            "order": 3,
+            "key_phrase_en": "special planned Fridays"
+        },
+        {
+            "id": "pwxtgimxyywxpynz",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Sure, you can check the timetable for Friday and Saturday at the entrance or on our website.",
+            "user_response_option_en": "Can you tell me what kind of events you have on Fridays and Saturdays?",
+            "previous_turn_id": "taaflfqgrdyegteb",
+            "order": 3,
+            "key_phrase_en": "Events on weekends"
+        },
+        {
+            "id": "zbzadoisnsnzlyxj",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Sure, you can check the timetable for Friday and Saturday at the entrance or on our website.",
+            "user_response_option_en": "I want to know about the park's schedule on Fridays and Saturdays.",
+            "previous_turn_id": "taaflfqgrdyegteb",
+            "order": 3,
+            "key_phrase_en": "Park schedule"
+        },
+        {
+            "id": "xvdbtzxbtyhyiiao",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Our extended hours on Fridays and Saturdays are until 9 pm.",
+            "user_response_option_en": "Do you have any weekly evening events?",
+            "previous_turn_id": "oezyczfvkrnnvssj",
+            "order": 3,
+            "key_phrase_en": "Weekly evening events"
+        },
+        {
+            "id": "mewxrtphmpcaiuug",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Our extended hours on Fridays and Saturdays are until 9 pm.",
+            "user_response_option_en": "Are you open during holidays?",
+            "previous_turn_id": "oezyczfvkrnnvssj",
+            "order": 3,
+            "key_phrase_en": "Open during holidays"
+        },
+        {
+            "id": "bnrbrcrtqanndlyz",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Our extended hours on Fridays and Saturdays are until 9 pm.",
+            "user_response_option_en": "Do you offer weekend discounts?",
+            "previous_turn_id": "oezyczfvkrnnvssj",
+            "order": 3,
+            "key_phrase_en": "Weekend discounts"
+        },
+        {
+            "id": "joyqybwbaquxkkhw",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "I'm sorry, we do not have any discounted rates for extended hours at this time. However, we do offer various package deals and discounts for groups.",
+            "user_response_option_en": "Can you tell me more about your package deals and possible group discounts?",
+            "previous_turn_id": "sjyjaepsxuadgurd",
+            "order": 3,
+            "key_phrase_en": "Possible group discounts"
+        },
+        {
+            "id": "dohbfhsqkfmrghua",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "I'm sorry, we do not have any discounted rates for extended hours at this time. However, we do offer various package deals and discounts for groups.",
+            "user_response_option_en": "Are there any upcoming events that I should be aware of?",
+            "previous_turn_id": "sjyjaepsxuadgurd",
+            "order": 3,
+            "key_phrase_en": "upcoming events"
+        },
+        {
+            "id": "navhtofehmseinvy",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "I'm sorry, we do not have any discounted rates for extended hours at this time. However, we do offer various package deals and discounts for groups.",
+            "user_response_option_en": "Do you have a schedule for your extended hours on Fridays and Saturdays?",
+            "previous_turn_id": "sjyjaepsxuadgurd",
+            "order": 3,
+            "key_phrase_en": "Extended Hours"
+        },
+        {
+            "id": "vthhgjkhzudsrgvs",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "The concert starts at 7 pm, would you like me to give you more information about it?",
+            "user_response_option_en": "Yes, please tell me more about the concert.",
+            "previous_turn_id": "jdyailkgalahhxel",
+            "order": 3,
+            "key_phrase_en": "Tell me more"
+        },
+        {
+            "id": "rgmddbnjulajuihe",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "The concert starts at 7 pm, would you like me to give you more information about it?",
+            "user_response_option_en": "Do you have any other events besides the concert?",
+            "previous_turn_id": "jdyailkgalahhxel",
+            "order": 3,
+            "key_phrase_en": "other events"
+        },
+        {
+            "id": "wnkplgdzpzgsyihz",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "The concert starts at 7 pm, would you like me to give you more information about it?",
+            "user_response_option_en": "Are the extended hours only on Saturdays?",
+            "previous_turn_id": "jdyailkgalahhxel",
+            "order": 3,
+            "key_phrase_en": "Extended hours Saturdays"
+        },
+        {
+            "id": "ufueptfgliojcsem",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "No, the concert is included with your park admission fee.",
+            "user_response_option_en": "What time does the concert start?",
+            "previous_turn_id": "fvkequnzjhkhabva",
+            "order": 3,
+            "key_phrase_en": "Concert start time"
+        },
+        {
+            "id": "bxrfkqrcrgkesbsr",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "No, the concert is included with your park admission fee.",
+            "user_response_option_en": "Where is the concert located?",
+            "previous_turn_id": "fvkequnzjhkhabva",
+            "order": 3,
+            "key_phrase_en": "Concert located"
+        },
+        {
+            "id": "mtfysmwnhoynmffi",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "No, the concert is included with your park admission fee.",
+            "user_response_option_en": "Are there any other events happening this weekend?",
+            "previous_turn_id": "fvkequnzjhkhabva",
+            "order": 3,
+            "key_phrase_en": "other events happening"
+        },
+        {
+            "id": "kqapdwleufqnaglu",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Sure, the concert features local musicians and is free for all park guests.",
+            "user_response_option_en": "When does the concert start? ",
+            "previous_turn_id": "xmpfhpfawecklwyq",
+            "order": 3,
+            "key_phrase_en": "Concert start"
+        },
+        {
+            "id": "xqjbvaklbjbyseot",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Sure, the concert features local musicians and is free for all park guests.",
+            "user_response_option_en": "Can I bring my own food to the concert? ",
+            "previous_turn_id": "xmpfhpfawecklwyq",
+            "order": 3,
+            "key_phrase_en": "Bring my own"
+        },
+        {
+            "id": "nyqzdjszmaykfisz",
+            "mission_id": "yjvqlelnjknrdkss",
+            "ai_conversation_starter_en": "Sure, the concert features local musicians and is free for all park guests.",
+            "user_response_option_en": "How often are live concerts held at the park?",
+            "previous_turn_id": "xmpfhpfawecklwyq",
+            "order": 3,
+            "key_phrase_en": "Live concerts held"
+        }
+    ]
+}

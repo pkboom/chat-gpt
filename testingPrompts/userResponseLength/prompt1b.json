@@ -1,0 +1,629 @@
+{
+    "id": "bcxoqlphbdnrnhkh",
+    "title": "Making a complaint about bad food",
+    "order": 5,
+    "turns": [
+        {
+            "id": "kpuwxwddjejsswbh",
+            "ai_conversation_starter_en": "Is everything okay with your meal so far? How do you like it?",
+            "user_response_option_en": "Actually, there's a strange taste in this dish that doesn't seem quite right. Could you take a look at it?\" ",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jawqtsoqjbvzldao",
+            "ai_conversation_starter_ko": "지금까지 식사에 문제가 없으셨나요? 어떠세요?",
+            "user_response_option_ko": "사실, 이 요리에 뭔가 이상한 맛이 느껴져요. 좀 봐주시겠어요?\"",
+            "key_phrase_en": "Strange taste",
+            "key_phrase_ko": "이상한 맛",
+            "user_response": [
+                "Actually, there's a strange taste in this dish that doesn't seem quite right.",
+                "Could you take a look at it?"
+            ]
+        },
+        {
+            "id": "rixjkknrtofojbkh",
+            "ai_conversation_starter_en": "Is everything okay with your meal so far? How do you like it?",
+            "user_response_option_en": "I'm sorry, but the chicken in this dish doesn't seem fully cooked. Do you mind checking with the chef?\" ",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hhsdnwmilmbduadl",
+            "ai_conversation_starter_ko": "지금까지 식사에 문제가 없으셨나요? 어떠세요?",
+            "user_response_option_ko": "죄송하지만 이 요리의 닭고기가 완전히 익지 않은 것 같습니다. 셰프에게 확인해 주시겠습니까?\"",
+            "key_phrase_en": "Fully cooked",
+            "key_phrase_ko": "완전히 익힌 음식",
+            "user_response": [
+                "I'm sorry, but the chicken in this dish doesn't seem fully cooked.",
+                "Do you mind checking with the chef?"
+            ]
+        },
+        {
+            "id": "cgzrjqohzuynvjoe",
+            "ai_conversation_starter_en": "Is everything okay with your meal so far? How do you like it?",
+            "user_response_option_en": "I'm not sure how to say this, but this dish tastes a bit spoiled. Could you please replace it with something else on the menu?",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "tjywlphpyvxgwuvc",
+            "ai_conversation_starter_ko": "지금까지 식사에 문제가 없으셨나요? 어떠세요?",
+            "user_response_option_ko": "어떻게 말해야 할지 모르겠지만 이 요리는 약간 상한 맛이 납니다. 메뉴에 있는 다른 메뉴로 바꿔 주시겠어요?",
+            "key_phrase_en": "Replace it",
+            "key_phrase_ko": "교체",
+            "user_response": [
+                "I'm not sure how to say this, but this dish tastes a bit spoiled.",
+                "Could you please replace it with something else on the menu?"
+            ]
+        },
+        {
+            "id": "aebrcdjokhoufvhe",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm sorry to hear that there's a strange taste in your dish. I'll have the chef take a look at it right away.",
+            "user_response_option_en": "Thank you, I appreciate your quick response. I hope the chef can fix it.",
+            "previous_turn_id": "kpuwxwddjejsswbh",
+            "order": 2,
+            "next_turn_id": "thbzsdphuontblme",
+            "ai_conversation_starter_ko": "요리에 이상한 맛이 있다니 유감입니다. 셰프에게 바로 확인해 보도록 하겠습니다.",
+            "user_response_option_ko": "빠른 답변 감사합니다. 셰프가 고칠 수 있기를 바랍니다.",
+            "key_phrase_en": "Quick response",
+            "key_phrase_ko": "빠른 응답",
+            "user_response": [
+                "Thank you, I appreciate your quick response.",
+                "I hope the chef can fix it."
+            ]
+        },
+        {
+            "id": "egbydpzchxriexxn",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm sorry to hear that there's a strange taste in your dish. I'll have the chef take a look at it right away.",
+            "user_response_option_en": "I understand that these things can happen, thanks for taking care of it.",
+            "previous_turn_id": "kpuwxwddjejsswbh",
+            "order": 2,
+            "next_turn_id": "gpjitgfxehbitqob",
+            "ai_conversation_starter_ko": "요리에 이상한 맛이 있다니 유감입니다. 셰프에게 바로 확인해 보도록 하겠습니다.",
+            "user_response_option_ko": "이런 일이 일어날 수 있다는 것을 이해합니다.",
+            "key_phrase_en": "Thanks for taking",
+            "key_phrase_ko": "참여해 주셔서 감사합니다.",
+            "user_response": [
+                "I understand that these things can happen, thanks for taking care of it."
+            ]
+        },
+        {
+            "id": "jawqtsoqjbvzldao",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm sorry to hear that there's a strange taste in your dish. I'll have the chef take a look at it right away.",
+            "user_response_option_en": "I'm not really comfortable eating it anymore, could I get a different dish instead?",
+            "previous_turn_id": "kpuwxwddjejsswbh",
+            "order": 2,
+            "next_turn_id": "jdrgxthlvpfacwlh",
+            "ai_conversation_starter_ko": "요리에 이상한 맛이 있다니 유감입니다. 셰프에게 바로 확인해 보도록 하겠습니다.",
+            "user_response_option_ko": "더 이상 먹기가 불편한데 다른 메뉴로 바꿔도 될까요?",
+            "key_phrase_en": "Different dish",
+            "key_phrase_ko": "다른 요리",
+            "user_response": [
+                "I'm not really comfortable eating it anymore, could I get a different dish instead?"
+            ]
+        },
+        {
+            "id": "cnjmzzowtpvtncoh",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm sorry to hear that, let me see what I can do.",
+            "user_response_option_en": "Thank you, I appreciate it. ",
+            "previous_turn_id": "rixjkknrtofojbkh",
+            "order": 2,
+            "next_turn_id": "gpampighfwllfkfd",
+            "ai_conversation_starter_ko": "유감입니다. 제가 도와드릴 수 있는 방법을 찾아보겠습니다.",
+            "user_response_option_ko": "감사합니다.",
+            "key_phrase_en": "Appreciate it",
+            "key_phrase_ko": "감사합니다",
+            "user_response": [
+                "Thank you, I appreciate it."
+            ]
+        },
+        {
+            "id": "hdaqtvplmiqgbauw",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm sorry to hear that, let me see what I can do.",
+            "user_response_option_en": "Can I please speak to the manager about this as well? ",
+            "previous_turn_id": "rixjkknrtofojbkh",
+            "order": 2,
+            "next_turn_id": "thwtbnwvlebhwbui",
+            "ai_conversation_starter_ko": "유감입니다. 제가 도와드릴 수 있는 방법을 찾아보겠습니다.",
+            "user_response_option_ko": "이에 대해서도 관리자와 상담할 수 있나요?",
+            "key_phrase_en": "speak to manager",
+            "key_phrase_ko": "관리자와 대화하기",
+            "user_response": [
+                "Can I please speak to the manager about this as well?"
+            ]
+        },
+        {
+            "id": "hhsdnwmilmbduadl",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm sorry to hear that, let me see what I can do.",
+            "user_response_option_en": "I'm not in a rush, please take your time to fix it properly.",
+            "previous_turn_id": "rixjkknrtofojbkh",
+            "order": 2,
+            "next_turn_id": "ejpffjbxvdxoqcio",
+            "ai_conversation_starter_ko": "유감입니다. 제가 도와드릴 수 있는 방법을 찾아보겠습니다.",
+            "user_response_option_ko": "서두르지 말고 여유를 가지고 제대로 고쳐주세요.",
+            "key_phrase_en": "take your time",
+            "key_phrase_ko": "천천히 즐기기",
+            "user_response": [
+                "I'm not in a rush, please take your time to fix it properly."
+            ]
+        },
+        {
+            "id": "hwfrlvkrhacybtif",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm so sorry to hear that! I'll be happy to get that replacement order started for you right away.",
+            "user_response_option_en": "Thank you, I appreciate it. Do you have any recommendations for dishes that would be safer to order?",
+            "previous_turn_id": "cgzrjqohzuynvjoe",
+            "order": 2,
+            "next_turn_id": "jcretltftjgyjjnz",
+            "ai_conversation_starter_ko": "정말 유감입니다! 교체 주문을 바로 시작하도록 하겠습니다.",
+            "user_response_option_ko": "감사합니다. 더 안전하게 주문할 수 있는 추천 메뉴가 있나요?",
+            "key_phrase_en": "recommendations for dishes",
+            "key_phrase_ko": "요리 추천",
+            "user_response": [
+                "Thank you, I appreciate it.",
+                "Do you have any recommendations for dishes that would be safer to order?"
+            ]
+        },
+        {
+            "id": "dzpwccmevbpplfom",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm so sorry to hear that! I'll be happy to get that replacement order started for you right away.",
+            "user_response_option_en": "Thanks for being responsive to my complaint. Could you also inform the chef or kitchen staff about the issue?",
+            "previous_turn_id": "cgzrjqohzuynvjoe",
+            "order": 2,
+            "next_turn_id": "loeechthokdgzyje",
+            "ai_conversation_starter_ko": "정말 유감입니다! 교체 주문을 바로 시작하도록 하겠습니다.",
+            "user_response_option_ko": "불만 사항에 응답해 주셔서 감사합니다. 셰프나 주방 직원에게도 이 문제에 대해 알려주시겠어요?",
+            "key_phrase_en": "Being responsive",
+            "key_phrase_ko": "빠른 응답성",
+            "user_response": [
+                "Thanks for being responsive to my complaint.",
+                "Could you also inform the chef or kitchen staff about the issue?"
+            ]
+        },
+        {
+            "id": "tjywlphpyvxgwuvc",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm so sorry to hear that! I'll be happy to get that replacement order started for you right away.",
+            "user_response_option_en": "No problem, I understand these things can happen. I hope the replacement dish will be better, thank you.",
+            "previous_turn_id": "cgzrjqohzuynvjoe",
+            "order": 2,
+            "next_turn_id": "hhonfjggsmijtlew",
+            "ai_conversation_starter_ko": "정말 유감입니다! 교체 주문을 바로 시작하도록 하겠습니다.",
+            "user_response_option_ko": "문제없습니다. 이런 일이 발생할 수 있다는 것을 이해합니다. 대체 요리가 더 맛있길 바랍니다, 감사합니다.",
+            "key_phrase_en": "replacement dish",
+            "key_phrase_ko": "대체 요리",
+            "user_response": [
+                "No problem, I understand these things can happen.",
+                "I hope the replacement dish will be better, thank you."
+            ]
+        },
+        {
+            "id": "ddontuaeecdpvtjh",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll ask the kitchen to prepare a new dish for you right away.",
+            "user_response_option_en": "Thank you so much for taking care of this. I really appreciate your attentiveness.",
+            "previous_turn_id": "aebrcdjokhoufvhe",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 주방에 바로 새로운 요리를 준비해달라고 요청하겠습니다.",
+            "user_response_option_ko": "이렇게 신경 써주셔서 정말 감사합니다. 세심한 배려에 정말 감사드립니다.",
+            "key_phrase_en": "Appreciate your attentiveness",
+            "key_phrase_ko": "여러분의 세심한 배려에 감사드립니다.",
+            "user_response": [
+                "Thank you so much for taking care of this.",
+                "I really appreciate your attentiveness."
+            ]
+        },
+        {
+            "id": "klaggefuwbqzeutl",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll ask the kitchen to prepare a new dish for you right away.",
+            "user_response_option_en": "I'm hoping the replacement dish will be better, but if not, can I speak with the manager?",
+            "previous_turn_id": "aebrcdjokhoufvhe",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 주방에 바로 새로운 요리를 준비해달라고 요청하겠습니다.",
+            "user_response_option_ko": "대체 요리가 더 좋기를 바라지만 그렇지 않은 경우 매니저와 상담할 수 있나요?",
+            "key_phrase_en": "replacement dish",
+            "key_phrase_ko": "대체 요리",
+            "user_response": [
+                "I'm hoping the replacement dish will be better, but if not, can I speak with the manager?"
+            ]
+        },
+        {
+            "id": "thbzsdphuontblme",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll ask the kitchen to prepare a new dish for you right away.",
+            "user_response_option_en": "I understand that these things happen. I appreciate your efforts to make it right.",
+            "previous_turn_id": "aebrcdjokhoufvhe",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 주방에 바로 새로운 요리를 준비해달라고 요청하겠습니다.",
+            "user_response_option_ko": "이런 일이 발생한다는 것을 이해합니다. 이를 바로잡기 위한 여러분의 노력에 감사드립니다.",
+            "key_phrase_en": "Make it right",
+            "key_phrase_ko": "올바르게 만들기",
+            "user_response": [
+                "I understand that these things happen.",
+                "I appreciate your efforts to make it right."
+            ]
+        },
+        {
+            "id": "esvkphlnoeihfaab",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to our attention. Is there anything else I can get you to make your meal more enjoyable?",
+            "user_response_option_en": "No, that's alright, thank you. I appreciate your prompt response to the issue with my meal.",
+            "previous_turn_id": "egbydpzchxriexxn",
+            "order": 3,
+            "ai_conversation_starter_ko": "이 문제를 알려주셔서 감사합니다. 더 즐거운 식사를 위해 도와드릴 수 있는 것이 있나요?",
+            "user_response_option_ko": "아뇨, 괜찮습니다, 감사합니다. 제 식사 문제에 대해 신속하게 대응해 주셔서 감사합니다.",
+            "key_phrase_en": "Prompt response",
+            "key_phrase_ko": "신속한 응답",
+            "user_response": [
+                "No, that's alright, thank you.",
+                "I appreciate your prompt response to the issue with my meal."
+            ]
+        },
+        {
+            "id": "wjhsirvnheigverk",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to our attention. Is there anything else I can get you to make your meal more enjoyable?",
+            "user_response_option_en": "Actually, I think I'd like to try a different dish instead. Can you recommend something else?",
+            "previous_turn_id": "egbydpzchxriexxn",
+            "order": 3,
+            "ai_conversation_starter_ko": "이 문제를 알려주셔서 감사합니다. 더 즐거운 식사를 위해 도와드릴 수 있는 것이 있나요?",
+            "user_response_option_ko": "사실 다른 요리를 먹어보고 싶어요. 다른 메뉴를 추천해 주시겠어요?",
+            "key_phrase_en": "recommend something else",
+            "key_phrase_ko": "다른 것을 추천",
+            "user_response": [
+                "Actually, I think I'd like to try a different dish instead.",
+                "Can you recommend something else?"
+            ]
+        },
+        {
+            "id": "gpjitgfxehbitqob",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to our attention. Is there anything else I can get you to make your meal more enjoyable?",
+            "user_response_option_en": "I would really appreciate it if my meal could be comped as well in light of the issue. Thank you.",
+            "previous_turn_id": "egbydpzchxriexxn",
+            "order": 3,
+            "ai_conversation_starter_ko": "이 문제를 알려주셔서 감사합니다. 더 즐거운 식사를 위해 도와드릴 수 있는 것이 있나요?",
+            "user_response_option_ko": "이 문제를 고려하여 제 식사도 보상해 주시면 정말 감사하겠습니다. 감사합니다.",
+            "key_phrase_en": "Comp my meal",
+            "key_phrase_ko": "내 식사 비교",
+            "user_response": [
+                "I would really appreciate it if my meal could be comped as well in light of the issue.",
+                "Thank you."
+            ]
+        },
+        {
+            "id": "jiivazcstpzhwdzh",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll be happy to get you a different dish right away. What would you like instead?",
+            "user_response_option_en": "Thank you, I'd like to try the grilled chicken instead.",
+            "previous_turn_id": "jawqtsoqjbvzldao",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 다른 메뉴로 바로 바꿔드리겠습니다. 대신 무엇을 원하시나요?",
+            "user_response_option_ko": "감사합니다, 대신 구운 치킨을 먹어보고 싶습니다.",
+            "key_phrase_en": "Grilled chicken",
+            "key_phrase_ko": "구운 닭고기",
+            "user_response": [
+                "Thank you, I'd like to try the grilled chicken instead."
+            ]
+        },
+        {
+            "id": "ggmwsjwksplvclyy",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll be happy to get you a different dish right away. What would you like instead?",
+            "user_response_option_en": "I appreciate your help. Could you recommend something similar to this dish that might taste better?",
+            "previous_turn_id": "jawqtsoqjbvzldao",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 다른 메뉴로 바로 바꿔드리겠습니다. 대신 무엇을 원하시나요?",
+            "user_response_option_ko": "도와주셔서 감사합니다. 이 요리와 비슷한 요리 중 더 맛있을 만한 것을 추천해 주시겠어요?",
+            "key_phrase_en": "Recommend something similar",
+            "key_phrase_ko": "비슷한 것을 추천하세요",
+            "user_response": [
+                "I appreciate your help.",
+                "Could you recommend something similar to this dish that might taste better?"
+            ]
+        },
+        {
+            "id": "jdrgxthlvpfacwlh",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll be happy to get you a different dish right away. What would you like instead?",
+            "user_response_option_en": "I'm not really sure, can you suggest a dish that's popular here?",
+            "previous_turn_id": "jawqtsoqjbvzldao",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 다른 메뉴로 바로 바꿔드리겠습니다. 대신 무엇을 원하시나요?",
+            "user_response_option_ko": "잘 모르겠는데 이곳에서 인기 있는 요리를 추천해 주시겠어요?",
+            "key_phrase_en": "Popular dish suggestion",
+            "key_phrase_ko": "인기 요리 제안",
+            "user_response": [
+                "I'm not really sure, can you suggest a dish that's popular here?"
+            ]
+        },
+        {
+            "id": "ajtobeofebucqcwp",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm going to have your meal remade for you, would you like to order something else in the meantime?",
+            "user_response_option_en": "Thank you, I would appreciate that. Can I please have a side salad while I wait?\" ",
+            "previous_turn_id": "cnjmzzowtpvtncoh",
+            "order": 3,
+            "ai_conversation_starter_ko": "식사를 다시 만들어 드릴 테니 그 동안 다른 음식을 주문하시겠습니까?",
+            "user_response_option_ko": "감사합니다. 기다리는 동안 사이드 샐러드 좀 먹어도 될까요?\"",
+            "key_phrase_en": "Side salad",
+            "key_phrase_ko": "사이드 샐러드",
+            "user_response": [
+                "Thank you, I would appreciate that.",
+                "Can I please have a side salad while I wait?"
+            ]
+        },
+        {
+            "id": "qojcnojmtacdvbpv",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm going to have your meal remade for you, would you like to order something else in the meantime?",
+            "user_response_option_en": "I understand, thank you for remaking it. Can I order some bread to go with it?\" ",
+            "previous_turn_id": "cnjmzzowtpvtncoh",
+            "order": 3,
+            "ai_conversation_starter_ko": "식사를 다시 만들어 드릴 테니 그 동안 다른 음식을 주문하시겠어요?",
+            "user_response_option_ko": "알겠습니다, 다시 만들어 주셔서 감사합니다. 함께 먹을 빵을 주문해도 될까요?\"",
+            "key_phrase_en": "order bread go",
+            "key_phrase_ko": "빵 주문하기",
+            "user_response": [
+                "I understand, thank you for remaking it.",
+                "Can I order some bread to go with it?",
+                "\""
+            ]
+        },
+        {
+            "id": "gpampighfwllfkfd",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "I'm going to have your meal remade for you, would you like to order something else in the meantime?",
+            "user_response_option_en": "I don't want to cause any trouble, but do you mind if I speak with the manager about this? The chicken seemed dangerously undercooked.",
+            "previous_turn_id": "cnjmzzowtpvtncoh",
+            "order": 3,
+            "ai_conversation_starter_ko": "식사를 다시 만들어 드릴 테니 그 동안 다른 음식을 주문하시겠습니까?",
+            "user_response_option_ko": "문제를 일으키고 싶지 않은데 매니저와 얘기 좀 해도 될까요? 치킨이 위험할 정도로 덜 익은 것 같습니다.",
+            "key_phrase_en": "Undercooked chicken",
+            "key_phrase_ko": "익히지 않은 닭고기",
+            "user_response": [
+                "I don't want to cause any trouble, but do you mind if I speak with the manager about this?",
+                "The chicken seemed dangerously undercooked."
+            ]
+        },
+        {
+            "id": "jmbkawsgldzsvlwx",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I will grab the manager to speak with you right away.",
+            "user_response_option_en": "Thank you, I appreciate your prompt action in addressing this issue.",
+            "previous_turn_id": "hdaqtvplmiqgbauw",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 매니저와 바로 통화할 수 있도록 하겠습니다.",
+            "user_response_option_ko": "이 문제를 신속하게 해결해 주셔서 감사합니다.",
+            "key_phrase_en": "Prompt action",
+            "key_phrase_ko": "신속한 조치",
+            "user_response": [
+                "Thank you, I appreciate your prompt action in addressing this issue."
+            ]
+        },
+        {
+            "id": "ubcadvsvadynmjwo",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I will grab the manager to speak with you right away.",
+            "user_response_option_en": "Can you also bring me a different dish in the meantime while we wait for the manager?",
+            "previous_turn_id": "hdaqtvplmiqgbauw",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 매니저와 바로 통화할 수 있도록 하겠습니다.",
+            "user_response_option_ko": "매니저를 기다리는 동안 다른 요리를 가져다 주실 수 있나요?",
+            "key_phrase_en": "Different dish",
+            "key_phrase_ko": "다른 요리",
+            "user_response": [
+                "Can you also bring me a different dish in the meantime while we wait for the manager?"
+            ]
+        },
+        {
+            "id": "thwtbnwvlebhwbui",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I will grab the manager to speak with you right away.",
+            "user_response_option_en": "I hope this can be resolved, I really wanted to enjoy my meal here.",
+            "previous_turn_id": "hdaqtvplmiqgbauw",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 매니저와 바로 통화할 수 있도록 하겠습니다.",
+            "user_response_option_ko": "이 문제가 해결되기를 바랍니다. 정말 여기서 식사를 즐기고 싶었습니다.",
+            "key_phrase_en": "Enjoy my meal",
+            "key_phrase_ko": "내 식사를 즐기세요",
+            "user_response": [
+                "I hope this can be resolved, I really wanted to enjoy my meal here."
+            ]
+        },
+        {
+            "id": "qvvpiysubnkmzmkw",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to my attention, Iris. I'll take it back to the kitchen and have it remade for you.",
+            "user_response_option_en": "Thank you for being understanding, I appreciate your help in resolving this issue.",
+            "previous_turn_id": "hhsdnwmilmbduadl",
+            "order": 3,
+            "ai_conversation_starter_ko": "알려줘서 고마워요, 아이리스. 주방으로 가져가서 다시 만들도록 하죠.",
+            "user_response_option_ko": "이해해 주셔서 감사드리며, 이 문제를 해결하는 데 도움을 주셔서 감사합니다.",
+            "key_phrase_en": "Appreciate your help",
+            "key_phrase_ko": "도와주셔서 감사합니다",
+            "user_response": [
+                "Thank you for being understanding, I appreciate your help in resolving this issue."
+            ]
+        },
+        {
+            "id": "jraeuwxpelwzfrzp",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to my attention, Iris. I'll take it back to the kitchen and have it remade for you.",
+            "user_response_option_en": "I hope the next one turns out great. Thank you again for your prompt response.",
+            "previous_turn_id": "hhsdnwmilmbduadl",
+            "order": 3,
+            "ai_conversation_starter_ko": "알려줘서 고마워요, 아이리스. 주방으로 가져가서 다시 만들도록 하죠.",
+            "user_response_option_ko": "다음번에도 좋은 결과가 있기를 바랍니다. 신속한 답변에 다시 한 번 감사드립니다.",
+            "key_phrase_en": "Prompt response",
+            "key_phrase_ko": "신속한 응답",
+            "user_response": [
+                "I hope the next one turns out great.",
+                "Thank you again for your prompt response."
+            ]
+        },
+        {
+            "id": "ejpffjbxvdxoqcio",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to my attention, Iris. I'll take it back to the kitchen and have it remade for you.",
+            "user_response_option_en": "Could you also let me know what went wrong with the dish? I'm just curious, but either way, I appreciate your assistance.",
+            "previous_turn_id": "hhsdnwmilmbduadl",
+            "order": 3,
+            "ai_conversation_starter_ko": "알려줘서 고마워요, 아이리스. 주방으로 가져가서 다시 만들도록 하죠.",
+            "user_response_option_ko": "요리에 무엇이 잘못되었는지 알려주시겠어요? 그냥 궁금해서요, 어쨌든 도와주셔서 감사합니다.",
+            "key_phrase_en": "let me know",
+            "key_phrase_ko": "알려주세요",
+            "user_response": [
+                "Could you also let me know what went wrong with the dish?",
+                "I'm just curious, but either way, I appreciate your assistance."
+            ]
+        },
+        {
+            "id": "pnjtmfaiaslvolox",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Absolutely, I'm glad you asked! Our grilled chicken Caesar salad is a popular and highly recommended dish.",
+            "user_response_option_en": "That sounds great, I'll have the Caesar salad instead. Thank you for offering a suggestion.",
+            "previous_turn_id": "hwfrlvkrhacybtif",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론이죠, 물어봐 주셔서 감사합니다! 그릴드 치킨 시저 샐러드는 인기 있고 강력 추천하는 요리입니다.",
+            "user_response_option_ko": "그거 좋네요, 시저 샐러드로 주세요. 제안해 주셔서 감사합니다.",
+            "key_phrase_en": "Caesar salad",
+            "key_phrase_ko": "시저 샐러드",
+            "user_response": [
+                "That sounds great, I'll have the Caesar salad instead.",
+                "Thank you for offering a suggestion."
+            ]
+        },
+        {
+            "id": "jvfeszxbwalfoksb",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Absolutely, I'm glad you asked! Our grilled chicken Caesar salad is a popular and highly recommended dish.",
+            "user_response_option_en": "I'm actually not in the mood for salad today. Could you please recommend something else that's cooked to order and served hot?",
+            "previous_turn_id": "hwfrlvkrhacybtif",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론이죠, 물어봐 주셔서 감사합니다! 그릴드 치킨 시저 샐러드는 인기 있고 강력 추천하는 요리입니다.",
+            "user_response_option_ko": "오늘은 사실 샐러드를 먹을 기분이 아니에요. 주문 즉시 조리해서 따뜻하게 제공하는 다른 메뉴를 추천해 주시겠어요?",
+            "key_phrase_en": "Recommend something else",
+            "key_phrase_ko": "다른 것 추천하기",
+            "user_response": [
+                "I'm actually not in the mood for salad today.",
+                "Could you please recommend something else that's cooked to order and served hot?"
+            ]
+        },
+        {
+            "id": "jcretltftjgyjjnz",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Absolutely, I'm glad you asked! Our grilled chicken Caesar salad is a popular and highly recommended dish.",
+            "user_response_option_en": "I appreciate your recommendation, but I'm feeling a bit nauseous now so I'd rather just have some water and call it a day. Can you please remove the spoiled dish from my table?",
+            "previous_turn_id": "hwfrlvkrhacybtif",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론이죠, 물어봐 주셔서 감사합니다! 그릴드 치킨 시저 샐러드는 인기 있고 강력 추천하는 요리입니다.",
+            "user_response_option_ko": "추천해 주셔서 감사하지만 지금은 속이 메스껍기 때문에 물만 마시고 이만 끊고 싶습니다. 상한 접시를 테이블에서 치워주시겠어요?",
+            "key_phrase_en": "Removed spoiled dish",
+            "key_phrase_ko": "상한 접시 제거",
+            "user_response": [
+                "I appreciate your recommendation, but I'm feeling a bit nauseous now so I'd rather just have some water and call it a day.",
+                "Can you please remove the spoiled dish from my table?"
+            ]
+        },
+        {
+            "id": "bkrpydxfwkkhhxsb",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll let them know right away.",
+            "user_response_option_en": "Thank you for taking care of this, I appreciate your help.",
+            "previous_turn_id": "dzpwccmevbpplfom",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 바로 알려드리겠습니다.",
+            "user_response_option_ko": "이 문제를 해결해 주셔서 감사합니다.",
+            "key_phrase_en": "Thank you",
+            "key_phrase_ko": "감사합니다",
+            "user_response": [
+                "Thank you for taking care of this, I appreciate your help."
+            ]
+        },
+        {
+            "id": "elqykduojmtekezg",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll let them know right away.",
+            "user_response_option_en": "Could you also let the manager know about this issue, please?",
+            "previous_turn_id": "dzpwccmevbpplfom",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 바로 알려드리겠습니다.",
+            "user_response_option_ko": "관리자에게도 이 문제에 대해 알려주시겠어요?",
+            "key_phrase_en": "let the manager",
+            "key_phrase_ko": "관리자가",
+            "user_response": [
+                "Could you also let the manager know about this issue, please?"
+            ]
+        },
+        {
+            "id": "loeechthokdgzyje",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Of course, I'll let them know right away.",
+            "user_response_option_en": "Do you have any recommendations for a different dish to try as the replacement?",
+            "previous_turn_id": "dzpwccmevbpplfom",
+            "order": 3,
+            "ai_conversation_starter_ko": "물론 바로 알려드리겠습니다.",
+            "user_response_option_ko": "대체할 수 있는 다른 요리를 추천해 주시겠어요?",
+            "key_phrase_en": "recommendations, dish, replacement",
+            "key_phrase_ko": "추천, 요리, 교체",
+            "user_response": [
+                "Do you have any recommendations for a different dish to try as the replacement?"
+            ]
+        },
+        {
+            "id": "vrzntpwnstuumtrf",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to our attention, Iris. We always want our guests to have the best experience possible.",
+            "user_response_option_en": "Thank you for handling this so quickly, I appreciate your attentiveness.\" ",
+            "previous_turn_id": "tjywlphpyvxgwuvc",
+            "order": 3,
+            "ai_conversation_starter_ko": "이 문제를 알려주셔서 감사합니다, 아이리스. 에어비앤비는 항상 고객이 최상의 경험을 할 수 있기를 바랍니다.",
+            "user_response_option_ko": "이렇게 신속하게 처리해 주셔서 감사드리며, 세심한 배려에 감사드립니다.\"",
+            "key_phrase_en": "Appreciate attentiveness",
+            "key_phrase_ko": "세심한 배려에 감사",
+            "user_response": [
+                "Thank you for handling this so quickly, I appreciate your attentiveness.",
+                "\""
+            ]
+        },
+        {
+            "id": "nufgotrcsmlcbkto",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to our attention, Iris. We always want our guests to have the best experience possible.",
+            "user_response_option_en": "I'm just glad I said something, I wouldn't have been able to finish that meal.\" ",
+            "previous_turn_id": "tjywlphpyvxgwuvc",
+            "order": 3,
+            "ai_conversation_starter_ko": "이 문제를 알려주셔서 감사합니다, 아이리스. 에어비앤비는 항상 고객이 최상의 경험을 할 수 있기를 바랍니다.",
+            "user_response_option_ko": "말을 하길 잘했다면 식사를 다 끝내지 못했을 거예요.\"",
+            "key_phrase_en": "Finish the meal",
+            "key_phrase_ko": "식사 완료",
+            "user_response": [
+                "I'm just glad I said something, I wouldn't have been able to finish that meal.",
+                "\""
+            ]
+        },
+        {
+            "id": "hhonfjggsmijtlew",
+            "mission_id": "bcxoqlphbdnrnhkh",
+            "ai_conversation_starter_en": "Thank you for bringing this to our attention, Iris. We always want our guests to have the best experience possible.",
+            "user_response_option_en": "Could I also speak to the manager about this incident? I'd like to give feedback on how well you've handled things.",
+            "previous_turn_id": "tjywlphpyvxgwuvc",
+            "order": 3,
+            "ai_conversation_starter_ko": "이 문제를 알려주셔서 감사합니다, 아이리스. 에어비앤비는 항상 고객이 최상의 경험을 할 수 있기를 바랍니다.",
+            "user_response_option_ko": "이 사건에 대해 매니저와도 이야기할 수 있나요? 얼마나 잘 처리했는지 피드백을 드리고 싶습니다.",
+            "key_phrase_en": "give feedback",
+            "key_phrase_ko": "피드백 제공",
+            "user_response": [
+                "Could I also speak to the manager about this incident?",
+                "I'd like to give feedback on how well you've handled things."
+            ]
+        }
+    ]
+}

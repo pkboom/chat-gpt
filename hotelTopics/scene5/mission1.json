@@ -1,0 +1,370 @@
+{
+    "id": "idgrzrucmbzmoris",
+    "title": "Leaving their room key with the front desk",
+    "order": 1,
+    "turns": [
+        {
+            "id": "nlbmycwnvycuskib",
+            "ai_conversation_starter_en": "Good morning! When you're ready to check out, kindly return your room key to the front desk.",
+            "user_response_option_en": "Okay, I'll give you my room key upon checkout.",
+            "mission_id": "idgrzrucmbzmoris",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hworbdnkdvzfulse",
+            "key_phrase_en": "Room key"
+        },
+        {
+            "id": "saqtvdrbjmvewriz",
+            "ai_conversation_starter_en": "Good morning! When you're ready to check out, kindly return your room key to the front desk.",
+            "user_response_option_en": "Sure, I'll return the room key to the reception.",
+            "mission_id": "idgrzrucmbzmoris",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dnrsfegudmerhwhs",
+            "key_phrase_en": "Room key"
+        },
+        {
+            "id": "pyzmtrkapzfcfgrf",
+            "ai_conversation_starter_en": "Good morning! When you're ready to check out, kindly return your room key to the front desk.",
+            "user_response_option_en": "Okay, I'll leave the room key here at the front desk.",
+            "mission_id": "idgrzrucmbzmoris",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "pyusrwnzodgcyhde",
+            "key_phrase_en": "Front desk"
+        },
+        {
+            "id": "doaeojsbgdtcddru",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for staying with us, Ms. Kim. Do you need assistance with your luggage?",
+            "user_response_option_en": "No, thank you. I can manage my luggage.",
+            "previous_turn_id": "nlbmycwnvycuskib",
+            "order": 2,
+            "next_turn_id": "piesdtxfdbkjpqoq",
+            "key_phrase_en": "I can manage\""
+        },
+        {
+            "id": "aktilfupgmabwozy",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for staying with us, Ms. Kim. Do you need assistance with your luggage?",
+            "user_response_option_en": "Yes, please. I have heavy bags.",
+            "previous_turn_id": "nlbmycwnvycuskib",
+            "order": 2,
+            "next_turn_id": "ebsqvallidaxktxu",
+            "key_phrase_en": "heavy bags"
+        },
+        {
+            "id": "hworbdnkdvzfulse",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for staying with us, Ms. Kim. Do you need assistance with your luggage?",
+            "user_response_option_en": "Can I leave my bags here and come back later?",
+            "previous_turn_id": "nlbmycwnvycuskib",
+            "order": 2,
+            "next_turn_id": "eiqnoebeglstyupu",
+            "key_phrase_en": "Leave my bags"
+        },
+        {
+            "id": "xvycenuddcqctody",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for returning the key. Can I help you with anything else?",
+            "user_response_option_en": "No, thank you. That's all for today.",
+            "previous_turn_id": "saqtvdrbjmvewriz",
+            "order": 2,
+            "next_turn_id": "gcttvqrenjllxier",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "yyrylvenowxlxdxi",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for returning the key. Can I help you with anything else?",
+            "user_response_option_en": "I'm not sure. Could you recommend a place to eat nearby?",
+            "previous_turn_id": "saqtvdrbjmvewriz",
+            "order": 2,
+            "next_turn_id": "nvbgmtqpcrfvzxwj",
+            "key_phrase_en": "recommend a place"
+        },
+        {
+            "id": "dnrsfegudmerhwhs",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for returning the key. Can I help you with anything else?",
+            "user_response_option_en": "Yes, please. Could I have a receipt for my stay?",
+            "previous_turn_id": "saqtvdrbjmvewriz",
+            "order": 2,
+            "next_turn_id": "jezsohxnfbeqkdak",
+            "key_phrase_en": "Receipt for stay"
+        },
+        {
+            "id": "xnmewtehpcgdvzrn",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for returning your key, Ms. Kim. Did you enjoy your stay?",
+            "user_response_option_en": "Yes, everything was great. Thank you.",
+            "previous_turn_id": "pyzmtrkapzfcfgrf",
+            "order": 2,
+            "next_turn_id": "hjkfmzetfmfypfgq",
+            "key_phrase_en": "Everything was great"
+        },
+        {
+            "id": "miyozoxjxxrnpksh",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for returning your key, Ms. Kim. Did you enjoy your stay?",
+            "user_response_option_en": "I had a wonderful stay. Thank you for asking.",
+            "previous_turn_id": "pyzmtrkapzfcfgrf",
+            "order": 2,
+            "next_turn_id": "zrhgotsxaprgbqqa",
+            "key_phrase_en": "Wonderful stay"
+        },
+        {
+            "id": "pyusrwnzodgcyhde",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for returning your key, Ms. Kim. Did you enjoy your stay?",
+            "user_response_option_en": "It was a pleasant stay. Thank you for your service.",
+            "previous_turn_id": "pyzmtrkapzfcfgrf",
+            "order": 2,
+            "next_turn_id": "whntvxprcvjkvksr",
+            "key_phrase_en": "pleasant stay"
+        },
+        {
+            "id": "xqjgaonzzslyoqzx",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Okay, Ms. Kim. Please inform me if you need any further assistance.",
+            "user_response_option_en": "Thank you for your help.",
+            "previous_turn_id": "doaeojsbgdtcddru",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "fsculyatjnydqpvk",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Okay, Ms. Kim. Please inform me if you need any further assistance.",
+            "user_response_option_en": "Do I need to fill out any paperwork?",
+            "previous_turn_id": "doaeojsbgdtcddru",
+            "order": 3,
+            "key_phrase_en": "fill out paperwork"
+        },
+        {
+            "id": "piesdtxfdbkjpqoq",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Okay, Ms. Kim. Please inform me if you need any further assistance.",
+            "user_response_option_en": "Can I get a receipt for my stay?",
+            "previous_turn_id": "doaeojsbgdtcddru",
+            "order": 3,
+            "key_phrase_en": "get a receipt"
+        },
+        {
+            "id": "ymgqcmdslzwmdmtb",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I'll be happy to assist you with your luggage.",
+            "user_response_option_en": "Can you confirm that the room charges have been settled?",
+            "previous_turn_id": "aktilfupgmabwozy",
+            "order": 3,
+            "key_phrase_en": "Confirm charges settled"
+        },
+        {
+            "id": "nzxbrqlvemsavtiz",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I'll be happy to assist you with your luggage.",
+            "user_response_option_en": "Thank you. Will I receive a receipt for my stay?",
+            "previous_turn_id": "aktilfupgmabwozy",
+            "order": 3,
+            "key_phrase_en": "Receive a receipt"
+        },
+        {
+            "id": "ebsqvallidaxktxu",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. I'll be happy to assist you with your luggage.",
+            "user_response_option_en": "May I have a taxi arranged for me, please?",
+            "previous_turn_id": "aktilfupgmabwozy",
+            "order": 3,
+            "key_phrase_en": "taxi arranged please"
+        },
+        {
+            "id": "iawqbcqwblxhxbbu",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Sure, we'll hold onto your bags. Please let us know if you have any other needs.",
+            "user_response_option_en": "Thank you, I appreciate your help.",
+            "previous_turn_id": "hworbdnkdvzfulse",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "duxclzpunrzaftzo",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Sure, we'll hold onto your bags. Please let us know if you have any other needs.",
+            "user_response_option_en": "Could you also call a taxi for me, please?",
+            "previous_turn_id": "hworbdnkdvzfulse",
+            "order": 3,
+            "key_phrase_en": "call a taxi"
+        },
+        {
+            "id": "eiqnoebeglstyupu",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Sure, we'll hold onto your bags. Please let us know if you have any other needs.",
+            "user_response_option_en": "Can I have a copy of my receipt for my stay?",
+            "previous_turn_id": "hworbdnkdvzfulse",
+            "order": 3,
+            "key_phrase_en": "Copy of receipt"
+        },
+        {
+            "id": "arkfkidctbvtfxvr",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for choosing our hotel. Have a safe journey!",
+            "user_response_option_en": "Thank YOU, have a safe day!",
+            "previous_turn_id": "xvycenuddcqctody",
+            "order": 3,
+            "key_phrase_en": "Safe day\""
+        },
+        {
+            "id": "gzzqgepdanlqdbzh",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for choosing our hotel. Have a safe journey!",
+            "user_response_option_en": "You're WELCOME, goodbye!",
+            "previous_turn_id": "xvycenuddcqctody",
+            "order": 3,
+            "key_phrase_en": "You're welcome"
+        },
+        {
+            "id": "gcttvqrenjllxier",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Thank you for choosing our hotel. Have a safe journey!",
+            "user_response_option_en": "THANK YOU, bye bye!",
+            "previous_turn_id": "xvycenuddcqctody",
+            "order": 3,
+            "key_phrase_en": "Thank you\""
+        },
+        {
+            "id": "nnvxwwdqrgngbjet",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly! We have several excellent restaurants nearby. Do you have a preferred cuisine?",
+            "user_response_option_en": "Can you suggest an affordable place for lunch?",
+            "previous_turn_id": "yyrylvenowxlxdxi",
+            "order": 3,
+            "key_phrase_en": "affordable place lunch"
+        },
+        {
+            "id": "kflwtrtehsqwxete",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly! We have several excellent restaurants nearby. Do you have a preferred cuisine?",
+            "user_response_option_en": "I prefer vegetarian cuisine, do you have any recommendations?",
+            "previous_turn_id": "yyrylvenowxlxdxi",
+            "order": 3,
+            "key_phrase_en": "Vegetarian cuisine"
+        },
+        {
+            "id": "nvbgmtqpcrfvzxwj",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly! We have several excellent restaurants nearby. Do you have a preferred cuisine?",
+            "user_response_option_en": "Do any of the nearby restaurants offer a discount for hotel guests?",
+            "previous_turn_id": "yyrylvenowxlxdxi",
+            "order": 3,
+            "key_phrase_en": "Nearby Restaurants Discount"
+        },
+        {
+            "id": "bjdgkcyumyufjnyr",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly, I'll prepare your receipt for your stay. Just a moment, please.",
+            "user_response_option_en": "Can I have an additional copy of the receipt please? ",
+            "previous_turn_id": "dnrsfegudmerhwhs",
+            "order": 3,
+            "key_phrase_en": "additional copy receipt"
+        },
+        {
+            "id": "ffgcczftrnuqhpte",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly, I'll prepare your receipt for your stay. Just a moment, please.",
+            "user_response_option_en": "Could you also help me to call a taxi, please? ",
+            "previous_turn_id": "dnrsfegudmerhwhs",
+            "order": 3,
+            "key_phrase_en": "call a taxi"
+        },
+        {
+            "id": "jezsohxnfbeqkdak",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Certainly, I'll prepare your receipt for your stay. Just a moment, please.",
+            "user_response_option_en": "Where can I leave my luggage while waiting for my flight?",
+            "previous_turn_id": "dnrsfegudmerhwhs",
+            "order": 3,
+            "key_phrase_en": "leave my luggage"
+        },
+        {
+            "id": "rqgzwsaoqsxuoiug",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! Would you like any assistance with your luggage?",
+            "user_response_option_en": "No, thank you. I can manage it.",
+            "previous_turn_id": "xnmewtehpcgdvzrn",
+            "order": 3,
+            "key_phrase_en": "I can manage"
+        },
+        {
+            "id": "rukcwjissxjbfejr",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! Would you like any assistance with your luggage?",
+            "user_response_option_en": "Yes, please. I have a heavy luggage.",
+            "previous_turn_id": "xnmewtehpcgdvzrn",
+            "order": 3,
+            "key_phrase_en": "heavy luggage"
+        },
+        {
+            "id": "hjkfmzetfmfypfgq",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! Would you like any assistance with your luggage?",
+            "user_response_option_en": "Maybe later. Can you recommend a restaurant nearby?",
+            "previous_turn_id": "xnmewtehpcgdvzrn",
+            "order": 3,
+            "key_phrase_en": "recommend a restaurant"
+        },
+        {
+            "id": "nkpqgghbfrpwoiga",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! Would you like a receipt for your stay, Ms. Kim?",
+            "user_response_option_en": "Yes, please. Can you also confirm the total bill?",
+            "previous_turn_id": "miyozoxjxxrnpksh",
+            "order": 3,
+            "key_phrase_en": "Confirm the bill"
+        },
+        {
+            "id": "ogvhkpyuhaunpgfm",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! Would you like a receipt for your stay, Ms. Kim?",
+            "user_response_option_en": "No, thank you. It's all settled.",
+            "previous_turn_id": "miyozoxjxxrnpksh",
+            "order": 3,
+            "key_phrase_en": "All settled"
+        },
+        {
+            "id": "zrhgotsxaprgbqqa",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! Would you like a receipt for your stay, Ms. Kim?",
+            "user_response_option_en": "Yes, a receipt would be great. Thank you.",
+            "previous_turn_id": "miyozoxjxxrnpksh",
+            "order": 3,
+            "key_phrase_en": "receipt would be"
+        },
+        {
+            "id": "oirqlcrxqjiclgks",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! May I know how was your check-out experience?",
+            "user_response_option_en": "Thank you, I had no issues checking out.\" ",
+            "previous_turn_id": "pyusrwnzodgcyhde",
+            "order": 3,
+            "key_phrase_en": "no issues checking"
+        },
+        {
+            "id": "tnxsbkhszhsbvchv",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! May I know how was your check-out experience?",
+            "user_response_option_en": "It was easy. I recommend leaving the room key at the front desk.\" ",
+            "previous_turn_id": "pyusrwnzodgcyhde",
+            "order": 3,
+            "key_phrase_en": "Front desk key"
+        },
+        {
+            "id": "whntvxprcvjkvksr",
+            "mission_id": "idgrzrucmbzmoris",
+            "ai_conversation_starter_en": "Glad to hear that! May I know how was your check-out experience?",
+            "user_response_option_en": "Checking out was smooth. What time is the shuttle to the airport?",
+            "previous_turn_id": "pyusrwnzodgcyhde",
+            "order": 3,
+            "key_phrase_en": "shuttle to airport"
+        }
+    ]
+}

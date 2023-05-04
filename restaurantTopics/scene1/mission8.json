@@ -1,0 +1,370 @@
+{
+    "id": "qqwnafzvzrguxxwm",
+    "title": "Calling the restaurant to confirm a reservation the day of",
+    "order": 8,
+    "turns": [
+        {
+            "id": "ccttzwishiuoconx",
+            "ai_conversation_starter_en": "Thank you for choosing our restaurant. May I know the name of the reservation and the number of guests? Sure, we have availability at 7 PM. Would you like me to confirm the reservation by taking your contact information?",
+            "user_response_option_en": "Yes, please go ahead and take my contact information to confirm the reservation for tonight at 7 pm.",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gtlpqfewqiokcvig",
+            "key_phrase_en": "confirm reservation tonight"
+        },
+        {
+            "id": "xufkjvwexpdoivbm",
+            "ai_conversation_starter_en": "Thank you for choosing our restaurant. May I know the name of the reservation and the number of guests? Sure, we have availability at 7 PM. Would you like me to confirm the reservation by taking your contact information?",
+            "user_response_option_en": "Actually, I just wanted to double-check if you have any availability for 8 pm instead?\" ",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "zxhezyrejmxzaiwf",
+            "key_phrase_en": "double-check"
+        },
+        {
+            "id": "yrzltvdeoxnkozhf",
+            "ai_conversation_starter_en": "Thank you for choosing our restaurant. May I know the name of the reservation and the number of guests? Sure, we have availability at 7 PM. Would you like me to confirm the reservation by taking your contact information?",
+            "user_response_option_en": "Thank you. Can you please confirm that there's no dress code for the restaurant?",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "daublaizzlnjqidn",
+            "key_phrase_en": "dress code"
+        },
+        {
+            "id": "yunowglopiowgeug",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris. May I have your phone number and email address to confirm the reservation?",
+            "user_response_option_en": "Certainly, my phone number is (123) 456-7890 and my email address is iris.kim@email.com.",
+            "previous_turn_id": "ccttzwishiuoconx",
+            "order": 2,
+            "next_turn_id": "whyyiaugxjzuxyoe",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "brvbyifjmzcruhyw",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris. May I have your phone number and email address to confirm the reservation?",
+            "user_response_option_en": "Oh, I actually don't have an email address. My phone number is (123) 456-7890 though.",
+            "previous_turn_id": "ccttzwishiuoconx",
+            "order": 2,
+            "next_turn_id": "vnaijjmvlhgsgdgm",
+            "key_phrase_en": "phone number"
+        },
+        {
+            "id": "gtlpqfewqiokcvig",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris. May I have your phone number and email address to confirm the reservation?",
+            "user_response_option_en": "Yes, my phone number is (123) 456-7890 and my email address is iris.kim@email.com, but please let me know if there are any issues with the reservation confirmation.",
+            "previous_turn_id": "ccttzwishiuoconx",
+            "order": 2,
+            "next_turn_id": "auyxwvvqueelyaha",
+            "key_phrase_en": "Reservation confirmation issues"
+        },
+        {
+            "id": "dlqvyzlribrcobsc",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Let me check for you, one moment please.",
+            "user_response_option_en": "Thank you, I appreciate it. Please let me know as soon as possible.",
+            "previous_turn_id": "xufkjvwexpdoivbm",
+            "order": 2,
+            "next_turn_id": "qkvepihayfddzuei",
+            "key_phrase_en": "as soon as possible"
+        },
+        {
+            "id": "jfwwvcyljvneuyas",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Let me check for you, one moment please.",
+            "user_response_option_en": "No problem, I understand it might be difficult. If you don't have any availability, I can try another day.",
+            "previous_turn_id": "xufkjvwexpdoivbm",
+            "order": 2,
+            "next_turn_id": "kngywhphovvujvmn",
+            "key_phrase_en": "Availability"
+        },
+        {
+            "id": "zxhezyrejmxzaiwf",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Let me check for you, one moment please.",
+            "user_response_option_en": "Okay, I'll wait. Can I ask what your cancellation policy is?",
+            "previous_turn_id": "xufkjvwexpdoivbm",
+            "order": 2,
+            "next_turn_id": "oqgjjrmbjtntlqdw",
+            "key_phrase_en": "Cancellation policy"
+        },
+        {
+            "id": "nrmnzkhxfqivkptp",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Yes, that's correct. We do not have a strict dress code, but we ask that our guests dress casually and respectfully.",
+            "user_response_option_en": "Great, thank you for letting me know. Can you confirm the address of the restaurant as well?",
+            "previous_turn_id": "yrzltvdeoxnkozhf",
+            "order": 2,
+            "next_turn_id": "rxuezkjpizstwatx",
+            "key_phrase_en": "Confirm the address"
+        },
+        {
+            "id": "iyuutbvsooxpehww",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Yes, that's correct. We do not have a strict dress code, but we ask that our guests dress casually and respectfully.",
+            "user_response_option_en": "Okay, that makes sense. Also, is there any specific cuisine that the restaurant specializes in?",
+            "previous_turn_id": "yrzltvdeoxnkozhf",
+            "order": 2,
+            "next_turn_id": "xixjxtckervqqwzr",
+            "key_phrase_en": "Specific cuisine"
+        },
+        {
+            "id": "daublaizzlnjqidn",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Yes, that's correct. We do not have a strict dress code, but we ask that our guests dress casually and respectfully.",
+            "user_response_option_en": "No problem, thank you for the information. By the way, do you offer any vegetarian options on the menu?",
+            "previous_turn_id": "yrzltvdeoxnkozhf",
+            "order": 2,
+            "next_turn_id": "hdbypjnkdvlnqaop",
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "zqdolqkontbvsnye",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris, we have confirmed your reservation for tonight at 7 pm.",
+            "user_response_option_en": "Great, thank you for confirming the reservation. Looking forward to dining tonight.",
+            "previous_turn_id": "yunowglopiowgeug",
+            "order": 3,
+            "key_phrase_en": "Looking forward to"
+        },
+        {
+            "id": "ffrgpyucsvktsvhh",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris, we have confirmed your reservation for tonight at 7 pm.",
+            "user_response_option_en": "Thank you for your help. Could you also confirm if you have any vegetarian options available?",
+            "previous_turn_id": "yunowglopiowgeug",
+            "order": 3,
+            "key_phrase_en": "Vegetarian options available"
+        },
+        {
+            "id": "whyyiaugxjzuxyoe",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris, we have confirmed your reservation for tonight at 7 pm.",
+            "user_response_option_en": "I just realized I need to add one more person to our party. Is that possible?",
+            "previous_turn_id": "yunowglopiowgeug",
+            "order": 3,
+            "key_phrase_en": "add one more"
+        },
+        {
+            "id": "nvtijcrrbugcduzs",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you for letting me know, Iris. We will reach out to you on your provided phone number to confirm your reservation for tonight at 7 pm. Have a great day!",
+            "user_response_option_en": "Great, thank you so much! I'll be looking forward to your call.",
+            "previous_turn_id": "brvbyifjmzcruhyw",
+            "order": 3,
+            "key_phrase_en": "looking forward"
+        },
+        {
+            "id": "dlliokxbqezeffds",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you for letting me know, Iris. We will reach out to you on your provided phone number to confirm your reservation for tonight at 7 pm. Have a great day!",
+            "user_response_option_en": "Thank you for your help! Just to confirm, the reservation is for two people under the name Kim.",
+            "previous_turn_id": "brvbyifjmzcruhyw",
+            "order": 3,
+            "key_phrase_en": "reservation confirmation"
+        },
+        {
+            "id": "vnaijjmvlhgsgdgm",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you for letting me know, Iris. We will reach out to you on your provided phone number to confirm your reservation for tonight at 7 pm. Have a great day!",
+            "user_response_option_en": "Thank you for confirming, I appreciate it. Do you have any recommendations on what dishes to try?",
+            "previous_turn_id": "brvbyifjmzcruhyw",
+            "order": 3,
+            "key_phrase_en": "recommendations on dishes"
+        },
+        {
+            "id": "htitzsbjsoaizxkw",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris. Your reservation for tonight at 7 pm has been confirmed. We look forward to seeing you!",
+            "user_response_option_en": "Thank you so much for the confirmation. I look forward to dining with you tonight!",
+            "previous_turn_id": "gtlpqfewqiokcvig",
+            "order": 3,
+            "key_phrase_en": "Look forward to"
+        },
+        {
+            "id": "lgswoclvicbbzjlf",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris. Your reservation for tonight at 7 pm has been confirmed. We look forward to seeing you!",
+            "user_response_option_en": "Great, thank you for your help. Can I also request a table by the window if possible?",
+            "previous_turn_id": "gtlpqfewqiokcvig",
+            "order": 3,
+            "key_phrase_en": "Table by window"
+        },
+        {
+            "id": "auyxwvvqueelyaha",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Thank you, Iris. Your reservation for tonight at 7 pm has been confirmed. We look forward to seeing you!",
+            "user_response_option_en": "Thank you for confirming my reservation. Is there a dress code I should be aware of?",
+            "previous_turn_id": "gtlpqfewqiokcvig",
+            "order": 3,
+            "key_phrase_en": "Dress code"
+        },
+        {
+            "id": "oarddxtjbmrzinst",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "I can confirm your reservation for 8 PM tonight. May I have your name and phone number to finalize the booking?",
+            "user_response_option_en": "Response 1: \"Great! My name is Iris Kim and my phone number is 555-1234. Thanks for your help!\" ",
+            "previous_turn_id": "dlqvyzlribrcobsc",
+            "order": 3,
+            "key_phrase_en": "My name is"
+        },
+        {
+            "id": "ijeaehhucksmssxg",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "I can confirm your reservation for 8 PM tonight. May I have your name and phone number to finalize the booking?",
+            "user_response_option_en": "Response 2: \"Thank you for confirming that for me. My name is Iris and my phone number is 555-1234. I really appreciate your assistance!\" ",
+            "previous_turn_id": "dlqvyzlribrcobsc",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "qkvepihayfddzuei",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "I can confirm your reservation for 8 PM tonight. May I have your name and phone number to finalize the booking?",
+            "user_response_option_en": "Response 3: \"Perfect! My name is Iris and my phone number is 555-1234. I'm excited for our reservation tonight, thank you.",
+            "previous_turn_id": "dlqvyzlribrcobsc",
+            "order": 3,
+            "key_phrase_en": "Reservation tonight"
+        },
+        {
+            "id": "jwtohbvdcrtaratf",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "I checked our availability, and luckily we have a table available for 8 pm tonight. May I please have your contact information to confirm the reservation?",
+            "user_response_option_en": "Thank you, I appreciate it. My phone number is 555-1234 and my name is Iris Kim.",
+            "previous_turn_id": "jfwwvcyljvneuyas",
+            "order": 3,
+            "key_phrase_en": "My phone number"
+        },
+        {
+            "id": "vzseggawzaphhtxk",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "I checked our availability, and luckily we have a table available for 8 pm tonight. May I please have your contact information to confirm the reservation?",
+            "user_response_option_en": "That's great news! I'll provide you with my information now. Can you confirm the number of guests and any special requests?",
+            "previous_turn_id": "jfwwvcyljvneuyas",
+            "order": 3,
+            "key_phrase_en": "special requests"
+        },
+        {
+            "id": "kngywhphovvujvmn",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "I checked our availability, and luckily we have a table available for 8 pm tonight. May I please have your contact information to confirm the reservation?",
+            "user_response_option_en": "Thank you so much for your help. My name is Iris Kim and my phone number is 555-1234. I look forward to dining with you tonight.",
+            "previous_turn_id": "jfwwvcyljvneuyas",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "uexzisxkzubvpffq",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Our cancellation policy requires a cancellation at least 24 hours in advance of your reservation time to avoid a cancellation fee.",
+            "user_response_option_en": "Thank you for letting me know. I'll make sure to cancel within the required time if I need to. About the reservation, would you happen to have a table available at 7 PM instead?",
+            "previous_turn_id": "zxhezyrejmxzaiwf",
+            "order": 3,
+            "key_phrase_en": "Table available 7pm"
+        },
+        {
+            "id": "xgrrnykaquhgkyjj",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Our cancellation policy requires a cancellation at least 24 hours in advance of your reservation time to avoid a cancellation fee.",
+            "user_response_option_en": "Understood. I'll make sure to inform my party about the policy. In any case, we're all excited to dine at your restaurant tonight at 8 PM.",
+            "previous_turn_id": "zxhezyrejmxzaiwf",
+            "order": 3,
+            "key_phrase_en": "Dine at 8"
+        },
+        {
+            "id": "oqgjjrmbjtntlqdw",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Our cancellation policy requires a cancellation at least 24 hours in advance of your reservation time to avoid a cancellation fee.",
+            "user_response_option_en": "Thanks for the information. I hope this won't be an issue for us as we're really looking forward to our reservation tonight at 8 PM. Can you confirm our table and reservation details?",
+            "previous_turn_id": "zxhezyrejmxzaiwf",
+            "order": 3,
+            "key_phrase_en": "Confirmation details"
+        },
+        {
+            "id": "yzgnviawvjhduawj",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Certainly, our address is 123 Main Street.",
+            "user_response_option_en": "Great, thank you. I just wanted to confirm the address since it's my first time here. Looking forward to dining tonight!",
+            "previous_turn_id": "nrmnzkhxfqivkptp",
+            "order": 3,
+            "key_phrase_en": "Looking forward to"
+        },
+        {
+            "id": "fxstjkfoyhvgcjli",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Certainly, our address is 123 Main Street.",
+            "user_response_option_en": "Thanks for letting me know. Is there any parking available nearby?",
+            "previous_turn_id": "nrmnzkhxfqivkptp",
+            "order": 3,
+            "key_phrase_en": "parking available nearby"
+        },
+        {
+            "id": "rxuezkjpizstwatx",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Certainly, our address is 123 Main Street.",
+            "user_response_option_en": "Thank you so much. I had some trouble finding the location earlier, so glad to have the correct address now. See you tonight!",
+            "previous_turn_id": "nrmnzkhxfqivkptp",
+            "order": 3,
+            "key_phrase_en": "See you tonight!"
+        },
+        {
+            "id": "njnskffptvrptsxu",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "We specialize in contemporary American cuisine with an emphasis on local and seasonal ingredients.",
+            "user_response_option_en": "That sounds great. Do you have any vegetarian options on the menu?",
+            "previous_turn_id": "iyuutbvsooxpehww",
+            "order": 3,
+            "key_phrase_en": "Vegetarian options"
+        },
+        {
+            "id": "kfdpbuodilclhsvb",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "We specialize in contemporary American cuisine with an emphasis on local and seasonal ingredients.",
+            "user_response_option_en": "Thank you for letting me know. Is there a particular dish that you would recommend?",
+            "previous_turn_id": "iyuutbvsooxpehww",
+            "order": 3,
+            "key_phrase_en": "Particular dish recommend"
+        },
+        {
+            "id": "xixjxtckervqqwzr",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "We specialize in contemporary American cuisine with an emphasis on local and seasonal ingredients.",
+            "user_response_option_en": "Perfect, I can't wait to try it out. Does the restaurant have a bar or cocktail menu?",
+            "previous_turn_id": "iyuutbvsooxpehww",
+            "order": 3,
+            "key_phrase_en": "Cocktail menu"
+        },
+        {
+            "id": "omwjhlofgwlsxqvv",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Yes, we do offer vegetarian options on the menu. Would you like me to provide you with some suggestions or would you prefer to view our menu online?",
+            "user_response_option_en": "Thank you, I would appreciate some vegetarian suggestions.",
+            "previous_turn_id": "daublaizzlnjqidn",
+            "order": 3,
+            "key_phrase_en": "Vegetarian suggestions"
+        },
+        {
+            "id": "sfstnabfbkqatlun",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Yes, we do offer vegetarian options on the menu. Would you like me to provide you with some suggestions or would you prefer to view our menu online?",
+            "user_response_option_en": "Actually, could you recommend your most popular vegetarian dish?",
+            "previous_turn_id": "daublaizzlnjqidn",
+            "order": 3,
+            "key_phrase_en": "Vegetarian dish"
+        },
+        {
+            "id": "hdbypjnkdvlnqaop",
+            "mission_id": "qqwnafzvzrguxxwm",
+            "ai_conversation_starter_en": "Yes, we do offer vegetarian options on the menu. Would you like me to provide you with some suggestions or would you prefer to view our menu online?",
+            "user_response_option_en": "Great, I'll take a look at the menu online beforehand. Thank you for your help!",
+            "previous_turn_id": "daublaizzlnjqidn",
+            "order": 3,
+            "key_phrase_en": "take a look"
+        }
+    ]
+}

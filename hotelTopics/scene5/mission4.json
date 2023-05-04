@@ -1,0 +1,388 @@
+{
+    "id": "tqdsmiyluxqkipri",
+    "title": "Asking for a luggage storage",
+    "order": 4,
+    "turns": [
+        {
+            "id": "plipfkqxupoupxku",
+            "ai_conversation_starter_en": "Do you have any luggage to store before checking out?",
+            "user_response_option_en": "Can you keep my bag for a few hours, please?",
+            "mission_id": "tqdsmiyluxqkipri",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qqsfpzxiyyuujnab",
+            "key_phrase_en": "keep my bag"
+        },
+        {
+            "id": "lasucqierkpoocsc",
+            "ai_conversation_starter_en": "Do you have any luggage to store before checking out?",
+            "user_response_option_en": "Is it possible to store my luggage until afternoon?",
+            "mission_id": "tqdsmiyluxqkipri",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ptygveumdmvwnzqe",
+            "key_phrase_en": "store luggage afternoon"
+        },
+        {
+            "id": "fsloygnigddcniew",
+            "ai_conversation_starter_en": "Do you have any luggage to store before checking out?",
+            "user_response_option_en": "May I leave my suitcase here after checkout time?",
+            "mission_id": "tqdsmiyluxqkipri",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ppkdrobxzsjicblv",
+            "key_phrase_en": "Leave my suitcase"
+        },
+        {
+            "id": "ifdiomhkckzgphxx",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Yes, of course. We'd be happy to keep your luggage. I'll give you a ticket.",
+            "user_response_option_en": "Thank you. How do I retrieve my luggage?",
+            "previous_turn_id": "plipfkqxupoupxku",
+            "order": 2,
+            "next_turn_id": "gwrppvzylejttinw",
+            "key_phrase_en": "Retrieve luggage"
+        },
+        {
+            "id": "klpfduguxwutrndw",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Yes, of course. We'd be happy to keep your luggage. I'll give you a ticket.",
+            "user_response_option_en": "Is there a fee for luggage storage?",
+            "previous_turn_id": "plipfkqxupoupxku",
+            "order": 2,
+            "next_turn_id": "jcfknflezludtclf",
+            "key_phrase_en": "luggage storage fee"
+        },
+        {
+            "id": "qqsfpzxiyyuujnab",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Yes, of course. We'd be happy to keep your luggage. I'll give you a ticket.",
+            "user_response_option_en": "Can I store my luggage for a few hours?",
+            "previous_turn_id": "plipfkqxupoupxku",
+            "order": 2,
+            "next_turn_id": "mvikbbchdswcjsif",
+            "key_phrase_en": "store my luggage"
+        },
+        {
+            "id": "oyhshovvagczvapf",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Certainly, we would be happy to store your luggage until this afternoon.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "lasucqierkpoocsc",
+            "order": 2,
+            "next_turn_id": "kxbmbtcrkjiogskt",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "vxzjhvmsrmtavurl",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Certainly, we would be happy to store your luggage until this afternoon.",
+            "user_response_option_en": "Do I need a ticket for the luggage?",
+            "previous_turn_id": "lasucqierkpoocsc",
+            "order": 2,
+            "next_turn_id": "htwmysznlecremfh",
+            "key_phrase_en": "ticket for luggage"
+        },
+        {
+            "id": "ptygveumdmvwnzqe",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Certainly, we would be happy to store your luggage until this afternoon.",
+            "user_response_option_en": "What time does the luggage storage close?",
+            "previous_turn_id": "lasucqierkpoocsc",
+            "order": 2,
+            "next_turn_id": "dnhichudlemwziai",
+            "key_phrase_en": "Luggage storage time"
+        },
+        {
+            "id": "ibymnzprcudrxxqh",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Certainly, we can store your luggage for you after checkout.",
+            "user_response_option_en": "Thank you, I really appreciate it.",
+            "previous_turn_id": "fsloygnigddcniew",
+            "order": 2,
+            "next_turn_id": "xrpbgmldgcuisffl",
+            "key_phrase_en": "appreciate it"
+        },
+        {
+            "id": "ctgrteytkuzfrcyo",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Certainly, we can store your luggage for you after checkout.",
+            "user_response_option_en": "That's great, how long can I leave it for?",
+            "previous_turn_id": "fsloygnigddcniew",
+            "order": 2,
+            "next_turn_id": "huyvjunfelalseob",
+            "key_phrase_en": "leave it"
+        },
+        {
+            "id": "ppkdrobxzsjicblv",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Certainly, we can store your luggage for you after checkout.",
+            "user_response_option_en": "Can I get a receipt for my luggage, please?",
+            "previous_turn_id": "fsloygnigddcniew",
+            "order": 2,
+            "next_turn_id": "vxloomgyscklnegz",
+            "key_phrase_en": "get a receipt"
+        },
+        {
+            "id": "vuxegnhmchrcqwqn",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You can retrieve your luggage by giving us the ticket we gave you. Have a great day!",
+            "user_response_option_en": "Thank you, I will remember that.",
+            "previous_turn_id": "ifdiomhkckzgphxx",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "ylcczhlrjscqsbgh",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You can retrieve your luggage by giving us the ticket we gave you. Have a great day!",
+            "user_response_option_en": "Appreciate your help, have a good day!",
+            "previous_turn_id": "ifdiomhkckzgphxx",
+            "order": 3,
+            "key_phrase_en": "Have a good day!"
+        },
+        {
+            "id": "gwrppvzylejttinw",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You can retrieve your luggage by giving us the ticket we gave you. Have a great day!",
+            "user_response_option_en": "Simple enough, thanks for your kindness.",
+            "previous_turn_id": "ifdiomhkckzgphxx",
+            "order": 3,
+            "key_phrase_en": "Thanks for kindness"
+        },
+        {
+            "id": "vrdxdgansvxyyhfy",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "No, luggage storage is complimentary for our guests.",
+            "user_response_option_en": "Thank you for being helpful.",
+            "previous_turn_id": "klpfduguxwutrndw",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "lcrefouqzvzdbvuo",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "No, luggage storage is complimentary for our guests.",
+            "user_response_option_en": "Can I get a receipt for the luggage?",
+            "previous_turn_id": "klpfduguxwutrndw",
+            "order": 3,
+            "key_phrase_en": "get a receipt"
+        },
+        {
+            "id": "jcfknflezludtclf",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "No, luggage storage is complimentary for our guests.",
+            "user_response_option_en": "That's great customer service.",
+            "previous_turn_id": "klpfduguxwutrndw",
+            "order": 3,
+            "key_phrase_en": "customer service"
+        },
+        {
+            "id": "cevmcjzyzcnaaows",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Absolutely, we can store your luggage for a few hours. Here's your ticket.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "qqsfpzxiyyuujnab",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "glwpufatkjmbkvnh",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Absolutely, we can store your luggage for a few hours. Here's your ticket.",
+            "user_response_option_en": "Could you give me directions to the nearest cafe?",
+            "previous_turn_id": "qqsfpzxiyyuujnab",
+            "order": 3,
+            "key_phrase_en": "nearest cafe"
+        },
+        {
+            "id": "mvikbbchdswcjsif",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Absolutely, we can store your luggage for a few hours. Here's your ticket.",
+            "user_response_option_en": "Is there a fee for storing the luggage?",
+            "previous_turn_id": "qqsfpzxiyyuujnab",
+            "order": 3,
+            "key_phrase_en": "Storage fee"
+        },
+        {
+            "id": "tscyhluicmlaatrs",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Please just let us know when you're ready to retrieve your luggage.",
+            "user_response_option_en": "",
+            "previous_turn_id": "oyhshovvagczvapf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xjqshivmmbztnxjq",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Please just let us know when you're ready to retrieve your luggage.",
+            "user_response_option_en": "",
+            "previous_turn_id": "oyhshovvagczvapf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nqmlxbxczkukvwqh",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Please just let us know when you're ready to retrieve your luggage.",
+            "user_response_option_en": "Could you please write my name and room number on my luggage tag?",
+            "previous_turn_id": "oyhshovvagczvapf",
+            "order": 3,
+            "key_phrase_en": "Luggage tag"
+        },
+        {
+            "id": "eronpfgevrpunjrh",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Please just let us know when you're ready to retrieve your luggage.",
+            "user_response_option_en": "Is there a fee for storing luggage?",
+            "previous_turn_id": "oyhshovvagczvapf",
+            "order": 3,
+            "key_phrase_en": "storing luggage"
+        },
+        {
+            "id": "kxbmbtcrkjiogskt",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Please just let us know when you're ready to retrieve your luggage.",
+            "user_response_option_en": "I might need to access my luggage before afternoon, is that ok?",
+            "previous_turn_id": "oyhshovvagczvapf",
+            "order": 3,
+            "key_phrase_en": "Access my luggage"
+        },
+        {
+            "id": "rffanazskkveupaj",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Yes, we will provide you with a ticket for your luggage.",
+            "user_response_option_en": "Thank you for your help, I appreciate it.",
+            "previous_turn_id": "vxzjhvmsrmtavurl",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "zquigdlwqpepbmmr",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Yes, we will provide you with a ticket for your luggage.",
+            "user_response_option_en": "Can I have the ticket now or later?",
+            "previous_turn_id": "vxzjhvmsrmtavurl",
+            "order": 3,
+            "key_phrase_en": "Now or later"
+        },
+        {
+            "id": "htwmysznlecremfh",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Yes, we will provide you with a ticket for your luggage.",
+            "user_response_option_en": "Will my luggage be safe and secure?",
+            "previous_turn_id": "vxzjhvmsrmtavurl",
+            "order": 3,
+            "key_phrase_en": "luggage safety"
+        },
+        {
+            "id": "exuyfkrefhmjjhjg",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "The luggage storage closes at 6 pm.",
+            "user_response_option_en": "Can I leave my luggage until 2 pm?",
+            "previous_turn_id": "ptygveumdmvwnzqe",
+            "order": 3,
+            "key_phrase_en": "leave luggage"
+        },
+        {
+            "id": "wjakzgaiqzcgqtjk",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "The luggage storage closes at 6 pm.",
+            "user_response_option_en": "Is the luggage storage free for guests?",
+            "previous_turn_id": "ptygveumdmvwnzqe",
+            "order": 3,
+            "key_phrase_en": "luggage storage free"
+        },
+        {
+            "id": "dnhichudlemwziai",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "The luggage storage closes at 6 pm.",
+            "user_response_option_en": "May I have a luggage storage receipt?",
+            "previous_turn_id": "ptygveumdmvwnzqe",
+            "order": 3,
+            "key_phrase_en": "luggage storage receipt"
+        },
+        {
+            "id": "vzdqzhfxejcjlkko",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You're welcome, just let me know when you're ready to pick up your luggage.",
+            "user_response_option_en": "When do I have to pick it up?",
+            "previous_turn_id": "ibymnzprcudrxxqh",
+            "order": 3,
+            "key_phrase_en": "pick it up"
+        },
+        {
+            "id": "unwggeayxvmukcph",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You're welcome, just let me know when you're ready to pick up your luggage.",
+            "user_response_option_en": "Is there any fee for the service?",
+            "previous_turn_id": "ibymnzprcudrxxqh",
+            "order": 3,
+            "key_phrase_en": "Any fee service"
+        },
+        {
+            "id": "xrpbgmldgcuisffl",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You're welcome, just let me know when you're ready to pick up your luggage.",
+            "user_response_option_en": "Can I pick it up before leaving the city?",
+            "previous_turn_id": "ibymnzprcudrxxqh",
+            "order": 3,
+            "key_phrase_en": "pick it up"
+        },
+        {
+            "id": "xesbeornzfoafwad",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You can leave it until 10 pm tonight.",
+            "user_response_option_en": "Thank you, that's very helpful.\" ",
+            "previous_turn_id": "ctgrteytkuzfrcyo",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "uyxdapjioousewea",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You can leave it until 10 pm tonight.",
+            "user_response_option_en": "Is there a fee for the luggage storage?\" ",
+            "previous_turn_id": "ctgrteytkuzfrcyo",
+            "order": 3,
+            "key_phrase_en": "Luggage storage fee"
+        },
+        {
+            "id": "huyvjunfelalseob",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "You can leave it until 10 pm tonight.",
+            "user_response_option_en": "Can I come back later to pick it up?",
+            "previous_turn_id": "ctgrteytkuzfrcyo",
+            "order": 3,
+            "key_phrase_en": "Come back later"
+        },
+        {
+            "id": "zqapmvmbrtupnsof",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Of course, I can print a receipt for you. Here you go.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "ppkdrobxzsjicblv",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "kmyiicydhvypvfjp",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Of course, I can print a receipt for you. Here you go.",
+            "user_response_option_en": "Can I have a luggage tag, please?",
+            "previous_turn_id": "ppkdrobxzsjicblv",
+            "order": 3,
+            "key_phrase_en": "luggage tag"
+        },
+        {
+            "id": "vxloomgyscklnegz",
+            "mission_id": "tqdsmiyluxqkipri",
+            "ai_conversation_starter_en": "Of course, I can print a receipt for you. Here you go.",
+            "user_response_option_en": "What time do I need to collect my suitcase?",
+            "previous_turn_id": "ppkdrobxzsjicblv",
+            "order": 3,
+            "key_phrase_en": "collect suitcase time"
+        }
+    ]
+}

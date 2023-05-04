@@ -1,0 +1,370 @@
+{
+    "id": "dasynhebrhxrkbwv",
+    "title": "Asking the restaurant manager if they have a lost and found",
+    "order": 4,
+    "turns": [
+        {
+            "id": "vkpwwdketunjcted",
+            "ai_conversation_starter_en": "Excuse me, did you happen to lose something during your visit here? Is there anything you're looking for?",
+            "user_response_option_en": "Yes, I lost my phone. Do you have a lost and found?\" ",
+            "mission_id": "dasynhebrhxrkbwv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hxcypzvgqtmadgqy",
+            "key_phrase_en": "lost and found"
+        },
+        {
+            "id": "znkoghcydtacpybr",
+            "ai_conversation_starter_en": "Excuse me, did you happen to lose something during your visit here? Is there anything you're looking for?",
+            "user_response_option_en": "I can't find my wallet. Where is the lost and found?\" ",
+            "mission_id": "dasynhebrhxrkbwv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "cmxsweqyitisftno",
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "zedifhqotuwxhkfv",
+            "ai_conversation_starter_en": "Excuse me, did you happen to lose something during your visit here? Is there anything you're looking for?",
+            "user_response_option_en": "I left a bag here. Lost and found, can you help me?",
+            "mission_id": "dasynhebrhxrkbwv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "bjwvfdgroqqxnyap",
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "efyhceqpowbipnkr",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Yes, we do have a lost and found. Let me get one of our staff members to assist you in locating your lost item.",
+            "user_response_option_en": "Thank you, that would be very helpful.\" ",
+            "previous_turn_id": "vkpwwdketunjcted",
+            "order": 2,
+            "next_turn_id": "oyebcpkeoonhazgm",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "rjpirkwoxfywyujq",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Yes, we do have a lost and found. Let me get one of our staff members to assist you in locating your lost item.",
+            "user_response_option_en": "Do I need to fill a form?\" ",
+            "previous_turn_id": "vkpwwdketunjcted",
+            "order": 2,
+            "next_turn_id": "tcoenpxzewytejme",
+            "key_phrase_en": "Fill a form"
+        },
+        {
+            "id": "hxcypzvgqtmadgqy",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Yes, we do have a lost and found. Let me get one of our staff members to assist you in locating your lost item.",
+            "user_response_option_en": "Is there a number I can call?",
+            "previous_turn_id": "vkpwwdketunjcted",
+            "order": 2,
+            "next_turn_id": "bdeaclahkjfvyuvu",
+            "key_phrase_en": "number to call"
+        },
+        {
+            "id": "fuiqvkimowzciukz",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Certainly! In response to Iris Kim asking I can't find my wallet. Where is the lost and found? the staff might say: The lost and found is located at the reception desk. Please ask there.",
+            "user_response_option_en": "Can you check if someone turned in a lost item?",
+            "previous_turn_id": "znkoghcydtacpybr",
+            "order": 2,
+            "next_turn_id": "rmoakeldmadxrjxw",
+            "key_phrase_en": "Lost item turned in"
+        },
+        {
+            "id": "pdddprovfqitvqll",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Certainly! In response to Iris Kim asking I can't find my wallet. Where is the lost and found? the staff might say: The lost and found is located at the reception desk. Please ask there.",
+            "user_response_option_en": "Is there a chance my item could have been mistaken for trash?",
+            "previous_turn_id": "znkoghcydtacpybr",
+            "order": 2,
+            "next_turn_id": "iuupdoybbhlwblxp",
+            "key_phrase_en": "Mistaken for trash"
+        },
+        {
+            "id": "cmxsweqyitisftno",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Certainly! In response to Iris Kim asking I can't find my wallet. Where is the lost and found? the staff might say: The lost and found is located at the reception desk. Please ask there.",
+            "user_response_option_en": "Should I leave my contact information just in case?",
+            "previous_turn_id": "znkoghcydtacpybr",
+            "order": 2,
+            "next_turn_id": "qshmumlrwwkxznpn",
+            "key_phrase_en": "contact information"
+        },
+        {
+            "id": "ttxvkxrpjkatlipe",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure, here's an example response a staff might give: Yes, of course. Our Lost and Found is located at the front desk. I'll direct you there.",
+            "user_response_option_en": "Can you help me find lost bag?\" ",
+            "previous_turn_id": "zedifhqotuwxhkfv",
+            "order": 2,
+            "next_turn_id": "idrqrvtsriiiazcn",
+            "key_phrase_en": "Lost bag"
+        },
+        {
+            "id": "xvmeoagygdydslpt",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure, here's an example response a staff might give: Yes, of course. Our Lost and Found is located at the front desk. I'll direct you there.",
+            "user_response_option_en": "Do you have a lost and found box?\" ",
+            "previous_turn_id": "zedifhqotuwxhkfv",
+            "order": 2,
+            "next_turn_id": "yrtdthfjlmajwkko",
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "bjwvfdgroqqxnyap",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure, here's an example response a staff might give: Yes, of course. Our Lost and Found is located at the front desk. I'll direct you there.",
+            "user_response_option_en": "Where is your lost property department?",
+            "previous_turn_id": "zedifhqotuwxhkfv",
+            "order": 2,
+            "next_turn_id": "pzjndupwekrhnkup",
+            "key_phrase_en": "Lost property department"
+        },
+        {
+            "id": "pxgqniwvfptjmghb",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "The staff at the restaurant can assist you with the lost and found. Please ask one of them for help.",
+            "user_response_option_en": "Excuse me, could you direct me to the lost and found please?\"  ",
+            "previous_turn_id": "efyhceqpowbipnkr",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "jvywvhnhjyjvclyk",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "The staff at the restaurant can assist you with the lost and found. Please ask one of them for help.",
+            "user_response_option_en": "Hi there, who can help me with lost items?\" ",
+            "previous_turn_id": "efyhceqpowbipnkr",
+            "order": 3,
+            "key_phrase_en": "Lost items"
+        },
+        {
+            "id": "oyebcpkeoonhazgm",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "The staff at the restaurant can assist you with the lost and found. Please ask one of them for help.",
+            "user_response_option_en": "Can someone assist me in locating my lost item?",
+            "previous_turn_id": "efyhceqpowbipnkr",
+            "order": 3,
+            "key_phrase_en": "locate lost item"
+        },
+        {
+            "id": "awjelvvenzfafcik",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "No, you don't need to fill out a form. Our staff will assist you in locating your lost item.",
+            "user_response_option_en": "Can you please help me locate my lost item?",
+            "previous_turn_id": "rjpirkwoxfywyujq",
+            "order": 3,
+            "key_phrase_en": "help me locate"
+        },
+        {
+            "id": "xkynmebjiuipjhtp",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "No, you don't need to fill out a form. Our staff will assist you in locating your lost item.",
+            "user_response_option_en": "Where should I start looking for the lost and found?",
+            "previous_turn_id": "rjpirkwoxfywyujq",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "tcoenpxzewytejme",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "No, you don't need to fill out a form. Our staff will assist you in locating your lost item.",
+            "user_response_option_en": "Is there a procedure I should follow to find my lost item?",
+            "previous_turn_id": "rjpirkwoxfywyujq",
+            "order": 3,
+            "key_phrase_en": "Lost item procedure"
+        },
+        {
+            "id": "tpcpufxpcobhqkux",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "I would be happy to provide you with the number for our lost and found department. Please give me a moment to retrieve it for you.",
+            "user_response_option_en": "Can you tell me what to do now? ",
+            "previous_turn_id": "hxcypzvgqtmadgqy",
+            "order": 3,
+            "key_phrase_en": "what to do"
+        },
+        {
+            "id": "bavwxuhvnccqehpa",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "I would be happy to provide you with the number for our lost and found department. Please give me a moment to retrieve it for you.",
+            "user_response_option_en": "How can I get my phone back quickly? ",
+            "previous_turn_id": "hxcypzvgqtmadgqy",
+            "order": 3,
+            "key_phrase_en": "get back quickly"
+        },
+        {
+            "id": "bdeaclahkjfvyuvu",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "I would be happy to provide you with the number for our lost and found department. Please give me a moment to retrieve it for you.",
+            "user_response_option_en": "What items have you found before in the lost and found?",
+            "previous_turn_id": "hxcypzvgqtmadgqy",
+            "order": 3,
+            "key_phrase_en": "Lost and Found"
+        },
+        {
+            "id": "fwfeowfcfgfhqced",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure, I can check for you. Let me see if anyone has turned in a lost item.",
+            "user_response_option_en": "Did someone turn in a black wallet by any chance?",
+            "previous_turn_id": "fuiqvkimowzciukz",
+            "order": 3,
+            "key_phrase_en": "Black wallet"
+        },
+        {
+            "id": "zkywxovtdhrnlsfq",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure, I can check for you. Let me see if anyone has turned in a lost item.",
+            "user_response_option_en": "I lost my wallet, can you help me check the lost and found?",
+            "previous_turn_id": "fuiqvkimowzciukz",
+            "order": 3,
+            "key_phrase_en": "Lost and Found"
+        },
+        {
+            "id": "rmoakeldmadxrjxw",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure, I can check for you. Let me see if anyone has turned in a lost item.",
+            "user_response_option_en": "Is there any chance that my lost item was found?",
+            "previous_turn_id": "fuiqvkimowzciukz",
+            "order": 3,
+            "key_phrase_en": "any chance found"
+        },
+        {
+            "id": "kpqjehyjzmsqowkh",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "I'm sorry to hear that. Let me check the lost and found for you.",
+            "user_response_option_en": "Do you have CCTV cameras in the restaurant that could have seen my lost item?\"              ",
+            "previous_turn_id": "pdddprovfqitvqll",
+            "order": 3,
+            "key_phrase_en": "CCTV cameras"
+        },
+        {
+            "id": "ajuiuowotrkypukf",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "I'm sorry to hear that. Let me check the lost and found for you.",
+            "user_response_option_en": "What's the procedure for lost items? Do I need to fill out a form or something?\"             ",
+            "previous_turn_id": "pdddprovfqitvqll",
+            "order": 3,
+            "key_phrase_en": "Lost items procedure"
+        },
+        {
+            "id": "iuupdoybbhlwblxp",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "I'm sorry to hear that. Let me check the lost and found for you.",
+            "user_response_option_en": "Is there a chance someone else picked up my lost item by mistake? How can you help me locate it?",
+            "previous_turn_id": "pdddprovfqitvqll",
+            "order": 3,
+            "key_phrase_en": "lost item locate"
+        },
+        {
+            "id": "bxzsbshaqqehohhs",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure! Here's an appropriate response for the situation:Yes, that would be a good idea. We will contact you if we find anything matching your description.",
+            "user_response_option_en": "Can I check your lost and found, please?",
+            "previous_turn_id": "cmxsweqyitisftno",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "queaaubvcsafmbbu",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure! Here's an appropriate response for the situation:Yes, that would be a good idea. We will contact you if we find anything matching your description.",
+            "user_response_option_en": "Do you keep lost items here?",
+            "previous_turn_id": "cmxsweqyitisftno",
+            "order": 3,
+            "key_phrase_en": "Lost items"
+        },
+        {
+            "id": "qshmumlrwwkxznpn",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Sure! Here's an appropriate response for the situation:Yes, that would be a good idea. We will contact you if we find anything matching your description.",
+            "user_response_option_en": "Is there a place where lost items are kept?",
+            "previous_turn_id": "cmxsweqyitisftno",
+            "order": 3,
+            "key_phrase_en": "Lost items place"
+        },
+        {
+            "id": "erovnjphglkfdvte",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Absolutely, I understand. One example of a response the restaurant manager might give to Iris Kim is: Yes, we have a lost and found. Would you like me to check if your bag has been turned in?",
+            "user_response_option_en": "Yes, please check lost and found.",
+            "previous_turn_id": "ttxvkxrpjkatlipe",
+            "order": 3,
+            "key_phrase_en": "Lost and Found"
+        },
+        {
+            "id": "mkmdmjmwdnhadpud",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Absolutely, I understand. One example of a response the restaurant manager might give to Iris Kim is: Yes, we have a lost and found. Would you like me to check if your bag has been turned in?",
+            "user_response_option_en": "Thanks, will check lost and found.",
+            "previous_turn_id": "ttxvkxrpjkatlipe",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "idrqrvtsriiiazcn",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Absolutely, I understand. One example of a response the restaurant manager might give to Iris Kim is: Yes, we have a lost and found. Would you like me to check if your bag has been turned in?",
+            "user_response_option_en": "Lost bag, can you help me?",
+            "previous_turn_id": "ttxvkxrpjkatlipe",
+            "order": 3,
+            "key_phrase_en": "Lost bag"
+        },
+        {
+            "id": "qmnhhzazlozxfryd",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Yes, we do have a lost and found box.",
+            "user_response_option_en": "Can you please check lost and found for me?",
+            "previous_turn_id": "xvmeoagygdydslpt",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "ujynhadvsaqimimk",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Yes, we do have a lost and found box.",
+            "user_response_option_en": "Is there anything in the lost and found you may have found?",
+            "previous_turn_id": "xvmeoagygdydslpt",
+            "order": 3,
+            "key_phrase_en": "Lost and Found"
+        },
+        {
+            "id": "yrtdthfjlmajwkko",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Yes, we do have a lost and found box.",
+            "user_response_option_en": "How long do you keep things in the lost and found?",
+            "previous_turn_id": "xvmeoagygdydslpt",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "arimeitntuoxjvqo",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Our Lost and Found is located at the front desk. I'll direct you there.",
+            "user_response_option_en": "Do you need a description?",
+            "previous_turn_id": "bjwvfdgroqqxnyap",
+            "order": 3,
+            "key_phrase_en": "description"
+        },
+        {
+            "id": "tatpjctaumvnerco",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Our Lost and Found is located at the front desk. I'll direct you there.",
+            "user_response_option_en": "What's the procedure for lost items?",
+            "previous_turn_id": "bjwvfdgroqqxnyap",
+            "order": 3,
+            "key_phrase_en": "Procedure for lost items"
+        },
+        {
+            "id": "pzjndupwekrhnkup",
+            "mission_id": "dasynhebrhxrkbwv",
+            "ai_conversation_starter_en": "Our Lost and Found is located at the front desk. I'll direct you there.",
+            "user_response_option_en": "Is there a lost and found form?",
+            "previous_turn_id": "bjwvfdgroqqxnyap",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        }
+    ]
+}

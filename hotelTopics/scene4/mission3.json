@@ -1,0 +1,444 @@
+{
+    "id": "ybnyvxfsgxpuhdyb",
+    "title": "Asking about the hotel's breakfast options",
+    "order": 3,
+    "turns": [
+        {
+            "id": "jbdklpiqnlyfvgle",
+            "ai_conversation_starter_en": "Good morning! How may I assist you today?",
+            "user_response_option_en": "Do you serve breakfast here?",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qvteehyhaasuaepg",
+            "key_phrase_en": "serve breakfast here"
+        },
+        {
+            "id": "pbmlbabmqauwyasy",
+            "ai_conversation_starter_en": "Good morning! How may I assist you today?",
+            "user_response_option_en": "What breakfast options are available?",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "miofnrolgzcsomqo",
+            "key_phrase_en": "breakfast options"
+        },
+        {
+            "id": "eeonxnwowkvlbzkb",
+            "ai_conversation_starter_en": "Good morning! How may I assist you today?",
+            "user_response_option_en": "Could you recommend any nearby breakfast cafes?",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "bifdsovbeniutvfm",
+            "key_phrase_en": "Breakfast cafes"
+        },
+        {
+            "id": "eejvedqwvolakysm",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, we do! We offer both continental and hot breakfast options.",
+            "user_response_option_en": "Can you tell me the difference between continental and hot breakfast?",
+            "previous_turn_id": "jbdklpiqnlyfvgle",
+            "order": 2,
+            "next_turn_id": "fqyybovsdxttstzm",
+            "key_phrase_en": "continental breakfast"
+        },
+        {
+            "id": "pluotuqicxecploq",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, we do! We offer both continental and hot breakfast options.",
+            "user_response_option_en": "Is the breakfast included in the room rate?",
+            "previous_turn_id": "jbdklpiqnlyfvgle",
+            "order": 2,
+            "next_turn_id": "welgwhpoyujcfkiu",
+            "key_phrase_en": "breakfast included"
+        },
+        {
+            "id": "qvteehyhaasuaepg",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, we do! We offer both continental and hot breakfast options.",
+            "user_response_option_en": "What time is the breakfast served until?",
+            "previous_turn_id": "jbdklpiqnlyfvgle",
+            "order": 2,
+            "next_turn_id": "iedypssvqpypwdus",
+            "key_phrase_en": "Breakfast time"
+        },
+        {
+            "id": "mdvobjpexugnqxnn",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We have a continental breakfast buffet, which includes pastries, cereals, fruits, and more.",
+            "user_response_option_en": "What time does the breakfast buffet start?",
+            "previous_turn_id": "pbmlbabmqauwyasy",
+            "order": 2,
+            "next_turn_id": "qjlwphpwebbubnud",
+            "key_phrase_en": "breakfast buffet time"
+        },
+        {
+            "id": "nibnwzhjtmgbttrf",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We have a continental breakfast buffet, which includes pastries, cereals, fruits, and more.",
+            "user_response_option_en": "Is there an extra charge for breakfast?",
+            "previous_turn_id": "pbmlbabmqauwyasy",
+            "order": 2,
+            "next_turn_id": "ttvcgulooyucfeta",
+            "key_phrase_en": "extra charge breakfast"
+        },
+        {
+            "id": "miofnrolgzcsomqo",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We have a continental breakfast buffet, which includes pastries, cereals, fruits, and more.",
+            "user_response_option_en": "Could you tell me where the breakfast area is located?",
+            "previous_turn_id": "pbmlbabmqauwyasy",
+            "order": 2,
+            "next_turn_id": "mzmskaxqvnmvhcmg",
+            "key_phrase_en": "Breakfast area location"
+        },
+        {
+            "id": "gchucdqdxazvkgvi",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Is the breakfast included in my booking?",
+            "previous_turn_id": "eeonxnwowkvlbzkb",
+            "order": 2,
+            "next_turn_id": "yhlqxunzhtascpsi",
+            "key_phrase_en": "breakfast included booking"
+        },
+        {
+            "id": "xwqpkyxudbuteydk",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "",
+            "previous_turn_id": "eeonxnwowkvlbzkb",
+            "order": 2,
+            "next_turn_id": "ewihaytlzupkzmuy",
+            "key_phrase_en": ""
+        },
+        {
+            "id": "hvxcyyuywxmgdvvy",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Can I take the breakfast to my room?",
+            "previous_turn_id": "eeonxnwowkvlbzkb",
+            "order": 2,
+            "next_turn_id": "bbmobfrghhbzalte",
+            "key_phrase_en": "take breakfast room"
+        },
+        {
+            "id": "kfuzguyjivtqogfc",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "",
+            "previous_turn_id": "eeonxnwowkvlbzkb",
+            "order": 2,
+            "next_turn_id": "skslkzbjombvnyva",
+            "key_phrase_en": ""
+        },
+        {
+            "id": "bifdsovbeniutvfm",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "What time is breakfast served until?",
+            "previous_turn_id": "eeonxnwowkvlbzkb",
+            "order": 2,
+            "next_turn_id": "ucigwxxlscflrqjf",
+            "key_phrase_en": "Breakfast hours"
+        },
+        {
+            "id": "tonhgxieoyrwzpgy",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Of course, a continental breakfast is cold, while hot breakfast is made to order.",
+            "user_response_option_en": "Can I see the menu for hot breakfast, please?",
+            "previous_turn_id": "eejvedqwvolakysm",
+            "order": 3,
+            "key_phrase_en": "Hot breakfast menu"
+        },
+        {
+            "id": "jbclxrofnbzkihok",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Of course, a continental breakfast is cold, while hot breakfast is made to order.",
+            "user_response_option_en": "I prefer hot breakfast. What time does the kitchen open?",
+            "previous_turn_id": "eejvedqwvolakysm",
+            "order": 3,
+            "key_phrase_en": "Hot breakfast"
+        },
+        {
+            "id": "fqyybovsdxttstzm",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Of course, a continental breakfast is cold, while hot breakfast is made to order.",
+            "user_response_option_en": "Is the continental breakfast self-service or served by staff?",
+            "previous_turn_id": "eejvedqwvolakysm",
+            "order": 3,
+            "key_phrase_en": "continental breakfast"
+        },
+        {
+            "id": "gcjqtiwthpuzaqhn",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, the breakfast is included in the room rate.",
+            "user_response_option_en": "What time is breakfast served?",
+            "previous_turn_id": "pluotuqicxecploq",
+            "order": 3,
+            "key_phrase_en": "breakfast served"
+        },
+        {
+            "id": "cmxuqkfeasowyimw",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, the breakfast is included in the room rate.",
+            "user_response_option_en": "Can I request a vegetarian option for breakfast?",
+            "previous_turn_id": "pluotuqicxecploq",
+            "order": 3,
+            "key_phrase_en": "Vegetarian option"
+        },
+        {
+            "id": "welgwhpoyujcfkiu",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, the breakfast is included in the room rate.",
+            "user_response_option_en": "Are there any gluten-free breakfast options available?",
+            "previous_turn_id": "pluotuqicxecploq",
+            "order": 3,
+            "key_phrase_en": "gluten-free breakfast options"
+        },
+        {
+            "id": "avcxbgabwbnbcsis",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We serve breakfast until 10 am. Would you like me to make a reservation for you?",
+            "user_response_option_en": "Can you tell me more about the hot breakfast options?",
+            "previous_turn_id": "qvteehyhaasuaepg",
+            "order": 3,
+            "key_phrase_en": "Hot breakfast options"
+        },
+        {
+            "id": "ctyatopwpborkaxw",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We serve breakfast until 10 am. Would you like me to make a reservation for you?",
+            "user_response_option_en": "I'd like to know the breakfast prices, please.",
+            "previous_turn_id": "qvteehyhaasuaepg",
+            "order": 3,
+            "key_phrase_en": "breakfast prices"
+        },
+        {
+            "id": "iedypssvqpypwdus",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We serve breakfast until 10 am. Would you like me to make a reservation for you?",
+            "user_response_option_en": "Are vegetarian options available for breakfast?",
+            "previous_turn_id": "qvteehyhaasuaepg",
+            "order": 3,
+            "key_phrase_en": "vegetarian options available"
+        },
+        {
+            "id": "cymvesloxypejgux",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "The breakfast buffet starts at 7 AM until 10 AM.",
+            "user_response_option_en": "Are there any vegetarian options?",
+            "previous_turn_id": "mdvobjpexugnqxnn",
+            "order": 3,
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "enbfwvpwujruykpy",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "The breakfast buffet starts at 7 AM until 10 AM.",
+            "user_response_option_en": "Is the breakfast included in my booking?",
+            "previous_turn_id": "mdvobjpexugnqxnn",
+            "order": 3,
+            "key_phrase_en": "breakfast included"
+        },
+        {
+            "id": "qjlwphpwebbubnud",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "The breakfast buffet starts at 7 AM until 10 AM.",
+            "user_response_option_en": "Can I get breakfast delivered to my room?",
+            "previous_turn_id": "mdvobjpexugnqxnn",
+            "order": 3,
+            "key_phrase_en": "breakfast delivered room"
+        },
+        {
+            "id": "pcjzwqamajtnafel",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Breakfast is complimentary with your room rate.",
+            "user_response_option_en": "What time is breakfast served?",
+            "previous_turn_id": "nibnwzhjtmgbttrf",
+            "order": 3,
+            "key_phrase_en": "breakfast time"
+        },
+        {
+            "id": "rlpyhzwnrrvtvcho",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Breakfast is complimentary with your room rate.",
+            "user_response_option_en": "Do you have vegetarian options for breakfast?",
+            "previous_turn_id": "nibnwzhjtmgbttrf",
+            "order": 3,
+            "key_phrase_en": "Vegetarian options"
+        },
+        {
+            "id": "ttvcgulooyucfeta",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Breakfast is complimentary with your room rate.",
+            "user_response_option_en": "Can I take breakfast to-go?",
+            "previous_turn_id": "nibnwzhjtmgbttrf",
+            "order": 3,
+            "key_phrase_en": "to-go"
+        },
+        {
+            "id": "hrtlsqpgaacnlugs",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Certainly, the breakfast area is located on the ground floor to your left.",
+            "user_response_option_en": "Is there a vegan option available?",
+            "previous_turn_id": "miofnrolgzcsomqo",
+            "order": 3,
+            "key_phrase_en": "vegan option available"
+        },
+        {
+            "id": "ezdexwtbwaacoyqk",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Certainly, the breakfast area is located on the ground floor to your left.",
+            "user_response_option_en": "May I know the breakfast hours?",
+            "previous_turn_id": "miofnrolgzcsomqo",
+            "order": 3,
+            "key_phrase_en": "breakfast hours"
+        },
+        {
+            "id": "mzmskaxqvnmvhcmg",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Certainly, the breakfast area is located on the ground floor to your left.",
+            "user_response_option_en": "Do you have hot breakfast options?",
+            "previous_turn_id": "miofnrolgzcsomqo",
+            "order": 3,
+            "key_phrase_en": "hot breakfast options"
+        },
+        {
+            "id": "tfngyujhhzfglezc",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, ma'am. Our complimentary breakfast is included.",
+            "user_response_option_en": "What kind of pastries do you offer?",
+            "previous_turn_id": "gchucdqdxazvkgvi",
+            "order": 3,
+            "key_phrase_en": "pastries offer"
+        },
+        {
+            "id": "jefyykapcbjoodsp",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, ma'am. Our complimentary breakfast is included.",
+            "user_response_option_en": "Can you clarify what's included in the breakfast?",
+            "previous_turn_id": "gchucdqdxazvkgvi",
+            "order": 3,
+            "key_phrase_en": "clarify breakfast included"
+        },
+        {
+            "id": "yhlqxunzhtascpsi",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Yes, ma'am. Our complimentary breakfast is included.",
+            "user_response_option_en": "Do you have any vegetarian or gluten-free options?",
+            "previous_turn_id": "gchucdqdxazvkgvi",
+            "order": 3,
+            "key_phrase_en": "gluten-free options"
+        },
+        {
+            "id": "qfcbeqlwblsvqlap",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Could you tell me what's included in the continental breakfast?",
+            "previous_turn_id": "xwqpkyxudbuteydk",
+            "order": 3,
+            "key_phrase_en": "Continental breakfast contents"
+        },
+        {
+            "id": "xpqhhaongmivjkxv",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Is there a vegetarian option for breakfast?",
+            "previous_turn_id": "xwqpkyxudbuteydk",
+            "order": 3,
+            "key_phrase_en": "vegetarian option"
+        },
+        {
+            "id": "ewihaytlzupkzmuy",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "We offer a complimentary continental breakfast that includes pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Would it be possible to have breakfast delivered to my room?",
+            "previous_turn_id": "xwqpkyxudbuteydk",
+            "order": 3,
+            "key_phrase_en": "breakfast delivered room"
+        },
+        {
+            "id": "rsyktgbhzxggnvop",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Certainly, we can arrange for in-room breakfast delivery.",
+            "user_response_option_en": "Do you offer vegetarian options?",
+            "previous_turn_id": "hvxcyyuywxmgdvvy",
+            "order": 3,
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "xeiqmzdcrhwxwvyt",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Certainly, we can arrange for in-room breakfast delivery.",
+            "user_response_option_en": "Can I add extra items to the breakfast?",
+            "previous_turn_id": "hvxcyyuywxmgdvvy",
+            "order": 3,
+            "key_phrase_en": "extra items breakfast"
+        },
+        {
+            "id": "bbmobfrghhbzalte",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Certainly, we can arrange for in-room breakfast delivery.",
+            "user_response_option_en": "What are the hours for breakfast service?",
+            "previous_turn_id": "hvxcyyuywxmgdvvy",
+            "order": 3,
+            "key_phrase_en": "breakfast service hours"
+        },
+        {
+            "id": "tfnbljttdisvhipm",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Would you like to know more about our breakfast options? We have a complimentary continental breakfast with pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Do you have vegetarian options? ",
+            "previous_turn_id": "kfuzguyjivtqogfc",
+            "order": 3,
+            "key_phrase_en": "Vegetarian options"
+        },
+        {
+            "id": "bcrvrtowimkoqlax",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Would you like to know more about our breakfast options? We have a complimentary continental breakfast with pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "What time does breakfast start and end? ",
+            "previous_turn_id": "kfuzguyjivtqogfc",
+            "order": 3,
+            "key_phrase_en": "breakfast time"
+        },
+        {
+            "id": "skslkzbjombvnyva",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Would you like to know more about our breakfast options? We have a complimentary continental breakfast with pastries, cereal, fruit, and coffee.",
+            "user_response_option_en": "Is the coffee decaf or regular?",
+            "previous_turn_id": "kfuzguyjivtqogfc",
+            "order": 3,
+            "key_phrase_en": "decaf or regular"
+        },
+        {
+            "id": "jzuesyglddhvjghg",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Breakfast is served from 6:30 AM to 10:00 AM.",
+            "user_response_option_en": "Is the breakfast complimentary?",
+            "previous_turn_id": "bifdsovbeniutvfm",
+            "order": 3,
+            "key_phrase_en": "Complimentary breakfast"
+        },
+        {
+            "id": "hpomcpyoapptchbi",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Breakfast is served from 6:30 AM to 10:00 AM.",
+            "user_response_option_en": "Any vegetarian options available?",
+            "previous_turn_id": "bifdsovbeniutvfm",
+            "order": 3,
+            "key_phrase_en": "vegetarian options available"
+        },
+        {
+            "id": "ucigwxxlscflrqjf",
+            "mission_id": "ybnyvxfsgxpuhdyb",
+            "ai_conversation_starter_en": "Breakfast is served from 6:30 AM to 10:00 AM.",
+            "user_response_option_en": "What does the continental breakfast include?",
+            "previous_turn_id": "bifdsovbeniutvfm",
+            "order": 3,
+            "key_phrase_en": "Continental breakfast"
+        }
+    ]
+}

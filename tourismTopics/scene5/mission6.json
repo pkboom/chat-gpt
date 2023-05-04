@@ -1,0 +1,370 @@
+{
+    "id": "fsdxqlqegtbmqdrm",
+    "title": "Asking the restaurant staff for recommendations on what to do next",
+    "order": 6,
+    "turns": [
+        {
+            "id": "ktpidisboyqsqeid",
+            "ai_conversation_starter_en": "Staff: Hello! Can I help you with anything? Are you enjoying your visit so far?",
+            "user_response_option_en": "Yes, I lost my wallet. Can you recommend where to search?",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "pmskddppbqprckim",
+            "key_phrase_en": "Lost my wallet\""
+        },
+        {
+            "id": "lwpzbsojanismypl",
+            "ai_conversation_starter_en": "Staff: Hello! Can I help you with anything? Are you enjoying your visit so far?",
+            "user_response_option_en": "Could you suggest any local places to visit?",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xwlrqqocdvzzzzbk",
+            "key_phrase_en": "local places visit"
+        },
+        {
+            "id": "utzkhhnjzrlqnddg",
+            "ai_conversation_starter_en": "Staff: Hello! Can I help you with anything? Are you enjoying your visit so far?",
+            "user_response_option_en": "Would you mind giving me some advice on what to do next?",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "vvmeqfkqmbnhsdio",
+            "key_phrase_en": "giving advice"
+        },
+        {
+            "id": "efnixowubrvoabos",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry to hear that. You may try contacting the lost and found office located at the entrance.",
+            "user_response_option_en": "Do you know the office hours for lost and found desk?\" ",
+            "previous_turn_id": "ktpidisboyqsqeid",
+            "order": 2,
+            "next_turn_id": "ifkvmlqakojvcpwx",
+            "key_phrase_en": "Office hours"
+        },
+        {
+            "id": "qjnmnwgvrxmlceuo",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry to hear that. You may try contacting the lost and found office located at the entrance.",
+            "user_response_option_en": "Would it be better to check lost items online?\" ",
+            "previous_turn_id": "ktpidisboyqsqeid",
+            "order": 2,
+            "next_turn_id": "nzvynrejzfhzvyfn",
+            "key_phrase_en": "Lost items online"
+        },
+        {
+            "id": "pmskddppbqprckim",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry to hear that. You may try contacting the lost and found office located at the entrance.",
+            "user_response_option_en": "Do you have any suggestions for an attraction near here?",
+            "previous_turn_id": "ktpidisboyqsqeid",
+            "order": 2,
+            "next_turn_id": "tnsjljcmmwkuxpkj",
+            "key_phrase_en": "attraction near here"
+        },
+        {
+            "id": "qaqegxhjsttkfsbg",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Certainly! Have you tried visiting our local museum? It's a popular attraction for tourists.",
+            "user_response_option_en": "Thank you! By the way, have you seen my wallet?",
+            "previous_turn_id": "lwpzbsojanismypl",
+            "order": 2,
+            "next_turn_id": "zmvpwuueldllqdhe",
+            "key_phrase_en": "By the way"
+        },
+        {
+            "id": "khiiznfvdudrwphe",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Certainly! Have you tried visiting our local museum? It's a popular attraction for tourists.",
+            "user_response_option_en": "Great! How about a nice cafe with coffee and cakes?",
+            "previous_turn_id": "lwpzbsojanismypl",
+            "order": 2,
+            "next_turn_id": "jzxhastqebmlyqhz",
+            "key_phrase_en": "nice cafe"
+        },
+        {
+            "id": "xwlrqqocdvzzzzbk",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Certainly! Have you tried visiting our local museum? It's a popular attraction for tourists.",
+            "user_response_option_en": "I'm interested in local crafts. Any recommendations, please?",
+            "previous_turn_id": "lwpzbsojanismypl",
+            "order": 2,
+            "next_turn_id": "cfzakzimzgneuhga",
+            "key_phrase_en": "Local crafts"
+        },
+        {
+            "id": "ppmqojrfrvodxjbz",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Of course! Do you mind letting me know what you've already seen and done during your visit so far, Iris? And I'd be happy to give you some suggestions. Additionally, have you tried asking the staff at the Lost and Found if they have come across your lost item?",
+            "user_response_option_en": "I've seen the main attractions. Any offbeat recommendations?",
+            "previous_turn_id": "utzkhhnjzrlqnddg",
+            "order": 2,
+            "next_turn_id": "ylncvagvkbtqdxsv",
+            "key_phrase_en": "offbeat recommendations"
+        },
+        {
+            "id": "ndetcsoumwsyhcfu",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Of course! Do you mind letting me know what you've already seen and done during your visit so far, Iris? And I'd be happy to give you some suggestions. Additionally, have you tried asking the staff at the Lost and Found if they have come across your lost item?",
+            "user_response_option_en": "I've lost my purse. Can you suggest nearby lost and found?",
+            "previous_turn_id": "utzkhhnjzrlqnddg",
+            "order": 2,
+            "next_turn_id": "mmjkxusludtkliwv",
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "vvmeqfkqmbnhsdio",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Of course! Do you mind letting me know what you've already seen and done during your visit so far, Iris? And I'd be happy to give you some suggestions. Additionally, have you tried asking the staff at the Lost and Found if they have come across your lost item?",
+            "user_response_option_en": "I've visited museums. Any outdoor activities you suggest?",
+            "previous_turn_id": "utzkhhnjzrlqnddg",
+            "order": 2,
+            "next_turn_id": "guitylgijxwputaj",
+            "key_phrase_en": "Outdoor activities"
+        },
+        {
+            "id": "eskzjndvpvbukmxz",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, here's an example of what the restaurant staff might say to Iris Kim: The lost and found office is open from 9 am to 5 pm every day. In the meantime, would you like me to recommend some tourist attractions for you?",
+            "user_response_option_en": "Yes, please! Can you point me to popular sights around here?\" ",
+            "previous_turn_id": "efnixowubrvoabos",
+            "order": 3,
+            "key_phrase_en": "Popular sights"
+        },
+        {
+            "id": "gdjkppyrspqstuqg",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, here's an example of what the restaurant staff might say to Iris Kim: The lost and found office is open from 9 am to 5 pm every day. In the meantime, would you like me to recommend some tourist attractions for you?",
+            "user_response_option_en": "That would be helpful. Are there any local foods I should try?\" ",
+            "previous_turn_id": "efnixowubrvoabos",
+            "order": 3,
+            "key_phrase_en": "Local foods"
+        },
+        {
+            "id": "ifkvmlqakojvcpwx",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, here's an example of what the restaurant staff might say to Iris Kim: The lost and found office is open from 9 am to 5 pm every day. In the meantime, would you like me to recommend some tourist attractions for you?",
+            "user_response_option_en": "I'd love that. Is there a park or garden nearby to wander?",
+            "previous_turn_id": "efnixowubrvoabos",
+            "order": 3,
+            "key_phrase_en": "Nearby park"
+        },
+        {
+            "id": "ankvquubxmvvbtdd",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry, but I'm not sure if they have an online system for lost items. It might be worth checking the website of the tourist attractions you visited or contacting them directly to ask about their lost and found process.",
+            "user_response_option_en": "Can you suggest any nearby shops?\" ",
+            "previous_turn_id": "qjnmnwgvrxmlceuo",
+            "order": 3,
+            "key_phrase_en": "Nearby shops"
+        },
+        {
+            "id": "sbzrzhuipvrznyag",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry, but I'm not sure if they have an online system for lost items. It might be worth checking the website of the tourist attractions you visited or contacting them directly to ask about their lost and found process.",
+            "user_response_option_en": "Do you have any recommendations for sightseeing?\" ",
+            "previous_turn_id": "qjnmnwgvrxmlceuo",
+            "order": 3,
+            "key_phrase_en": "Recommendations for sightseeing"
+        },
+        {
+            "id": "nzvynrejzfhzvyfn",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry, but I'm not sure if they have an online system for lost items. It might be worth checking the website of the tourist attractions you visited or contacting them directly to ask about their lost and found process.",
+            "user_response_option_en": "Where's the best place to take a walk around here?",
+            "previous_turn_id": "qjnmnwgvrxmlceuo",
+            "order": 3,
+            "key_phrase_en": "Take a walk"
+        },
+        {
+            "id": "fhdsngsdhzzalttn",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure! One popular nearby attraction you may want to check out is the historic city center.",
+            "user_response_option_en": "Is there any place to relax nearby?",
+            "previous_turn_id": "pmskddppbqprckim",
+            "order": 3,
+            "key_phrase_en": "relax nearby"
+        },
+        {
+            "id": "qautwbjydckudjrq",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure! One popular nearby attraction you may want to check out is the historic city center.",
+            "user_response_option_en": "Are there any good souvenir shops around here?",
+            "previous_turn_id": "pmskddppbqprckim",
+            "order": 3,
+            "key_phrase_en": "souvenir shops"
+        },
+        {
+            "id": "tnsjljcmmwkuxpkj",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure! One popular nearby attraction you may want to check out is the historic city center.",
+            "user_response_option_en": "Can you recommend a nice spot to take photos?",
+            "previous_turn_id": "pmskddppbqprckim",
+            "order": 3,
+            "key_phrase_en": "Recommend a spot"
+        },
+        {
+            "id": "ebhydrulrlkwyatm",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry to hear that, did you lose it inside the restaurant?",
+            "user_response_option_en": "No, I think I might have left it at the museum.",
+            "previous_turn_id": "qaqegxhjsttkfsbg",
+            "order": 3,
+            "key_phrase_en": "left it"
+        },
+        {
+            "id": "ghtwjvkhtiprcoav",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry to hear that, did you lose it inside the restaurant?",
+            "user_response_option_en": "I'm not sure where it is. Can you help me look?",
+            "previous_turn_id": "qaqegxhjsttkfsbg",
+            "order": 3,
+            "key_phrase_en": "help me look"
+        },
+        {
+            "id": "zmvpwuueldllqdhe",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "I'm sorry to hear that, did you lose it inside the restaurant?",
+            "user_response_option_en": "Thank you, but I'm just looking for recommendations on what to do next.",
+            "previous_turn_id": "qaqegxhjsttkfsbg",
+            "order": 3,
+            "key_phrase_en": "recommendations"
+        },
+        {
+            "id": "fdoiunbntkolgiqq",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, have you checked with the lost and found department if your item has been turned in yet?",
+            "user_response_option_en": "Thanks, I'll go check there next. Any recommendations for sightseeing?\" ",
+            "previous_turn_id": "khiiznfvdudrwphe",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "lhmeaupryraqafiy",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, have you checked with the lost and found department if your item has been turned in yet?",
+            "user_response_option_en": "I appreciate your suggestion, is there any park nearby that you recommend?\" ",
+            "previous_turn_id": "khiiznfvdudrwphe",
+            "order": 3,
+            "key_phrase_en": "park nearby"
+        },
+        {
+            "id": "jzxhastqebmlyqhz",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, have you checked with the lost and found department if your item has been turned in yet?",
+            "user_response_option_en": "I'll try to look for it there, do you know any stores nearby?",
+            "previous_turn_id": "khiiznfvdudrwphe",
+            "order": 3,
+            "key_phrase_en": "Nearby stores"
+        },
+        {
+            "id": "snsgljmsornglnxj",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, have you considered checking out the local craft market? They have beautiful handcrafted items made by local artisans.",
+            "user_response_option_en": "Is there a lost and found close by?",
+            "previous_turn_id": "xwlrqqocdvzzzzbk",
+            "order": 3,
+            "key_phrase_en": "lost and found"
+        },
+        {
+            "id": "vpjnygekiaoqyuif",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, have you considered checking out the local craft market? They have beautiful handcrafted items made by local artisans.",
+            "user_response_option_en": "Can you recommend a good museum?",
+            "previous_turn_id": "xwlrqqocdvzzzzbk",
+            "order": 3,
+            "key_phrase_en": "recommend a museum"
+        },
+        {
+            "id": "cfzakzimzgneuhga",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, have you considered checking out the local craft market? They have beautiful handcrafted items made by local artisans.",
+            "user_response_option_en": "What do you think of going to a park nearby?",
+            "previous_turn_id": "xwlrqqocdvzzzzbk",
+            "order": 3,
+            "key_phrase_en": "Nearby park"
+        },
+        {
+            "id": "nalyfxajpohnaqmq",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, Iris! Have you considered taking a walking tour of the city's street art?",
+            "user_response_option_en": "Can you recommend local museums that showcase city history?",
+            "previous_turn_id": "ppmqojrfrvodxjbz",
+            "order": 3,
+            "key_phrase_en": "Local museums"
+        },
+        {
+            "id": "ykrtjxqodvbzgysw",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, Iris! Have you considered taking a walking tour of the city's street art?",
+            "user_response_option_en": "I'm interested in live music. Where do you suggest I go?",
+            "previous_turn_id": "ppmqojrfrvodxjbz",
+            "order": 3,
+            "key_phrase_en": "live music"
+        },
+        {
+            "id": "ylncvagvkbtqdxsv",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, Iris! Have you considered taking a walking tour of the city's street art?",
+            "user_response_option_en": "Do you know of any good parks or beaches to visit?",
+            "previous_turn_id": "ppmqojrfrvodxjbz",
+            "order": 3,
+            "key_phrase_en": "Good parks"
+        },
+        {
+            "id": "mbbqybdycesvdlyb",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, there's a lost and found located at the front desk. They should be able to assist you in finding your purse.",
+            "user_response_option_en": "Thank you, I'll go there now. By the way, what places do you recommend?",
+            "previous_turn_id": "ndetcsoumwsyhcfu",
+            "order": 3,
+            "key_phrase_en": "recommend places"
+        },
+        {
+            "id": "iypyzuclxmgokdlv",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, there's a lost and found located at the front desk. They should be able to assist you in finding your purse.",
+            "user_response_option_en": "Okay, I'll check. Do you have a suggestion for a good activity today?",
+            "previous_turn_id": "ndetcsoumwsyhcfu",
+            "order": 3,
+            "key_phrase_en": "Good activity suggestion"
+        },
+        {
+            "id": "mmjkxusludtkliwv",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, there's a lost and found located at the front desk. They should be able to assist you in finding your purse.",
+            "user_response_option_en": "Appreciate it. Am I close to any popular tourist spots around?",
+            "previous_turn_id": "ndetcsoumwsyhcfu",
+            "order": 3,
+            "key_phrase_en": "Popular tourist spots"
+        },
+        {
+            "id": "miobxhhooaygvjcx",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, how about you go check out the beautiful botanical gardens nearby?",
+            "user_response_option_en": "Would you recommend visiting the botanical garden in the morning or evening?\".",
+            "previous_turn_id": "vvmeqfkqmbnhsdio",
+            "order": 3,
+            "key_phrase_en": "Botanical garden"
+        },
+        {
+            "id": "wnsngthlyiaahpfr",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, how about you go check out the beautiful botanical gardens nearby?",
+            "user_response_option_en": "Thanks! Is there a shuttle service to the botanical garden?",
+            "previous_turn_id": "vvmeqfkqmbnhsdio",
+            "order": 3,
+            "key_phrase_en": "Shuttle service"
+        },
+        {
+            "id": "guitylgijxwputaj",
+            "mission_id": "fsdxqlqegtbmqdrm",
+            "ai_conversation_starter_en": "Sure, how about you go check out the beautiful botanical gardens nearby?",
+            "user_response_option_en": "Do you know of any places to buy a new camera around here?\".",
+            "previous_turn_id": "vvmeqfkqmbnhsdio",
+            "order": 3,
+            "key_phrase_en": "buy a camera"
+        }
+    ]
+}

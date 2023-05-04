@@ -1,0 +1,388 @@
+{
+    "id": "algwnzrzeoddyati",
+    "title": "Saying who you're traveling with",
+    "order": 3,
+    "turns": [
+        {
+            "id": "bopbsjsugzdfkluw",
+            "ai_conversation_starter_en": "Hi there! I'm traveling to the United States with some friends. Nice to meet you.",
+            "user_response_option_en": "That's exciting! Who's in your group?",
+            "mission_id": "algwnzrzeoddyati",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qutiviezjbrwkbmb",
+            "key_phrase_en": "That's exciting!"
+        },
+        {
+            "id": "pxcfiwdvvvtvmbjm",
+            "ai_conversation_starter_en": "Hi there! I'm traveling to the United States with some friends. Nice to meet you.",
+            "user_response_option_en": "Great! Can you tell me who you're traveling with?",
+            "mission_id": "algwnzrzeoddyati",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "fpudgsptbwqwxwyl",
+            "key_phrase_en": "traveling with"
+        },
+        {
+            "id": "hudvbxoviesmoish",
+            "ai_conversation_starter_en": "Hi there! I'm traveling to the United States with some friends. Nice to meet you.",
+            "user_response_option_en": "Awesome! Care to share who's in your travel party?",
+            "mission_id": "algwnzrzeoddyati",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rzrlyndlmhbudhut",
+            "key_phrase_en": "travel party"
+        },
+        {
+            "id": "vlxuzdjtslcoauia",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "I'm traveling with my husband and our two kids.",
+            "user_response_option_en": "Nice! Are they excited? Which places are you planning to visit?",
+            "previous_turn_id": "bopbsjsugzdfkluw",
+            "order": 2,
+            "next_turn_id": "ajvxzrxzqzhjortr",
+            "key_phrase_en": "Planning to visit"
+        },
+        {
+            "id": "yzjbyxrftdzenqbu",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "I'm traveling with my husband and our two kids.",
+            "user_response_option_en": "Oh, that sounds lovely! How old are your kids?",
+            "previous_turn_id": "bopbsjsugzdfkluw",
+            "order": 2,
+            "next_turn_id": "twmpceaqflmkccpk",
+            "key_phrase_en": "lovely kids"
+        },
+        {
+            "id": "qutiviezjbrwkbmb",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "I'm traveling with my husband and our two kids.",
+            "user_response_option_en": "Great! Is this their first time in the United States?",
+            "previous_turn_id": "bopbsjsugzdfkluw",
+            "order": 2,
+            "next_turn_id": "kjgfrlmmwnradwqm",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "oebyjshntmormyrx",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "I'm traveling with my girlfriend and our two friends from college.",
+            "user_response_option_en": "Awesome! You guys will have so much fun together.",
+            "previous_turn_id": "pxcfiwdvvvtvmbjm",
+            "order": 2,
+            "next_turn_id": "xyeozibdkuotaqbi",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nzlythzkmqrsajku",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "I'm traveling with my girlfriend and our two friends from college.",
+            "user_response_option_en": "That sounds cool. How long are you planning to stay in the U.S.?",
+            "previous_turn_id": "pxcfiwdvvvtvmbjm",
+            "order": 2,
+            "next_turn_id": "qvxccakpnvfubevc",
+            "key_phrase_en": "planning to stay"
+        },
+        {
+            "id": "fpudgsptbwqwxwyl",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "I'm traveling with my girlfriend and our two friends from college.",
+            "user_response_option_en": "Glad to hear that. Have you decided on any places to visit yet?",
+            "previous_turn_id": "pxcfiwdvvvtvmbjm",
+            "order": 2,
+            "next_turn_id": "vgpygseycgzagdhk",
+            "key_phrase_en": "Visit places"
+        },
+        {
+            "id": "tojkjywwbanqdrrz",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, of course. I'm traveling with my sister and two close friends.",
+            "user_response_option_en": "That's great! Are they all flying with you?",
+            "previous_turn_id": "hudvbxoviesmoish",
+            "order": 2,
+            "next_turn_id": "wgeqjpvfiranmnsp",
+            "key_phrase_en": "That's great!"
+        },
+        {
+            "id": "vbcxgicjiiatqqes",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, of course. I'm traveling with my sister and two close friends.",
+            "user_response_option_en": "Nice, traveling with company is always enjoyable.",
+            "previous_turn_id": "hudvbxoviesmoish",
+            "order": 2,
+            "next_turn_id": "bmmawhpykijhaiub",
+            "key_phrase_en": "traveling with company"
+        },
+        {
+            "id": "rzrlyndlmhbudhut",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, of course. I'm traveling with my sister and two close friends.",
+            "user_response_option_en": "Oh, you must be excited to explore the US with them!",
+            "previous_turn_id": "hudvbxoviesmoish",
+            "order": 2,
+            "next_turn_id": "yjpcxqntkunlssan",
+            "key_phrase_en": "explore the US"
+        },
+        {
+            "id": "uagueybubalyxsma",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, my kids are excited. We plan to visit New York and Los Angeles.",
+            "user_response_option_en": "That sounds like fun! Will you explore any other cities?",
+            "previous_turn_id": "vlxuzdjtslcoauia",
+            "order": 3,
+            "key_phrase_en": "explore other cities"
+        },
+        {
+            "id": "baghybugvmofullb",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, my kids are excited. We plan to visit New York and Los Angeles.",
+            "user_response_option_en": "Awesome! How old are your kids?",
+            "previous_turn_id": "vlxuzdjtslcoauia",
+            "order": 3,
+            "key_phrase_en": "How old"
+        },
+        {
+            "id": "ajvxzrxzqzhjortr",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, my kids are excited. We plan to visit New York and Los Angeles.",
+            "user_response_option_en": "Great! Do you have any plans in mind for activities or sightseeing?",
+            "previous_turn_id": "vlxuzdjtslcoauia",
+            "order": 3,
+            "key_phrase_en": "sightseeing"
+        },
+        {
+            "id": "nnqfzejcjegqiztv",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Thanks, they're 6 and 8 years old. We're excited to explore new places!",
+            "user_response_option_en": "Family travel is a great way to bond!\" ",
+            "previous_turn_id": "yzjbyxrftdzenqbu",
+            "order": 3,
+            "key_phrase_en": "Family travel bond"
+        },
+        {
+            "id": "rddzjednqmhmqmbk",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Thanks, they're 6 and 8 years old. We're excited to explore new places!",
+            "user_response_option_en": "Are you planning to visit any specific place?\" ",
+            "previous_turn_id": "yzjbyxrftdzenqbu",
+            "order": 3,
+            "key_phrase_en": "Specific place"
+        },
+        {
+            "id": "twmpceaqflmkccpk",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Thanks, they're 6 and 8 years old. We're excited to explore new places!",
+            "user_response_option_en": "Kids love theme parks, have you thought about visiting any?",
+            "previous_turn_id": "yzjbyxrftdzenqbu",
+            "order": 3,
+            "key_phrase_en": "Theme parks"
+        },
+        {
+            "id": "sxmccgtjjthevgqh",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "No problem, here's an example response: Yes, it's our first time here. We're excited to explore!",
+            "user_response_option_en": "Are your children excited to see America?",
+            "previous_turn_id": "qutiviezjbrwkbmb",
+            "order": 3,
+            "key_phrase_en": "excited to see (America)"
+        },
+        {
+            "id": "lojasoejjzitncsv",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "No problem, here's an example response: Yes, it's our first time here. We're excited to explore!",
+            "user_response_option_en": "How long do you plan on staying here?",
+            "previous_turn_id": "qutiviezjbrwkbmb",
+            "order": 3,
+            "key_phrase_en": "plan on staying"
+        },
+        {
+            "id": "kjgfrlmmwnradwqm",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "No problem, here's an example response: Yes, it's our first time here. We're excited to explore!",
+            "user_response_option_en": "Have you planned any specific activities for your trip?",
+            "previous_turn_id": "qutiviezjbrwkbmb",
+            "order": 3,
+            "key_phrase_en": "specific activities"
+        },
+        {
+            "id": "slbyhvskbnwkpzbo",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Thanks! Yeah, we're excited to explore New York City and visit some national parks.",
+            "user_response_option_en": "That sounds like a great adventure! Who's doing the planning? ",
+            "previous_turn_id": "oebyjshntmormyrx",
+            "order": 3,
+            "key_phrase_en": "Great adventure"
+        },
+        {
+            "id": "mbmghgnqimrtsmhp",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Thanks! Yeah, we're excited to explore New York City and visit some national parks.",
+            "user_response_option_en": "That's wonderful! Are you guys renting a car for the parks? ",
+            "previous_turn_id": "oebyjshntmormyrx",
+            "order": 3,
+            "key_phrase_en": "renting a car"
+        },
+        {
+            "id": "xyeozibdkuotaqbi",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Thanks! Yeah, we're excited to explore New York City and visit some national parks.",
+            "user_response_option_en": "Awesome! How long are you staying and where are you lodging?",
+            "previous_turn_id": "oebyjshntmormyrx",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "csnrjruyublofkcn",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "We're planning to stay for a week and visiting New York City and Washington D.C.",
+            "user_response_option_en": "Sounds like a great trip! Who's your girlfriend and friends?",
+            "previous_turn_id": "nzlythzkmqrsajku",
+            "order": 3,
+            "key_phrase_en": "great trip"
+        },
+        {
+            "id": "huldalcffepysmsb",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "We're planning to stay for a week and visiting New York City and Washington D.C.",
+            "user_response_option_en": "Nice! Who are the friends from college you're traveling with?",
+            "previous_turn_id": "nzlythzkmqrsajku",
+            "order": 3,
+            "key_phrase_en": "Friends from college"
+        },
+        {
+            "id": "qvxccakpnvfubevc",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "We're planning to stay for a week and visiting New York City and Washington D.C.",
+            "user_response_option_en": "Ah, sounds fun. Tell me more about the people you're traveling with.",
+            "previous_turn_id": "nzlythzkmqrsajku",
+            "order": 3,
+            "key_phrase_en": "Tell me more"
+        },
+        {
+            "id": "rjprlskdlhtczwlg",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "We're planning on visiting New York City, Los Angeles, and maybe Las Vegas.",
+            "user_response_option_en": "Are they stoked to see the city too?",
+            "previous_turn_id": "fpudgsptbwqwxwyl",
+            "order": 3,
+            "key_phrase_en": "stoked"
+        },
+        {
+            "id": "nskgcevqdumtsttm",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "We're planning on visiting New York City, Los Angeles, and maybe Las Vegas.",
+            "user_response_option_en": "How fun! You guys must be a close-knit group.",
+            "previous_turn_id": "fpudgsptbwqwxwyl",
+            "order": 3,
+            "key_phrase_en": "close-knit group"
+        },
+        {
+            "id": "vgpygseycgzagdhk",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "We're planning on visiting New York City, Los Angeles, and maybe Las Vegas.",
+            "user_response_option_en": "Ah, NYC and LA - classic tourist destinations.",
+            "previous_turn_id": "fpudgsptbwqwxwyl",
+            "order": 3,
+            "key_phrase_en": "tourist destinations"
+        },
+        {
+            "id": "gkjwpwarmfaamkxb",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, they are. We're excited to explore New York City together.",
+            "user_response_option_en": "That sounds like a fun group! What brings you all to NYC?",
+            "previous_turn_id": "tojkjywwbanqdrrz",
+            "order": 3,
+            "key_phrase_en": "fun group NYC"
+        },
+        {
+            "id": "prjsobgisldnqcjs",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, they are. We're excited to explore New York City together.",
+            "user_response_option_en": "I hope you have a great trip! Where are you planning to visit?",
+            "previous_turn_id": "tojkjywwbanqdrrz",
+            "order": 3,
+            "key_phrase_en": "great trip"
+        },
+        {
+            "id": "wgeqjpvfiranmnsp",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, they are. We're excited to explore New York City together.",
+            "user_response_option_en": "Oh, that's lovely. Do any of them have some favorite spots they want to see?",
+            "previous_turn_id": "tojkjywwbanqdrrz",
+            "order": 3,
+            "key_phrase_en": "favorite spots"
+        },
+        {
+            "id": "zrfiazjfcneikpcs",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we're really excited! My sister, two friends, and I are visiting from Canada.",
+            "user_response_option_en": "Whoa, that's a big group! How long will you be staying?",
+            "previous_turn_id": "vbcxgicjiiatqqes",
+            "order": 3,
+            "key_phrase_en": "big group"
+        },
+        {
+            "id": "tefqgfoiaqjypxzr",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we're really excited! My sister, two friends, and I are visiting from Canada.",
+            "user_response_option_en": "",
+            "previous_turn_id": "vbcxgicjiiatqqes",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ekzidaqhzzferrui",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we're really excited! My sister, two friends, and I are visiting from Canada.",
+            "user_response_option_en": "Canadians, eh? Do you have any must-see destinations on your list?",
+            "previous_turn_id": "vbcxgicjiiatqqes",
+            "order": 3,
+            "key_phrase_en": "must-see destinations"
+        },
+        {
+            "id": "pyppzcqxnufmryvc",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we're really excited! My sister, two friends, and I are visiting from Canada.",
+            "user_response_option_en": "",
+            "previous_turn_id": "vbcxgicjiiatqqes",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bmmawhpykijhaiub",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we're really excited! My sister, two friends, and I are visiting from Canada.",
+            "user_response_option_en": "Four in a group, that's perfect for sightseeing. Enjoy your trip!",
+            "previous_turn_id": "vbcxgicjiiatqqes",
+            "order": 3,
+            "key_phrase_en": "sightseeing in a group"
+        },
+        {
+            "id": "zvtebggpxqjparbf",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we are excited! My sister, Sarah, and friends, John and Emily.",
+            "user_response_option_en": "That sounds fun. Who's your sibling, Sarah?",
+            "previous_turn_id": "rzrlyndlmhbudhut",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qkedbpvsadmfleyx",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we are excited! My sister, Sarah, and friends, John and Emily.",
+            "user_response_option_en": "Great! Are John and Emily a couple or just friends?",
+            "previous_turn_id": "rzrlyndlmhbudhut",
+            "order": 3,
+            "key_phrase_en": "just friends"
+        },
+        {
+            "id": "yjpcxqntkunlssan",
+            "mission_id": "algwnzrzeoddyati",
+            "ai_conversation_starter_en": "Yes, we are excited! My sister, Sarah, and friends, John and Emily.",
+            "user_response_option_en": "Awesome! Do you have anything specific planned with your travel party?",
+            "previous_turn_id": "rzrlyndlmhbudhut",
+            "order": 3,
+            "key_phrase_en": "specific planned travel"
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "id": "eiatgsbhddjnrxjv",
+    "title": "Asking if the park has any age or height restrictions on certain attractions",
+    "order": 3,
+    "turns": [
+        {
+            "id": "pohnrgrtnxzpeqah",
+            "ai_conversation_starter_en": "Hello, welcome to our park! Are you excited to try out our rides and attractions today?",
+            "user_response_option_en": "Hi, do any attractions have restrictions for children or short people?\" ",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "asxkgnfnhqecatnf",
+            "key_phrase_en": "Attraction restrictions"
+        },
+        {
+            "id": "mezyejxpmifldaod",
+            "ai_conversation_starter_en": "Hello, welcome to our park! Are you excited to try out our rides and attractions today?",
+            "user_response_option_en": "Can you tell me height or age requirements for some rides?\" ",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "vkmiavcnlzjfyjfo",
+            "key_phrase_en": "rides requirements"
+        },
+        {
+            "id": "xntxqcopskfencop",
+            "ai_conversation_starter_en": "Hello, welcome to our park! Are you excited to try out our rides and attractions today?",
+            "user_response_option_en": "What are the age or height restrictions for certain attractions?",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "azbidzeyrtquwqgp",
+            "key_phrase_en": "height restrictions"
+        },
+        {
+            "id": "tcxjvlslppencedc",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, here's an example response: Yes, some of our attractions have height restrictions for safety reasons. Would you like me to show you which ones? And our operating hours are from 10 am to 6 pm, every day. Is there anything else I can help you with?",
+            "user_response_option_en": "Can small children ride?",
+            "previous_turn_id": "pohnrgrtnxzpeqah",
+            "order": 2,
+            "next_turn_id": "yrhkqcytenqpayxf",
+            "key_phrase_en": "small children ride"
+        },
+        {
+            "id": "tzrhzmjcemkcfzfa",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, here's an example response: Yes, some of our attractions have height restrictions for safety reasons. Would you like me to show you which ones? And our operating hours are from 10 am to 6 pm, every day. Is there anything else I can help you with?",
+            "user_response_option_en": "Do tall rides exist?",
+            "previous_turn_id": "pohnrgrtnxzpeqah",
+            "order": 2,
+            "next_turn_id": "acketrkhtpazokjo",
+            "key_phrase_en": "tall rides exist"
+        },
+        {
+            "id": "asxkgnfnhqecatnf",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, here's an example response: Yes, some of our attractions have height restrictions for safety reasons. Would you like me to show you which ones? And our operating hours are from 10 am to 6 pm, every day. Is there anything else I can help you with?",
+            "user_response_option_en": "Is it safe for pregnant people to get on the rides?",
+            "previous_turn_id": "pohnrgrtnxzpeqah",
+            "order": 2,
+            "next_turn_id": "owwtyxuytotdrusc",
+            "key_phrase_en": "pregnant people"
+        },
+        {
+            "id": "ronsfdxpfiltynuc",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Of course, we have age and height restrictions on some of our attractions. For example, on the roller coaster, riders must be at least 48 inches tall. As for our operating hours, we're open from 9am to 8pm every day.",
+            "user_response_option_en": "Are there any age limits on your rides?",
+            "previous_turn_id": "mezyejxpmifldaod",
+            "order": 2,
+            "next_turn_id": "dcarjvyusdvdprum",
+            "key_phrase_en": "Age limits rides"
+        },
+        {
+            "id": "rkpcejlimapjceif",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Of course, we have age and height restrictions on some of our attractions. For example, on the roller coaster, riders must be at least 48 inches tall. As for our operating hours, we're open from 9am to 8pm every day.",
+            "user_response_option_en": "Is there a minimum height requirement for attractions?",
+            "previous_turn_id": "mezyejxpmifldaod",
+            "order": 2,
+            "next_turn_id": "jniawsnaghjjjycq",
+            "key_phrase_en": "Minimum height requirement"
+        },
+        {
+            "id": "vkmiavcnlzjfyjfo",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Of course, we have age and height restrictions on some of our attractions. For example, on the roller coaster, riders must be at least 48 inches tall. As for our operating hours, we're open from 9am to 8pm every day.",
+            "user_response_option_en": "What restrictions are there for children on the rides?",
+            "previous_turn_id": "mezyejxpmifldaod",
+            "order": 2,
+            "next_turn_id": "soqaarhauvduiopl",
+            "key_phrase_en": "restrictions for children"
+        },
+        {
+            "id": "ulbbwyufbtlzqvfb",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Certainly, we have specific age and height requirements for each ride. Would you like me to go over them with you? Also, our park is open from 10am to 6pm daily.",
+            "user_response_option_en": "Can you tell me the height requirement for rollercoasters?\" ",
+            "previous_turn_id": "xntxqcopskfencop",
+            "order": 2,
+            "next_turn_id": "cfzyrsjqamgyxukz",
+            "key_phrase_en": "Height requirement"
+        },
+        {
+            "id": "alkybtuwrebpfqqn",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Certainly, we have specific age and height requirements for each ride. Would you like me to go over them with you? Also, our park is open from 10am to 6pm daily.",
+            "user_response_option_en": "What are the age restrictions for the kiddie rides?\" ",
+            "previous_turn_id": "xntxqcopskfencop",
+            "order": 2,
+            "next_turn_id": "etffltldhdjkhnhu",
+            "key_phrase_en": "Age restrictions"
+        },
+        {
+            "id": "azbidzeyrtquwqgp",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Certainly, we have specific age and height requirements for each ride. Would you like me to go over them with you? Also, our park is open from 10am to 6pm daily.",
+            "user_response_option_en": "Do you have any attractions that require a certain weight limit?",
+            "previous_turn_id": "xntxqcopskfencop",
+            "order": 2,
+            "next_turn_id": "srguxitxttssekpv",
+            "key_phrase_en": "Weight limit"
+        },
+        {
+            "id": "itstoareqwalawul",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, there are some rides that have age and height restrictions for safety reasons. Would you like me to show you which ones?",
+            "user_response_option_en": "Which rides have age restrictions?",
+            "previous_turn_id": "tcxjvlslppencedc",
+            "order": 3,
+            "key_phrase_en": "age restrictions"
+        },
+        {
+            "id": "ciedovqpyikxfkdh",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, there are some rides that have age and height restrictions for safety reasons. Would you like me to show you which ones?",
+            "user_response_option_en": "Are there rides I can't go on because I'm short?",
+            "previous_turn_id": "tcxjvlslppencedc",
+            "order": 3,
+            "key_phrase_en": "Short rides"
+        },
+        {
+            "id": "yrhkqcytenqpayxf",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, there are some rides that have age and height restrictions for safety reasons. Would you like me to show you which ones?",
+            "user_response_option_en": "What's the minimum height for certain attractions?",
+            "previous_turn_id": "tcxjvlslppencedc",
+            "order": 3,
+            "key_phrase_en": "Minimum height"
+        },
+        {
+            "id": "bxtlahbpjnkgdzdx",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, we do have tall rides here. However, some of them may have height restrictions for safety reasons. Would you like me to show you which ones?",
+            "user_response_option_en": "May I know the age and height restrictions for the roller coaster?\" ",
+            "previous_turn_id": "tzrhzmjcemkcfzfa",
+            "order": 3,
+            "key_phrase_en": "Age restrictions"
+        },
+        {
+            "id": "qmyqrabtfovvedhi",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, we do have tall rides here. However, some of them may have height restrictions for safety reasons. Would you like me to show you which ones?",
+            "user_response_option_en": "Can you tell me which rides have the minimum height requirement?\" ",
+            "previous_turn_id": "tzrhzmjcemkcfzfa",
+            "order": 3,
+            "key_phrase_en": "Minimum height requirement"
+        },
+        {
+            "id": "acketrkhtpazokjo",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, we do have tall rides here. However, some of them may have height restrictions for safety reasons. Would you like me to show you which ones?",
+            "user_response_option_en": "Which attractions have age limits for children? Thank you.",
+            "previous_turn_id": "tzrhzmjcemkcfzfa",
+            "order": 3,
+            "key_phrase_en": "age limits"
+        },
+        {
+            "id": "sgftuhifyzqmuooa",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "For safety reasons, we recommend that pregnant people refrain from riding on some of our attractions.",
+            "user_response_option_en": "Which rides have height restrictions?",
+            "previous_turn_id": "asxkgnfnhqecatnf",
+            "order": 3,
+            "key_phrase_en": "Height restrictions"
+        },
+        {
+            "id": "zgitkwzmpliknvnp",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "For safety reasons, we recommend that pregnant people refrain from riding on some of our attractions.",
+            "user_response_option_en": "Are there any age limits for the attractions?",
+            "previous_turn_id": "asxkgnfnhqecatnf",
+            "order": 3,
+            "key_phrase_en": "Age limits"
+        },
+        {
+            "id": "owwtyxuytotdrusc",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "For safety reasons, we recommend that pregnant people refrain from riding on some of our attractions.",
+            "user_response_option_en": "Can you tell me which rides are safe for children?",
+            "previous_turn_id": "asxkgnfnhqecatnf",
+            "order": 3,
+            "key_phrase_en": "safe rides children"
+        },
+        {
+            "id": "biretbopeibiewyw",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, we do have age and height restrictions on some of our attractions. The age limit for the bumper cars, for example, is 8 years old and above. As for operating hours, we're open from 9am to 8pm every day.",
+            "user_response_option_en": "What about the water slide?",
+            "previous_turn_id": "ronsfdxpfiltynuc",
+            "order": 3,
+            "key_phrase_en": "water slide"
+        },
+        {
+            "id": "kplfgrjorpyedygr",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, we do have age and height restrictions on some of our attractions. The age limit for the bumper cars, for example, is 8 years old and above. As for operating hours, we're open from 9am to 8pm every day.",
+            "user_response_option_en": "Do you have any attractions for kids?",
+            "previous_turn_id": "ronsfdxpfiltynuc",
+            "order": 3,
+            "key_phrase_en": "attractions for kids"
+        },
+        {
+            "id": "dcarjvyusdvdprum",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, we do have age and height restrictions on some of our attractions. The age limit for the bumper cars, for example, is 8 years old and above. As for operating hours, we're open from 9am to 8pm every day.",
+            "user_response_option_en": "Can adults go on kiddie rides?",
+            "previous_turn_id": "ronsfdxpfiltynuc",
+            "order": 3,
+            "key_phrase_en": "Kiddie rides"
+        },
+        {
+            "id": "tysnybqqmkunryts",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, we do have minimum height requirements for some attractions.",
+            "user_response_option_en": "Can you list which rides have height requirements?",
+            "previous_turn_id": "rkpcejlimapjceif",
+            "order": 3,
+            "key_phrase_en": "height requirements"
+        },
+        {
+            "id": "yjqnisamnqnmnjrs",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, we do have minimum height requirements for some attractions.",
+            "user_response_option_en": "What's the minimum age for certain attractions?",
+            "previous_turn_id": "rkpcejlimapjceif",
+            "order": 3,
+            "key_phrase_en": "minimum age"
+        },
+        {
+            "id": "jniawsnaghjjjycq",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Yes, we do have minimum height requirements for some attractions.",
+            "user_response_option_en": "Are there any rides with weight limits?",
+            "previous_turn_id": "rkpcejlimapjceif",
+            "order": 3,
+            "key_phrase_en": "Weight limits"
+        },
+        {
+            "id": "tskqrwuhtltblafs",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "For children’s rides, there are no age restrictions, but they need to be at least 36 inches tall.",
+            "user_response_option_en": "Can you tell me the requirements for the bigger rides?",
+            "previous_turn_id": "vkmiavcnlzjfyjfo",
+            "order": 3,
+            "key_phrase_en": "Requirements for rides"
+        },
+        {
+            "id": "fgkvibxarqvjmlgp",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "For children’s rides, there are no age restrictions, but they need to be at least 36 inches tall.",
+            "user_response_option_en": "Is there anything else I need to know for attractions?",
+            "previous_turn_id": "vkmiavcnlzjfyjfo",
+            "order": 3,
+            "key_phrase_en": "attractions"
+        },
+        {
+            "id": "soqaarhauvduiopl",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "For children’s rides, there are no age restrictions, but they need to be at least 36 inches tall.",
+            "user_response_option_en": "What are the height limits for the water rides?",
+            "previous_turn_id": "vkmiavcnlzjfyjfo",
+            "order": 3,
+            "key_phrase_en": "height limits"
+        },
+        {
+            "id": "bcsqejtjtgyzfevd",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, the height requirement for our roller coasters is a minimum of 48 inches or 122 cm.",
+            "user_response_option_en": "Are there any attractions suitable for young children?",
+            "previous_turn_id": "ulbbwyufbtlzqvfb",
+            "order": 3,
+            "key_phrase_en": "young children"
+        },
+        {
+            "id": "fdcmdytxebhhxklt",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, the height requirement for our roller coasters is a minimum of 48 inches or 122 cm.",
+            "user_response_option_en": "What is the age requirement for the water rides?",
+            "previous_turn_id": "ulbbwyufbtlzqvfb",
+            "order": 3,
+            "key_phrase_en": "age requirement"
+        },
+        {
+            "id": "cfzyrsjqamgyxukz",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "Sure, the height requirement for our roller coasters is a minimum of 48 inches or 122 cm.",
+            "user_response_option_en": "Is there a different height requirement for the kiddie coasters?",
+            "previous_turn_id": "ulbbwyufbtlzqvfb",
+            "order": 3,
+            "key_phrase_en": "Height requirement"
+        },
+        {
+            "id": "hrfemxbjsztdujoo",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "The age restrictions for the kiddie rides are typically between 2 to 6 years old and they must meet the minimum height requirement of 36 inches. Is there anything else I can assist you with?",
+            "user_response_option_en": "Can I ride alone if I meet the height requirement?",
+            "previous_turn_id": "alkybtuwrebpfqqn",
+            "order": 3,
+            "key_phrase_en": "Height Requirement"
+        },
+        {
+            "id": "cneispuimxhnsvzx",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "The age restrictions for the kiddie rides are typically between 2 to 6 years old and they must meet the minimum height requirement of 36 inches. Is there anything else I can assist you with?",
+            "user_response_option_en": "What's the height requirement for the big rides?",
+            "previous_turn_id": "alkybtuwrebpfqqn",
+            "order": 3,
+            "key_phrase_en": "Height requirement"
+        },
+        {
+            "id": "etffltldhdjkhnhu",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "The age restrictions for the kiddie rides are typically between 2 to 6 years old and they must meet the minimum height requirement of 36 inches. Is there anything else I can assist you with?",
+            "user_response_option_en": "Are there any age restrictions on the big rides?",
+            "previous_turn_id": "alkybtuwrebpfqqn",
+            "order": 3,
+            "key_phrase_en": "Age restrictions"
+        },
+        {
+            "id": "dbzpchsvzvvbxnfn",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "We do have some attractions with weight limits, but they are not very restrictive.",
+            "user_response_option_en": "Can you show me the requirements listed at the entrance? ",
+            "previous_turn_id": "azbidzeyrtquwqgp",
+            "order": 3,
+            "key_phrase_en": "requirements listed"
+        },
+        {
+            "id": "ialofdtvdrmdvdok",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "We do have some attractions with weight limits, but they are not very restrictive.",
+            "user_response_option_en": "How do I know which attractions I'm allowed to go on? ",
+            "previous_turn_id": "azbidzeyrtquwqgp",
+            "order": 3,
+            "key_phrase_en": "attractions allowed"
+        },
+        {
+            "id": "srguxitxttssekpv",
+            "mission_id": "eiatgsbhddjnrxjv",
+            "ai_conversation_starter_en": "We do have some attractions with weight limits, but they are not very restrictive.",
+            "user_response_option_en": "Are there any rides that are specifically for children?",
+            "previous_turn_id": "azbidzeyrtquwqgp",
+            "order": 3,
+            "key_phrase_en": "specifically for children"
+        }
+    ]
+}

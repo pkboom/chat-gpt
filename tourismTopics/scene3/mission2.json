@@ -1,0 +1,370 @@
+{
+    "id": "vaytghsibevgkxin",
+    "title": "Asking for directions to the restroom or other facilities",
+    "order": 2,
+    "turns": [
+        {
+            "id": "xoaxgnuvrhymrzao",
+            "ai_conversation_starter_en": "Welcome to our tourist attraction! Is there anything I can help you with? Are you looking for any particular exhibit or feature of our park?",
+            "user_response_option_en": "Excuse me, where are the restrooms located?",
+            "mission_id": "vaytghsibevgkxin",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "demywzyndtlihdux",
+            "key_phrase_en": "Restrooms located"
+        },
+        {
+            "id": "avnalqngfjlofodl",
+            "ai_conversation_starter_en": "Welcome to our tourist attraction! Is there anything I can help you with? Are you looking for any particular exhibit or feature of our park?",
+            "user_response_option_en": "Can you show me where the closest facilities are?",
+            "mission_id": "vaytghsibevgkxin",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "mpjkkgbeqjqwfsnf",
+            "key_phrase_en": "closest facilities"
+        },
+        {
+            "id": "kpvfoojcoqqzxrbq",
+            "ai_conversation_starter_en": "Welcome to our tourist attraction! Is there anything I can help you with? Are you looking for any particular exhibit or feature of our park?",
+            "user_response_option_en": "Sorry, I need to find the restroom. Can you help me?",
+            "mission_id": "vaytghsibevgkxin",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gcxdzctlaibpgdpb",
+            "key_phrase_en": "Restroom, help me"
+        },
+        {
+            "id": "hjnpicpdsehiufyl",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "The restrooms are located near the entrance of the park.",
+            "user_response_option_en": "Thank you. Could you repeat the directions?",
+            "previous_turn_id": "xoaxgnuvrhymrzao",
+            "order": 2,
+            "next_turn_id": "hyuirclvfzzmxqpk",
+            "key_phrase_en": "repeat directions"
+        },
+        {
+            "id": "znuugmvxbghtsdyt",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "The restrooms are located near the entrance of the park.",
+            "user_response_option_en": "Excuse me, is there a baby-changing table there?",
+            "previous_turn_id": "xoaxgnuvrhymrzao",
+            "order": 2,
+            "next_turn_id": "brhxjspgdcsjiwlu",
+            "key_phrase_en": "baby-changing table"
+        },
+        {
+            "id": "demywzyndtlihdux",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "The restrooms are located near the entrance of the park.",
+            "user_response_option_en": "Is there a water fountain nearby?",
+            "previous_turn_id": "xoaxgnuvrhymrzao",
+            "order": 2,
+            "next_turn_id": "uidmjlkmanmdosyr",
+            "key_phrase_en": "water fountain nearby"
+        },
+        {
+            "id": "mcfsflduuhdujarl",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, the restrooms are located just past the entrance on the left-hand side.",
+            "user_response_option_en": "Excuse me, where can I find the drinking fountains?",
+            "previous_turn_id": "avnalqngfjlofodl",
+            "order": 2,
+            "next_turn_id": "ctsizkwhcnkcqlmq",
+            "key_phrase_en": "Drinking fountains"
+        },
+        {
+            "id": "crwuonigfjvbfcqs",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, the restrooms are located just past the entrance on the left-hand side.",
+            "user_response_option_en": "Thanks, do you have a map showing the location of the restrooms?",
+            "previous_turn_id": "avnalqngfjlofodl",
+            "order": 2,
+            "next_turn_id": "jfzuddyuacqipomc",
+            "key_phrase_en": "restroom location"
+        },
+        {
+            "id": "mpjkkgbeqjqwfsnf",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, the restrooms are located just past the entrance on the left-hand side.",
+            "user_response_option_en": "Can you also tell me where I can dispose of my trash?",
+            "previous_turn_id": "avnalqngfjlofodl",
+            "order": 2,
+            "next_turn_id": "rqzdoulxjloyzjkp",
+            "key_phrase_en": "Dispose of trash"
+        },
+        {
+            "id": "bepoleuqlewmrkyp",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure! The staff might say, Certainly, the restroom is located just around the corner to your left.",
+            "user_response_option_en": "Thank you for your help. Is it nearby the gift shop?",
+            "previous_turn_id": "kpvfoojcoqqzxrbq",
+            "order": 2,
+            "next_turn_id": "bhppyayyxjvfylqs",
+            "key_phrase_en": "Nearby gift shop"
+        },
+        {
+            "id": "hnaoehudpyqviodl",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure! The staff might say, Certainly, the restroom is located just around the corner to your left.",
+            "user_response_option_en": "Excuse me, can you tell me where the ATM is located?",
+            "previous_turn_id": "kpvfoojcoqqzxrbq",
+            "order": 2,
+            "next_turn_id": "xnnqrpeldvxwkxjs",
+            "key_phrase_en": "ATM location"
+        },
+        {
+            "id": "gcxdzctlaibpgdpb",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure! The staff might say, Certainly, the restroom is located just around the corner to your left.",
+            "user_response_option_en": "Sorry, do you know where the baby changing room is situated?",
+            "previous_turn_id": "kpvfoojcoqqzxrbq",
+            "order": 2,
+            "next_turn_id": "yzmytvvnvquwkuae",
+            "key_phrase_en": "baby changing room"
+        },
+        {
+            "id": "uiemtoyfrsyzgbmx",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, here's an example of what the staff might say:Sure, if you go straight towards the entrance, you'll find the restrooms on your right-hand side.",
+            "user_response_option_en": "Thank you. Is it close from here?\" ",
+            "previous_turn_id": "hjnpicpdsehiufyl",
+            "order": 3,
+            "key_phrase_en": "Is it close?"
+        },
+        {
+            "id": "jhdacuvknrpjwklj",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, here's an example of what the staff might say:Sure, if you go straight towards the entrance, you'll find the restrooms on your right-hand side.",
+            "user_response_option_en": "Got it. Excuse me, where can I find a vending machine?\" ",
+            "previous_turn_id": "hjnpicpdsehiufyl",
+            "order": 3,
+            "key_phrase_en": "Vending machine"
+        },
+        {
+            "id": "hyuirclvfzzmxqpk",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, here's an example of what the staff might say:Sure, if you go straight towards the entrance, you'll find the restrooms on your right-hand side.",
+            "user_response_option_en": "Understood. Is it possible to find an ATM around here?",
+            "previous_turn_id": "hjnpicpdsehiufyl",
+            "order": 3,
+            "key_phrase_en": "ATM around here"
+        },
+        {
+            "id": "suvzkibgprcfaorm",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Yes, there is a baby-changing table available in the restroom near the entrance.",
+            "user_response_option_en": "Thanks, is it on the left or right side?",
+            "previous_turn_id": "znuugmvxbghtsdyt",
+            "order": 3,
+            "key_phrase_en": "On the left"
+        },
+        {
+            "id": "tkkdzaonmdcjejyz",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Yes, there is a baby-changing table available in the restroom near the entrance.",
+            "user_response_option_en": "Do you mind showing me the way, please?",
+            "previous_turn_id": "znuugmvxbghtsdyt",
+            "order": 3,
+            "key_phrase_en": "Showing me the way"
+        },
+        {
+            "id": "brhxjspgdcsjiwlu",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Yes, there is a baby-changing table available in the restroom near the entrance.",
+            "user_response_option_en": "Is it easy to find or should I ask someone else?",
+            "previous_turn_id": "znuugmvxbghtsdyt",
+            "order": 3,
+            "key_phrase_en": "someone else"
+        },
+        {
+            "id": "cwrudardwlzaebid",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, there's a water fountain located next to the restrooms near the entrance.",
+            "user_response_option_en": "Excuse me, may I know how far the restrooms are?",
+            "previous_turn_id": "demywzyndtlihdux",
+            "order": 3,
+            "key_phrase_en": "Restrooms location"
+        },
+        {
+            "id": "eacanluywimjuros",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, there's a water fountain located next to the restrooms near the entrance.",
+            "user_response_option_en": "Can you guide me to the restrooms near the entrance, please?",
+            "previous_turn_id": "demywzyndtlihdux",
+            "order": 3,
+            "key_phrase_en": "Restrooms near entrance"
+        },
+        {
+            "id": "uidmjlkmanmdosyr",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, there's a water fountain located next to the restrooms near the entrance.",
+            "user_response_option_en": "Are there any washrooms available around this area?",
+            "previous_turn_id": "demywzyndtlihdux",
+            "order": 3,
+            "key_phrase_en": "washrooms available"
+        },
+        {
+            "id": "tlcrwasnalheiesc",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, there's a drinking fountain located just outside the restrooms.",
+            "user_response_option_en": "Thank you, do you have a map of the park?",
+            "previous_turn_id": "mcfsflduuhdujarl",
+            "order": 3,
+            "key_phrase_en": "map of park"
+        },
+        {
+            "id": "tyinwovyfhldcwhd",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, there's a drinking fountain located just outside the restrooms.",
+            "user_response_option_en": "Excuse me, are there any nearby restaurants?",
+            "previous_turn_id": "mcfsflduuhdujarl",
+            "order": 3,
+            "key_phrase_en": "Nearby restaurants"
+        },
+        {
+            "id": "ctsizkwhcnkcqlmq",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, there's a drinking fountain located just outside the restrooms.",
+            "user_response_option_en": "Thanks, can you tell me where to buy souvenirs?",
+            "previous_turn_id": "mcfsflduuhdujarl",
+            "order": 3,
+            "key_phrase_en": "where to buy"
+        },
+        {
+            "id": "ydpkaomnatqskmed",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, here's an example response to Iris Kim: Of course, here's a map of the park. The restrooms are located just past the entrance on the left-hand side.",
+            "user_response_option_en": "Thanks, I really appreciate it!",
+            "previous_turn_id": "crwuonigfjvbfcqs",
+            "order": 3,
+            "key_phrase_en": "Thanks"
+        },
+        {
+            "id": "bxtdqvajwbesqniq",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, here's an example response to Iris Kim: Of course, here's a map of the park. The restrooms are located just past the entrance on the left-hand side.",
+            "user_response_option_en": "Could you please point me in the right direction?",
+            "previous_turn_id": "crwuonigfjvbfcqs",
+            "order": 3,
+            "key_phrase_en": "right direction"
+        },
+        {
+            "id": "jfzuddyuacqipomc",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure, here's an example response to Iris Kim: Of course, here's a map of the park. The restrooms are located just past the entrance on the left-hand side.",
+            "user_response_option_en": "Sorry, could you repeat that one more time?",
+            "previous_turn_id": "crwuonigfjvbfcqs",
+            "order": 3,
+            "key_phrase_en": "repeat that"
+        },
+        {
+            "id": "wfciqmqgxxhgsocm",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure! We have trash bins located throughout the park, so you can dispose of your trash as you go.",
+            "user_response_option_en": "Excuse me, do you have a map of the park or a brochure with info on all the facilities?\" ",
+            "previous_turn_id": "mpjkkgbeqjqwfsnf",
+            "order": 3,
+            "key_phrase_en": "Park map or brochure"
+        },
+        {
+            "id": "ebraudskmagztunc",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure! We have trash bins located throughout the park, so you can dispose of your trash as you go.",
+            "user_response_option_en": "Thanks, are the restrooms marked with signs or is there a particular color I should look for?\" ",
+            "previous_turn_id": "mpjkkgbeqjqwfsnf",
+            "order": 3,
+            "key_phrase_en": "Restroom signs"
+        },
+        {
+            "id": "rqzdoulxjloyzjkp",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Sure! We have trash bins located throughout the park, so you can dispose of your trash as you go.",
+            "user_response_option_en": "Could you also tell me where the drinking fountains are located? I need to refill my water bottle.",
+            "previous_turn_id": "mpjkkgbeqjqwfsnf",
+            "order": 3,
+            "key_phrase_en": "Water bottle refill"
+        },
+        {
+            "id": "ixrvkivupemekjrf",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Yes, the gift shop is just a few steps away from the restroom.",
+            "user_response_option_en": "Thanks! I'll stop by the gift shop later.",
+            "previous_turn_id": "bepoleuqlewmrkyp",
+            "order": 3,
+            "key_phrase_en": "stop by later"
+        },
+        {
+            "id": "jjocnssddivyzoyq",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Yes, the gift shop is just a few steps away from the restroom.",
+            "user_response_option_en": "Could you show me the way to the food court too?",
+            "previous_turn_id": "bepoleuqlewmrkyp",
+            "order": 3,
+            "key_phrase_en": "Food court way"
+        },
+        {
+            "id": "bhppyayyxjvfylqs",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Yes, the gift shop is just a few steps away from the restroom.",
+            "user_response_option_en": "Is there a map available of this park that I can use?",
+            "previous_turn_id": "bepoleuqlewmrkyp",
+            "order": 3,
+            "key_phrase_en": "map available"
+        },
+        {
+            "id": "eifyzwfcamcjzdmh",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, the ATM is located near the entrance of the park.",
+            "user_response_option_en": "Thank you, is it next to the gift shop?",
+            "previous_turn_id": "hnaoehudpyqviodl",
+            "order": 3,
+            "key_phrase_en": "Next to gift shop"
+        },
+        {
+            "id": "lueqljlseeamiews",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, the ATM is located near the entrance of the park.",
+            "user_response_option_en": "Is it easy to find from here?",
+            "previous_turn_id": "hnaoehudpyqviodl",
+            "order": 3,
+            "key_phrase_en": "Easy to find"
+        },
+        {
+            "id": "xnnqrpeldvxwkxjs",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Certainly, the ATM is located near the entrance of the park.",
+            "user_response_option_en": "Do you have a map to guide me there?",
+            "previous_turn_id": "hnaoehudpyqviodl",
+            "order": 3,
+            "key_phrase_en": "map guide"
+        },
+        {
+            "id": "tvetcmcrsumxmsoj",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Of course, the baby changing room is just down the hall to the right.",
+            "user_response_option_en": "Thank you. Is it easily accessible from here? ",
+            "previous_turn_id": "gcxdzctlaibpgdpb",
+            "order": 3,
+            "key_phrase_en": "easily accessible"
+        },
+        {
+            "id": "vlsgdiztribfkylm",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Of course, the baby changing room is just down the hall to the right.",
+            "user_response_option_en": "Excuse me, is there a sign or something that can direct me?",
+            "previous_turn_id": "gcxdzctlaibpgdpb",
+            "order": 3,
+            "key_phrase_en": "Excuse me"
+        },
+        {
+            "id": "yzmytvvnvquwkuae",
+            "mission_id": "vaytghsibevgkxin",
+            "ai_conversation_starter_en": "Of course, the baby changing room is just down the hall to the right.",
+            "user_response_option_en": "Is there anywhere I can get tissue paper if there's none in the room?",
+            "previous_turn_id": "gcxdzctlaibpgdpb",
+            "order": 3,
+            "key_phrase_en": "Tissue paper"
+        }
+    ]
+}

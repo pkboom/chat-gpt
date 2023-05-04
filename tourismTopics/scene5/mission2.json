@@ -1,0 +1,352 @@
+{
+    "id": "kotzfeiwzwzjbgvn",
+    "title": "Describing your lost item to the waiter and asking if they can help you find it",
+    "order": 2,
+    "turns": [
+        {
+            "id": "dxbvpemrhjmpcttn",
+            "ai_conversation_starter_en": "Excuse me, ma'am. Is everything okay? Can I help you with anything?",
+            "user_response_option_en": "Yes, thank you. I lost my phone. Can you help me find it?",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qymjqwbfuxaccxnm",
+            "key_phrase_en": "Help me find"
+        },
+        {
+            "id": "shvlbzriiqxaohsh",
+            "ai_conversation_starter_en": "Excuse me, ma'am. Is everything okay? Can I help you with anything?",
+            "user_response_option_en": "I'm okay, but I lost my wallet. Could you assist me?",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "umbpnwxwrsylvrso",
+            "key_phrase_en": "Assist me"
+        },
+        {
+            "id": "hgnqwgkucftrmtxq",
+            "ai_conversation_starter_en": "Excuse me, ma'am. Is everything okay? Can I help you with anything?",
+            "user_response_option_en": "Thanks for asking. I can't find my keys. Can you help me look?",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jomgglyzsopqtikv",
+            "key_phrase_en": "help me look"
+        },
+        {
+            "id": "mtxtltastaeveiab",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, here's an example response from the staff to Iris Kim:Of course, I can help. Can you please describe your phone to me so we can ask our staff to keep an eye out for it?",
+            "user_response_option_en": "It's an iPhone X, black color with a blue case.",
+            "previous_turn_id": "dxbvpemrhjmpcttn",
+            "order": 2,
+            "next_turn_id": "irjrjrctoqcksjpr",
+            "key_phrase_en": "iPhone X"
+        },
+        {
+            "id": "qvmytulnzohkuacc",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, here's an example response from the staff to Iris Kim:Of course, I can help. Can you please describe your phone to me so we can ask our staff to keep an eye out for it?",
+            "user_response_option_en": "The phone has a cracked screen and a unique sticker on it.",
+            "previous_turn_id": "dxbvpemrhjmpcttn",
+            "order": 2,
+            "next_turn_id": "uydsoxjrvoinmrsa",
+            "key_phrase_en": "Cracked screen"
+        },
+        {
+            "id": "qymjqwbfuxaccxnm",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, here's an example response from the staff to Iris Kim:Of course, I can help. Can you please describe your phone to me so we can ask our staff to keep an eye out for it?",
+            "user_response_option_en": "Can you please check the lost and found box for a lost phone?",
+            "previous_turn_id": "dxbvpemrhjmpcttn",
+            "order": 2,
+            "next_turn_id": "dertjlyvxluqhcxg",
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "oubhlcxotmuxbuez",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Certainly, ma'am. Can you describe your wallet for me?",
+            "user_response_option_en": "It's a small brown wallet.",
+            "previous_turn_id": "shvlbzriiqxaohsh",
+            "order": 2,
+            "next_turn_id": "yxlhibreyogukexz",
+            "key_phrase_en": "Small brown wallet"
+        },
+        {
+            "id": "xcrresmuipiiawyk",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Certainly, ma'am. Can you describe your wallet for me?",
+            "user_response_option_en": "It has a zipper and a gold chain.",
+            "previous_turn_id": "shvlbzriiqxaohsh",
+            "order": 2,
+            "next_turn_id": "ekjmnlsjioknumka",
+            "key_phrase_en": "Gold chain"
+        },
+        {
+            "id": "umbpnwxwrsylvrso",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Certainly, ma'am. Can you describe your wallet for me?",
+            "user_response_option_en": "There's a pink bow on the front.",
+            "previous_turn_id": "shvlbzriiqxaohsh",
+            "order": 2,
+            "next_turn_id": "wyrnfnjrmnuaspwj",
+            "key_phrase_en": "Pink bow"
+        },
+        {
+            "id": "uqpjgughsjaqjifo",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Of course, I can definitely help you find your keys. Can you please describe the keys to me, so I know what I'm searching for?",
+            "user_response_option_en": "They are silver and have a heart-shaped keychain.",
+            "previous_turn_id": "hgnqwgkucftrmtxq",
+            "order": 2,
+            "next_turn_id": "epuzfeiuxtdfrulo",
+            "key_phrase_en": "heart-shaped keychain"
+        },
+        {
+            "id": "wvyowxouqnxyzrgw",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Of course, I can definitely help you find your keys. Can you please describe the keys to me, so I know what I'm searching for?",
+            "user_response_option_en": "One key is shaped like a bird, the other like a flower.",
+            "previous_turn_id": "hgnqwgkucftrmtxq",
+            "order": 2,
+            "next_turn_id": "zianxwyhlcifdegs",
+            "key_phrase_en": "key shape"
+        },
+        {
+            "id": "jomgglyzsopqtikv",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Of course, I can definitely help you find your keys. Can you please describe the keys to me, so I know what I'm searching for?",
+            "user_response_option_en": "The keys have 'Home Sweet Home' engraved on them.",
+            "previous_turn_id": "hgnqwgkucftrmtxq",
+            "order": 2,
+            "next_turn_id": "hjtbefmcstlujuee",
+            "key_phrase_en": "Home Sweet Home"
+        },
+        {
+            "id": "hizsvvcegttppbhn",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for describing your phone, Iris. I'll inform the staff and see if they found anything matching your description.",
+            "user_response_option_en": "Do you need my name or room number for contact?",
+            "previous_turn_id": "mtxtltastaeveiab",
+            "order": 3,
+            "key_phrase_en": "contact information"
+        },
+        {
+            "id": "ixrjnkfgghayseuu",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for describing your phone, Iris. I'll inform the staff and see if they found anything matching your description.",
+            "user_response_option_en": "Is there a Lost & Found area in the hotel?",
+            "previous_turn_id": "mtxtltastaeveiab",
+            "order": 3,
+            "key_phrase_en": "Lost & Found area"
+        },
+        {
+            "id": "irjrjrctoqcksjpr",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for describing your phone, Iris. I'll inform the staff and see if they found anything matching your description.",
+            "user_response_option_en": "Can you please let me know as soon as possible?",
+            "previous_turn_id": "mtxtltastaeveiab",
+            "order": 3,
+            "key_phrase_en": "as soon as possible"
+        },
+        {
+            "id": "eljimpfftihuglur",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for describing your phone, Iris. I will ask our staff to keep an eye out for it.",
+            "user_response_option_en": "Can you also let security know? ",
+            "previous_turn_id": "qvmytulnzohkuacc",
+            "order": 3,
+            "key_phrase_en": "let security know"
+        },
+        {
+            "id": "mmklhvtlgusksrdc",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for describing your phone, Iris. I will ask our staff to keep an eye out for it.",
+            "user_response_option_en": "Is there a lost and found I could check? ",
+            "previous_turn_id": "qvmytulnzohkuacc",
+            "order": 3,
+            "key_phrase_en": "lost and found"
+        },
+        {
+            "id": "uydsoxjrvoinmrsa",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for describing your phone, Iris. I will ask our staff to keep an eye out for it.",
+            "user_response_option_en": "I appreciate your help, thank you!",
+            "previous_turn_id": "qvmytulnzohkuacc",
+            "order": 3,
+            "key_phrase_en": "Thank you\""
+        },
+        {
+            "id": "einxffjlgjqsuzmo",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, let me check the lost and found box for you.",
+            "user_response_option_en": "It's a black iPhone 12 with a red case.",
+            "previous_turn_id": "qymjqwbfuxaccxnm",
+            "order": 3,
+            "key_phrase_en": "Black iPhone 12"
+        },
+        {
+            "id": "nfevgsqypxtyjvrp",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, let me check the lost and found box for you.",
+            "user_response_option_en": "I think I lost it near the entrance, can you check there too?",
+            "previous_turn_id": "qymjqwbfuxaccxnm",
+            "order": 3,
+            "key_phrase_en": "Check the entrance"
+        },
+        {
+            "id": "dertjlyvxluqhcxg",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, let me check the lost and found box for you.",
+            "user_response_option_en": "I might have left it on the table, can you check there as well?",
+            "previous_turn_id": "qymjqwbfuxaccxnm",
+            "order": 3,
+            "key_phrase_en": "Check there"
+        },
+        {
+            "id": "ctyxdxixnqjqhics",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "I understand, ma'am. Did you happen to lose it around here or in another area of the attraction?",
+            "user_response_option_en": "I'm not sure, I might have dropped it in the restroom.",
+            "previous_turn_id": "oubhlcxotmuxbuez",
+            "order": 3,
+            "key_phrase_en": "dropped it"
+        },
+        {
+            "id": "fcukrkvvcpumaosm",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "I understand, ma'am. Did you happen to lose it around here or in another area of the attraction?",
+            "user_response_option_en": "I think I lost it near the souvenir shop.",
+            "previous_turn_id": "oubhlcxotmuxbuez",
+            "order": 3,
+            "key_phrase_en": "Souvenir shop"
+        },
+        {
+            "id": "yxlhibreyogukexz",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "I understand, ma'am. Did you happen to lose it around here or in another area of the attraction?",
+            "user_response_option_en": "Perhaps I left it on the bench by the entrance.",
+            "previous_turn_id": "oubhlcxotmuxbuez",
+            "order": 3,
+            "key_phrase_en": "On the bench"
+        },
+        {
+            "id": "pczcnwosbvczkrjn",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Okay, here's an appropriate response: Thank you for letting me know. I will inform our lost and found department and help you in any way I can.",
+            "user_response_option_en": "Can you give me a written confirmation of the report, please? ",
+            "previous_turn_id": "xcrresmuipiiawyk",
+            "order": 3,
+            "key_phrase_en": "Written confirmation"
+        },
+        {
+            "id": "phgiyecvprzcfime",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Okay, here's an appropriate response: Thank you for letting me know. I will inform our lost and found department and help you in any way I can.",
+            "user_response_option_en": "Can I leave a contact number to update me when it's found, please? ",
+            "previous_turn_id": "xcrresmuipiiawyk",
+            "order": 3,
+            "key_phrase_en": "contact number update"
+        },
+        {
+            "id": "ekjmnlsjioknumka",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Okay, here's an appropriate response: Thank you for letting me know. I will inform our lost and found department and help you in any way I can.",
+            "user_response_option_en": "Could you recommend any alternative locations to check, please?",
+            "previous_turn_id": "xcrresmuipiiawyk",
+            "order": 3,
+            "key_phrase_en": "Alternative locations"
+        },
+        {
+            "id": "wyrnfnjrmnuaspwj",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, I'll let our staff know and we'll keep an eye out for anything matching that description.",
+            "user_response_option_en": "Thank you, that's so kind.\", \"2. tourist",
+            "previous_turn_id": "umbpnwxwrsylvrso",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "jrhjsbdefypfdtph",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for giving me a clear description of your lost keys, Iris. I will inform our staff immediately to keep an eye out for them.",
+            "user_response_option_en": "Thanks for your help, I'll wait here.",
+            "previous_turn_id": "uqpjgughsjaqjifo",
+            "order": 3,
+            "key_phrase_en": "Thanks for help"
+        },
+        {
+            "id": "cbunnqotwhpamabz",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for giving me a clear description of your lost keys, Iris. I will inform our staff immediately to keep an eye out for them.",
+            "user_response_option_en": "Let me know if you find them, please.",
+            "previous_turn_id": "uqpjgughsjaqjifo",
+            "order": 3,
+            "key_phrase_en": "Let me know"
+        },
+        {
+            "id": "epuzfeiuxtdfrulo",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Thank you for giving me a clear description of your lost keys, Iris. I will inform our staff immediately to keep an eye out for them.",
+            "user_response_option_en": "Should I leave my contact information just in case?",
+            "previous_turn_id": "uqpjgughsjaqjifo",
+            "order": 3,
+            "key_phrase_en": "contact information"
+        },
+        {
+            "id": "gucbikinegycgqsu",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Great, thank you for telling me the descriptions of your keys. Let me speak to our lost and found department to see if anyone has turned them in.",
+            "user_response_option_en": "Do you need my name and room number?",
+            "previous_turn_id": "wvyowxouqnxyzrgw",
+            "order": 3,
+            "key_phrase_en": "room number"
+        },
+        {
+            "id": "tayyypceedaxnflv",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Great, thank you for telling me the descriptions of your keys. Let me speak to our lost and found department to see if anyone has turned them in.",
+            "user_response_option_en": "Is there a lost and found box?",
+            "previous_turn_id": "wvyowxouqnxyzrgw",
+            "order": 3,
+            "key_phrase_en": "Lost and Found"
+        },
+        {
+            "id": "zianxwyhlcifdegs",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Great, thank you for telling me the descriptions of your keys. Let me speak to our lost and found department to see if anyone has turned them in.",
+            "user_response_option_en": "Would it be possible to check CCTV footage?",
+            "previous_turn_id": "wvyowxouqnxyzrgw",
+            "order": 3,
+            "key_phrase_en": "CCTV footage"
+        },
+        {
+            "id": "selijdieiaisjiol",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, let me inform our lost and found department about your lost keys with the engraving 'Home Sweet Home' and have them keep an eye out for it. Can I please have your name and contact information, so we can reach out to you if we find it?",
+            "user_response_option_en": "Here's my name and phone number in case you find it.",
+            "previous_turn_id": "jomgglyzsopqtikv",
+            "order": 3,
+            "key_phrase_en": "phone number"
+        },
+        {
+            "id": "szrwkrxskrkmlzsk",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, let me inform our lost and found department about your lost keys with the engraving 'Home Sweet Home' and have them keep an eye out for it. Can I please have your name and contact information, so we can reach out to you if we find it?",
+            "user_response_option_en": "Thank you for your assistance. Please keep me updated.",
+            "previous_turn_id": "jomgglyzsopqtikv",
+            "order": 3,
+            "key_phrase_en": "Keep me updated"
+        },
+        {
+            "id": "hjtbefmcstlujuee",
+            "mission_id": "kotzfeiwzwzjbgvn",
+            "ai_conversation_starter_en": "Sure, let me inform our lost and found department about your lost keys with the engraving 'Home Sweet Home' and have them keep an eye out for it. Can I please have your name and contact information, so we can reach out to you if we find it?",
+            "user_response_option_en": "Is there somewhere else I can check for my lost keys?",
+            "previous_turn_id": "jomgglyzsopqtikv",
+            "order": 3,
+            "key_phrase_en": "Lost keys"
+        }
+    ]
+}

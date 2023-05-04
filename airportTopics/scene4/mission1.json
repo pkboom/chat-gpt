@@ -1,0 +1,370 @@
+{
+    "id": "jytsfejaegjskvjt",
+    "title": "Browsing the store for souvenirs or gifts for friends and family.",
+    "order": 1,
+    "turns": [
+        {
+            "id": "jqpmxaznjcrwacre",
+            "ai_conversation_starter_en": "Hello, are you looking for anything specific or just browsing for souvenirs or gifts for friends and family?",
+            "user_response_option_en": "I'm just looking around.",
+            "mission_id": "jytsfejaegjskvjt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ubopiomdovsbnqju",
+            "key_phrase_en": "looking around"
+        },
+        {
+            "id": "xmtrzgsiioroprtn",
+            "ai_conversation_starter_en": "Hello, are you looking for anything specific or just browsing for souvenirs or gifts for friends and family?",
+            "user_response_option_en": "Just finding souvenirs, can you recommend anything?",
+            "mission_id": "jytsfejaegjskvjt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "yzpwrmmxeymqgvji",
+            "key_phrase_en": "recommend"
+        },
+        {
+            "id": "gmyzqdvvnqfsolkm",
+            "ai_conversation_starter_en": "Hello, are you looking for anything specific or just browsing for souvenirs or gifts for friends and family?",
+            "user_response_option_en": "I want to buy something for my friends, any ideas?",
+            "mission_id": "jytsfejaegjskvjt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "fpqwcfbqnkcnmtjs",
+            "key_phrase_en": "buy something"
+        },
+        {
+            "id": "rsiwzaxuxddozwsc",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Alright. Let me know if you need any assistance.",
+            "user_response_option_en": "Thank you, just browsing for now.",
+            "previous_turn_id": "jqpmxaznjcrwacre",
+            "order": 2,
+            "next_turn_id": "owfnmvauiwamvnrz",
+            "key_phrase_en": "just browsing"
+        },
+        {
+            "id": "qioybpmydauvmnxi",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Alright. Let me know if you need any assistance.",
+            "user_response_option_en": "Could you show me some small souvenirs?",
+            "previous_turn_id": "jqpmxaznjcrwacre",
+            "order": 2,
+            "next_turn_id": "nxxirrguwyuufaua",
+            "key_phrase_en": "Small souvenirs"
+        },
+        {
+            "id": "ubopiomdovsbnqju",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Alright. Let me know if you need any assistance.",
+            "user_response_option_en": "I'm looking for gifts under $20, any recommendations?",
+            "previous_turn_id": "jqpmxaznjcrwacre",
+            "order": 2,
+            "next_turn_id": "xynmmsuibcpkajim",
+            "key_phrase_en": "gifts under $20"
+        },
+        {
+            "id": "nwxvjbkdhcjrnuib",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "For souvenirs, we have local chocolates, magnets, and keychains. For gifts, we have luxury watches and designer handbags.",
+            "user_response_option_en": "Can you show me the local chocolates?",
+            "previous_turn_id": "xmtrzgsiioroprtn",
+            "order": 2,
+            "next_turn_id": "dkgiknprrfeofpts",
+            "key_phrase_en": "local chocolates"
+        },
+        {
+            "id": "ckfcuvgvucpztfkf",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "For souvenirs, we have local chocolates, magnets, and keychains. For gifts, we have luxury watches and designer handbags.",
+            "user_response_option_en": "Do you have any traditional magnets to suggest?",
+            "previous_turn_id": "xmtrzgsiioroprtn",
+            "order": 2,
+            "next_turn_id": "sfaoskhrvatcqpdy",
+            "key_phrase_en": "traditional magnets"
+        },
+        {
+            "id": "yzpwrmmxeymqgvji",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "For souvenirs, we have local chocolates, magnets, and keychains. For gifts, we have luxury watches and designer handbags.",
+            "user_response_option_en": "Could you recommend a budget-friendly gift for a friend?",
+            "previous_turn_id": "xmtrzgsiioroprtn",
+            "order": 2,
+            "next_turn_id": "knlprrazfjkknlmt",
+            "key_phrase_en": "budget-friendly"
+        },
+        {
+            "id": "bfedxzxlhzmflvyv",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "How about local chocolate, keychains or postcards? They're always popular with tourists.",
+            "user_response_option_en": "What flavors of chocolate do you recommend?",
+            "previous_turn_id": "gmyzqdvvnqfsolkm",
+            "order": 2,
+            "next_turn_id": "julddypdopkhatrb",
+            "key_phrase_en": "flavors"
+        },
+        {
+            "id": "yfsradgqlesujnoh",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "How about local chocolate, keychains or postcards? They're always popular with tourists.",
+            "user_response_option_en": "Do you have any keychains with landmarks of this city?",
+            "previous_turn_id": "gmyzqdvvnqfsolkm",
+            "order": 2,
+            "next_turn_id": "sxflviispiopchjv",
+            "key_phrase_en": "landmarks"
+        },
+        {
+            "id": "fpqwcfbqnkcnmtjs",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "How about local chocolate, keychains or postcards? They're always popular with tourists.",
+            "user_response_option_en": "Can you suggest some postcards with scenic views?",
+            "previous_turn_id": "gmyzqdvvnqfsolkm",
+            "order": 2,
+            "next_turn_id": "rqazercxvgrnvzuh",
+            "key_phrase_en": "Scenic views"
+        },
+        {
+            "id": "lynhcfuosngtojcr",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Take your time. Let me know if there's anything I can help you with.",
+            "user_response_option_en": "Do you have any local items?",
+            "previous_turn_id": "rsiwzaxuxddozwsc",
+            "order": 3,
+            "key_phrase_en": "local items"
+        },
+        {
+            "id": "rzmxzchnopuenstn",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Take your time. Let me know if there's anything I can help you with.",
+            "user_response_option_en": "Can you recommend a good gift for a friend?",
+            "previous_turn_id": "rsiwzaxuxddozwsc",
+            "order": 3,
+            "key_phrase_en": "recommend"
+        },
+        {
+            "id": "owfnmvauiwamvnrz",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Take your time. Let me know if there's anything I can help you with.",
+            "user_response_option_en": "I'm not sure what I'm looking for. Any ideas?",
+            "previous_turn_id": "rsiwzaxuxddozwsc",
+            "order": 3,
+            "key_phrase_en": "Any ideas"
+        },
+        {
+            "id": "gcuomcdbmedtnmkz",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Of course, we have keychains, magnets, and postcards over here. Let me know if you need any help.",
+            "user_response_option_en": "Can you recommend something popular among tourists?",
+            "previous_turn_id": "qioybpmydauvmnxi",
+            "order": 3,
+            "key_phrase_en": "popular among"
+        },
+        {
+            "id": "okywnparbchumyhl",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Of course, we have keychains, magnets, and postcards over here. Let me know if you need any help.",
+            "user_response_option_en": "Do you have any local souvenirs?",
+            "previous_turn_id": "qioybpmydauvmnxi",
+            "order": 3,
+            "key_phrase_en": "local souvenirs"
+        },
+        {
+            "id": "nxxirrguwyuufaua",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Of course, we have keychains, magnets, and postcards over here. Let me know if you need any help.",
+            "user_response_option_en": "How much are the keychains and magnets?",
+            "previous_turn_id": "qioybpmydauvmnxi",
+            "order": 3,
+            "key_phrase_en": "keychains and magnets"
+        },
+        {
+            "id": "uffnvbmiruwccpks",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "We have keychains, magnets and mugs with the city's landmarks. They make great inexpensive souvenirs!",
+            "user_response_option_en": "I like the keychains, can I see more designs?",
+            "previous_turn_id": "ubopiomdovsbnqju",
+            "order": 3,
+            "key_phrase_en": "designs"
+        },
+        {
+            "id": "ocznnqtpipjwezmh",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "We have keychains, magnets and mugs with the city's landmarks. They make great inexpensive souvenirs!",
+            "user_response_option_en": "Do magnets come in sets, how much are they?",
+            "previous_turn_id": "ubopiomdovsbnqju",
+            "order": 3,
+            "key_phrase_en": "come in sets"
+        },
+        {
+            "id": "xynmmsuibcpkajim",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "We have keychains, magnets and mugs with the city's landmarks. They make great inexpensive souvenirs!",
+            "user_response_option_en": "Can you show me the landmarks featured on the mugs?",
+            "previous_turn_id": "ubopiomdovsbnqju",
+            "order": 3,
+            "key_phrase_en": "landmarks featured"
+        },
+        {
+            "id": "uctngxetgborijcn",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Sure, our local chocolates are over here. Let me know if you have any questions or need help finding anything else.",
+            "user_response_option_en": "How much are the local chocolates?",
+            "previous_turn_id": "nwxvjbkdhcjrnuib",
+            "order": 3,
+            "key_phrase_en": "local chocolates"
+        },
+        {
+            "id": "yvlnumrvnwmhdlub",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Sure, our local chocolates are over here. Let me know if you have any questions or need help finding anything else.",
+            "user_response_option_en": "Are there any discounts for buying multiple items?",
+            "previous_turn_id": "nwxvjbkdhcjrnuib",
+            "order": 3,
+            "key_phrase_en": "discounts for buying"
+        },
+        {
+            "id": "dkgiknprrfeofpts",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Sure, our local chocolates are over here. Let me know if you have any questions or need help finding anything else.",
+            "user_response_option_en": "Can you show me the keychains and magnets too?",
+            "previous_turn_id": "nwxvjbkdhcjrnuib",
+            "order": 3,
+            "key_phrase_en": "keychains and magnets"
+        },
+        {
+            "id": "kwjpjjvcwnnoeand",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Yes, we have local landmark magnets featuring <name of landmarks>.",
+            "user_response_option_en": "Sounds great, can I see them?",
+            "previous_turn_id": "ckfcuvgvucpztfkf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "hygclfhcymyautje",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Yes, we have local landmark magnets featuring <name of landmarks>.",
+            "user_response_option_en": "What landmarks do you have?",
+            "previous_turn_id": "ckfcuvgvucpztfkf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "sfaoskhrvatcqpdy",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Yes, we have local landmark magnets featuring <name of landmarks>.",
+            "user_response_option_en": "I'd like to see the magnet designs, please.",
+            "previous_turn_id": "ckfcuvgvucpztfkf",
+            "order": 3,
+            "key_phrase_en": "magnet designs"
+        },
+        {
+            "id": "nbumfzwjfnhefdty",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "We have keychains or chocolates for under $10. They are popular and budget-friendly gifts.",
+            "user_response_option_en": "Can I see the chocolates?",
+            "previous_turn_id": "yzpwrmmxeymqgvji",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ynfmbjzdslmxgrgx",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "We have keychains or chocolates for under $10. They are popular and budget-friendly gifts.",
+            "user_response_option_en": "Do you have any keychains with landmarks on them?",
+            "previous_turn_id": "yzpwrmmxeymqgvji",
+            "order": 3,
+            "key_phrase_en": "keychains with landmarks"
+        },
+        {
+            "id": "knlprrazfjkknlmt",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "We have keychains or chocolates for under $10. They are popular and budget-friendly gifts.",
+            "user_response_option_en": "Are there any other budget-friendly options you would recommend?",
+            "previous_turn_id": "yzpwrmmxeymqgvji",
+            "order": 3,
+            "key_phrase_en": "budget-friendly options"
+        },
+        {
+            "id": "tbismmltvmpgatxm",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Our local dark chocolate with coffee and caramel flavor is a hit with tourists.",
+            "user_response_option_en": "Can I taste it?",
+            "previous_turn_id": "bfedxzxlhzmflvyv",
+            "order": 3,
+            "key_phrase_en": "taste it"
+        },
+        {
+            "id": "bzuomtowdxjnexek",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Our local dark chocolate with coffee and caramel flavor is a hit with tourists.",
+            "user_response_option_en": "That chocolate sounds perfect.",
+            "previous_turn_id": "bfedxzxlhzmflvyv",
+            "order": 3,
+            "key_phrase_en": "That chocolate sounds"
+        },
+        {
+            "id": "julddypdopkhatrb",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Our local dark chocolate with coffee and caramel flavor is a hit with tourists.",
+            "user_response_option_en": "How much does it cost?",
+            "previous_turn_id": "bfedxzxlhzmflvyv",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ivqdhbhuwcrymgoa",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Yes, we have keychains with the city's iconic buildings, a perfect souvenir to take home with you.",
+            "user_response_option_en": "Can you show me the keychains with the iconic buildings?",
+            "previous_turn_id": "yfsradgqlesujnoh",
+            "order": 3,
+            "key_phrase_en": "keychains with buildings"
+        },
+        {
+            "id": "obiczfnercexnrwx",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Yes, we have keychains with the city's iconic buildings, a perfect souvenir to take home with you.",
+            "user_response_option_en": "How much are the keychains?",
+            "previous_turn_id": "yfsradgqlesujnoh",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "sxflviispiopchjv",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Yes, we have keychains with the city's iconic buildings, a perfect souvenir to take home with you.",
+            "user_response_option_en": "I'm not sure, I'll come back later.",
+            "previous_turn_id": "yfsradgqlesujnoh",
+            "order": 3,
+            "key_phrase_en": "come back later"
+        },
+        {
+            "id": "ahvzxdvabxwtckvc",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Sure, we have postcards with pictures of mountains, beaches, and cultural landmarks. Would you like to see some examples?",
+            "user_response_option_en": "Yes, please show me pictures of mountains and beaches postcards.",
+            "previous_turn_id": "fpqwcfbqnkcnmtjs",
+            "order": 3,
+            "key_phrase_en": "postcards pictures mountains"
+        },
+        {
+            "id": "bjzydcorayucjrsk",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Sure, we have postcards with pictures of mountains, beaches, and cultural landmarks. Would you like to see some examples?",
+            "user_response_option_en": "I'm interested in cultural landmarks postcards, what are my options?",
+            "previous_turn_id": "fpqwcfbqnkcnmtjs",
+            "order": 3,
+            "key_phrase_en": "cultural landmarks postcards"
+        },
+        {
+            "id": "rqazercxvgrnvzuh",
+            "mission_id": "jytsfejaegjskvjt",
+            "ai_conversation_starter_en": "Sure, we have postcards with pictures of mountains, beaches, and cultural landmarks. Would you like to see some examples?",
+            "user_response_option_en": "Do you have postcards of famous statues? I want to send it to my friend.",
+            "previous_turn_id": "fpqwcfbqnkcnmtjs",
+            "order": 3,
+            "key_phrase_en": "postcards of statues"
+        }
+    ]
+}

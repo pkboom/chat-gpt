@@ -1,0 +1,388 @@
+{
+    "id": "annntradzltcdtzj",
+    "title": "Asking for directions to the nearest public transportation",
+    "order": 4,
+    "turns": [
+        {
+            "id": "lmvuspugymxztvtu",
+            "ai_conversation_starter_en": "Good afternoon, how may I assist you today?",
+            "user_response_option_en": "Can you please tell me the way to the nearest bus stop?",
+            "mission_id": "annntradzltcdtzj",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "yeflgsthwntthsuv",
+            "key_phrase_en": "nearest bus stop"
+        },
+        {
+            "id": "oxjqvjztncrgcwel",
+            "ai_conversation_starter_en": "Good afternoon, how may I assist you today?",
+            "user_response_option_en": "Excuse me, where can I catch a train around here?",
+            "mission_id": "annntradzltcdtzj",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ntjarunqypynlapa",
+            "key_phrase_en": "catch a train"
+        },
+        {
+            "id": "hzmyrygwvzlihqoo",
+            "ai_conversation_starter_en": "Good afternoon, how may I assist you today?",
+            "user_response_option_en": "Is there a subway station close to here?",
+            "mission_id": "annntradzltcdtzj",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "nduobwtqufsqgrtb",
+            "key_phrase_en": "Subway station"
+        },
+        {
+            "id": "dtufmimgxeqjovwv",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Of course, the nearest bus stop is just two blocks down the street. You can't miss it!",
+            "user_response_option_en": "Thank you, is it in the same direction as the park?",
+            "previous_turn_id": "lmvuspugymxztvtu",
+            "order": 2,
+            "next_turn_id": "lbikpbeivynuwqmf",
+            "key_phrase_en": "Same direction"
+        },
+        {
+            "id": "afzpkfmtwdryxicp",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Of course, the nearest bus stop is just two blocks down the street. You can't miss it!",
+            "user_response_option_en": "Do I need exact change for the bus fare?",
+            "previous_turn_id": "lmvuspugymxztvtu",
+            "order": 2,
+            "next_turn_id": "tsugncbuneaxbkjd",
+            "key_phrase_en": "Exact change"
+        },
+        {
+            "id": "yeflgsthwntthsuv",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Of course, the nearest bus stop is just two blocks down the street. You can't miss it!",
+            "user_response_option_en": "Excuse me, is the bus stop on this side of the street?",
+            "previous_turn_id": "lmvuspugymxztvtu",
+            "order": 2,
+            "next_turn_id": "ukocbyfcawahcozr",
+            "key_phrase_en": "Bus Stop"
+        },
+        {
+            "id": "gjhxcjwwnsfohvhz",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Sure, I can help! Here's an example response:There's a train station a few blocks away. If you exit the building and turn right, you'll see it on your left-hand side.",
+            "user_response_option_en": "Thank you. Is it far from here?",
+            "previous_turn_id": "oxjqvjztncrgcwel",
+            "order": 2,
+            "next_turn_id": "ybpyfgryukxsmara",
+            "key_phrase_en": "Far from here"
+        },
+        {
+            "id": "dqrjibonajbhhkqt",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Sure, I can help! Here's an example response:There's a train station a few blocks away. If you exit the building and turn right, you'll see it on your left-hand side.",
+            "user_response_option_en": "Can I buy a ticket there?",
+            "previous_turn_id": "oxjqvjztncrgcwel",
+            "order": 2,
+            "next_turn_id": "wcqbjlmugpdtyhid",
+            "key_phrase_en": "buy a ticket"
+        },
+        {
+            "id": "ntjarunqypynlapa",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Sure, I can help! Here's an example response:There's a train station a few blocks away. If you exit the building and turn right, you'll see it on your left-hand side.",
+            "user_response_option_en": "Which train should I take to get to the city center?",
+            "previous_turn_id": "oxjqvjztncrgcwel",
+            "order": 2,
+            "next_turn_id": "vzyjjzfffnrtcwhl",
+            "key_phrase_en": "City center"
+        },
+        {
+            "id": "wawzxsqtugegckkl",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, there's a subway station about 2 blocks away from here, you can go there by walking straight ahead and turn left at the intersection.",
+            "user_response_option_en": "Thank you, is it the blue or the red line?",
+            "previous_turn_id": "hzmyrygwvzlihqoo",
+            "order": 2,
+            "next_turn_id": "thicpzjhmbkzcmfp",
+            "key_phrase_en": "blue line"
+        },
+        {
+            "id": "qrjcjfeqdecgatlz",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, there's a subway station about 2 blocks away from here, you can go there by walking straight ahead and turn left at the intersection.",
+            "user_response_option_en": "How often do the trains come?",
+            "previous_turn_id": "hzmyrygwvzlihqoo",
+            "order": 2,
+            "next_turn_id": "bjlclzzbztxhwsyy",
+            "key_phrase_en": "How often"
+        },
+        {
+            "id": "nduobwtqufsqgrtb",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, there's a subway station about 2 blocks away from here, you can go there by walking straight ahead and turn left at the intersection.",
+            "user_response_option_en": "Is it possible to buy a ticket there or should I get one beforehand?",
+            "previous_turn_id": "hzmyrygwvzlihqoo",
+            "order": 2,
+            "next_turn_id": "rlyziebtzkjgvylp",
+            "key_phrase_en": "get one beforehand"
+        },
+        {
+            "id": "qoheeistlmuoucly",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, if you keep walking down the street in the same direction as the park, you'll come across the bus stop.",
+            "user_response_option_en": "Excuse me, is the bus stop far from here?",
+            "previous_turn_id": "dtufmimgxeqjovwv",
+            "order": 3,
+            "key_phrase_en": "bus stop far"
+        },
+        {
+            "id": "zxybzchjtrkgfnoh",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, if you keep walking down the street in the same direction as the park, you'll come across the bus stop.",
+            "user_response_option_en": "Thanks, I was worried I might get lost. Have a good day!",
+            "previous_turn_id": "dtufmimgxeqjovwv",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "lbikpbeivynuwqmf",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, if you keep walking down the street in the same direction as the park, you'll come across the bus stop.",
+            "user_response_option_en": "Are there any landmarks I should look for when I get close?",
+            "previous_turn_id": "dtufmimgxeqjovwv",
+            "order": 3,
+            "key_phrase_en": "landmarks"
+        },
+        {
+            "id": "bnferjgskhyxvpni",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No problem. Exact change is not necessary for the bus, but it's always good to have some coins with you in case the machine is out of order.",
+            "user_response_option_en": "Thank you, that's good to know.",
+            "previous_turn_id": "afzpkfmtwdryxicp",
+            "order": 3,
+            "key_phrase_en": "Good to know"
+        },
+        {
+            "id": "ptosfglipvrszygd",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No problem. Exact change is not necessary for the bus, but it's always good to have some coins with you in case the machine is out of order.",
+            "user_response_option_en": "",
+            "previous_turn_id": "afzpkfmtwdryxicp",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wdrkwiuonmebuxvx",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No problem. Exact change is not necessary for the bus, but it's always good to have some coins with you in case the machine is out of order.",
+            "user_response_option_en": "Do buses take credit cards?",
+            "previous_turn_id": "afzpkfmtwdryxicp",
+            "order": 3,
+            "key_phrase_en": "Credit cards"
+        },
+        {
+            "id": "pwrjgnxfnuvxipns",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No problem. Exact change is not necessary for the bus, but it's always good to have some coins with you in case the machine is out of order.",
+            "user_response_option_en": "",
+            "previous_turn_id": "afzpkfmtwdryxicp",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tsugncbuneaxbkjd",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No problem. Exact change is not necessary for the bus, but it's always good to have some coins with you in case the machine is out of order.",
+            "user_response_option_en": "Is there a transit map I can take?",
+            "previous_turn_id": "afzpkfmtwdryxicp",
+            "order": 3,
+            "key_phrase_en": "transit map"
+        },
+        {
+            "id": "nosvnoypzzezmmry",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, the bus stop is on this side of the street.",
+            "user_response_option_en": "Do you know what bus number I need to take?",
+            "previous_turn_id": "yeflgsthwntthsuv",
+            "order": 3,
+            "key_phrase_en": "bus number"
+        },
+        {
+            "id": "zvlrqtgzifvqittb",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, the bus stop is on this side of the street.",
+            "user_response_option_en": "Is it safe to wait at the bus stop at night?",
+            "previous_turn_id": "yeflgsthwntthsuv",
+            "order": 3,
+            "key_phrase_en": "bus stop at night"
+        },
+        {
+            "id": "ukocbyfcawahcozr",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, the bus stop is on this side of the street.",
+            "user_response_option_en": "Excuse me, how often do the buses come?",
+            "previous_turn_id": "yeflgsthwntthsuv",
+            "order": 3,
+            "key_phrase_en": "how often"
+        },
+        {
+            "id": "dfsapuxarcukmdab",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No, it's not that far. It should only take you about 10 minutes to walk there.",
+            "user_response_option_en": "Excuse me, does the train operate until late night?",
+            "previous_turn_id": "gjhxcjwwnsfohvhz",
+            "order": 3,
+            "key_phrase_en": "Late night"
+        },
+        {
+            "id": "rwjopcqlezupngcu",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No, it's not that far. It should only take you about 10 minutes to walk there.",
+            "user_response_option_en": "Sorry, which direction should I take to reach the station?",
+            "previous_turn_id": "gjhxcjwwnsfohvhz",
+            "order": 3,
+            "key_phrase_en": "Direction"
+        },
+        {
+            "id": "ybpyfgryukxsmara",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "No, it's not that far. It should only take you about 10 minutes to walk there.",
+            "user_response_option_en": "Thanks for your help. May I know how much the ticket costs?",
+            "previous_turn_id": "gjhxcjwwnsfohvhz",
+            "order": 3,
+            "key_phrase_en": "Ticket costs"
+        },
+        {
+            "id": "bhhwqelysckzsjes",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, you can purchase a ticket at the train station.",
+            "user_response_option_en": "Thank you, that's very helpful. Is there a schedule?",
+            "previous_turn_id": "dqrjibonajbhhkqt",
+            "order": 3,
+            "key_phrase_en": "schedule"
+        },
+        {
+            "id": "tvncytbkvfnuiipp",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, you can purchase a ticket at the train station.",
+            "user_response_option_en": "Great, one more thing, do I need to validate the ticket?",
+            "previous_turn_id": "dqrjibonajbhhkqt",
+            "order": 3,
+            "key_phrase_en": "validate the ticket"
+        },
+        {
+            "id": "wcqbjlmugpdtyhid",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "Yes, you can purchase a ticket at the train station.",
+            "user_response_option_en": "Thanks again. Can you tell me which platform I should use?",
+            "previous_turn_id": "dqrjibonajbhhkqt",
+            "order": 3,
+            "key_phrase_en": "Which platform"
+        },
+        {
+            "id": "dkoawegesingvjwc",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "You should take the blue line.",
+            "user_response_option_en": "Where can I purchase a ticket?",
+            "previous_turn_id": "ntjarunqypynlapa",
+            "order": 3,
+            "key_phrase_en": "purchase a ticket"
+        },
+        {
+            "id": "tnsonmsqvnbooupj",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "You should take the blue line.",
+            "user_response_option_en": "How long will the ride take?",
+            "previous_turn_id": "ntjarunqypynlapa",
+            "order": 3,
+            "key_phrase_en": "ride take"
+        },
+        {
+            "id": "vzyjjzfffnrtcwhl",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "You should take the blue line.",
+            "user_response_option_en": "Is there a discount for tourists?",
+            "previous_turn_id": "ntjarunqypynlapa",
+            "order": 3,
+            "key_phrase_en": "discount for tourists"
+        },
+        {
+            "id": "xweynryratwikidg",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "The subway station nearby is on the red line.",
+            "user_response_option_en": "Okay, got it. Are there any transfers to other lines?",
+            "previous_turn_id": "wawzxsqtugegckkl",
+            "order": 3,
+            "key_phrase_en": "transfers to lines"
+        },
+        {
+            "id": "idkcjujdpxgnqyid",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "The subway station nearby is on the red line.",
+            "user_response_option_en": "Thanks. Is there a map to show the station location?",
+            "previous_turn_id": "wawzxsqtugegckkl",
+            "order": 3,
+            "key_phrase_en": "map to show"
+        },
+        {
+            "id": "thicpzjhmbkzcmfp",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "The subway station nearby is on the red line.",
+            "user_response_option_en": "Thanks, I think I'll try Uber instead.",
+            "previous_turn_id": "wawzxsqtugegckkl",
+            "order": 3,
+            "key_phrase_en": "try Uber"
+        },
+        {
+            "id": "uddlrvisrwmnxzrt",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "The trains usually come every 5 minutes during peak hours and every 10-15 minutes during off-peak hours.",
+            "user_response_option_en": "Can I use my card to buy a ticket?",
+            "previous_turn_id": "qrjcjfeqdecgatlz",
+            "order": 3,
+            "key_phrase_en": "use my card"
+        },
+        {
+            "id": "ricnleqyvvhruxsj",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "The trains usually come every 5 minutes during peak hours and every 10-15 minutes during off-peak hours.",
+            "user_response_option_en": "Is there a restroom at the station?",
+            "previous_turn_id": "qrjcjfeqdecgatlz",
+            "order": 3,
+            "key_phrase_en": "Restroom at station"
+        },
+        {
+            "id": "bjlclzzbztxhwsyy",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "The trains usually come every 5 minutes during peak hours and every 10-15 minutes during off-peak hours.",
+            "user_response_option_en": "Can you recommend the best route from here to Times Square?",
+            "previous_turn_id": "qrjcjfeqdecgatlz",
+            "order": 3,
+            "key_phrase_en": "Best route"
+        },
+        {
+            "id": "pyejgfomghhmumey",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "You can buy a ticket at the station.",
+            "user_response_option_en": "How frequent are the trains?",
+            "previous_turn_id": "nduobwtqufsqgrtb",
+            "order": 3,
+            "key_phrase_en": "frequent trains"
+        },
+        {
+            "id": "rcixlukavegdjhjv",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "You can buy a ticket at the station.",
+            "user_response_option_en": "Can I use card to buy the ticket?",
+            "previous_turn_id": "nduobwtqufsqgrtb",
+            "order": 3,
+            "key_phrase_en": "Buy the ticket"
+        },
+        {
+            "id": "rlyziebtzkjgvylp",
+            "mission_id": "annntradzltcdtzj",
+            "ai_conversation_starter_en": "You can buy a ticket at the station.",
+            "user_response_option_en": "Could you please repeat the name of the station?",
+            "previous_turn_id": "nduobwtqufsqgrtb",
+            "order": 3,
+            "key_phrase_en": "repeat the name"
+        }
+    ]
+}

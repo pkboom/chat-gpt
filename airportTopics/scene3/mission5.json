@@ -1,0 +1,370 @@
+{
+    "id": "qadpanriimupzbpa",
+    "title": "Overhearing announcements about lost items or unattended luggage and being aware of potential security concerns.",
+    "order": 5,
+    "turns": [
+        {
+            "id": "fnlnusikftkaapgc",
+            "ai_conversation_starter_en": "Good morning! May I see your passport and flight itinerary, please?",
+            "user_response_option_en": "Here it is! (handing over passport and itinerary)",
+            "mission_id": "qadpanriimupzbpa",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "aaareaslndheomoi",
+            "key_phrase_en": "Handing over"
+        },
+        {
+            "id": "sfhbdhqwaihpzoco",
+            "ai_conversation_starter_en": "Good morning! May I see your passport and flight itinerary, please?",
+            "user_response_option_en": "Ok, thank you. (handing over documents)",
+            "mission_id": "qadpanriimupzbpa",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ebkqlyphbzbwxwgb",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "abzdhrpggytqpvzj",
+            "ai_conversation_starter_en": "Good morning! May I see your passport and flight itinerary, please?",
+            "user_response_option_en": "Sure thing. (handing over passport and itinerary)",
+            "mission_id": "qadpanriimupzbpa",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hblxriyoftrwywed",
+            "key_phrase_en": "Sure thing"
+        },
+        {
+            "id": "opdqbmheboubvtlj",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please stay alert and report any unattended luggage or suspicious behavior. Thank you!",
+            "user_response_option_en": "I will keep my eyes open!",
+            "previous_turn_id": "fnlnusikftkaapgc",
+            "order": 2,
+            "next_turn_id": "rsugtsxjzbhvyxwe",
+            "key_phrase_en": "eyes open"
+        },
+        {
+            "id": "ikgjlscnjlhvadex",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please stay alert and report any unattended luggage or suspicious behavior. Thank you!",
+            "user_response_option_en": "Thank you for reminding me to be careful.",
+            "previous_turn_id": "fnlnusikftkaapgc",
+            "order": 2,
+            "next_turn_id": "nlouhzayiczhrwcf",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "aaareaslndheomoi",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please stay alert and report any unattended luggage or suspicious behavior. Thank you!",
+            "user_response_option_en": "I understand that safety is a priority.",
+            "previous_turn_id": "fnlnusikftkaapgc",
+            "order": 2,
+            "next_turn_id": "kuowfvtmtvhhmbit",
+            "key_phrase_en": "safety priority"
+        },
+        {
+            "id": "izigaqnwwjnfrnwp",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please do not leave your bags unattended and report any lost items to us immediately for security reasons.",
+            "user_response_option_en": "Thank you, I will be careful with my luggage.",
+            "previous_turn_id": "sfhbdhqwaihpzoco",
+            "order": 2,
+            "next_turn_id": "owvtlffxvutdolcl",
+            "key_phrase_en": "Be careful"
+        },
+        {
+            "id": "amuvasgqmugqppqu",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please do not leave your bags unattended and report any lost items to us immediately for security reasons.",
+            "user_response_option_en": "Understood, bags always with me.",
+            "previous_turn_id": "sfhbdhqwaihpzoco",
+            "order": 2,
+            "next_turn_id": "rukahrwgezroflfj",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ebkqlyphbzbwxwgb",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please do not leave your bags unattended and report any lost items to us immediately for security reasons.",
+            "user_response_option_en": "Appreciate the reminder, no lost items.",
+            "previous_turn_id": "sfhbdhqwaihpzoco",
+            "order": 2,
+            "next_turn_id": "cbtsugtwgrrxojci",
+            "key_phrase_en": "Lost items"
+        },
+        {
+            "id": "odmhwzzdicgazoih",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please keep your luggage with you and don't leave it unattended.",
+            "user_response_option_en": "Thank you for reminding me, I'll be careful.",
+            "previous_turn_id": "abzdhrpggytqpvzj",
+            "order": 2,
+            "next_turn_id": "vlspksnbnjaasjdf",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "krnfgpfgfbnvkplw",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please keep your luggage with you and don't leave it unattended.",
+            "user_response_option_en": "I understand, keeping my luggage safe is important.",
+            "previous_turn_id": "abzdhrpggytqpvzj",
+            "order": 2,
+            "next_turn_id": "dlxqhurvpylpcpwh",
+            "key_phrase_en": "luggage safe"
+        },
+        {
+            "id": "hblxriyoftrwywed",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please keep your luggage with you and don't leave it unattended.",
+            "user_response_option_en": "Noted, I'll make sure to keep an eye on my belongings.",
+            "previous_turn_id": "abzdhrpggytqpvzj",
+            "order": 2,
+            "next_turn_id": "gdqgekkzlezxtlse",
+            "key_phrase_en": "keep an eye"
+        },
+        {
+            "id": "hdxftnhruprmiumj",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Boarding will commence in 15 minutes.",
+            "user_response_option_en": "I'll keep an eye out for anything suspicious.",
+            "previous_turn_id": "opdqbmheboubvtlj",
+            "order": 3,
+            "key_phrase_en": "keep an eye out"
+        },
+        {
+            "id": "bpbxulfhvkpuhnup",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Boarding will commence in 15 minutes.",
+            "user_response_option_en": "Lost items and unattended bags are potential risks.",
+            "previous_turn_id": "opdqbmheboubvtlj",
+            "order": 3,
+            "key_phrase_en": "Potential risks"
+        },
+        {
+            "id": "rsugtsxjzbhvyxwe",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Boarding will commence in 15 minutes.",
+            "user_response_option_en": "I'll report suspicious behavior to the staff.",
+            "previous_turn_id": "opdqbmheboubvtlj",
+            "order": 3,
+            "key_phrase_en": "suspicious behavior"
+        },
+        {
+            "id": "yswobbncahojhvxt",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "You're welcome. Do you have any questions or concerns related to airport security?",
+            "user_response_option_en": "Can you tell me more about unattended luggage and lost items?",
+            "previous_turn_id": "ikgjlscnjlhvadex",
+            "order": 3,
+            "key_phrase_en": "Unattended luggage"
+        },
+        {
+            "id": "tkgfvqxdubmuhtaf",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "You're welcome. Do you have any questions or concerns related to airport security?",
+            "user_response_option_en": "How do I report suspicious behavior to airport security?",
+            "previous_turn_id": "ikgjlscnjlhvadex",
+            "order": 3,
+            "key_phrase_en": "Suspicious behavior"
+        },
+        {
+            "id": "nlouhzayiczhrwcf",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "You're welcome. Do you have any questions or concerns related to airport security?",
+            "user_response_option_en": "Is there anything else to be aware of related to airport security?",
+            "previous_turn_id": "ikgjlscnjlhvadex",
+            "order": 3,
+            "key_phrase_en": "Airport security"
+        },
+        {
+            "id": "jzttsqlajnlfawjg",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "If you see something suspicious, please report it to us immediately.",
+            "user_response_option_en": "I will keep an eye out for anything suspicious.",
+            "previous_turn_id": "aaareaslndheomoi",
+            "order": 3,
+            "key_phrase_en": "keep an eye out"
+        },
+        {
+            "id": "borsdjtcmkgfkupw",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "If you see something suspicious, please report it to us immediately.",
+            "user_response_option_en": "I understand how important it is to report anything unusual.",
+            "previous_turn_id": "aaareaslndheomoi",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kuowfvtmtvhhmbit",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "If you see something suspicious, please report it to us immediately.",
+            "user_response_option_en": "Thank you for reminding me to stay vigilant.",
+            "previous_turn_id": "aaareaslndheomoi",
+            "order": 3,
+            "key_phrase_en": "stay vigilant"
+        },
+        {
+            "id": "yjuyjqeygbtdqeyd",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your attention to our security measures. Have a safe and pleasant flight!",
+            "user_response_option_en": "Thank you, I'll make sure to watch my belongings carefully.",
+            "previous_turn_id": "izigaqnwwjnfrnwp",
+            "order": 3,
+            "key_phrase_en": "watch my belongings"
+        },
+        {
+            "id": "vantkhdgrwlhswnk",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your attention to our security measures. Have a safe and pleasant flight!",
+            "user_response_option_en": "Is there anything else I need to know for security?",
+            "previous_turn_id": "izigaqnwwjnfrnwp",
+            "order": 3,
+            "key_phrase_en": "security"
+        },
+        {
+            "id": "owvtlffxvutdolcl",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your attention to our security measures. Have a safe and pleasant flight!",
+            "user_response_option_en": "I appreciate the reminder, safety is important for everyone.",
+            "previous_turn_id": "izigaqnwwjnfrnwp",
+            "order": 3,
+            "key_phrase_en": "safety is important"
+        },
+        {
+            "id": "bcfwfxyhwuxjjtlz",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Great. Please let us know if you need any assistance with your boarding or during the flight.",
+            "user_response_option_en": "Can you explain boarding process?",
+            "previous_turn_id": "amuvasgqmugqppqu",
+            "order": 3,
+            "key_phrase_en": "boarding process"
+        },
+        {
+            "id": "xfubkelzofvkvzfx",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Great. Please let us know if you need any assistance with your boarding or during the flight.",
+            "user_response_option_en": "Could you recommend a good seat?",
+            "previous_turn_id": "amuvasgqmugqppqu",
+            "order": 3,
+            "key_phrase_en": "Recommend a seat"
+        },
+        {
+            "id": "rukahrwgezroflfj",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Great. Please let us know if you need any assistance with your boarding or during the flight.",
+            "user_response_option_en": "How do I use the entertainment system?",
+            "previous_turn_id": "amuvasgqmugqppqu",
+            "order": 3,
+            "key_phrase_en": "entertainment system"
+        },
+        {
+            "id": "nqonudpjauwjtqsf",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Have a safe flight!",
+            "user_response_option_en": "I will keep an eye on my belongings.",
+            "previous_turn_id": "ebkqlyphbzbwxwgb",
+            "order": 3,
+            "key_phrase_en": "keep an eye"
+        },
+        {
+            "id": "mxdmmtmvdtjipjsw",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Have a safe flight!",
+            "user_response_option_en": "I understand the importance of security.",
+            "previous_turn_id": "ebkqlyphbzbwxwgb",
+            "order": 3,
+            "key_phrase_en": "importance of security"
+        },
+        {
+            "id": "cbtsugtwgrrxojci",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Have a safe flight!",
+            "user_response_option_en": "Safe flight, thank you for reminding me of security measures.",
+            "previous_turn_id": "ebkqlyphbzbwxwgb",
+            "order": 3,
+            "key_phrase_en": "security measures"
+        },
+        {
+            "id": "kxigziidthwysnug",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please make sure to keep an eye on your belongings, especially during security checks.",
+            "user_response_option_en": "Thank you for reminding me to keep my belongings safe.",
+            "previous_turn_id": "odmhwzzdicgazoih",
+            "order": 3,
+            "key_phrase_en": "keep safe"
+        },
+        {
+            "id": "mpbuwdhtysdzsuhn",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please make sure to keep an eye on your belongings, especially during security checks.",
+            "user_response_option_en": "I'll make sure not to lose anything during security checks.",
+            "previous_turn_id": "odmhwzzdicgazoih",
+            "order": 3,
+            "key_phrase_en": "security checks"
+        },
+        {
+            "id": "vlspksnbnjaasjdf",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please make sure to keep an eye on your belongings, especially during security checks.",
+            "user_response_option_en": "I appreciate your advice about keeping an eye on my things.",
+            "previous_turn_id": "odmhwzzdicgazoih",
+            "order": 3,
+            "key_phrase_en": "Keeping an eye"
+        },
+        {
+            "id": "pmyhhwluokmcuygj",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please don't leave your luggage unattended or it will be considered a security concern. Thank you.",
+            "user_response_option_en": "Okay, I'll keep an eye on my bags.",
+            "previous_turn_id": "krnfgpfgfbnvkplw",
+            "order": 3,
+            "key_phrase_en": "keep an eye"
+        },
+        {
+            "id": "qpdyyjvirvprgbji",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please don't leave your luggage unattended or it will be considered a security concern. Thank you.",
+            "user_response_option_en": "I understand, thanks for the reminder.",
+            "previous_turn_id": "krnfgpfgfbnvkplw",
+            "order": 3,
+            "key_phrase_en": "Thanks for the"
+        },
+        {
+            "id": "dlxqhurvpylpcpwh",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please don't leave your luggage unattended or it will be considered a security concern. Thank you.",
+            "user_response_option_en": "I'll make sure not to leave my luggage unattended.",
+            "previous_turn_id": "krnfgpfgfbnvkplw",
+            "order": 3,
+            "key_phrase_en": "unattended luggage"
+        },
+        {
+            "id": "fdfdyvuziomntlxw",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please avoid unattended luggage and report suspicious activity or items to our staff.",
+            "user_response_option_en": "Got it, I will report anything suspicious to staff.",
+            "previous_turn_id": "hblxriyoftrwywed",
+            "order": 3,
+            "key_phrase_en": "suspicious activity"
+        },
+        {
+            "id": "judvgkqjklxmuxjp",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please avoid unattended luggage and report suspicious activity or items to our staff.",
+            "user_response_option_en": "Thank you for reminding me about the importance of security.",
+            "previous_turn_id": "hblxriyoftrwywed",
+            "order": 3,
+            "key_phrase_en": "importance of security"
+        },
+        {
+            "id": "gdqgekkzlezxtlse",
+            "mission_id": "qadpanriimupzbpa",
+            "ai_conversation_starter_en": "Please avoid unattended luggage and report suspicious activity or items to our staff.",
+            "user_response_option_en": "I'll make sure to keep an eye out for suspicious activity.",
+            "previous_turn_id": "hblxriyoftrwywed",
+            "order": 3,
+            "key_phrase_en": "keep an eye"
+        }
+    ]
+}

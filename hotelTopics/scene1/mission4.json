@@ -1,0 +1,370 @@
+{
+    "id": "atxvqbgvthlagcsa",
+    "title": "The guest needs to request a room upgrade",
+    "order": 4,
+    "turns": [
+        {
+            "id": "euybbdoywckuvhhj",
+            "ai_conversation_starter_en": "Good afternoon and welcome to our hotel. May I have your reservation name, please?",
+            "user_response_option_en": "Hi, I'd like to upgrade my room please.",
+            "mission_id": "atxvqbgvthlagcsa",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gawkkauzcrtoqtpr",
+            "key_phrase_en": "upgrade my room"
+        },
+        {
+            "id": "waqcdxnxrwlfworh",
+            "ai_conversation_starter_en": "Good afternoon and welcome to our hotel. May I have your reservation name, please?",
+            "user_response_option_en": "Is it possible to get a better room?",
+            "mission_id": "atxvqbgvthlagcsa",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "viwnkgntfzqzkont",
+            "key_phrase_en": "Better room"
+        },
+        {
+            "id": "ndbhjfoyxxafgmze",
+            "ai_conversation_starter_en": "Good afternoon and welcome to our hotel. May I have your reservation name, please?",
+            "user_response_option_en": "Could you show me the available room upgrade options?",
+            "mission_id": "atxvqbgvthlagcsa",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "wgweulgkyhoraugg",
+            "key_phrase_en": "Upgrade options"
+        },
+        {
+            "id": "srltnrvoupnowvcj",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Of course, let me check our availability for upgrades. Could you please give me a moment?",
+            "user_response_option_en": "Is there an additional cost for the upgrade?",
+            "previous_turn_id": "euybbdoywckuvhhj",
+            "order": 2,
+            "next_turn_id": "ilarrpscejmgqxgc",
+            "key_phrase_en": "Additional cost"
+        },
+        {
+            "id": "udsnmaapqbmqdwgl",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Of course, let me check our availability for upgrades. Could you please give me a moment?",
+            "user_response_option_en": "Could you show me what the upgraded room looks like?",
+            "previous_turn_id": "euybbdoywckuvhhj",
+            "order": 2,
+            "next_turn_id": "gbmaktvyocwpcbzo",
+            "key_phrase_en": "Upgraded room"
+        },
+        {
+            "id": "gawkkauzcrtoqtpr",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Of course, let me check our availability for upgrades. Could you please give me a moment?",
+            "user_response_option_en": "How much more space would the upgraded room have?",
+            "previous_turn_id": "euybbdoywckuvhhj",
+            "order": 2,
+            "next_turn_id": "iaxfzksshwfooghz",
+            "key_phrase_en": "Upgraded room"
+        },
+        {
+            "id": "lxdltzgnekxjhvdx",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any available upgrades at the moment.",
+            "user_response_option_en": "Is it possible to pay for an upgrade later?",
+            "previous_turn_id": "waqcdxnxrwlfworh",
+            "order": 2,
+            "next_turn_id": "hbkqcuhayyxfubqj",
+            "key_phrase_en": "Pay for upgrade"
+        },
+        {
+            "id": "zzrdilsifszfiqpu",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any available upgrades at the moment.",
+            "user_response_option_en": "Are there any other room options available?",
+            "previous_turn_id": "waqcdxnxrwlfworh",
+            "order": 2,
+            "next_turn_id": "gjezrpolmtfhofpb",
+            "key_phrase_en": "room options available"
+        },
+        {
+            "id": "viwnkgntfzqzkont",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but we don't have any available upgrades at the moment.",
+            "user_response_option_en": "I would be willing to pay more for a better room.",
+            "previous_turn_id": "waqcdxnxrwlfworh",
+            "order": 2,
+            "next_turn_id": "cqsueyohcrwrflsq",
+            "key_phrase_en": "pay more"
+        },
+        {
+            "id": "ghguikpucujxohat",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Certainly, we have several options available. Let me check what we can offer.",
+            "user_response_option_en": "What's the price difference for each upgrade option?",
+            "previous_turn_id": "ndbhjfoyxxafgmze",
+            "order": 2,
+            "next_turn_id": "zbfdbjewofgrlnph",
+            "key_phrase_en": "Price difference"
+        },
+        {
+            "id": "zxqctywaiezpteig",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Certainly, we have several options available. Let me check what we can offer.",
+            "user_response_option_en": "Is there a room with a better view available?",
+            "previous_turn_id": "ndbhjfoyxxafgmze",
+            "order": 2,
+            "next_turn_id": "wazlfuvpijxmqjax",
+            "key_phrase_en": "better view available"
+        },
+        {
+            "id": "wgweulgkyhoraugg",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Certainly, we have several options available. Let me check what we can offer.",
+            "user_response_option_en": "Can I upgrade to a larger room for extra privacy?",
+            "previous_turn_id": "ndbhjfoyxxafgmze",
+            "order": 2,
+            "next_turn_id": "jqiaezbyktshttnc",
+            "key_phrase_en": "Upgrade to larger"
+        },
+        {
+            "id": "wikrybepvybsvbfp",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Yes, there will be an additional cost for the upgraded room. The amount depends on availability.",
+            "user_response_option_en": "Can you tell me the price difference?",
+            "previous_turn_id": "srltnrvoupnowvcj",
+            "order": 3,
+            "key_phrase_en": "price difference"
+        },
+        {
+            "id": "fouumsgbukpvwgon",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Yes, there will be an additional cost for the upgraded room. The amount depends on availability.",
+            "user_response_option_en": "I am willing to pay extra for the upgrade.",
+            "previous_turn_id": "srltnrvoupnowvcj",
+            "order": 3,
+            "key_phrase_en": "pay extra upgrade"
+        },
+        {
+            "id": "ilarrpscejmgqxgc",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Yes, there will be an additional cost for the upgraded room. The amount depends on availability.",
+            "user_response_option_en": "Is there a room with a view available for upgrade?",
+            "previous_turn_id": "srltnrvoupnowvcj",
+            "order": 3,
+            "key_phrase_en": "Room with a view"
+        },
+        {
+            "id": "qowyolcmtdaflndm",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Sure, I can show you pictures or take your up to view available rooms, which would you prefer?",
+            "user_response_option_en": "I'd love to see the pictures, please.",
+            "previous_turn_id": "udsnmaapqbmqdwgl",
+            "order": 3,
+            "key_phrase_en": "Pictures please"
+        },
+        {
+            "id": "smzyabpiyvglkkxe",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Sure, I can show you pictures or take your up to view available rooms, which would you prefer?",
+            "user_response_option_en": "I would appreciate seeing the available rooms in person.",
+            "previous_turn_id": "udsnmaapqbmqdwgl",
+            "order": 3,
+            "key_phrase_en": "Available Rooms"
+        },
+        {
+            "id": "gbmaktvyocwpcbzo",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Sure, I can show you pictures or take your up to view available rooms, which would you prefer?",
+            "user_response_option_en": "Can you give me a quick tour of the upgraded rooms?",
+            "previous_turn_id": "udsnmaapqbmqdwgl",
+            "order": 3,
+            "key_phrase_en": "Quick tour"
+        },
+        {
+            "id": "lltxpkvuvcpwbtjr",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "The upgraded room has 50% more space.",
+            "user_response_option_en": "That sounds great, how much does it cost to upgrade?\" ",
+            "previous_turn_id": "gawkkauzcrtoqtpr",
+            "order": 3,
+            "key_phrase_en": "upgrade cost"
+        },
+        {
+            "id": "fhnytrnwtdxkbxtg",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "The upgraded room has 50% more space.",
+            "user_response_option_en": "What's the view like from the upgraded room?\" ",
+            "previous_turn_id": "gawkkauzcrtoqtpr",
+            "order": 3,
+            "key_phrase_en": "Upgraded room view"
+        },
+        {
+            "id": "iaxfzksshwfooghz",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "The upgraded room has 50% more space.",
+            "user_response_option_en": "Can I see a picture of the upgraded room, please?",
+            "previous_turn_id": "gawkkauzcrtoqtpr",
+            "order": 3,
+            "key_phrase_en": "Upgraded room"
+        },
+        {
+            "id": "owkqtltttblnveer",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but we can only process upgrades as payment in full at check-in.",
+            "user_response_option_en": "Could you tell me the cost difference for a better room?",
+            "previous_turn_id": "lxdltzgnekxjhvdx",
+            "order": 3,
+            "key_phrase_en": "Cost difference"
+        },
+        {
+            "id": "pmmhukzfrikdtfnn",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but we can only process upgrades as payment in full at check-in.",
+            "user_response_option_en": "Do you have any discounts available for upgrades?",
+            "previous_turn_id": "lxdltzgnekxjhvdx",
+            "order": 3,
+            "key_phrase_en": "discounts available"
+        },
+        {
+            "id": "hbkqcuhayyxfubqj",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but we can only process upgrades as payment in full at check-in.",
+            "user_response_option_en": "Would it be possible to pay for the upgrade in installments?",
+            "previous_turn_id": "lxdltzgnekxjhvdx",
+            "order": 3,
+            "key_phrase_en": "pay in installments"
+        },
+        {
+            "id": "undpvdwlaygqcafb",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, Ms. Kim. We don't have any other room options available other than the one reserved.",
+            "user_response_option_en": "Would it be possible to pay for an upgrade?",
+            "previous_turn_id": "zzrdilsifszfiqpu",
+            "order": 3,
+            "key_phrase_en": "pay for upgrade"
+        },
+        {
+            "id": "aczwjpwinbbfqvii",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, Ms. Kim. We don't have any other room options available other than the one reserved.",
+            "user_response_option_en": "Are there any nearby hotels you could recommend?",
+            "previous_turn_id": "zzrdilsifszfiqpu",
+            "order": 3,
+            "key_phrase_en": "Nearby hotels"
+        },
+        {
+            "id": "gjezrpolmtfhofpb",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, Ms. Kim. We don't have any other room options available other than the one reserved.",
+            "user_response_option_en": "Is it possible to put me on a waitlist?",
+            "previous_turn_id": "zzrdilsifszfiqpu",
+            "order": 3,
+            "key_phrase_en": "waitlist"
+        },
+        {
+            "id": "kmfveqjwjcztlnly",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but I have to clarify this with my manager before proceeding. Please wait a moment.",
+            "user_response_option_en": "Could you let me know what options are available?",
+            "previous_turn_id": "viwnkgntfzqzkont",
+            "order": 3,
+            "key_phrase_en": "What options available?"
+        },
+        {
+            "id": "njhxrpccpbsrmenc",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but I have to clarify this with my manager before proceeding. Please wait a moment.",
+            "user_response_option_en": "Is there a possibility for early check in with an upgrade?",
+            "previous_turn_id": "viwnkgntfzqzkont",
+            "order": 3,
+            "key_phrase_en": "early check-in"
+        },
+        {
+            "id": "cqsueyohcrwrflsq",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I'm sorry, but I have to clarify this with my manager before proceeding. Please wait a moment.",
+            "user_response_option_en": "Is there a loyalty program or membership that offers upgrades?",
+            "previous_turn_id": "viwnkgntfzqzkont",
+            "order": 3,
+            "key_phrase_en": "loyalty program"
+        },
+        {
+            "id": "yeyrketrdcbamfzp",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Sure, let me check. The prices vary depending on the room and dates.",
+            "user_response_option_en": "Could you recommend the best upgrade for the price?",
+            "previous_turn_id": "ghguikpucujxohat",
+            "order": 3,
+            "key_phrase_en": "Best upgrade"
+        },
+        {
+            "id": "womahsrddiynltcn",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Sure, let me check. The prices vary depending on the room and dates.",
+            "user_response_option_en": "Would it be possible to see the upgraded room before booking?",
+            "previous_turn_id": "ghguikpucujxohat",
+            "order": 3,
+            "key_phrase_en": "Upgraded room"
+        },
+        {
+            "id": "zbfdbjewofgrlnph",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Sure, let me check. The prices vary depending on the room and dates.",
+            "user_response_option_en": "Is there a discount if I upgrade for multiple nights?",
+            "previous_turn_id": "ghguikpucujxohat",
+            "order": 3,
+            "key_phrase_en": "upgrade for discount"
+        },
+        {
+            "id": "zjweurgocidzeenv",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I have a Premium Room available with an ocean view. Would you like to see the room?",
+            "user_response_option_en": "May I know how much extra it will cost for an upgrade?",
+            "previous_turn_id": "zxqctywaiezpteig",
+            "order": 3,
+            "key_phrase_en": "Upgrade cost"
+        },
+        {
+            "id": "lbeticqmdcnxunsa",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I have a Premium Room available with an ocean view. Would you like to see the room?",
+            "user_response_option_en": "That sounds great! Could you please show me the room?",
+            "previous_turn_id": "zxqctywaiezpteig",
+            "order": 3,
+            "key_phrase_en": "Sounds great!"
+        },
+        {
+            "id": "wazlfuvpijxmqjax",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "I have a Premium Room available with an ocean view. Would you like to see the room?",
+            "user_response_option_en": "I'm interested, but can I check out the room first before deciding?",
+            "previous_turn_id": "zxqctywaiezpteig",
+            "order": 3,
+            "key_phrase_en": "check out room"
+        },
+        {
+            "id": "crntfhtistwjqtgm",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Absolutely, we have larger rooms available. Would you like to see the options?",
+            "user_response_option_en": "Thanks, I'd like to see what's available.",
+            "previous_turn_id": "wgweulgkyhoraugg",
+            "order": 3,
+            "key_phrase_en": "What's available"
+        },
+        {
+            "id": "irqpstrhcyagihsk",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Absolutely, we have larger rooms available. Would you like to see the options?",
+            "user_response_option_en": "That would be great, please show me your options.",
+            "previous_turn_id": "wgweulgkyhoraugg",
+            "order": 3,
+            "key_phrase_en": "show me options"
+        },
+        {
+            "id": "jqiaezbyktshttnc",
+            "mission_id": "atxvqbgvthlagcsa",
+            "ai_conversation_starter_en": "Absolutely, we have larger rooms available. Would you like to see the options?",
+            "user_response_option_en": "Yes please, I'm interested in a larger room.",
+            "previous_turn_id": "wgweulgkyhoraugg",
+            "order": 3,
+            "key_phrase_en": "larger room"
+        }
+    ]
+}

@@ -1,0 +1,388 @@
+{
+    "id": "xzqldxkxylnupdyd",
+    "title": "Experiencing a flight delay or cancellation and waiting for updates or alternative options from the airline staff.",
+    "order": 1,
+    "turns": [
+        {
+            "id": "rzbnppguwlgbcctw",
+            "ai_conversation_starter_en": "Excuse me, sir. We regret to inform you that your flight has been cancelled due to unforeseen circumstances. However, we are working on arranging alternative options for you. Please bear with us as we find the best solution for your travel needs.",
+            "user_response_option_en": "Can I have a meal voucher, please?",
+            "mission_id": "xzqldxkxylnupdyd",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "lxgmeguzhmonwzoc",
+            "key_phrase_en": "meal voucher"
+        },
+        {
+            "id": "crwbdcqswymslbmn",
+            "ai_conversation_starter_en": "Excuse me, sir. We regret to inform you that your flight has been cancelled due to unforeseen circumstances. However, we are working on arranging alternative options for you. Please bear with us as we find the best solution for your travel needs.",
+            "user_response_option_en": "When will I get an update?",
+            "mission_id": "xzqldxkxylnupdyd",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "nfauzhsinoswvakq",
+            "key_phrase_en": "When will I"
+        },
+        {
+            "id": "cngykbiafnvnghil",
+            "ai_conversation_starter_en": "Excuse me, sir. We regret to inform you that your flight has been cancelled due to unforeseen circumstances. However, we are working on arranging alternative options for you. Please bear with us as we find the best solution for your travel needs.",
+            "user_response_option_en": "Can I rebook my flight for tomorrow?",
+            "mission_id": "xzqldxkxylnupdyd",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "pdhfxiifyfpcxeus",
+            "key_phrase_en": "rebook my flight"
+        },
+        {
+            "id": "iuftmwxnzlpmgvwg",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, of course. Here's your meal voucher. We'll keep you updated on any alternative options.",
+            "user_response_option_en": "Thank you, can you explain this phrase on the voucher?",
+            "previous_turn_id": "rzbnppguwlgbcctw",
+            "order": 2,
+            "next_turn_id": "sjvxlpylpcychksy",
+            "key_phrase_en": "Explain this phrase"
+        },
+        {
+            "id": "swttlqxolmmvyhrk",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, of course. Here's your meal voucher. We'll keep you updated on any alternative options.",
+            "user_response_option_en": "Is there a lounge? Can you help me charge my phone?",
+            "previous_turn_id": "rzbnppguwlgbcctw",
+            "order": 2,
+            "next_turn_id": "kqvpuqopyllcwzna",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "lxgmeguzhmonwzoc",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, of course. Here's your meal voucher. We'll keep you updated on any alternative options.",
+            "user_response_option_en": "Please advise the new departure time and gate as soon as possible.",
+            "previous_turn_id": "rzbnppguwlgbcctw",
+            "order": 2,
+            "next_turn_id": "sornqilgnwwyonvt",
+            "key_phrase_en": "departure time and gate"
+        },
+        {
+            "id": "bdxntzbtamzcvhlm",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We'll notify you as soon as we have any updates on alternative options for your travel. Please stay in the waiting area.",
+            "user_response_option_en": "Thank you. I'll wait for updates patiently.",
+            "previous_turn_id": "crwbdcqswymslbmn",
+            "order": 2,
+            "next_turn_id": "stvjxvhphozracvh",
+            "key_phrase_en": "updates patiently"
+        },
+        {
+            "id": "wyaykcorcorurcmg",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We'll notify you as soon as we have any updates on alternative options for your travel. Please stay in the waiting area.",
+            "user_response_option_en": "Can I get something to eat/drink while I wait?",
+            "previous_turn_id": "crwbdcqswymslbmn",
+            "order": 2,
+            "next_turn_id": "wpcpthfdsposmuph",
+            "key_phrase_en": "get something"
+        },
+        {
+            "id": "nfauzhsinoswvakq",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We'll notify you as soon as we have any updates on alternative options for your travel. Please stay in the waiting area.",
+            "user_response_option_en": "Can I rebook my flight for a different date/time?",
+            "previous_turn_id": "crwbdcqswymslbmn",
+            "order": 2,
+            "next_turn_id": "qslkysgbglcvwylp",
+            "key_phrase_en": "rebook my flight"
+        },
+        {
+            "id": "nfkphvukqqvmvsiw",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Of course, sir. Let me check availability and rebook you for tomorrow's flight.",
+            "user_response_option_en": "Thank you, please keep me updated.",
+            "previous_turn_id": "cngykbiafnvnghil",
+            "order": 2,
+            "next_turn_id": "hcjroylorysuxaqq",
+            "key_phrase_en": "keep me updated"
+        },
+        {
+            "id": "gpbiuvjajsqrnoxi",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Of course, sir. Let me check availability and rebook you for tomorrow's flight.",
+            "user_response_option_en": "Is compensation available for my inconvenience?",
+            "previous_turn_id": "cngykbiafnvnghil",
+            "order": 2,
+            "next_turn_id": "gyyqlnmhmgknsnud",
+            "key_phrase_en": "compensation available"
+        },
+        {
+            "id": "pdhfxiifyfpcxeus",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Of course, sir. Let me check availability and rebook you for tomorrow's flight.",
+            "user_response_option_en": "Could you provide information on nearby accommodations?",
+            "previous_turn_id": "cngykbiafnvnghil",
+            "order": 2,
+            "next_turn_id": "cmnhwbnqlaciuxru",
+            "key_phrase_en": "Nearby accommodations"
+        },
+        {
+            "id": "whskahdnnexrnlxn",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "This phrase means you can use this voucher to buy food at any airport restaurant.",
+            "user_response_option_en": "Thank you for the explanation.",
+            "previous_turn_id": "iuftmwxnzlpmgvwg",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "odivgtjuvnisdlgq",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "This phrase means you can use this voucher to buy food at any airport restaurant.",
+            "user_response_option_en": "Can I have a list of restaurant options?",
+            "previous_turn_id": "iuftmwxnzlpmgvwg",
+            "order": 3,
+            "key_phrase_en": "restaurant options"
+        },
+        {
+            "id": "sjvxlpylpcychksy",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "This phrase means you can use this voucher to buy food at any airport restaurant.",
+            "user_response_option_en": "How long until the next update?",
+            "previous_turn_id": "iuftmwxnzlpmgvwg",
+            "order": 3,
+            "key_phrase_en": "next update"
+        },
+        {
+            "id": "aztatviuyjwggzkc",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, we have a lounge, and there are charging points available. We'll update you on alternatives shortly.",
+            "user_response_option_en": "Thank you, please let me know when there are updates.",
+            "previous_turn_id": "swttlqxolmmvyhrk",
+            "order": 3,
+            "key_phrase_en": "let me know"
+        },
+        {
+            "id": "kpknmpoznpdjoeyg",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, we have a lounge, and there are charging points available. We'll update you on alternatives shortly.",
+            "user_response_option_en": "Where can I find the lounge?",
+            "previous_turn_id": "swttlqxolmmvyhrk",
+            "order": 3,
+            "key_phrase_en": "find the lounge"
+        },
+        {
+            "id": "kqvpuqopyllcwzna",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, we have a lounge, and there are charging points available. We'll update you on alternatives shortly.",
+            "user_response_option_en": "Can I get water while waiting here?",
+            "previous_turn_id": "swttlqxolmmvyhrk",
+            "order": 3,
+            "key_phrase_en": "Can I get water"
+        },
+        {
+            "id": "dvjzqpjhmwnitjli",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We're working on finding an alternative option. We'll provide details as soon as possible.",
+            "user_response_option_en": "Can I get a refund if the alternative option doesn't work for me?",
+            "previous_turn_id": "lxgmeguzhmonwzoc",
+            "order": 3,
+            "key_phrase_en": "alternative"
+        },
+        {
+            "id": "prpplxflaaenhdkn",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We're working on finding an alternative option. We'll provide details as soon as possible.",
+            "user_response_option_en": "Do I need to rebook my connecting flight for my travel?",
+            "previous_turn_id": "lxgmeguzhmonwzoc",
+            "order": 3,
+            "key_phrase_en": "connecting flight"
+        },
+        {
+            "id": "sornqilgnwwyonvt",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We're working on finding an alternative option. We'll provide details as soon as possible.",
+            "user_response_option_en": "How long will it take for the alternative options to be available?",
+            "previous_turn_id": "lxgmeguzhmonwzoc",
+            "order": 3,
+            "key_phrase_en": "alternative options"
+        },
+        {
+            "id": "xxxadxqrmspoqfho",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Thank you for your patience. We'll notify you as soon as we have any updates or alternative options.",
+            "user_response_option_en": "Could you estimate time frame?",
+            "previous_turn_id": "bdxntzbtamzcvhlm",
+            "order": 3,
+            "key_phrase_en": "time frame"
+        },
+        {
+            "id": "tgfyrpcolbfhnwxd",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Thank you for your patience. We'll notify you as soon as we have any updates or alternative options.",
+            "user_response_option_en": "Could you clarify my options?",
+            "previous_turn_id": "bdxntzbtamzcvhlm",
+            "order": 3,
+            "key_phrase_en": "Clarify my options\""
+        },
+        {
+            "id": "stvjxvhphozracvh",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Thank you for your patience. We'll notify you as soon as we have any updates or alternative options.",
+            "user_response_option_en": "Could you inform me of compensation policies?",
+            "previous_turn_id": "bdxntzbtamzcvhlm",
+            "order": 3,
+            "key_phrase_en": "compensation policies"
+        },
+        {
+            "id": "sulpdnyrduaajjur",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We have vouchers for refreshments. Please proceed to the kiosk near gate B14 to collect yours.",
+            "user_response_option_en": "Thank you, can you help understand my new travel arrangements?",
+            "previous_turn_id": "wyaykcorcorurcmg",
+            "order": 3,
+            "key_phrase_en": "Travel arrangements"
+        },
+        {
+            "id": "nxnfxhvqjvigtvle",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We have vouchers for refreshments. Please proceed to the kiosk near gate B14 to collect yours.",
+            "user_response_option_en": "Is it possible to get a hotel voucher?",
+            "previous_turn_id": "wyaykcorcorurcmg",
+            "order": 3,
+            "key_phrase_en": "hotel voucher"
+        },
+        {
+            "id": "wpcpthfdsposmuph",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We have vouchers for refreshments. Please proceed to the kiosk near gate B14 to collect yours.",
+            "user_response_option_en": "Where should I wait for updates on my flight?",
+            "previous_turn_id": "wyaykcorcorurcmg",
+            "order": 3,
+            "key_phrase_en": "wait for updates"
+        },
+        {
+            "id": "borvxiwkdedbuobv",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, we can check available options for you. Please give us a moment.",
+            "user_response_option_en": "Can you notify me by text message?",
+            "previous_turn_id": "nfauzhsinoswvakq",
+            "order": 3,
+            "key_phrase_en": "notify me"
+        },
+        {
+            "id": "udidgpdoxqcacqgy",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, we can check available options for you. Please give us a moment.",
+            "user_response_option_en": "Can I request a refund instead?",
+            "previous_turn_id": "nfauzhsinoswvakq",
+            "order": 3,
+            "key_phrase_en": "Request a refund"
+        },
+        {
+            "id": "qslkysgbglcvwylp",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, we can check available options for you. Please give us a moment.",
+            "user_response_option_en": "Can you help me find a hotel?",
+            "previous_turn_id": "nfauzhsinoswvakq",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bpiihocvrrckzkpt",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We will notify you as soon as we have alternative options available. Thank you for your patience.",
+            "user_response_option_en": "Can you estimate how long it will take to find me an alternative?",
+            "previous_turn_id": "nfkphvukqqvmvsiw",
+            "order": 3,
+            "key_phrase_en": "estimate how long"
+        },
+        {
+            "id": "nttdrizyfdjrwphp",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We will notify you as soon as we have alternative options available. Thank you for your patience.",
+            "user_response_option_en": "Will I stay here or should I wait somewhere else?",
+            "previous_turn_id": "nfkphvukqqvmvsiw",
+            "order": 3,
+            "key_phrase_en": "wait somewhere else"
+        },
+        {
+            "id": "hcjroylorysuxaqq",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "We will notify you as soon as we have alternative options available. Thank you for your patience.",
+            "user_response_option_en": "Is there a hotline or email address to follow up?",
+            "previous_turn_id": "nfkphvukqqvmvsiw",
+            "order": 3,
+            "key_phrase_en": "Follow up"
+        },
+        {
+            "id": "ydkmqmmbadyfsuwl",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, sir. We will provide food and accommodation as well as legal compensation.",
+            "user_response_option_en": "Thank you. Where do I go for the accommodation?",
+            "previous_turn_id": "gpbiuvjajsqrnoxi",
+            "order": 3,
+            "key_phrase_en": "accommodation"
+        },
+        {
+            "id": "gyhvpfjgsmknrkur",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, sir. We will provide food and accommodation as well as legal compensation.",
+            "user_response_option_en": "",
+            "previous_turn_id": "gpbiuvjajsqrnoxi",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qtvvooxrqpowwapt",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, sir. We will provide food and accommodation as well as legal compensation.",
+            "user_response_option_en": "Okay. What documents do I need for the compensation?",
+            "previous_turn_id": "gpbiuvjajsqrnoxi",
+            "order": 3,
+            "key_phrase_en": "Compensation documents"
+        },
+        {
+            "id": "fxbjqrwnfpvagwpo",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, sir. We will provide food and accommodation as well as legal compensation.",
+            "user_response_option_en": "",
+            "previous_turn_id": "gpbiuvjajsqrnoxi",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gyyqlnmhmgknsnud",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Yes, sir. We will provide food and accommodation as well as legal compensation.",
+            "user_response_option_en": "Alright. Will I receive updates on my rebooked flight?",
+            "previous_turn_id": "gpbiuvjajsqrnoxi",
+            "order": 3,
+            "key_phrase_en": "rebooked flight"
+        },
+        {
+            "id": "pneuymucemneqium",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Certainly, we will provide you with accommodation details and assist you to make the necessary arrangements.",
+            "user_response_option_en": "Thank you for your assistance.",
+            "previous_turn_id": "pdhfxiifyfpcxeus",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "xsmbqzqfmkphihuu",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Certainly, we will provide you with accommodation details and assist you to make the necessary arrangements.",
+            "user_response_option_en": "That is very helpful.",
+            "previous_turn_id": "pdhfxiifyfpcxeus",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "cmnhwbnqlaciuxru",
+            "mission_id": "xzqldxkxylnupdyd",
+            "ai_conversation_starter_en": "Certainly, we will provide you with accommodation details and assist you to make the necessary arrangements.",
+            "user_response_option_en": "Could you please provide an estimate of the delay?",
+            "previous_turn_id": "pdhfxiifyfpcxeus",
+            "order": 3,
+            "key_phrase_en": "provide an estimate"
+        }
+    ]
+}

@@ -1,0 +1,388 @@
+{
+    "id": "shycmuluswxrctgf",
+    "title": "Asking for a shuttle to the airport",
+    "order": 3,
+    "turns": [
+        {
+            "id": "jtxkkkouavqhznyf",
+            "ai_conversation_starter_en": "Good morning/afternoon/evening. Is there anything I can assist you with?",
+            "user_response_option_en": "Could I please arrange a shuttle to the airport?",
+            "mission_id": "shycmuluswxrctgf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "fisgaqeppnjeoync",
+            "key_phrase_en": "shuttle to airport"
+        },
+        {
+            "id": "lqpvfohroivsfljp",
+            "ai_conversation_starter_en": "Good morning/afternoon/evening. Is there anything I can assist you with?",
+            "user_response_option_en": "Is there a shuttle service to the airport available?",
+            "mission_id": "shycmuluswxrctgf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "bkjfhwjdftnbojgl",
+            "key_phrase_en": "Shuttle service available"
+        },
+        {
+            "id": "igqjiftqxcewappv",
+            "ai_conversation_starter_en": "Good morning/afternoon/evening. Is there anything I can assist you with?",
+            "user_response_option_en": "Can you help me book a shuttle to the airport, please?",
+            "mission_id": "shycmuluswxrctgf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "mqplqdrftzikqbkl",
+            "key_phrase_en": "Book a shuttle"
+        },
+        {
+            "id": "bqcgmywttwiyspur",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Sure, we can arrange a shuttle for you. What time is your flight?",
+            "user_response_option_en": "Thank you. My flight is at 2 PM.",
+            "previous_turn_id": "jtxkkkouavqhznyf",
+            "order": 2,
+            "next_turn_id": "jtzudbatyfmstwzv",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "dsqutlwgomnppzhc",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Sure, we can arrange a shuttle for you. What time is your flight?",
+            "user_response_option_en": "Could you arrange the shuttle for 11 AM?",
+            "previous_turn_id": "jtxkkkouavqhznyf",
+            "order": 2,
+            "next_turn_id": "bheynfuorliesrhw",
+            "key_phrase_en": "Shuttle arrangement"
+        },
+        {
+            "id": "fisgaqeppnjeoync",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Sure, we can arrange a shuttle for you. What time is your flight?",
+            "user_response_option_en": "Can you tell me how much the shuttle service costs?",
+            "previous_turn_id": "jtxkkkouavqhznyf",
+            "order": 2,
+            "next_turn_id": "nrhxkkujcumqryao",
+            "key_phrase_en": "shuttle service costs"
+        },
+        {
+            "id": "zgrqtcyolcflvbgr",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "I'm sorry, Iris, we don't have a complimentary shuttle service, but we can arrange a taxi for you.",
+            "user_response_option_en": "Do you know other options to get to the airport?",
+            "previous_turn_id": "lqpvfohroivsfljp",
+            "order": 2,
+            "next_turn_id": "hpkihdcfclbbsavc",
+            "key_phrase_en": "get to airport"
+        },
+        {
+            "id": "lcmsofbtmbcxlmzd",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "I'm sorry, Iris, we don't have a complimentary shuttle service, but we can arrange a taxi for you.",
+            "user_response_option_en": "How long is the taxi ride to the airport?",
+            "previous_turn_id": "lqpvfohroivsfljp",
+            "order": 2,
+            "next_turn_id": "pkumvdaugxgmaipm",
+            "key_phrase_en": "Taxi ride duration"
+        },
+        {
+            "id": "bkjfhwjdftnbojgl",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "I'm sorry, Iris, we don't have a complimentary shuttle service, but we can arrange a taxi for you.",
+            "user_response_option_en": "Can you provide information about public transportation to the airport?",
+            "previous_turn_id": "lqpvfohroivsfljp",
+            "order": 2,
+            "next_turn_id": "evbfdcywawuxczsr",
+            "key_phrase_en": "Public transportation"
+        },
+        {
+            "id": "qrkomrrysxhxnkmc",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Sure, may I know at what time do you need the shuttle?",
+            "user_response_option_en": "My flight is at 5pm. ",
+            "previous_turn_id": "igqjiftqxcewappv",
+            "order": 2,
+            "next_turn_id": "wymtvgzvssssutrs",
+            "key_phrase_en": "Flight at 5pm"
+        },
+        {
+            "id": "bjzbvrlojxlikbib",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Sure, may I know at what time do you need the shuttle?",
+            "user_response_option_en": "Can you book the shuttle for me now? ",
+            "previous_turn_id": "igqjiftqxcewappv",
+            "order": 2,
+            "next_turn_id": "pcubxhblcorjhxyr",
+            "key_phrase_en": "book shuttle now"
+        },
+        {
+            "id": "mqplqdrftzikqbkl",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Sure, may I know at what time do you need the shuttle?",
+            "user_response_option_en": "How much does the shuttle cost?",
+            "previous_turn_id": "igqjiftqxcewappv",
+            "order": 2,
+            "next_turn_id": "ortapfvnuzthhtjp",
+            "key_phrase_en": "shuttle cost"
+        },
+        {
+            "id": "azifohzfxsgosixi",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Our shuttle service to the airport departs every 30 minutes. The next shuttle leaves at 11:30 AM.",
+            "user_response_option_en": "Can you help me schedule the shuttle for 11:30 AM?",
+            "previous_turn_id": "bqcgmywttwiyspur",
+            "order": 3,
+            "key_phrase_en": "schedule the shuttle"
+        },
+        {
+            "id": "jxdcpblcplpcjfky",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Our shuttle service to the airport departs every 30 minutes. The next shuttle leaves at 11:30 AM.",
+            "user_response_option_en": "Is there any way to arrange an earlier shuttle?",
+            "previous_turn_id": "bqcgmywttwiyspur",
+            "order": 3,
+            "key_phrase_en": "earlier shuttle"
+        },
+        {
+            "id": "jtzudbatyfmstwzv",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Our shuttle service to the airport departs every 30 minutes. The next shuttle leaves at 11:30 AM.",
+            "user_response_option_en": "How much is the shuttle service and is it included in my bill?",
+            "previous_turn_id": "bqcgmywttwiyspur",
+            "order": 3,
+            "key_phrase_en": "shuttle service"
+        },
+        {
+            "id": "msuvehyfnvstygek",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Of course, would you like me to book the shuttle for you now?",
+            "user_response_option_en": "e, here are 3 different ways that guest Iris might respond:",
+            "previous_turn_id": "dsqutlwgomnppzhc",
+            "order": 3,
+            "key_phrase_en": "guest response ways"
+        },
+        {
+            "id": "jiozqqnqrngigels",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Of course, would you like me to book the shuttle for you now?",
+            "user_response_option_en": "",
+            "previous_turn_id": "dsqutlwgomnppzhc",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "uzgebiujblodojmv",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Of course, would you like me to book the shuttle for you now?",
+            "user_response_option_en": "Yes, that would be great. Thank you.",
+            "previous_turn_id": "dsqutlwgomnppzhc",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "pyjzgeqokjxbhksx",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Of course, would you like me to book the shuttle for you now?",
+            "user_response_option_en": "Can I pay for the shuttle now?",
+            "previous_turn_id": "dsqutlwgomnppzhc",
+            "order": 3,
+            "key_phrase_en": "pay for shuttle"
+        },
+        {
+            "id": "bheynfuorliesrhw",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Of course, would you like me to book the shuttle for you now?",
+            "user_response_option_en": "Is it possible to change the pickup time to 10:30 AM?",
+            "previous_turn_id": "dsqutlwgomnppzhc",
+            "order": 3,
+            "key_phrase_en": "pickup time change"
+        },
+        {
+            "id": "bcurhkbmyvszvxwp",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "The shuttle service costs $25.",
+            "user_response_option_en": "How can I pay for it?",
+            "previous_turn_id": "fisgaqeppnjeoync",
+            "order": 3,
+            "key_phrase_en": "Pay for it"
+        },
+        {
+            "id": "kfuztpsjekhdgjxj",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "The shuttle service costs $25.",
+            "user_response_option_en": "When will the shuttle arrive?",
+            "previous_turn_id": "fisgaqeppnjeoync",
+            "order": 3,
+            "key_phrase_en": "shuttle arrive"
+        },
+        {
+            "id": "nrhxkkujcumqryao",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "The shuttle service costs $25.",
+            "user_response_option_en": "Can the shuttle stop by another hotel to pick up my friend?",
+            "previous_turn_id": "fisgaqeppnjeoync",
+            "order": 3,
+            "key_phrase_en": "shuttle stop hotel"
+        },
+        {
+            "id": "jasqgelxxiaofewb",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "We can also provide you with the number of a reputable taxi company.",
+            "user_response_option_en": "Would you please recommend a reliable taxi service?\" ",
+            "previous_turn_id": "zgrqtcyolcflvbgr",
+            "order": 3,
+            "key_phrase_en": "reliable taxi service"
+        },
+        {
+            "id": "oqemqmlcxocvycia",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "We can also provide you with the number of a reputable taxi company.",
+            "user_response_option_en": "Do you have any idea how much it would cost?\" ",
+            "previous_turn_id": "zgrqtcyolcflvbgr",
+            "order": 3,
+            "key_phrase_en": "Any idea how much"
+        },
+        {
+            "id": "hpkihdcfclbbsavc",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "We can also provide you with the number of a reputable taxi company.",
+            "user_response_option_en": "Could you help me hail a taxi outside, please?",
+            "previous_turn_id": "zgrqtcyolcflvbgr",
+            "order": 3,
+            "key_phrase_en": "hail a taxi"
+        },
+        {
+            "id": "rtrfrdouunldoslk",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "It takes about 15 to 20 minutes depending on traffic. Shall I call a taxi for you?",
+            "user_response_option_en": "Is there any other transportation option available?",
+            "previous_turn_id": "lcmsofbtmbcxlmzd",
+            "order": 3,
+            "key_phrase_en": "transportation option"
+        },
+        {
+            "id": "ysdtbqmsfvoajgog",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "It takes about 15 to 20 minutes depending on traffic. Shall I call a taxi for you?",
+            "user_response_option_en": "How long does it usually take by taxi?",
+            "previous_turn_id": "lcmsofbtmbcxlmzd",
+            "order": 3,
+            "key_phrase_en": "Usually take"
+        },
+        {
+            "id": "pkumvdaugxgmaipm",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "It takes about 15 to 20 minutes depending on traffic. Shall I call a taxi for you?",
+            "user_response_option_en": "Can you recommend a reliable taxi company to use?",
+            "previous_turn_id": "lcmsofbtmbcxlmzd",
+            "order": 3,
+            "key_phrase_en": "Reliable taxi company"
+        },
+        {
+            "id": "khlvaqqxywslfzvm",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Iris, we don't have public transportation, but we can arrange a taxi for you.",
+            "user_response_option_en": "How much is the taxi fare to the airport?",
+            "previous_turn_id": "bkjfhwjdftnbojgl",
+            "order": 3,
+            "key_phrase_en": "taxi fare airport"
+        },
+        {
+            "id": "kcyzjbyetpfajdqo",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Iris, we don't have public transportation, but we can arrange a taxi for you.",
+            "user_response_option_en": "What is the taxi company's name and number?",
+            "previous_turn_id": "bkjfhwjdftnbojgl",
+            "order": 3,
+            "key_phrase_en": "Taxi company's name"
+        },
+        {
+            "id": "evbfdcywawuxczsr",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Iris, we don't have public transportation, but we can arrange a taxi for you.",
+            "user_response_option_en": "How long does it take to get to the airport by taxi?",
+            "previous_turn_id": "bkjfhwjdftnbojgl",
+            "order": 3,
+            "key_phrase_en": "Airport taxi time"
+        },
+        {
+            "id": "nurqcaelrlqurvzo",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Alright! Here's what the receptionist might say: Great! Our shuttle departs every hour on the hour. Would you like me to book a seat for you at 4 PM?",
+            "user_response_option_en": "Yes, please book me a seat at 4 PM.",
+            "previous_turn_id": "qrkomrrysxhxnkmc",
+            "order": 3,
+            "key_phrase_en": "Book me seat"
+        },
+        {
+            "id": "zymuyiaiffecucqc",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Alright! Here's what the receptionist might say: Great! Our shuttle departs every hour on the hour. Would you like me to book a seat for you at 4 PM?",
+            "user_response_option_en": "Is there an earlier shuttle available?",
+            "previous_turn_id": "qrkomrrysxhxnkmc",
+            "order": 3,
+            "key_phrase_en": "earlier shuttle available"
+        },
+        {
+            "id": "wymtvgzvssssutrs",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Alright! Here's what the receptionist might say: Great! Our shuttle departs every hour on the hour. Would you like me to book a seat for you at 4 PM?",
+            "user_response_option_en": "Thank you! How much will it cost?",
+            "previous_turn_id": "qrkomrrysxhxnkmc",
+            "order": 3,
+            "key_phrase_en": "Thank you!"
+        },
+        {
+            "id": "njormqalyzgdbvxc",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Certainly, may I ask you what time your flight is?",
+            "user_response_option_en": "My flight is at 1 pm.",
+            "previous_turn_id": "bjzbvrlojxlikbib",
+            "order": 3,
+            "key_phrase_en": "1 pm"
+        },
+        {
+            "id": "spvlokejybkidthh",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Certainly, may I ask you what time your flight is?",
+            "user_response_option_en": "I need to be at the airport at 10 am.",
+            "previous_turn_id": "bjzbvrlojxlikbib",
+            "order": 3,
+            "key_phrase_en": "Airport at 10"
+        },
+        {
+            "id": "pcubxhblcorjhxyr",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "Certainly, may I ask you what time your flight is?",
+            "user_response_option_en": "Could you recommend a good time for the shuttle?",
+            "previous_turn_id": "bjzbvrlojxlikbib",
+            "order": 3,
+            "key_phrase_en": "recommend a time"
+        },
+        {
+            "id": "ssjmubioewxmwbmz",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "The shuttle costs $30, and we will schedule it for you 30 minutes before your flight time.",
+            "user_response_option_en": "Is there any discount for shuttle service, please?",
+            "previous_turn_id": "mqplqdrftzikqbkl",
+            "order": 3,
+            "key_phrase_en": "Discount for shuttle"
+        },
+        {
+            "id": "mvbrbljquulqryvi",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "The shuttle costs $30, and we will schedule it for you 30 minutes before your flight time.",
+            "user_response_option_en": "Thanks, can I have a receipt for shuttle service?",
+            "previous_turn_id": "mqplqdrftzikqbkl",
+            "order": 3,
+            "key_phrase_en": "Shuttle service receipt"
+        },
+        {
+            "id": "ortapfvnuzthhtjp",
+            "mission_id": "shycmuluswxrctgf",
+            "ai_conversation_starter_en": "The shuttle costs $30, and we will schedule it for you 30 minutes before your flight time.",
+            "user_response_option_en": "Please confirm the shuttle booking time, thank you.",
+            "previous_turn_id": "mqplqdrftzikqbkl",
+            "order": 3,
+            "key_phrase_en": "shuttle booking time"
+        }
+    ]
+}

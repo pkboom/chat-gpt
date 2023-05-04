@@ -1,0 +1,4 @@
+[
+  "Extract one word or a phrase(consisting of 1-3 words) in the following text that is commonly used by native English speakers, that would be useful to learn for non-native speakers. The word or phrase should be in the form of a question. Don't include a phrase that is too complex or too trivial. If there is no appropriate word or phrase, simply say \"None\". Extract the phrase word-by-word, case-sensitive, in the exact order as shown in the text (it needs to be a span that can be represented with a starting index and an ending index). For example, given the expression \"I'm not sure if my name is spelled correctly on the reservation.\", \"spelled correctly\" is a wrong answer, and the key phrase should be \"correctly spelled\". Give me the key phrase and don't say anything else.",
+  "Pick a few words from the expression that best describe the expression."
+]

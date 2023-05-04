@@ -1,0 +1,370 @@
+{
+    "id": "fzofdanuiawoocbv",
+    "title": "Asking about the hotel's fitness center",
+    "order": 1,
+    "turns": [
+        {
+            "id": "ndnxqtxejmklrwim",
+            "ai_conversation_starter_en": "Good evening! Welcome to our hotel. Can I assist you with anything or provide you with more information on our amenities?",
+            "user_response_option_en": "Can you tell me about the hotel gym?",
+            "mission_id": "fzofdanuiawoocbv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dxfdqqpzzkwbgrpe",
+            "key_phrase_en": "hotel gym"
+        },
+        {
+            "id": "ckwbcnxfvgxlmdjh",
+            "ai_conversation_starter_en": "Good evening! Welcome to our hotel. Can I assist you with anything or provide you with more information on our amenities?",
+            "user_response_option_en": "Is there a fitness center in the hotel?",
+            "mission_id": "fzofdanuiawoocbv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "pslpdpzjzqatfozp",
+            "key_phrase_en": "Fitness center"
+        },
+        {
+            "id": "unibaimbcucmuopv",
+            "ai_conversation_starter_en": "Good evening! Welcome to our hotel. Can I assist you with anything or provide you with more information on our amenities?",
+            "user_response_option_en": "Do you have exercise facilities available?",
+            "mission_id": "fzofdanuiawoocbv",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ahhuevuttxdlcchk",
+            "key_phrase_en": "Exercise facilities available"
+        },
+        {
+            "id": "cojffrjizjimjoeo",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we have a gym with cardio machines and weights. It's open 24/7 for guests.",
+            "user_response_option_en": "Are the gym facilities free of charge to hotel guests?",
+            "previous_turn_id": "ndnxqtxejmklrwim",
+            "order": 2,
+            "next_turn_id": "aflobeqymsjybiqy",
+            "key_phrase_en": "Free of charge"
+        },
+        {
+            "id": "trcehfokggrdmefw",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we have a gym with cardio machines and weights. It's open 24/7 for guests.",
+            "user_response_option_en": "Do you have any fitness classes that guests can join?",
+            "previous_turn_id": "ndnxqtxejmklrwim",
+            "order": 2,
+            "next_turn_id": "akcdvzfnmykfsqjx",
+            "key_phrase_en": "Fitness classes"
+        },
+        {
+            "id": "dxfdqqpzzkwbgrpe",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we have a gym with cardio machines and weights. It's open 24/7 for guests.",
+            "user_response_option_en": "Is there a personal trainer available at the hotel gym?",
+            "previous_turn_id": "ndnxqtxejmklrwim",
+            "order": 2,
+            "next_turn_id": "bntggchiwmeypltv",
+            "key_phrase_en": "Personal trainer available"
+        },
+        {
+            "id": "ibemfyrlannbcpba",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we do have a fitness center. It is located on the second floor.",
+            "user_response_option_en": "May I know the fitness center's operating hours?",
+            "previous_turn_id": "ckwbcnxfvgxlmdjh",
+            "order": 2,
+            "next_turn_id": "ygpksichxcydnbcj",
+            "key_phrase_en": "operating hours"
+        },
+        {
+            "id": "ihibwjsclsfohggd",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we do have a fitness center. It is located on the second floor.",
+            "user_response_option_en": "Do I need to bring my own workout clothes?",
+            "previous_turn_id": "ckwbcnxfvgxlmdjh",
+            "order": 2,
+            "next_turn_id": "xpzzoutkjkpbbcft",
+            "key_phrase_en": "Workout clothes"
+        },
+        {
+            "id": "pslpdpzjzqatfozp",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we do have a fitness center. It is located on the second floor.",
+            "user_response_option_en": "Is there a fee for using the fitness center?",
+            "previous_turn_id": "ckwbcnxfvgxlmdjh",
+            "order": 2,
+            "next_turn_id": "nmxynyrcmqznoydt",
+            "key_phrase_en": "Fitness center fee"
+        },
+        {
+            "id": "agjkbewsphuidnmz",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we have a fitness center on the second floor. Enjoy your workout, Ms. Kim.",
+            "user_response_option_en": "Can I see the schedule of fitness classes? ",
+            "previous_turn_id": "unibaimbcucmuopv",
+            "order": 2,
+            "next_turn_id": "kjchuhjnalhfxfxb",
+            "key_phrase_en": "fitness classes schedule"
+        },
+        {
+            "id": "tkgpbiqftjsuqhfs",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we have a fitness center on the second floor. Enjoy your workout, Ms. Kim.",
+            "user_response_option_en": "Is there an extra fee to use the fitness center? ",
+            "previous_turn_id": "unibaimbcucmuopv",
+            "order": 2,
+            "next_turn_id": "tpckxqfaspdaxxjx",
+            "key_phrase_en": "Extra fee"
+        },
+        {
+            "id": "ahhuevuttxdlcchk",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, we have a fitness center on the second floor. Enjoy your workout, Ms. Kim.",
+            "user_response_option_en": "Is a reservation required for the fitness center?",
+            "previous_turn_id": "unibaimbcucmuopv",
+            "order": 2,
+            "next_turn_id": "xxuuhobjqbmslxql",
+            "key_phrase_en": "Reservation required"
+        },
+        {
+            "id": "sdjpiukurcgsnzsf",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, the gym facilities are complimentary to hotel guests.",
+            "user_response_option_en": "Is the gym crowded?",
+            "previous_turn_id": "cojffrjizjimjoeo",
+            "order": 3,
+            "key_phrase_en": "Gym crowded"
+        },
+        {
+            "id": "lfiifbcpuvdecxvg",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, the gym facilities are complimentary to hotel guests.",
+            "user_response_option_en": "Can I borrow workout clothes?",
+            "previous_turn_id": "cojffrjizjimjoeo",
+            "order": 3,
+            "key_phrase_en": "workout clothes"
+        },
+        {
+            "id": "aflobeqymsjybiqy",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, the gym facilities are complimentary to hotel guests.",
+            "user_response_option_en": "What's the gym's floor plan?",
+            "previous_turn_id": "cojffrjizjimjoeo",
+            "order": 3,
+            "key_phrase_en": "gym floor plan"
+        },
+        {
+            "id": "chpcnuqwpwniadry",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't offer fitness classes at the moment.",
+            "user_response_option_en": "Can you recommend a nearby gym?",
+            "previous_turn_id": "trcehfokggrdmefw",
+            "order": 3,
+            "key_phrase_en": "nearby gym"
+        },
+        {
+            "id": "mpwgionenbdngore",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't offer fitness classes at the moment.",
+            "user_response_option_en": "Where can I find fitness classes in the area?",
+            "previous_turn_id": "trcehfokggrdmefw",
+            "order": 3,
+            "key_phrase_en": "Fitness classes"
+        },
+        {
+            "id": "akcdvzfnmykfsqjx",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, but we don't offer fitness classes at the moment.",
+            "user_response_option_en": "Is there a park or jogging trail nearby?",
+            "previous_turn_id": "trcehfokggrdmefw",
+            "order": 3,
+            "key_phrase_en": "Jogging trail"
+        },
+        {
+            "id": "phnawtzssdkjaplq",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, but we do not have a personal trainer available at our fitness center.",
+            "user_response_option_en": "Are there any gyms with a personal trainer in the area?\". ",
+            "previous_turn_id": "dxfdqqpzzkwbgrpe",
+            "order": 3,
+            "key_phrase_en": "personal trainer"
+        },
+        {
+            "id": "lzuheyowyhxhbplm",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, but we do not have a personal trainer available at our fitness center.",
+            "user_response_option_en": "Okay, thank you for letting me know\" ",
+            "previous_turn_id": "dxfdqqpzzkwbgrpe",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "bntggchiwmeypltv",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, but we do not have a personal trainer available at our fitness center.",
+            "user_response_option_en": "Is there a fee for using the hotel's fitness center?",
+            "previous_turn_id": "dxfdqqpzzkwbgrpe",
+            "order": 3,
+            "key_phrase_en": "Fitness Center Fee"
+        },
+        {
+            "id": "diijbmvzrsiiptmn",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, the fitness center is open from 6 am to 10 pm daily.",
+            "user_response_option_en": "What fitness equipment does it have?",
+            "previous_turn_id": "ibemfyrlannbcpba",
+            "order": 3,
+            "key_phrase_en": "fitness equipment"
+        },
+        {
+            "id": "ofooiqikwcnnhzil",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, the fitness center is open from 6 am to 10 pm daily.",
+            "user_response_option_en": "Is it free for staying guests?",
+            "previous_turn_id": "ibemfyrlannbcpba",
+            "order": 3,
+            "key_phrase_en": "Free for guests"
+        },
+        {
+            "id": "ygpksichxcydnbcj",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Yes, the fitness center is open from 6 am to 10 pm daily.",
+            "user_response_option_en": "Do I need to book a time slot to use it?",
+            "previous_turn_id": "ibemfyrlannbcpba",
+            "order": 3,
+            "key_phrase_en": "book a slot"
+        },
+        {
+            "id": "vmxzukbgqwdfdokf",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, workout clothes are available free of charge at the fitness center desk.",
+            "user_response_option_en": "Thank you, that's helpful.",
+            "previous_turn_id": "ihibwjsclsfohggd",
+            "order": 3,
+            "key_phrase_en": "That's helpful"
+        },
+        {
+            "id": "iufgnotypdqzmefy",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, workout clothes are available free of charge at the fitness center desk.",
+            "user_response_option_en": "Can you tell me the fitness center's hours?",
+            "previous_turn_id": "ihibwjsclsfohggd",
+            "order": 3,
+            "key_phrase_en": "Fitness center's hours"
+        },
+        {
+            "id": "xpzzoutkjkpbbcft",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, workout clothes are available free of charge at the fitness center desk.",
+            "user_response_option_en": "Is the fitness center open to hotel guests 24 hours?",
+            "previous_turn_id": "ihibwjsclsfohggd",
+            "order": 3,
+            "key_phrase_en": "Fitness center hours"
+        },
+        {
+            "id": "vlrdxuqjnftijkhl",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, it's free for all hotel guests.",
+            "user_response_option_en": "Could you tell me where I can find the fitness center again?",
+            "previous_turn_id": "pslpdpzjzqatfozp",
+            "order": 3,
+            "key_phrase_en": "Fitness Center"
+        },
+        {
+            "id": "ocpdtfltkrveyoyw",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, it's free for all hotel guests.",
+            "user_response_option_en": "Great! What are the hours of the fitness center?",
+            "previous_turn_id": "pslpdpzjzqatfozp",
+            "order": 3,
+            "key_phrase_en": "Fitness center hours"
+        },
+        {
+            "id": "nmxynyrcmqznoydt",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, it's free for all hotel guests.",
+            "user_response_option_en": "Oh, that's convenient. Is there a pool in the hotel as well?",
+            "previous_turn_id": "pslpdpzjzqatfozp",
+            "order": 3,
+            "key_phrase_en": "convenient, pool, hotel"
+        },
+        {
+            "id": "gcmmbvihmddbbbjz",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Certainly, here is a copy of the fitness class schedule for your reference, Ms. Kim.",
+            "user_response_option_en": "What's offered in these classes?",
+            "previous_turn_id": "agjkbewsphuidnmz",
+            "order": 3,
+            "key_phrase_en": "offered in classes"
+        },
+        {
+            "id": "tqxibjqdhmgfffwj",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Certainly, here is a copy of the fitness class schedule for your reference, Ms. Kim.",
+            "user_response_option_en": "How often do they hold classes?",
+            "previous_turn_id": "agjkbewsphuidnmz",
+            "order": 3,
+            "key_phrase_en": "hold classes"
+        },
+        {
+            "id": "kjchuhjnalhfxfxb",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "Certainly, here is a copy of the fitness class schedule for your reference, Ms. Kim.",
+            "user_response_option_en": "Can non-guests use the fitness center?",
+            "previous_turn_id": "agjkbewsphuidnmz",
+            "order": 3,
+            "key_phrase_en": "fitness center"
+        },
+        {
+            "id": "hjdlohndwiycbmce",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, Ms. Kim- we don't charge extra for the use of the fitness center.",
+            "user_response_option_en": "Thank you, that's great to know!",
+            "previous_turn_id": "tkgpbiqftjsuqhfs",
+            "order": 3,
+            "key_phrase_en": "Great to know"
+        },
+        {
+            "id": "kgzvaualjeixfepk",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, Ms. Kim- we don't charge extra for the use of the fitness center.",
+            "user_response_option_en": "Can you tell me the fitness center's hours?",
+            "previous_turn_id": "tkgpbiqftjsuqhfs",
+            "order": 3,
+            "key_phrase_en": "Fitness center's hours"
+        },
+        {
+            "id": "tpckxqfaspdaxxjx",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "I'm sorry, Ms. Kim- we don't charge extra for the use of the fitness center.",
+            "user_response_option_en": "Is the fitness center open to hotel guests only?",
+            "previous_turn_id": "tkgpbiqftjsuqhfs",
+            "order": 3,
+            "key_phrase_en": "fitness center open"
+        },
+        {
+            "id": "jnoledbuvzjrszup",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, you don't need a reservation for the fitness center. You can use it anytime during its operating hours.",
+            "user_response_option_en": "Is there a fee to use the fitness center?",
+            "previous_turn_id": "ahhuevuttxdlcchk",
+            "order": 3,
+            "key_phrase_en": "Fitness center fee"
+        },
+        {
+            "id": "jsilsmuuhbkansde",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, you don't need a reservation for the fitness center. You can use it anytime during its operating hours.",
+            "user_response_option_en": "Are there towels available at the fitness center?",
+            "previous_turn_id": "ahhuevuttxdlcchk",
+            "order": 3,
+            "key_phrase_en": "Towels available fitness center"
+        },
+        {
+            "id": "xxuuhobjqbmslxql",
+            "mission_id": "fzofdanuiawoocbv",
+            "ai_conversation_starter_en": "No, you don't need a reservation for the fitness center. You can use it anytime during its operating hours.",
+            "user_response_option_en": "Can I borrow workout clothing or should I bring my own?",
+            "previous_turn_id": "ahhuevuttxdlcchk",
+            "order": 3,
+            "key_phrase_en": "workout clothing"
+        }
+    ]
+}

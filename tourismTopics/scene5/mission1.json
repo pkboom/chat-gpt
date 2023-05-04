@@ -1,0 +1,370 @@
+{
+    "id": "ckciyqtddrngqqhl",
+    "title": "Asking the waiter if they have seen your lost item",
+    "order": 1,
+    "turns": [
+        {
+            "id": "bybdtrcoaskwired",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction. Is there anything I can assist you with today?",
+            "user_response_option_en": "Excuse me, have you found a lost item?",
+            "mission_id": "ckciyqtddrngqqhl",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qovjalhzqmygeaht",
+            "key_phrase_en": "Lost item"
+        },
+        {
+            "id": "vwdjtahemlcecyqz",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction. Is there anything I can assist you with today?",
+            "user_response_option_en": "I seem to have misplaced something. Have you seen it around?",
+            "mission_id": "ckciyqtddrngqqhl",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gabvmzsstnjgznfa",
+            "key_phrase_en": "Misplaced something"
+        },
+        {
+            "id": "edmcktggyirrwrfr",
+            "ai_conversation_starter_en": "Hello, welcome to our tourist attraction. Is there anything I can assist you with today?",
+            "user_response_option_en": "I wonder if you could help me locate a lost object?",
+            "mission_id": "ckciyqtddrngqqhl",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "sxyreggrqxfrizwj",
+            "key_phrase_en": "Help me locate"
+        },
+        {
+            "id": "xdizhqtoylyocifw",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I'm sorry, we haven't found any lost items.",
+            "user_response_option_en": "Could you please check lost and found?\" ",
+            "previous_turn_id": "bybdtrcoaskwired",
+            "order": 2,
+            "next_turn_id": "jjgursfwsphrhxww",
+            "key_phrase_en": "Lost and Found"
+        },
+        {
+            "id": "iwgrvxemnrzsratp",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I'm sorry, we haven't found any lost items.",
+            "user_response_option_en": "Would you mind if I take a look around?\" ",
+            "previous_turn_id": "bybdtrcoaskwired",
+            "order": 2,
+            "next_turn_id": "dgknctitnddtvrcz",
+            "key_phrase_en": "Take a look"
+        },
+        {
+            "id": "qovjalhzqmygeaht",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I'm sorry, we haven't found any lost items.",
+            "user_response_option_en": "Do you have any suggestions on where to look?",
+            "previous_turn_id": "bybdtrcoaskwired",
+            "order": 2,
+            "next_turn_id": "uykegiywrrzwmjyd",
+            "key_phrase_en": "suggestions on look"
+        },
+        {
+            "id": "bdxhjonlkuvewans",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, here's an example of what the staff might say:Of course, what item are you missing?",
+            "user_response_option_en": "It's a blue wallet. Did you find any blue wallets?",
+            "previous_turn_id": "vwdjtahemlcecyqz",
+            "order": 2,
+            "next_turn_id": "klfkkfxbbxtsdyqz",
+            "key_phrase_en": "blue wallet"
+        },
+        {
+            "id": "pwsrkrfoxowukurs",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, here's an example of what the staff might say:Of course, what item are you missing?",
+            "user_response_option_en": "I lost my phone. Have you seen any lost phones?",
+            "previous_turn_id": "vwdjtahemlcecyqz",
+            "order": 2,
+            "next_turn_id": "fwhsrkjpmxificgk",
+            "key_phrase_en": "Lost phones"
+        },
+        {
+            "id": "gabvmzsstnjgznfa",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, here's an example of what the staff might say:Of course, what item are you missing?",
+            "user_response_option_en": "My sunglasses are missing. Has anyone turned in sunglasses?",
+            "previous_turn_id": "vwdjtahemlcecyqz",
+            "order": 2,
+            "next_turn_id": "ggkejqboglnlwpyk",
+            "key_phrase_en": "missing sunglasses"
+        },
+        {
+            "id": "tyceruycbgdxytdk",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Certainly, Iris. Can you give me some more information about the item that you lost?",
+            "user_response_option_en": "It's a small blue purse. Have you seen it?\" ",
+            "previous_turn_id": "edmcktggyirrwrfr",
+            "order": 2,
+            "next_turn_id": "jylbawlilwfafzap",
+            "key_phrase_en": "Small blue purse"
+        },
+        {
+            "id": "igjqtmokaaxwagjf",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Certainly, Iris. Can you give me some more information about the item that you lost?",
+            "user_response_option_en": "I lost my phone. Maybe someone gave it to you?\" ",
+            "previous_turn_id": "edmcktggyirrwrfr",
+            "order": 2,
+            "next_turn_id": "atzqziyvdlhtnntl",
+            "key_phrase_en": "Lost my phone"
+        },
+        {
+            "id": "sxyreggrqxfrizwj",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Certainly, Iris. Can you give me some more information about the item that you lost?",
+            "user_response_option_en": "My sunglasses, black frame. Any idea where they are?",
+            "previous_turn_id": "edmcktggyirrwrfr",
+            "order": 2,
+            "next_turn_id": "vcqhhwbeooqziibw",
+            "key_phrase_en": "Black frame"
+        },
+        {
+            "id": "kvyufkmieujtljzt",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, here's an example response: Of course, I'll be happy to check the lost and found for you.",
+            "user_response_option_en": "Thank you so much, that would be greatly appreciated.",
+            "previous_turn_id": "xdizhqtoylyocifw",
+            "order": 3,
+            "key_phrase_en": "Greatly appreciated"
+        },
+        {
+            "id": "kczwnwcnrftlogkv",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, here's an example response: Of course, I'll be happy to check the lost and found for you.",
+            "user_response_option_en": "Do you mind checking again just to make sure? I'm really worried.",
+            "previous_turn_id": "xdizhqtoylyocifw",
+            "order": 3,
+            "key_phrase_en": "Checking again"
+        },
+        {
+            "id": "jjgursfwsphrhxww",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, here's an example response: Of course, I'll be happy to check the lost and found for you.",
+            "user_response_option_en": "If you find anything, could you please let me know right away?",
+            "previous_turn_id": "xdizhqtoylyocifw",
+            "order": 3,
+            "key_phrase_en": "let me know"
+        },
+        {
+            "id": "jkqxtlikiphfhapd",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, please feel free to take a look around. Let me know if you need any further assistance.",
+            "user_response_option_en": "Thanks, will do! Could you keep an eye out please?",
+            "previous_turn_id": "iwgrvxemnrzsratp",
+            "order": 3,
+            "key_phrase_en": "Keep an eye"
+        },
+        {
+            "id": "jqkikdzqnreoulnl",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, please feel free to take a look around. Let me know if you need any further assistance.",
+            "user_response_option_en": "OK. In case you see it, please let me know!",
+            "previous_turn_id": "iwgrvxemnrzsratp",
+            "order": 3,
+            "key_phrase_en": "Let me know\""
+        },
+        {
+            "id": "dgknctitnddtvrcz",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, please feel free to take a look around. Let me know if you need any further assistance.",
+            "user_response_option_en": "Thank you! I'll look around and come back if I need help!",
+            "previous_turn_id": "iwgrvxemnrzsratp",
+            "order": 3,
+            "key_phrase_en": "Look around"
+        },
+        {
+            "id": "xjygezqnmudalyzm",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, I understand that losing an item can be frustrating. Have you tried retracing your steps and checking the areas where you visited?",
+            "user_response_option_en": "Thanks for your help. Do you mind checking lost and found?",
+            "previous_turn_id": "qovjalhzqmygeaht",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "kewnszydaoxpsnsx",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, I understand that losing an item can be frustrating. Have you tried retracing your steps and checking the areas where you visited?",
+            "user_response_option_en": "I will retrace my steps. If found, can call my number?",
+            "previous_turn_id": "qovjalhzqmygeaht",
+            "order": 3,
+            "key_phrase_en": "Retrace my steps"
+        },
+        {
+            "id": "uykegiywrrzwmjyd",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Sure, I understand that losing an item can be frustrating. Have you tried retracing your steps and checking the areas where you visited?",
+            "user_response_option_en": "I appreciate your suggestion. Any specific area I should check?",
+            "previous_turn_id": "qovjalhzqmygeaht",
+            "order": 3,
+            "key_phrase_en": "Specific area"
+        },
+        {
+            "id": "jpbmsxrnzscrcvtf",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I'm sorry, we haven't found any blue wallets.",
+            "user_response_option_en": "Can you check again later or tomorrow?\" - this phrase is useful for asking someone to check for you at a later time without being too pushy.",
+            "previous_turn_id": "bdxhjonlkuvewans",
+            "order": 3,
+            "key_phrase_en": "check again later"
+        },
+        {
+            "id": "cjkdzddvyxjggnlo",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I'm sorry, we haven't found any blue wallets.",
+            "user_response_option_en": "Thank you for looking.\" - this phrase is a polite way of acknowledging the staff's efforts to help you even if they couldn't find your lost item.",
+            "previous_turn_id": "bdxhjonlkuvewans",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "klfkkfxbbxtsdyqz",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I'm sorry, we haven't found any blue wallets.",
+            "user_response_option_en": "Do you have a lost and found department?\" - this phrase is useful for finding out if there's a specific place where lost items are kept in case the staff didn't find your item during their search.",
+            "previous_turn_id": "bdxhjonlkuvewans",
+            "order": 3,
+            "key_phrase_en": "Lost and found"
+        },
+        {
+            "id": "vvcrvoabeibtwwko",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I am sorry, but you have lost your phone. I will immediately contact our lost and found department to see if your phone has been found.",
+            "user_response_option_en": "Okay, thank you. What's the lost and found department's phone number?\" ",
+            "previous_turn_id": "pwsrkrfoxowukurs",
+            "order": 3,
+            "key_phrase_en": "lost and found"
+        },
+        {
+            "id": "eoljspnojckaxvrc",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I am sorry, but you have lost your phone. I will immediately contact our lost and found department to see if your phone has been found.",
+            "user_response_option_en": "Is there a chance my phone was left in the restaurant?\" ",
+            "previous_turn_id": "pwsrkrfoxowukurs",
+            "order": 3,
+            "key_phrase_en": "Phone in restaurant"
+        },
+        {
+            "id": "fwhsrkjpmxificgk",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "I am sorry, but you have lost your phone. I will immediately contact our lost and found department to see if your phone has been found.",
+            "user_response_option_en": "If it's found, will you call or email me?",
+            "previous_turn_id": "pwsrkrfoxowukurs",
+            "order": 3,
+            "key_phrase_en": "call or email"
+        },
+        {
+            "id": "iekxfnizdvqfmems",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Let me check with the lost and found office.",
+            "user_response_option_en": "Alright, thank you. Please let me know if you find them.",
+            "previous_turn_id": "gabvmzsstnjgznfa",
+            "order": 3,
+            "key_phrase_en": "Please let me know"
+        },
+        {
+            "id": "raowkpniqhbwqqql",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Let me check with the lost and found office.",
+            "user_response_option_en": "Could you also check with the restaurant in case I left them there?",
+            "previous_turn_id": "gabvmzsstnjgznfa",
+            "order": 3,
+            "key_phrase_en": "check with restaurant"
+        },
+        {
+            "id": "ggkejqboglnlwpyk",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Let me check with the lost and found office.",
+            "user_response_option_en": "Is there a way for me to contact the lost and found office later?",
+            "previous_turn_id": "gabvmzsstnjgznfa",
+            "order": 3,
+            "key_phrase_en": "lost and found"
+        },
+        {
+            "id": "juupgnckugsvwige",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Iris, could you please provide me with the details of where you might have lost your small blue purse so we can better assist you in locating it?",
+            "user_response_option_en": "I'm not sure, maybe in the restroom?",
+            "previous_turn_id": "tyceruycbgdxytdk",
+            "order": 3,
+            "key_phrase_en": "restroom"
+        },
+        {
+            "id": "xvnvnmitiqqbiako",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Iris, could you please provide me with the details of where you might have lost your small blue purse so we can better assist you in locating it?",
+            "user_response_option_en": "Maybe it's at the information desk?",
+            "previous_turn_id": "tyceruycbgdxytdk",
+            "order": 3,
+            "key_phrase_en": "information desk"
+        },
+        {
+            "id": "jylbawlilwfafzap",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Iris, could you please provide me with the details of where you might have lost your small blue purse so we can better assist you in locating it?",
+            "user_response_option_en": "I think I lost it on the escalator, have you checked there?",
+            "previous_turn_id": "tyceruycbgdxytdk",
+            "order": 3,
+            "key_phrase_en": "Lost it, escalator"
+        },
+        {
+            "id": "vaslyqvkfyxodfch",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Iris, I haven't heard of anyone turning in a lost phone, but let me ask around for you.",
+            "user_response_option_en": "Thank you so much. Please let me know as soon as possible.",
+            "previous_turn_id": "igjqtmokaaxwagjf",
+            "order": 3,
+            "key_phrase_en": "As soon as possible"
+        },
+        {
+            "id": "fkcnwritoheolpbv",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Iris, I haven't heard of anyone turning in a lost phone, but let me ask around for you.",
+            "user_response_option_en": "I appreciate your help. Could you keep an eye out for it?",
+            "previous_turn_id": "igjqtmokaaxwagjf",
+            "order": 3,
+            "key_phrase_en": "keep an eye"
+        },
+        {
+            "id": "atzqziyvdlhtnntl",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Iris, I haven't heard of anyone turning in a lost phone, but let me ask around for you.",
+            "user_response_option_en": "I understand. Is there someone else who might be able to help me look?",
+            "previous_turn_id": "igjqtmokaaxwagjf",
+            "order": 3,
+            "key_phrase_en": "someone else"
+        },
+        {
+            "id": "wthlqtmdxqvjpolr",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Of course, Iris. I will ask the waiter if they have seen your black-framed sunglasses.",
+            "user_response_option_en": "Thank you for your help. I appreciate it.",
+            "previous_turn_id": "sxyreggrqxfrizwj",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "lhzdfrjnxvqpmsdp",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Of course, Iris. I will ask the waiter if they have seen your black-framed sunglasses.",
+            "user_response_option_en": "Do you mind describing them for me in case I missed them?",
+            "previous_turn_id": "sxyreggrqxfrizwj",
+            "order": 3,
+            "key_phrase_en": "Describing them"
+        },
+        {
+            "id": "vcqhhwbeooqziibw",
+            "mission_id": "ckciyqtddrngqqhl",
+            "ai_conversation_starter_en": "Of course, Iris. I will ask the waiter if they have seen your black-framed sunglasses.",
+            "user_response_option_en": "I hope I can find them. They're my favorite pair.",
+            "previous_turn_id": "sxyreggrqxfrizwj",
+            "order": 3,
+            "key_phrase_en": "favorite pair"
+        }
+    ]
+}

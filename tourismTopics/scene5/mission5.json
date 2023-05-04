@@ -1,0 +1,370 @@
+{
+    "id": "hjzcnmuuazqnnxaw",
+    "title": "Filling out a lost item report with the restaurant staff",
+    "order": 5,
+    "turns": [
+        {
+            "id": "mzuacuwlpgjalfcy",
+            "ai_conversation_starter_en": "Excuse me, were you just at our restaurant? We found a lost item and are trying to locate the owner. Was it by any chance a phone or a wallet?",
+            "user_response_option_en": "Yes, it was my wallet. Thank you so much for finding it.",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "rbiwphbyieaxnlkp",
+            "key_phrase_en": "Thank you so much"
+        },
+        {
+            "id": "lgxzlbevflkylzxd",
+            "ai_conversation_starter_en": "Excuse me, were you just at our restaurant? We found a lost item and are trying to locate the owner. Was it by any chance a phone or a wallet?",
+            "user_response_option_en": "I think it might be my phone. Can I describe it to you?",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xsofsskzxnfruimk",
+            "key_phrase_en": "Describe it"
+        },
+        {
+            "id": "mfqxbndjzahtdqur",
+            "ai_conversation_starter_en": "Excuse me, were you just at our restaurant? We found a lost item and are trying to locate the owner. Was it by any chance a phone or a wallet?",
+            "user_response_option_en": "Oh no, I didn't lose anything. But thanks for checking with me.",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ggoimgovevhnucfe",
+            "key_phrase_en": "Thanks for checking"
+        },
+        {
+            "id": "aciadpeaeprylwpf",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Glad we could help! Could you please fill out this lost item report with your contact information and a description of the wallet?",
+            "user_response_option_en": "Here's my contact info. The wallet was brown with gold zipper.",
+            "previous_turn_id": "mzuacuwlpgjalfcy",
+            "order": 2,
+            "next_turn_id": "stthhlbrzxravblk",
+            "key_phrase_en": "Contact info"
+        },
+        {
+            "id": "zxquibnthkwhhmic",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Glad we could help! Could you please fill out this lost item report with your contact information and a description of the wallet?",
+            "user_response_option_en": "The lost wallet has ID and money inside. Can I leave my email?",
+            "previous_turn_id": "mzuacuwlpgjalfcy",
+            "order": 2,
+            "next_turn_id": "cfsmagmezelqxknk",
+            "key_phrase_en": "Lost wallet"
+        },
+        {
+            "id": "rbiwphbyieaxnlkp",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Glad we could help! Could you please fill out this lost item report with your contact information and a description of the wallet?",
+            "user_response_option_en": "How long will it take? I'll come back for updates.",
+            "previous_turn_id": "mzuacuwlpgjalfcy",
+            "order": 2,
+            "next_turn_id": "rntsiqfzrhzxixva",
+            "key_phrase_en": "come back for"
+        },
+        {
+            "id": "iqcpuanufghbzezk",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, please go ahead and describe your phone to me.",
+            "user_response_option_en": "It's a black iPhone with a grey case.",
+            "previous_turn_id": "lgxzlbevflkylzxd",
+            "order": 2,
+            "next_turn_id": "ifttgetwgrnyvrms",
+            "key_phrase_en": "Black iPhone"
+        },
+        {
+            "id": "qprxhjbnrjhcaurx",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, please go ahead and describe your phone to me.",
+            "user_response_option_en": "The lock screen has a picture of a dog on it.",
+            "previous_turn_id": "lgxzlbevflkylzxd",
+            "order": 2,
+            "next_turn_id": "xdokilqlijqcyzkm",
+            "key_phrase_en": "Lock Screen Picture"
+        },
+        {
+            "id": "xsofsskzxnfruimk",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, please go ahead and describe your phone to me.",
+            "user_response_option_en": "The model is an iPhone 12, with a few scratches.",
+            "previous_turn_id": "lgxzlbevflkylzxd",
+            "order": 2,
+            "next_turn_id": "mrcuryggffueebki",
+            "key_phrase_en": "iPhone 12"
+        },
+        {
+            "id": "zastdrrtxxqsnysb",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "No problem, if you do happen to lose something, feel free to come back and let us know. We'll do our best to help you locate it.",
+            "user_response_option_en": "Thank you, I appreciate your help. May I know what information is needed?",
+            "previous_turn_id": "mfqxbndjzahtdqur",
+            "order": 2,
+            "next_turn_id": "fwszuyeyimqerzpe",
+            "key_phrase_en": "May I know"
+        },
+        {
+            "id": "sjchnqfadifkspsv",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "No problem, if you do happen to lose something, feel free to come back and let us know. We'll do our best to help you locate it.",
+            "user_response_option_en": "Should I provide any identification? I want to make sure it's secure.",
+            "previous_turn_id": "mfqxbndjzahtdqur",
+            "order": 2,
+            "next_turn_id": "gircadabodwtaaez",
+            "key_phrase_en": "Identification, Secure"
+        },
+        {
+            "id": "ggoimgovevhnucfe",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "No problem, if you do happen to lose something, feel free to come back and let us know. We'll do our best to help you locate it.",
+            "user_response_option_en": "What's the procedure to follow? Could you walk me through it please?",
+            "previous_turn_id": "mfqxbndjzahtdqur",
+            "order": 2,
+            "next_turn_id": "qxzqhqrbwmkalwxv",
+            "key_phrase_en": "procedure to follow"
+        },
+        {
+            "id": "tjnkgndyydyjoedh",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you, Iris. Would you mind providing a list of the contents that were inside the wallet?",
+            "user_response_option_en": "I had my driver's license, credit card and 50 dollars.",
+            "previous_turn_id": "aciadpeaeprylwpf",
+            "order": 3,
+            "key_phrase_en": "Driver's license"
+        },
+        {
+            "id": "utwesieteekdttek",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you, Iris. Would you mind providing a list of the contents that were inside the wallet?",
+            "user_response_option_en": "The wallet also had a family photo and a store membership card.",
+            "previous_turn_id": "aciadpeaeprylwpf",
+            "order": 3,
+            "key_phrase_en": "Family photo"
+        },
+        {
+            "id": "stthhlbrzxravblk",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you, Iris. Would you mind providing a list of the contents that were inside the wallet?",
+            "user_response_option_en": "Inside the wallet was my hotel key card and a receipt from a souvenir shop.",
+            "previous_turn_id": "aciadpeaeprylwpf",
+            "order": 3,
+            "key_phrase_en": "hotel key card"
+        },
+        {
+            "id": "ewetvjkidpgckygc",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Yes, absolutely! Please write your email address on the form so we can contact you if we have any updates about your lost wallet.",
+            "user_response_option_en": "Sure thing. My email is iris.kim@email.com.",
+            "previous_turn_id": "zxquibnthkwhhmic",
+            "order": 3,
+            "key_phrase_en": "Sure thing"
+        },
+        {
+            "id": "rifjktzmtiahdhkw",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Yes, absolutely! Please write your email address on the form so we can contact you if we have any updates about your lost wallet.",
+            "user_response_option_en": "Here's my email",
+            "previous_turn_id": "zxquibnthkwhhmic",
+            "order": 3,
+            "key_phrase_en": "my email"
+        },
+        {
+            "id": "cfsmagmezelqxknk",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Yes, absolutely! Please write your email address on the form so we can contact you if we have any updates about your lost wallet.",
+            "user_response_option_en": "I'll list my email as iris.kim@email.com. Thank you!",
+            "previous_turn_id": "zxquibnthkwhhmic",
+            "order": 3,
+            "key_phrase_en": "Email address"
+        },
+        {
+            "id": "vpyzvonxwljbsxyt",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for filling out the report. We'll do our best to locate your wallet as soon as possible. We'll contact you if we find any information.",
+            "user_response_option_en": "Is there anything else I can do?",
+            "previous_turn_id": "rbiwphbyieaxnlkp",
+            "order": 3,
+            "key_phrase_en": "Anything else"
+        },
+        {
+            "id": "inrodgaouajgunyl",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for filling out the report. We'll do our best to locate your wallet as soon as possible. We'll contact you if we find any information.",
+            "user_response_option_en": "Could you give me a receipt?",
+            "previous_turn_id": "rbiwphbyieaxnlkp",
+            "order": 3,
+            "key_phrase_en": "give me receipt"
+        },
+        {
+            "id": "rntsiqfzrhzxixva",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for filling out the report. We'll do our best to locate your wallet as soon as possible. We'll contact you if we find any information.",
+            "user_response_option_en": "Can I have a copy of the report?",
+            "previous_turn_id": "rbiwphbyieaxnlkp",
+            "order": 3,
+            "key_phrase_en": "Copy of report"
+        },
+        {
+            "id": "qnhlozmwsylppqps",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for providing the description of your phone, Iris. Can I have your contact information, so we can reach out to you if we find it?",
+            "user_response_option_en": "Sure, my phone number is 123-456-7890.",
+            "previous_turn_id": "iqcpuanufghbzezk",
+            "order": 3,
+            "key_phrase_en": "phone number"
+        },
+        {
+            "id": "fdpfbvvyaerodjvf",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for providing the description of your phone, Iris. Can I have your contact information, so we can reach out to you if we find it?",
+            "user_response_option_en": "My email is iris.kim@email.com.",
+            "previous_turn_id": "iqcpuanufghbzezk",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ifttgetwgrnyvrms",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for providing the description of your phone, Iris. Can I have your contact information, so we can reach out to you if we find it?",
+            "user_response_option_en": "Can I leave my hotel's front desk phone number?",
+            "previous_turn_id": "iqcpuanufghbzezk",
+            "order": 3,
+            "key_phrase_en": "front desk phone"
+        },
+        {
+            "id": "vsfcjrcllkkysine",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for the description. Can you also provide your name and contact information for us to reach you if we find it?",
+            "user_response_option_en": "My name is Iris Kim, and my phone number is +1-555-1234.",
+            "previous_turn_id": "qprxhjbnrjhcaurx",
+            "order": 3,
+            "key_phrase_en": "Phone number"
+        },
+        {
+            "id": "eizjkrjqvvpnbmiy",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for the description. Can you also provide your name and contact information for us to reach you if we find it?",
+            "user_response_option_en": "I can be reached at my hotel, the Grand Hyatt.",
+            "previous_turn_id": "qprxhjbnrjhcaurx",
+            "order": 3,
+            "key_phrase_en": "Grand Hyatt"
+        },
+        {
+            "id": "xdokilqlijqcyzkm",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for the description. Can you also provide your name and contact information for us to reach you if we find it?",
+            "user_response_option_en": "Here's my email address, iris.kim@email.com.",
+            "previous_turn_id": "qprxhjbnrjhcaurx",
+            "order": 3,
+            "key_phrase_en": "Email address"
+        },
+        {
+            "id": "dylkrbeexjakmblh",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for providing a description of your phone, Iris. We'll make sure to add that to the report.",
+            "user_response_option_en": "Can you tell me when and where I lost it?",
+            "previous_turn_id": "xsofsskzxnfruimk",
+            "order": 3,
+            "key_phrase_en": "lost it"
+        },
+        {
+            "id": "rmmqbykgikhgpsqp",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for providing a description of your phone, Iris. We'll make sure to add that to the report.",
+            "user_response_option_en": "Is there a way to contact me when it's found?",
+            "previous_turn_id": "xsofsskzxnfruimk",
+            "order": 3,
+            "key_phrase_en": "contact me"
+        },
+        {
+            "id": "mrcuryggffueebki",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Thank you for providing a description of your phone, Iris. We'll make sure to add that to the report.",
+            "user_response_option_en": "May I have a copy of the report?",
+            "previous_turn_id": "xsofsskzxnfruimk",
+            "order": 3,
+            "key_phrase_en": "May I have"
+        },
+        {
+            "id": "yjcgzjfytrxuwxmf",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Of course, we'll need your name, contact information, and a description of the lost item.",
+            "user_response_option_en": "My name is Iris Kim, here's my contact number. It was a black wallet.",
+            "previous_turn_id": "zastdrrtxxqsnysb",
+            "order": 3,
+            "key_phrase_en": "Contact number"
+        },
+        {
+            "id": "fwttfaicmdgsffkr",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Of course, we'll need your name, contact information, and a description of the lost item.",
+            "user_response_option_en": "I lost my iPhone, can I leave my info here? Thank you!",
+            "previous_turn_id": "zastdrrtxxqsnysb",
+            "order": 3,
+            "key_phrase_en": "leave my info"
+        },
+        {
+            "id": "fwszuyeyimqerzpe",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Of course, we'll need your name, contact information, and a description of the lost item.",
+            "user_response_option_en": "The item is a red scarf. My email is iris.kim@gmail.com.",
+            "previous_turn_id": "zastdrrtxxqsnysb",
+            "order": 3,
+            "key_phrase_en": "red scarf"
+        },
+        {
+            "id": "hxyfdfplbuivklac",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, Iris, we appreciate your concern for security. You don't have to provide identification at this point, but if we do find an item that matches your description, we will ask you for identification to ensure that we are returning the item to the rightful owner.",
+            "user_response_option_en": "Thank you, I'll keep an eye out for it. ",
+            "previous_turn_id": "sjchnqfadifkspsv",
+            "order": 3,
+            "key_phrase_en": "Keep an eye"
+        },
+        {
+            "id": "lslzdroxqeyffcvq",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, Iris, we appreciate your concern for security. You don't have to provide identification at this point, but if we do find an item that matches your description, we will ask you for identification to ensure that we are returning the item to the rightful owner.",
+            "user_response_option_en": "Is there a contact number I can leave? ",
+            "previous_turn_id": "sjchnqfadifkspsv",
+            "order": 3,
+            "key_phrase_en": "Contact number"
+        },
+        {
+            "id": "gircadabodwtaaez",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, Iris, we appreciate your concern for security. You don't have to provide identification at this point, but if we do find an item that matches your description, we will ask you for identification to ensure that we are returning the item to the rightful owner.",
+            "user_response_option_en": "Can I have a copy of the report for my records?",
+            "previous_turn_id": "sjchnqfadifkspsv",
+            "order": 3,
+            "key_phrase_en": "Copy of Report\""
+        },
+        {
+            "id": "dmoregaegydiwcvj",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, I'd be happy to help. To start, we'll need some basic information from you. Could you please provide your name and contact details?",
+            "user_response_option_en": "My name is Iris Kim. This is my contact information.",
+            "previous_turn_id": "ggoimgovevhnucfe",
+            "order": 3,
+            "key_phrase_en": "Contact information"
+        },
+        {
+            "id": "hiarbqtijzjemwrs",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, I'd be happy to help. To start, we'll need some basic information from you. Could you please provide your name and contact details?",
+            "user_response_option_en": "Sure, here are my details. What's next?",
+            "previous_turn_id": "ggoimgovevhnucfe",
+            "order": 3,
+            "key_phrase_en": "What's next?"
+        },
+        {
+            "id": "qxzqhqrbwmkalwxv",
+            "mission_id": "hjzcnmuuazqnnxaw",
+            "ai_conversation_starter_en": "Sure, I'd be happy to help. To start, we'll need some basic information from you. Could you please provide your name and contact details?",
+            "user_response_option_en": "I lost my phone. Can I provide more information?",
+            "previous_turn_id": "ggoimgovevhnucfe",
+            "order": 3,
+            "key_phrase_en": "Lost my phone"
+        }
+    ]
+}

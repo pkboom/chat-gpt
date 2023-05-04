@@ -1,0 +1,370 @@
+{
+    "id": "fglgvlxbzdtordht",
+    "title": "Asking if they've been to South Korea",
+    "order": 2,
+    "turns": [
+        {
+            "id": "sxvkmkhpufqglvpa",
+            "ai_conversation_starter_en": "Excuse me, do you know where I can find good Korean restaurants in this area? By the way, my name is John. Have you ever been to South Korea?",
+            "user_response_option_en": "I haven't, but my friend raves about the street food.",
+            "mission_id": "fglgvlxbzdtordht",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xlwwaqgaxqzgqmgu",
+            "key_phrase_en": "Street food"
+        },
+        {
+            "id": "gftmkycmckjigbrr",
+            "ai_conversation_starter_en": "Excuse me, do you know where I can find good Korean restaurants in this area? By the way, my name is John. Have you ever been to South Korea?",
+            "user_response_option_en": "There's a great spot on 5th, try the bulgogi.",
+            "mission_id": "fglgvlxbzdtordht",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xclhyjbfjbdvioxe",
+            "key_phrase_en": "Bulgogi"
+        },
+        {
+            "id": "upodzitwxowowuht",
+            "ai_conversation_starter_en": "Excuse me, do you know where I can find good Korean restaurants in this area? By the way, my name is John. Have you ever been to South Korea?",
+            "user_response_option_en": "I can recommend the bibimbap at that place, it's fantastic!",
+            "mission_id": "fglgvlxbzdtordht",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "nvaylqsydvuuvquv",
+            "key_phrase_en": "Bibimbap at place"
+        },
+        {
+            "id": "jrxncpewhenqkhqy",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Have you tried any Korean food in the US that you would recommend?",
+            "user_response_option_en": "Yes, I would recommend trying bibimbap. Have you ever had it?",
+            "previous_turn_id": "sxvkmkhpufqglvpa",
+            "order": 2,
+            "next_turn_id": "zfcafnkstubwazsp",
+            "key_phrase_en": "bibimbap"
+        },
+        {
+            "id": "zdinflehwxknlbth",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Have you tried any Korean food in the US that you would recommend?",
+            "user_response_option_en": "I really like kimchi fried rice. Do you like spicy food?",
+            "previous_turn_id": "sxvkmkhpufqglvpa",
+            "order": 2,
+            "next_turn_id": "egkltxujrxqfvrwb",
+            "key_phrase_en": "Spicy food"
+        },
+        {
+            "id": "xlwwaqgaxqzgqmgu",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Have you tried any Korean food in the US that you would recommend?",
+            "user_response_option_en": "I've heard good things about bulgogi. Have you tried it before?",
+            "previous_turn_id": "sxvkmkhpufqglvpa",
+            "order": 2,
+            "next_turn_id": "qdgfrxberilmhalx",
+            "key_phrase_en": "bulgogi"
+        },
+        {
+            "id": "ubwetodkycbpfoip",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No problem, thanks for the recommendation. And have you ever been to South Korea?",
+            "user_response_option_en": "No, but my friend says it's amazing. You should go!",
+            "previous_turn_id": "gftmkycmckjigbrr",
+            "order": 2,
+            "next_turn_id": "gcqpujcvkknabbgj",
+            "key_phrase_en": "You should go"
+        },
+        {
+            "id": "shnbagminwhwsnnu",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No problem, thanks for the recommendation. And have you ever been to South Korea?",
+            "user_response_option_en": "Actually, I grew up there. It's a beautiful country.",
+            "previous_turn_id": "gftmkycmckjigbrr",
+            "order": 2,
+            "next_turn_id": "fuywvdcpairewpdq",
+            "key_phrase_en": "Beautiful country"
+        },
+        {
+            "id": "xclhyjbfjbdvioxe",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No problem, thanks for the recommendation. And have you ever been to South Korea?",
+            "user_response_option_en": "No, but I love K-pop and Korean food. What brings you here?",
+            "previous_turn_id": "gftmkycmckjigbrr",
+            "order": 2,
+            "next_turn_id": "dgqbgxnwhlmcxtlp",
+            "key_phrase_en": "Korean food"
+        },
+        {
+            "id": "csgapenvxcqgubef",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No, I haven't. Have you been there before?",
+            "user_response_option_en": "Yes, I have. Seoul's a great city to explore.",
+            "previous_turn_id": "upodzitwxowowuht",
+            "order": 2,
+            "next_turn_id": "bujtpapmhvdgmsss",
+            "key_phrase_en": "great city explore"
+        },
+        {
+            "id": "anqtkljhzdvmtwjw",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No, I haven't. Have you been there before?",
+            "user_response_option_en": "Not yet, but it's on my bucket list.",
+            "previous_turn_id": "upodzitwxowowuht",
+            "order": 2,
+            "next_turn_id": "deuwuvlkvsnjkuej",
+            "key_phrase_en": "Bucket list"
+        },
+        {
+            "id": "nvaylqsydvuuvquv",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No, I haven't. Have you been there before?",
+            "user_response_option_en": "My family's from Jeju Island, it's a popular tourist destination.",
+            "previous_turn_id": "upodzitwxowowuht",
+            "order": 2,
+            "next_turn_id": "pkdkezmkzxkkvizq",
+            "key_phrase_en": "tourist destination"
+        },
+        {
+            "id": "uporbbfzacijnjya",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No, but I'd love to try it! I've always been interested in Korean culture. Have you lived in South Korea before?",
+            "user_response_option_en": "No, but it's on my travel list. Korean dramas got me hooked. ",
+            "previous_turn_id": "jrxncpewhenqkhqy",
+            "order": 3,
+            "key_phrase_en": "Travel list"
+        },
+        {
+            "id": "vzhtfxxcinetjpya",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No, but I'd love to try it! I've always been interested in Korean culture. Have you lived in South Korea before?",
+            "user_response_option_en": "No, but my friend lived there and taught me some Korean.  ",
+            "previous_turn_id": "jrxncpewhenqkhqy",
+            "order": 3,
+            "key_phrase_en": "taught me some"
+        },
+        {
+            "id": "zfcafnkstubwazsp",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No, but I'd love to try it! I've always been interested in Korean culture. Have you lived in South Korea before?",
+            "user_response_option_en": "No, but I know a great app to learn Korean phrases. Want me to show you?",
+            "previous_turn_id": "jrxncpewhenqkhqy",
+            "order": 3,
+            "key_phrase_en": "great app"
+        },
+        {
+            "id": "wvmndkcxnqjmbwel",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Yes, I like spicy food. Have you been to South Korea before?",
+            "user_response_option_en": "No, but I would love to hear about your trip!",
+            "previous_turn_id": "zdinflehwxknlbth",
+            "order": 3,
+            "key_phrase_en": "Love to hear"
+        },
+        {
+            "id": "qsklewnolmaktsrs",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Yes, I like spicy food. Have you been to South Korea before?",
+            "user_response_option_en": "Oh, cool! What was your favorite part of South Korea?",
+            "previous_turn_id": "zdinflehwxknlbth",
+            "order": 3,
+            "key_phrase_en": "favorite part South Korea"
+        },
+        {
+            "id": "egkltxujrxqfvrwb",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Yes, I like spicy food. Have you been to South Korea before?",
+            "user_response_option_en": "I've always been interested in visiting South Korea. What did you think?",
+            "previous_turn_id": "zdinflehwxknlbth",
+            "order": 3,
+            "key_phrase_en": "South Korea"
+        },
+        {
+            "id": "cpcvfvwygobarjct",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No problem, thanks for the recommendation. By the way, have you been to South Korea?",
+            "user_response_option_en": "I haven't been, but it's definitely on my travel list.",
+            "previous_turn_id": "xlwwaqgaxqzgqmgu",
+            "order": 3,
+            "key_phrase_en": "Travel list"
+        },
+        {
+            "id": "wzugznqbdumqehzk",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No problem, thanks for the recommendation. By the way, have you been to South Korea?",
+            "user_response_option_en": "I'm actually planning a trip to Seoul next year, have you been?",
+            "previous_turn_id": "xlwwaqgaxqzgqmgu",
+            "order": 3,
+            "key_phrase_en": "trip to Seoul"
+        },
+        {
+            "id": "qdgfrxberilmhalx",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "No problem, thanks for the recommendation. By the way, have you been to South Korea?",
+            "user_response_option_en": "No, but I've heard a lot about its culture and tradition.",
+            "previous_turn_id": "xlwwaqgaxqzgqmgu",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "dnpelsdpajzubrgd",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Yeah, it was a great trip. Do you have any tips for places to visit?",
+            "user_response_option_en": "You should go to Gyeongbokgung palace and try bibimbap.",
+            "previous_turn_id": "ubwetodkycbpfoip",
+            "order": 3,
+            "key_phrase_en": "Bibimbap"
+        },
+        {
+            "id": "stpfqfkqpyhrznym",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Yeah, it was a great trip. Do you have any tips for places to visit?",
+            "user_response_option_en": "Namsan Tower and Jeju Island are popular destinations.",
+            "previous_turn_id": "ubwetodkycbpfoip",
+            "order": 3,
+            "key_phrase_en": "Popular destinations"
+        },
+        {
+            "id": "gcqpujcvkknabbgj",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Yeah, it was a great trip. Do you have any tips for places to visit?",
+            "user_response_option_en": "Visit Myeong-dong for shopping and try galbi at a local spot.",
+            "previous_turn_id": "ubwetodkycbpfoip",
+            "order": 3,
+            "key_phrase_en": "galbi and shopping"
+        },
+        {
+            "id": "wxqjjwdcraajmrwr",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that's interesting. Have you visited any other parts of South Korea besides your hometown?",
+            "user_response_option_en": "Yes, I love going to Busan for its beaches and fresh seafood.",
+            "previous_turn_id": "shnbagminwhwsnnu",
+            "order": 3,
+            "key_phrase_en": "fresh seafood"
+        },
+        {
+            "id": "wspitsxmeikkdsdp",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that's interesting. Have you visited any other parts of South Korea besides your hometown?",
+            "user_response_option_en": "I've traveled to Jeju Island for its natural wonders and traditional culture.",
+            "previous_turn_id": "shnbagminwhwsnnu",
+            "order": 3,
+            "key_phrase_en": "Jeju Island"
+        },
+        {
+            "id": "fuywvdcpairewpdq",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that's interesting. Have you visited any other parts of South Korea besides your hometown?",
+            "user_response_option_en": "I've been to Seoul many times, it's a bustling city with a rich history.",
+            "previous_turn_id": "shnbagminwhwsnnu",
+            "order": 3,
+            "key_phrase_en": "Bustling city"
+        },
+        {
+            "id": "qnjqwheuowqsuror",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "I'm here to explore America. Have you visited any other countries?",
+            "user_response_option_en": "No, have you traveled abroad before?\" ",
+            "previous_turn_id": "xclhyjbfjbdvioxe",
+            "order": 3,
+            "key_phrase_en": "Abroad before"
+        },
+        {
+            "id": "pbrwwyfpzaubxcxh",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "I'm here to explore America. Have you visited any other countries?",
+            "user_response_option_en": "Yes, where have you been?\" ",
+            "previous_turn_id": "xclhyjbfjbdvioxe",
+            "order": 3,
+            "key_phrase_en": "Where have you been?"
+        },
+        {
+            "id": "dgqbgxnwhlmcxtlp",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "I'm here to explore America. Have you visited any other countries?",
+            "user_response_option_en": "No, but I've always wanted to travel to Asia. How about you?",
+            "previous_turn_id": "xclhyjbfjbdvioxe",
+            "order": 3,
+            "key_phrase_en": "travel to Asia"
+        },
+        {
+            "id": "wtlatpogludptuer",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that sounds interesting. Do you have any recommendations on places to visit?",
+            "user_response_option_en": "You should visit Gyeongbokgung Palace, it's breathtaking.",
+            "previous_turn_id": "csgapenvxcqgubef",
+            "order": 3,
+            "key_phrase_en": "Gyeongbokgung Palace"
+        },
+        {
+            "id": "tnjodbffidnbhdhv",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that sounds interesting. Do you have any recommendations on places to visit?",
+            "user_response_option_en": "If you go to Busan, check out Haeundae Beach for a great view.",
+            "previous_turn_id": "csgapenvxcqgubef",
+            "order": 3,
+            "key_phrase_en": "Haeundae Beach"
+        },
+        {
+            "id": "bujtpapmhvdgmsss",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that sounds interesting. Do you have any recommendations on places to visit?",
+            "user_response_option_en": "In Jeju Island, I'd recommend going to Seongsan Ilchulbong Peak.",
+            "previous_turn_id": "csgapenvxcqgubef",
+            "order": 3,
+            "key_phrase_en": "Jeju Island"
+        },
+        {
+            "id": "ljmkmtvqjxufhcaq",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "I highly recommend visiting. It's a beautiful country with amazing food and culture.",
+            "user_response_option_en": "You must try the street food, it's so delicious in Seoul.",
+            "previous_turn_id": "anqtkljhzdvmtwjw",
+            "order": 3,
+            "key_phrase_en": "Street food"
+        },
+        {
+            "id": "hdmkzmkaoxquomsn",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "I highly recommend visiting. It's a beautiful country with amazing food and culture.",
+            "user_response_option_en": "Don't forget to visit Jeju island, it's a paradise.",
+            "previous_turn_id": "anqtkljhzdvmtwjw",
+            "order": 3,
+            "key_phrase_en": "Jeju island"
+        },
+        {
+            "id": "deuwuvlkvsnjkuej",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "I highly recommend visiting. It's a beautiful country with amazing food and culture.",
+            "user_response_option_en": "If you're into K-pop, you'll love the entertainment scene in Korea.",
+            "previous_turn_id": "anqtkljhzdvmtwjw",
+            "order": 3,
+            "key_phrase_en": "K-pop Entertainment"
+        },
+        {
+            "id": "ffgaqzatcvtoiihl",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that's interesting! Have you visited there?",
+            "user_response_option_en": "No, but my grandparents used to tell stories about it.",
+            "previous_turn_id": "nvaylqsydvuuvquv",
+            "order": 3,
+            "key_phrase_en": "used to tell"
+        },
+        {
+            "id": "nnikocejgwayvpfr",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that's interesting! Have you visited there?",
+            "user_response_option_en": "Sadly, no. But I would love to go someday. ",
+            "previous_turn_id": "nvaylqsydvuuvquv",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "pkdkezmkzxkkvizq",
+            "mission_id": "fglgvlxbzdtordht",
+            "ai_conversation_starter_en": "Oh, that's interesting! Have you visited there?",
+            "user_response_option_en": "I haven't had the chance yet, it's on my bucket list.",
+            "previous_turn_id": "nvaylqsydvuuvquv",
+            "order": 3,
+            "key_phrase_en": "Bucket list"
+        }
+    ]
+}

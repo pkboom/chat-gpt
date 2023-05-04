@@ -1,0 +1,370 @@
+{
+    "id": "daerxfftgktgawsr",
+    "title": "The guest needs to request a wake-up call",
+    "order": 6,
+    "turns": [
+        {
+            "id": "stayfhmuxjbvzqxs",
+            "ai_conversation_starter_en": "Welcome to our hotel! How may I assist you today?",
+            "user_response_option_en": "Can I please request a wake-up call for 6:30 AM?",
+            "mission_id": "daerxfftgktgawsr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "oqzigpbfawyeifpn",
+            "key_phrase_en": "Wake-up call"
+        },
+        {
+            "id": "zwrwccgtrgsnvene",
+            "ai_conversation_starter_en": "Welcome to our hotel! How may I assist you today?",
+            "user_response_option_en": "I need a wake-up call at 7 AM, please.",
+            "mission_id": "daerxfftgktgawsr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "fhtvgkjsebepicff",
+            "key_phrase_en": "Wake-up call"
+        },
+        {
+            "id": "mjklbadrgsxapndl",
+            "ai_conversation_starter_en": "Welcome to our hotel! How may I assist you today?",
+            "user_response_option_en": "Could you set a wake-up call for me at 5:45 AM tomorrow?",
+            "mission_id": "daerxfftgktgawsr",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xzwhvxuxszpjadbi",
+            "key_phrase_en": "Wake-up call"
+        },
+        {
+            "id": "yprvfxoblnpphndv",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a wake-up call for you at 6:30 AM.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "stayfhmuxjbvzqxs",
+            "order": 2,
+            "next_turn_id": "kptoucdwxgpwtkco",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "qzlnoeaxelqqzxdp",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a wake-up call for you at 6:30 AM.",
+            "user_response_option_en": "I appreciate your assistance, have a good day.",
+            "previous_turn_id": "stayfhmuxjbvzqxs",
+            "order": 2,
+            "next_turn_id": "fkbeinqaijltprbd",
+            "key_phrase_en": "Have a good day"
+        },
+        {
+            "id": "oqzigpbfawyeifpn",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we can arrange a wake-up call for you at 6:30 AM.",
+            "user_response_option_en": "Could you also please provide me with a map of the city?",
+            "previous_turn_id": "stayfhmuxjbvzqxs",
+            "order": 2,
+            "next_turn_id": "edagfurwrakaznep",
+            "key_phrase_en": "provide map city"
+        },
+        {
+            "id": "bmtlesmlavmdwegi",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we'll schedule a wake-up call for you at 7 AM, Ms. Kim.",
+            "user_response_option_en": "Thank you! That's very helpful.",
+            "previous_turn_id": "zwrwccgtrgsnvene",
+            "order": 2,
+            "next_turn_id": "jfqihrvhiraerwxq",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "xkviaclmhbmkznyj",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we'll schedule a wake-up call for you at 7 AM, Ms. Kim.",
+            "user_response_option_en": "Just to confirm, it's for tomorrow, right?",
+            "previous_turn_id": "zwrwccgtrgsnvene",
+            "order": 2,
+            "next_turn_id": "rffntzkyqbabwjku",
+            "key_phrase_en": "confirm for tomorrow"
+        },
+        {
+            "id": "fhtvgkjsebepicff",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we'll schedule a wake-up call for you at 7 AM, Ms. Kim.",
+            "user_response_option_en": "Is it possible to reschedule it to 6:30 AM instead?",
+            "previous_turn_id": "zwrwccgtrgsnvene",
+            "order": 2,
+            "next_turn_id": "mpnovzystozscpot",
+            "key_phrase_en": "reschedule to 6:30 AM"
+        },
+        {
+            "id": "bgcructmcleuefeq",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Absolutely, I can set a wake-up call for you at 5:45 AM tomorrow.",
+            "user_response_option_en": "Can you confirm the wake-up call in the morning, please?",
+            "previous_turn_id": "mjklbadrgsxapndl",
+            "order": 2,
+            "next_turn_id": "uprekxabbmwavaac",
+            "key_phrase_en": "Wake-up call"
+        },
+        {
+            "id": "paypeimzwxcqfbez",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Absolutely, I can set a wake-up call for you at 5:45 AM tomorrow.",
+            "user_response_option_en": "Is there a charge for the wake-up call service?",
+            "previous_turn_id": "mjklbadrgsxapndl",
+            "order": 2,
+            "next_turn_id": "djnehjzjtbdgwhif",
+            "key_phrase_en": "Wake-up call service"
+        },
+        {
+            "id": "xzwhvxuxszpjadbi",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Absolutely, I can set a wake-up call for you at 5:45 AM tomorrow.",
+            "user_response_option_en": "Could you please advise me on how to cancel the wake-up call?",
+            "previous_turn_id": "mjklbadrgsxapndl",
+            "order": 2,
+            "next_turn_id": "gadnkqsrtaeihkpu",
+            "key_phrase_en": "Cancel wake-up call"
+        },
+        {
+            "id": "bxjwezvaldrauxdx",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "You're welcome, Iris. Is there anything else you need assistance with?",
+            "user_response_option_en": "Yes, can you also make a dinner reservation for me?",
+            "previous_turn_id": "yprvfxoblnpphndv",
+            "order": 3,
+            "key_phrase_en": "make reservation"
+        },
+        {
+            "id": "urtdqvbsnbrgyzks",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "You're welcome, Iris. Is there anything else you need assistance with?",
+            "user_response_option_en": "No, that's all for now. Thank you.",
+            "previous_turn_id": "yprvfxoblnpphndv",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kptoucdwxgpwtkco",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "You're welcome, Iris. Is there anything else you need assistance with?",
+            "user_response_option_en": "Can you recommend a good coffee shop nearby?",
+            "previous_turn_id": "yprvfxoblnpphndv",
+            "order": 3,
+            "key_phrase_en": "coffee shop nearby"
+        },
+        {
+            "id": "dakhihtlgqiwlxnr",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Sure, may I also schedule a wake-up call request for tomorrow?",
+            "user_response_option_en": "Yes, that works. Thank you.",
+            "previous_turn_id": "qzlnoeaxelqqzxdp",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "xzdzbsexwxpuxljb",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Sure, may I also schedule a wake-up call request for tomorrow?",
+            "user_response_option_en": "That would be great. Thanks a lot.",
+            "previous_turn_id": "qzlnoeaxelqqzxdp",
+            "order": 3,
+            "key_phrase_en": "Thanks a lot"
+        },
+        {
+            "id": "fkbeinqaijltprbd",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Sure, may I also schedule a wake-up call request for tomorrow?",
+            "user_response_option_en": "Sounds perfect. Appreciate your help.",
+            "previous_turn_id": "qzlnoeaxelqqzxdp",
+            "order": 3,
+            "key_phrase_en": "Appreciate your help"
+        },
+        {
+            "id": "ulcjbvdnyopnqzic",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Sure, we can schedule a wake-up call for you. What time would you like to be woken up?",
+            "user_response_option_en": "Can you please wake me up at 6:30 tomorrow morning?",
+            "previous_turn_id": "oqzigpbfawyeifpn",
+            "order": 3,
+            "key_phrase_en": "Wake me up"
+        },
+        {
+            "id": "hwhmwnexzdsfwcun",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Sure, we can schedule a wake-up call for you. What time would you like to be woken up?",
+            "user_response_option_en": "I would like a wake-up call set for 6:30am, please.",
+            "previous_turn_id": "oqzigpbfawyeifpn",
+            "order": 3,
+            "key_phrase_en": "wake-up call"
+        },
+        {
+            "id": "edagfurwrakaznep",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Sure, we can schedule a wake-up call for you. What time would you like to be woken up?",
+            "user_response_option_en": "Could you wake me up at 6:30 in the morning? Thank you.",
+            "previous_turn_id": "oqzigpbfawyeifpn",
+            "order": 3,
+            "key_phrase_en": "wake me up"
+        },
+        {
+            "id": "eevvrioicvwycywc",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Great! Is there anything else I can help you with, Ms. Kim?",
+            "user_response_option_en": "Do you have a shuttle service to the airport?",
+            "previous_turn_id": "bmtlesmlavmdwegi",
+            "order": 3,
+            "key_phrase_en": "Shuttle service"
+        },
+        {
+            "id": "yltvrqvrilzcldmr",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Great! Is there anything else I can help you with, Ms. Kim?",
+            "user_response_option_en": "Can I reserve dinner at the hotel restaurant tonight?",
+            "previous_turn_id": "bmtlesmlavmdwegi",
+            "order": 3,
+            "key_phrase_en": "Reserve dinner tonight"
+        },
+        {
+            "id": "jfqihrvhiraerwxq",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Great! Is there anything else I can help you with, Ms. Kim?",
+            "user_response_option_en": "Could you recommend a tourist attraction nearby?",
+            "previous_turn_id": "bmtlesmlavmdwegi",
+            "order": 3,
+            "key_phrase_en": "tourist attraction nearby"
+        },
+        {
+            "id": "qubsxsnwvaqmnwoj",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Yes, the wake-up call will be scheduled for tomorrow morning.",
+            "user_response_option_en": "Thank you. Is there a snooze option? ",
+            "previous_turn_id": "xkviaclmhbmkznyj",
+            "order": 3,
+            "key_phrase_en": "Snooze option"
+        },
+        {
+            "id": "vadguheuxgxtklws",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Yes, the wake-up call will be scheduled for tomorrow morning.",
+            "user_response_option_en": "Great, also a late checkout at 1 pm, please.",
+            "previous_turn_id": "xkviaclmhbmkznyj",
+            "order": 3,
+            "key_phrase_en": "late checkout"
+        },
+        {
+            "id": "rffntzkyqbabwjku",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Yes, the wake-up call will be scheduled for tomorrow morning.",
+            "user_response_option_en": "Can I have a room service menu as well?",
+            "previous_turn_id": "xkviaclmhbmkznyj",
+            "order": 3,
+            "key_phrase_en": "room service menu"
+        },
+        {
+            "id": "btgzbfyjxodqankh",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Of course, we'll reschedule your wake-up call to 6:30 AM. No problem, Ms. Kim.",
+            "user_response_option_en": "Thank you, that's perfect!",
+            "previous_turn_id": "fhtvgkjsebepicff",
+            "order": 3,
+            "key_phrase_en": "perfect"
+        },
+        {
+            "id": "titjeofkxeyyndyv",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Of course, we'll reschedule your wake-up call to 6:30 AM. No problem, Ms. Kim.",
+            "user_response_option_en": "Could you please double-check my wake-up call?",
+            "previous_turn_id": "fhtvgkjsebepicff",
+            "order": 3,
+            "key_phrase_en": "wake-up call"
+        },
+        {
+            "id": "mpnovzystozscpot",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Of course, we'll reschedule your wake-up call to 6:30 AM. No problem, Ms. Kim.",
+            "user_response_option_en": "I really appreciate your help, thank you so much.",
+            "previous_turn_id": "fhtvgkjsebepicff",
+            "order": 3,
+            "key_phrase_en": "Thank you so much"
+        },
+        {
+            "id": "vvdowxihtbtswcxt",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we will confirm the wake-up call for you in the morning. Have a pleasant stay!",
+            "user_response_option_en": "Thank you. I appreciate it.",
+            "previous_turn_id": "bgcructmcleuefeq",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "fwfftzazltulikns",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we will confirm the wake-up call for you in the morning. Have a pleasant stay!",
+            "user_response_option_en": "I'm counting on it. Thank you again.",
+            "previous_turn_id": "bgcructmcleuefeq",
+            "order": 3,
+            "key_phrase_en": "Counting on it"
+        },
+        {
+            "id": "uprekxabbmwavaac",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "Certainly, we will confirm the wake-up call for you in the morning. Have a pleasant stay!",
+            "user_response_option_en": "That's great. Thanks a lot.",
+            "previous_turn_id": "bgcructmcleuefeq",
+            "order": 3,
+            "key_phrase_en": "Thanks a lot"
+        },
+        {
+            "id": "prdlyyetunynwfov",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "No, our wake-up call service is complimentary.",
+            "user_response_option_en": "Thank you, that's great customer service.",
+            "previous_turn_id": "paypeimzwxcqfbez",
+            "order": 3,
+            "key_phrase_en": "Great customer service"
+        },
+        {
+            "id": "vaqwuggomgwzxngr",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "No, our wake-up call service is complimentary.",
+            "user_response_option_en": "I really appreciate your help.",
+            "previous_turn_id": "paypeimzwxcqfbez",
+            "order": 3,
+            "key_phrase_en": "Appreciate help"
+        },
+        {
+            "id": "djnehjzjtbdgwhif",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "No, our wake-up call service is complimentary.",
+            "user_response_option_en": "That's very kind of you, thanks for all your assistance.",
+            "previous_turn_id": "paypeimzwxcqfbez",
+            "order": 3,
+            "key_phrase_en": "Very kind"
+        },
+        {
+            "id": "ylffknbdyydylfsl",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "To cancel the wake-up call, simply call the front desk and let us know.",
+            "user_response_option_en": "Can you make sure to give me a wake-up call at 6 AM?",
+            "previous_turn_id": "xzwhvxuxszpjadbi",
+            "order": 3,
+            "key_phrase_en": "Wake-up call"
+        },
+        {
+            "id": "qzznashywodgyzjf",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "To cancel the wake-up call, simply call the front desk and let us know.",
+            "user_response_option_en": "I'd appreciate it if you could set a morning alarm for me.",
+            "previous_turn_id": "xzwhvxuxszpjadbi",
+            "order": 3,
+            "key_phrase_en": "Morning alarm"
+        },
+        {
+            "id": "gadnkqsrtaeihkpu",
+            "mission_id": "daerxfftgktgawsr",
+            "ai_conversation_starter_en": "To cancel the wake-up call, simply call the front desk and let us know.",
+            "user_response_option_en": "Would it be possible to schedule a wake-up call at 7 tomorrow?",
+            "previous_turn_id": "xzwhvxuxszpjadbi",
+            "order": 3,
+            "key_phrase_en": "Wake-up call"
+        }
+    ]
+}

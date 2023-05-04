@@ -1,0 +1,370 @@
+{
+    "id": "yhntbhwenhukutnm",
+    "title": "Having to rush through the store due to limited time before boarding your flight.",
+    "order": 6,
+    "turns": [
+        {
+            "id": "svdizizvrqtijtjm",
+            "ai_conversation_starter_en": "Hi there, can I help you find anything specific? You seem a bit rushed, are you trying to catch a flight soon?",
+            "user_response_option_en": "Yes, looking for souvenirs. Show me the options please.",
+            "mission_id": "yhntbhwenhukutnm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qqhvmctyushjvjtj",
+            "key_phrase_en": "options"
+        },
+        {
+            "id": "bremzovunrajfgyz",
+            "ai_conversation_starter_en": "Hi there, can I help you find anything specific? You seem a bit rushed, are you trying to catch a flight soon?",
+            "user_response_option_en": "No time for browsing, just essentials. Can you direct me?",
+            "mission_id": "yhntbhwenhukutnm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ymskeesawnibiggf",
+            "key_phrase_en": "Just essentials"
+        },
+        {
+            "id": "ftiumckgpjoaamld",
+            "ai_conversation_starter_en": "Hi there, can I help you find anything specific? You seem a bit rushed, are you trying to catch a flight soon?",
+            "user_response_option_en": "Yes, terminal A gate 15. Need to hurry. Please help.",
+            "mission_id": "yhntbhwenhukutnm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dwueqfiesodrlluk",
+            "key_phrase_en": "Terminal A gate 15"
+        },
+        {
+            "id": "zlwldigfcsjppqzs",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Here are our top souvenirs by the counter. You can quickly check them out while heading to the gate.",
+            "user_response_option_en": "Great, thank you for your help. Will check souvenirs now!",
+            "previous_turn_id": "svdizizvrqtijtjm",
+            "order": 2,
+            "next_turn_id": "udoyqguocdjuhkda",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gnlcarxivcjzzdlz",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Here are our top souvenirs by the counter. You can quickly check them out while heading to the gate.",
+            "user_response_option_en": "Okay, I have only 10 minutes. Recommend me one souvenir?",
+            "previous_turn_id": "svdizizvrqtijtjm",
+            "order": 2,
+            "next_turn_id": "hbbfguhupraueiqm",
+            "key_phrase_en": "souvenir recommendation"
+        },
+        {
+            "id": "qqhvmctyushjvjtj",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Here are our top souvenirs by the counter. You can quickly check them out while heading to the gate.",
+            "user_response_option_en": "Sorry, I'm late. Show me top-sellers souvenirs, please.",
+            "previous_turn_id": "svdizizvrqtijtjm",
+            "order": 2,
+            "next_turn_id": "asukkkbfgcwhnlmd",
+            "key_phrase_en": "top-sellers souvenirs"
+        },
+        {
+            "id": "udkghyftgrdyzgmu",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Absolutely, follow me to the essentials section. Have a safe flight!",
+            "user_response_option_en": "Thank you for helping me. What's the price of this perfume?",
+            "previous_turn_id": "bremzovunrajfgyz",
+            "order": 2,
+            "next_turn_id": "iyuntpgskzsejgvf",
+            "key_phrase_en": "price of"
+        },
+        {
+            "id": "okifiioyconvwcvq",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Absolutely, follow me to the essentials section. Have a safe flight!",
+            "user_response_option_en": "I need a travel adapter. Is it available here?",
+            "previous_turn_id": "bremzovunrajfgyz",
+            "order": 2,
+            "next_turn_id": "aqpybkzmkytqkdou",
+            "key_phrase_en": "travel adapter"
+        },
+        {
+            "id": "ymskeesawnibiggf",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Absolutely, follow me to the essentials section. Have a safe flight!",
+            "user_response_option_en": "Can you suggest any quick snacks for the flight?",
+            "previous_turn_id": "bremzovunrajfgyz",
+            "order": 2,
+            "next_turn_id": "pdptuvhvdkrapbek",
+            "key_phrase_en": "quick snacks"
+        },
+        {
+            "id": "xsyrnaissashgskj",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Alright, follow me. We'll go to Terminal A and I'll direct you to Gate 15.",
+            "user_response_option_en": "Thank you, please hurry.",
+            "previous_turn_id": "ftiumckgpjoaamld",
+            "order": 2,
+            "next_turn_id": "jkmuccidnhefwzhm",
+            "key_phrase_en": "please hurry"
+        },
+        {
+            "id": "wedfxuivaviumwrt",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Alright, follow me. We'll go to Terminal A and I'll direct you to Gate 15.",
+            "user_response_option_en": "I appreciate your help.",
+            "previous_turn_id": "ftiumckgpjoaamld",
+            "order": 2,
+            "next_turn_id": "ssjedwahcedjpkhf",
+            "key_phrase_en": "appreciate your help"
+        },
+        {
+            "id": "dwueqfiesodrlluk",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Alright, follow me. We'll go to Terminal A and I'll direct you to Gate 15.",
+            "user_response_option_en": "Can you suggest a faster route?",
+            "previous_turn_id": "ftiumckgpjoaamld",
+            "order": 2,
+            "next_turn_id": "korftdpfwwtbwfyo",
+            "key_phrase_en": "faster route"
+        },
+        {
+            "id": "uboeqadreyehfevo",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Don't forget to check the magazine section near the gate. Safe travels!",
+            "user_response_option_en": "Thank you, have a nice day!",
+            "previous_turn_id": "zlwldigfcsjppqzs",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nhgvzajcjomuwibl",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Don't forget to check the magazine section near the gate. Safe travels!",
+            "user_response_option_en": "I appreciate your help.",
+            "previous_turn_id": "zlwldigfcsjppqzs",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "udoyqguocdjuhkda",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Don't forget to check the magazine section near the gate. Safe travels!",
+            "user_response_option_en": "Will do, magazine section near gate.",
+            "previous_turn_id": "zlwldigfcsjppqzs",
+            "order": 3,
+            "key_phrase_en": "Magazine section"
+        },
+        {
+            "id": "oxkbifjnldmxrywt",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Our bestseller is this plaid scarf. Great gift and duty-free price.",
+            "user_response_option_en": "Do you have other colors for this scarf?\"",
+            "previous_turn_id": "gnlcarxivcjzzdlz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "jeqaxkuoruwozspg",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Our bestseller is this plaid scarf. Great gift and duty-free price.",
+            "user_response_option_en": "I'll take the scarf. Can you wrap it as a gift?\"",
+            "previous_turn_id": "gnlcarxivcjzzdlz",
+            "order": 3,
+            "key_phrase_en": "wrap it as"
+        },
+        {
+            "id": "hbbfguhupraueiqm",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Our bestseller is this plaid scarf. Great gift and duty-free price.",
+            "user_response_option_en": "Sorry, I don't have time. Maybe next time.\"",
+            "previous_turn_id": "gnlcarxivcjzzdlz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wwodwctpiilmdvgb",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Sure thing, our top-selling souvenirs are right over here. Take a quick look!",
+            "user_response_option_en": "Thanks, I need souvenir for cousin.",
+            "previous_turn_id": "qqhvmctyushjvjtj",
+            "order": 3,
+            "key_phrase_en": "souvenir for cousin"
+        },
+        {
+            "id": "drayewvnfoqkzdto",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Sure thing, our top-selling souvenirs are right over here. Take a quick look!",
+            "user_response_option_en": "Check final price, don't have much time.",
+            "previous_turn_id": "qqhvmctyushjvjtj",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "asukkkbfgcwhnlmd",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Sure thing, our top-selling souvenirs are right over here. Take a quick look!",
+            "user_response_option_en": "Can you suggest, for someone who loves coffee?",
+            "previous_turn_id": "qqhvmctyushjvjtj",
+            "order": 3,
+            "key_phrase_en": "Loves coffee"
+        },
+        {
+            "id": "zmocaghqkzzoetvd",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "It's priced at $50. Would you like me to wrap it up for you?",
+            "user_response_option_en": "Yes, wrap it up please.",
+            "previous_turn_id": "udkghyftgrdyzgmu",
+            "order": 3,
+            "key_phrase_en": "Wrap it up"
+        },
+        {
+            "id": "mdieomfpthnduhho",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "It's priced at $50. Would you like me to wrap it up for you?",
+            "user_response_option_en": "No, thank you. Can you suggest similar scents?",
+            "previous_turn_id": "udkghyftgrdyzgmu",
+            "order": 3,
+            "key_phrase_en": "similar scents"
+        },
+        {
+            "id": "iyuntpgskzsejgvf",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "It's priced at $50. Would you like me to wrap it up for you?",
+            "user_response_option_en": "Sorry, can't decide now. Can I pay at the boarding gate?",
+            "previous_turn_id": "udkghyftgrdyzgmu",
+            "order": 3,
+            "key_phrase_en": "boarding gate"
+        },
+        {
+            "id": "bwsfdqiholwepwhi",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Yes, we have a selection of travel adapters here, let me show you.",
+            "user_response_option_en": "Thank you, that's exactly what I was looking for!",
+            "previous_turn_id": "okifiioyconvwcvq",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "ddihagxsjynvnzgz",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Yes, we have a selection of travel adapters here, let me show you.",
+            "user_response_option_en": "Great, I need one that works in the USA.",
+            "previous_turn_id": "okifiioyconvwcvq",
+            "order": 3,
+            "key_phrase_en": "Works in USA"
+        },
+        {
+            "id": "aqpybkzmkytqkdou",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Yes, we have a selection of travel adapters here, let me show you.",
+            "user_response_option_en": "Do you have a universal adapter that works in multiple countries?",
+            "previous_turn_id": "okifiioyconvwcvq",
+            "order": 3,
+            "key_phrase_en": "Universal adapter"
+        },
+        {
+            "id": "fyvtwnsiqhutqepw",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Trail mix or beef jerky are great options for a quick snack. They are right over here.",
+            "user_response_option_en": "Perfect, thank you. How much are they?",
+            "previous_turn_id": "ymskeesawnibiggf",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nhklwduudpuogoqx",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Trail mix or beef jerky are great options for a quick snack. They are right over here.",
+            "user_response_option_en": "Do you have any with dried fruit or nuts?",
+            "previous_turn_id": "ymskeesawnibiggf",
+            "order": 3,
+            "key_phrase_en": "Dried fruit"
+        },
+        {
+            "id": "pdptuvhvdkrapbek",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Trail mix or beef jerky are great options for a quick snack. They are right over here.",
+            "user_response_option_en": "I'll take both, can you put them in a bag?",
+            "previous_turn_id": "ymskeesawnibiggf",
+            "order": 3,
+            "key_phrase_en": "put in bag"
+        },
+        {
+            "id": "wswmqdwurezediga",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "I understand. Take your time, I'll make sure you get there on time.",
+            "user_response_option_en": "Thank you for your help.",
+            "previous_turn_id": "xsyrnaissashgskj",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qpulpscpdgpjrwwp",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "I understand. Take your time, I'll make sure you get there on time.",
+            "user_response_option_en": "I appreciate your kindness.",
+            "previous_turn_id": "xsyrnaissashgskj",
+            "order": 3,
+            "key_phrase_en": "appreciate your kindness"
+        },
+        {
+            "id": "jkmuccidnhefwzhm",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "I understand. Take your time, I'll make sure you get there on time.",
+            "user_response_option_en": "Your help means a lot.",
+            "previous_turn_id": "xsyrnaissashgskj",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "qhbfrlerluqrocpf",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "No problem. Is there anything you're looking for specifically? Let's grab it and head to Gate 15.",
+            "user_response_option_en": "Just water, please. Thank you.",
+            "previous_turn_id": "wedfxuivaviumwrt",
+            "order": 3,
+            "key_phrase_en": "Just water, please"
+        },
+        {
+            "id": "lbilhsdfvxgcgguz",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "No problem. Is there anything you're looking for specifically? Let's grab it and head to Gate 15.",
+            "user_response_option_en": "Perfume, do you have any?",
+            "previous_turn_id": "wedfxuivaviumwrt",
+            "order": 3,
+            "key_phrase_en": "Perfume, any?"
+        },
+        {
+            "id": "ssjedwahcedjpkhf",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "No problem. Is there anything you're looking for specifically? Let's grab it and head to Gate 15.",
+            "user_response_option_en": "Quickly, candy for kids?",
+            "previous_turn_id": "wedfxuivaviumwrt",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "lqqwvlhszgwokmzb",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Yes, follow me through this shortcut to gate 15.",
+            "user_response_option_en": "Thank you for helping me, I appreciate it.",
+            "previous_turn_id": "dwueqfiesodrlluk",
+            "order": 3,
+            "key_phrase_en": "Appreciate it"
+        },
+        {
+            "id": "gmsmtegsuosxtrsm",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Yes, follow me through this shortcut to gate 15.",
+            "user_response_option_en": "Please, go fast, the flight is soon!",
+            "previous_turn_id": "dwueqfiesodrlluk",
+            "order": 3,
+            "key_phrase_en": "go fast"
+        },
+        {
+            "id": "korftdpfwwtbwfyo",
+            "mission_id": "yhntbhwenhukutnm",
+            "ai_conversation_starter_en": "Yes, follow me through this shortcut to gate 15.",
+            "user_response_option_en": "I need to buy something quickly, can you suggest where?",
+            "previous_turn_id": "dwueqfiesodrlluk",
+            "order": 3,
+            "key_phrase_en": "buy something quickly"
+        }
+    ]
+}

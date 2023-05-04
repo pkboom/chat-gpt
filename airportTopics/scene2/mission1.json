@@ -1,0 +1,370 @@
+{
+    "id": "ephahwypswydgoka",
+    "title": "Being asked to remove your shoes, belt, and other personal items during the security screening.",
+    "order": 1,
+    "turns": [
+        {
+            "id": "eojujhjsbwoirajo",
+            "ai_conversation_starter_en": "Hello, are you ready to go through the security screening process? Please place all your carry-on luggage on the conveyor belt along with your shoes, belt, and any other personal items.",
+            "user_response_option_en": "Sure, I'll take off shoes, belt, and other items now.",
+            "mission_id": "ephahwypswydgoka",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "bbeayfdzfrmghqqh",
+            "key_phrase_en": "Take off"
+        },
+        {
+            "id": "lhhykwyckdbixubm",
+            "ai_conversation_starter_en": "Hello, are you ready to go through the security screening process? Please place all your carry-on luggage on the conveyor belt along with your shoes, belt, and any other personal items.",
+            "user_response_option_en": "Okay, I understand. Putting everything on the conveyor belt.",
+            "mission_id": "ephahwypswydgoka",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "gobbytidpkpttbtk",
+            "key_phrase_en": "conveyor belt"
+        },
+        {
+            "id": "pkowsumltbaevkyy",
+            "ai_conversation_starter_en": "Hello, are you ready to go through the security screening process? Please place all your carry-on luggage on the conveyor belt along with your shoes, belt, and any other personal items.",
+            "user_response_option_en": "Thank you for reminding me. Removing shoes, belt, and personal items.",
+            "mission_id": "ephahwypswydgoka",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dfxecqoxcqgwjeqx",
+            "key_phrase_en": "reminding me"
+        },
+        {
+            "id": "kgyhpioijssobley",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step through the metal detector when you're ready.",
+            "user_response_option_en": "Can I keep the watch on?",
+            "previous_turn_id": "eojujhjsbwoirajo",
+            "order": 2,
+            "next_turn_id": "tcyhhldzzupzbwfy",
+            "key_phrase_en": "keep the watch on"
+        },
+        {
+            "id": "zpbfqvjtqbqqexfw",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step through the metal detector when you're ready.",
+            "user_response_option_en": "I have medical shoes.",
+            "previous_turn_id": "eojujhjsbwoirajo",
+            "order": 2,
+            "next_turn_id": "izmqyywlfbhxtmqo",
+            "key_phrase_en": "medical shoes"
+        },
+        {
+            "id": "bbeayfdzfrmghqqh",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step through the metal detector when you're ready.",
+            "user_response_option_en": "Do I need to take off earrings?",
+            "previous_turn_id": "eojujhjsbwoirajo",
+            "order": 2,
+            "next_turn_id": "yikidwvjxzwiwzmp",
+            "key_phrase_en": "take off earrings"
+        },
+        {
+            "id": "bclyudrgmrlwonwy",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you. Please step forward and stand on the footprints for a body scan.",
+            "user_response_option_en": "Okay, I'll remove my shoes, belt, and personal items for the scan.",
+            "previous_turn_id": "lhhykwyckdbixubm",
+            "order": 2,
+            "next_turn_id": "mljttxtwsaztssui",
+            "key_phrase_en": "personal items"
+        },
+        {
+            "id": "xoyemdjfnojifihl",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you. Please step forward and stand on the footprints for a body scan.",
+            "user_response_option_en": "Understood. Stand on the footprints for the body scan.",
+            "previous_turn_id": "lhhykwyckdbixubm",
+            "order": 2,
+            "next_turn_id": "vdsbxvyokusbofjo",
+            "key_phrase_en": "body scan"
+        },
+        {
+            "id": "gobbytidpkpttbtk",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you. Please step forward and stand on the footprints for a body scan.",
+            "user_response_option_en": "No problem. Removing shoes, belt, and personal items now.",
+            "previous_turn_id": "lhhykwyckdbixubm",
+            "order": 2,
+            "next_turn_id": "mpdxwathmvlorblk",
+            "key_phrase_en": "Removing shoes, belt"
+        },
+        {
+            "id": "kanwnnhbpgzhgwfr",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please place all items in the bin to go through the scanner.",
+            "user_response_option_en": "Okay, putting all items in bin. Thanks.",
+            "previous_turn_id": "pkowsumltbaevkyy",
+            "order": 2,
+            "next_turn_id": "hprrlnioylscaiac",
+            "key_phrase_en": "putting all items"
+        },
+        {
+            "id": "pdpfcdkiyiawjylo",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please place all items in the bin to go through the scanner.",
+            "user_response_option_en": "Sure thing, here are my items. Thanks.",
+            "previous_turn_id": "pkowsumltbaevkyy",
+            "order": 2,
+            "next_turn_id": "pwrapsskgggwlqsh",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "dfxecqoxcqgwjeqx",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please place all items in the bin to go through the scanner.",
+            "user_response_option_en": "No problem, all set. Thanks for the reminder.",
+            "previous_turn_id": "pkowsumltbaevkyy",
+            "order": 2,
+            "next_turn_id": "mudjwwnwtznfrfye",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vqffmxvkrwtzjshs",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Yes, you can keep your watch on.",
+            "user_response_option_en": "Thank you, I will remove shoes and belt now.",
+            "previous_turn_id": "kgyhpioijssobley",
+            "order": 3,
+            "key_phrase_en": "Remove shoes and belt"
+        },
+        {
+            "id": "shjsqqhzskaovkrn",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Yes, you can keep your watch on.",
+            "user_response_option_en": "Okay, I will take off items except watch.",
+            "previous_turn_id": "kgyhpioijssobley",
+            "order": 3,
+            "key_phrase_en": "take off items"
+        },
+        {
+            "id": "tcyhhldzzupzbwfy",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Yes, you can keep your watch on.",
+            "user_response_option_en": "Okay, I'll remove shoes, belt, and items. Watch is okay.",
+            "previous_turn_id": "kgyhpioijssobley",
+            "order": 3,
+            "key_phrase_en": "remove shoes belt"
+        },
+        {
+            "id": "avcvoecmshhemllf",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "That's no problem, please notify the agent before stepping through the metal detector.",
+            "user_response_option_en": "I have medical documentation for my shoes.",
+            "previous_turn_id": "zpbfqvjtqbqqexfw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vqagemqwtjdavnsx",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "That's no problem, please notify the agent before stepping through the metal detector.",
+            "user_response_option_en": "I usually wear these shoes for medical reasons.",
+            "previous_turn_id": "zpbfqvjtqbqqexfw",
+            "order": 3,
+            "key_phrase_en": "medical reasons"
+        },
+        {
+            "id": "izmqyywlfbhxtmqo",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "That's no problem, please notify the agent before stepping through the metal detector.",
+            "user_response_option_en": "I have a metal plate in my shoe, is that okay?",
+            "previous_turn_id": "zpbfqvjtqbqqexfw",
+            "order": 3,
+            "key_phrase_en": "metal plate shoe"
+        },
+        {
+            "id": "fhypgrieofxmfovf",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "No, you don't need to remove your earrings, but please put them on the tray along with your other personal items.",
+            "user_response_option_en": "Okay, I'll put them on the tray.\" ",
+            "previous_turn_id": "bbeayfdzfrmghqqh",
+            "order": 3,
+            "key_phrase_en": "None\""
+        },
+        {
+            "id": "stliimynprpufdom",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "No, you don't need to remove your earrings, but please put them on the tray along with your other personal items.",
+            "user_response_option_en": "Sure, I'll include earrings with other items.\" ",
+            "previous_turn_id": "bbeayfdzfrmghqqh",
+            "order": 3,
+            "key_phrase_en": "include earrings"
+        },
+        {
+            "id": "yikidwvjxzwiwzmp",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "No, you don't need to remove your earrings, but please put them on the tray along with your other personal items.",
+            "user_response_option_en": "Thank you for letting me keep my earrings on.",
+            "previous_turn_id": "bbeayfdzfrmghqqh",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "myuzusmnxmqekbee",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you for your cooperation, please proceed through the scanner.",
+            "user_response_option_en": "Okay, stepping forward for scanner.",
+            "previous_turn_id": "bclyudrgmrlwonwy",
+            "order": 3,
+            "key_phrase_en": "stepping forward"
+        },
+        {
+            "id": "xgcxactktravpnmb",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you for your cooperation, please proceed through the scanner.",
+            "user_response_option_en": "Understood, removing shoes and belt now.",
+            "previous_turn_id": "bclyudrgmrlwonwy",
+            "order": 3,
+            "key_phrase_en": "Removing shoes/belt"
+        },
+        {
+            "id": "mljttxtwsaztssui",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you for your cooperation, please proceed through the scanner.",
+            "user_response_option_en": "Thank you, proceeding through scanner now.",
+            "previous_turn_id": "bclyudrgmrlwonwy",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "msytadibjpowvzbo",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you. Please grab a bin for your shoes, belt, and personal items.",
+            "user_response_option_en": "Okay, putting my things in the bin.",
+            "previous_turn_id": "xoyemdjfnojifihl",
+            "order": 3,
+            "key_phrase_en": "putting things bin"
+        },
+        {
+            "id": "ehyefxoqhhxvttuz",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you. Please grab a bin for your shoes, belt, and personal items.",
+            "user_response_option_en": "Sure, let me grab a bin for my items.",
+            "previous_turn_id": "xoyemdjfnojifihl",
+            "order": 3,
+            "key_phrase_en": "grab a bin"
+        },
+        {
+            "id": "vdsbxvyokusbofjo",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you. Please grab a bin for your shoes, belt, and personal items.",
+            "user_response_option_en": "Got it, putting my shoes and belt in the bin.",
+            "previous_turn_id": "xoyemdjfnojifihl",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "dbzreqkqbdzquvlc",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you for your cooperation.",
+            "user_response_option_en": "No worries, happy to help keep everyone safe.",
+            "previous_turn_id": "gobbytidpkpttbtk",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "julpxtpbdoejpuma",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you for your cooperation.",
+            "user_response_option_en": "Thank you for keeping us secure.",
+            "previous_turn_id": "gobbytidpkpttbtk",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mpdxwathmvlorblk",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you for your cooperation.",
+            "user_response_option_en": "I appreciate your hard work.",
+            "previous_turn_id": "gobbytidpkpttbtk",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "slfcyewcbeloxcxz",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step forward for the screening.",
+            "user_response_option_en": "Okay, stepping forward for screening.\" ",
+            "previous_turn_id": "kanwnnhbpgzhgwfr",
+            "order": 3,
+            "key_phrase_en": "stepping forward"
+        },
+        {
+            "id": "cgsdkocyuxviwriq",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step forward for the screening.",
+            "user_response_option_en": "Sure, moving ahead for the screening process.\" ",
+            "previous_turn_id": "kanwnnhbpgzhgwfr",
+            "order": 3,
+            "key_phrase_en": "None\""
+        },
+        {
+            "id": "hprrlnioylscaiac",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step forward for the screening.",
+            "user_response_option_en": "Alright, I'm ready for the security check now.",
+            "previous_turn_id": "kanwnnhbpgzhgwfr",
+            "order": 3,
+            "key_phrase_en": "security check"
+        },
+        {
+            "id": "jheprxuqokeseszo",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step through the metal detector.",
+            "user_response_option_en": "Is it okay to keep my jacket on?",
+            "previous_turn_id": "pdpfcdkiyiawjylo",
+            "order": 3,
+            "key_phrase_en": "keep jacket on"
+        },
+        {
+            "id": "rpoavgirrfrdqjne",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step through the metal detector.",
+            "user_response_option_en": "Anything else I need to remove?",
+            "previous_turn_id": "pdpfcdkiyiawjylo",
+            "order": 3,
+            "key_phrase_en": "remove anything else"
+        },
+        {
+            "id": "pwrapsskgggwlqsh",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Thank you, please step through the metal detector.",
+            "user_response_option_en": "I'm nervous, can you guide me?",
+            "previous_turn_id": "pdpfcdkiyiawjylo",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "djuorgtbkftohsyp",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Have a safe and pleasant flight.",
+            "user_response_option_en": "Thank you, have a safe day too. (Politeness)",
+            "previous_turn_id": "dfxecqoxcqgwjeqx",
+            "order": 3,
+            "key_phrase_en": "safe day"
+        },
+        {
+            "id": "ezuqsswqdvhcqgyr",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Have a safe and pleasant flight.",
+            "user_response_option_en": "Okay, I am ready to go through now. (Cooperation)",
+            "previous_turn_id": "dfxecqoxcqgwjeqx",
+            "order": 3,
+            "key_phrase_en": "ready to go"
+        },
+        {
+            "id": "mudjwwnwtznfrfye",
+            "mission_id": "ephahwypswydgoka",
+            "ai_conversation_starter_en": "Have a safe and pleasant flight.",
+            "user_response_option_en": "Can I please have more time to put items away? (Request)",
+            "previous_turn_id": "dfxecqoxcqgwjeqx",
+            "order": 3,
+            "key_phrase_en": "none"
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "id": "itimaxeqdfpknync",
+    "title": "The guest needs to provide identification to check in",
+    "order": 1,
+    "turns": [
+        {
+            "id": "pwpwxwzishmozskc",
+            "ai_conversation_starter_en": "Welcome to Hotel XYZ. May I have your reservation name and a valid form of identification, please?",
+            "user_response_option_en": "Sure, my reservation is under Iris Kim. Here's my passport.",
+            "mission_id": "itimaxeqdfpknync",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "sfkoviqbwtqowtjo",
+            "key_phrase_en": "My reservation"
+        },
+        {
+            "id": "gpryqvtyiewipgup",
+            "ai_conversation_starter_en": "Welcome to Hotel XYZ. May I have your reservation name and a valid form of identification, please?",
+            "user_response_option_en": "I booked online. Here's my booking confirmation and my ID.",
+            "mission_id": "itimaxeqdfpknync",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "smlfccsdrhemifta",
+            "key_phrase_en": "booking confirmation"
+        },
+        {
+            "id": "cufwidlckecfwqtp",
+            "ai_conversation_starter_en": "Welcome to Hotel XYZ. May I have your reservation name and a valid form of identification, please?",
+            "user_response_option_en": "Yes, my name is Iris. My ID is in my wallet.",
+            "mission_id": "itimaxeqdfpknync",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "krqyieijmpbmhvwu",
+            "key_phrase_en": "ID in wallet"
+        },
+        {
+            "id": "aqgfjogdfcpsyknt",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. Confirmation number 1234, just a moment.",
+            "user_response_option_en": "Can I have a room on a higher floor?",
+            "previous_turn_id": "pwpwxwzishmozskc",
+            "order": 2,
+            "next_turn_id": "cpcsontwjjbgmyfb",
+            "key_phrase_en": "higher floor"
+        },
+        {
+            "id": "xdyutzofpnefuwdm",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. Confirmation number 1234, just a moment.",
+            "user_response_option_en": "Is breakfast included in my reservation?",
+            "previous_turn_id": "pwpwxwzishmozskc",
+            "order": 2,
+            "next_turn_id": "djsttewxbdmbjakv",
+            "key_phrase_en": "breakfast included reservation"
+        },
+        {
+            "id": "sfkoviqbwtqowtjo",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. Confirmation number 1234, just a moment.",
+            "user_response_option_en": "Can you recommend any good restaurants in the area?",
+            "previous_turn_id": "pwpwxwzishmozskc",
+            "order": 2,
+            "next_turn_id": "nfixrvgsrsuogvei",
+            "key_phrase_en": "Recommend good restaurants"
+        },
+        {
+            "id": "lbuarivfqkrwttik",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. I just need to verify your information and you'll be all set!",
+            "user_response_option_en": "Sure, take your time. Here's my passport.",
+            "previous_turn_id": "gpryqvtyiewipgup",
+            "order": 2,
+            "next_turn_id": "bowdeiyqdzqxtoqy",
+            "key_phrase_en": "Take your time"
+        },
+        {
+            "id": "osrufhdrsfwsrnjo",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. I just need to verify your information and you'll be all set!",
+            "user_response_option_en": "Of course, here's my driver's license.",
+            "previous_turn_id": "gpryqvtyiewipgup",
+            "order": 2,
+            "next_turn_id": "bkwhwadkojebqdxh",
+            "key_phrase_en": "driver's license"
+        },
+        {
+            "id": "smlfccsdrhemifta",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. I just need to verify your information and you'll be all set!",
+            "user_response_option_en": "No problem, here's my ID card.",
+            "previous_turn_id": "gpryqvtyiewipgup",
+            "order": 2,
+            "next_turn_id": "yxxlaqgkazhpszfw",
+            "key_phrase_en": "No problem"
+        },
+        {
+            "id": "qjgojowaueqvcoij",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. May I please have your ID to complete your check-in?",
+            "user_response_option_en": "Sure, here's my passport.",
+            "previous_turn_id": "cufwidlckecfwqtp",
+            "order": 2,
+            "next_turn_id": "sqzgzysbbzaeitde",
+            "key_phrase_en": "Here's my passport"
+        },
+        {
+            "id": "nfqdmkenuascupvr",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. May I please have your ID to complete your check-in?",
+            "user_response_option_en": "Here's my driver's license for check-in.",
+            "previous_turn_id": "cufwidlckecfwqtp",
+            "order": 2,
+            "next_turn_id": "muwfkrcsxyokpjbj",
+            "key_phrase_en": "driver's license"
+        },
+        {
+            "id": "krqyieijmpbmhvwu",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. May I please have your ID to complete your check-in?",
+            "user_response_option_en": "I have my ID card with me.",
+            "previous_turn_id": "cufwidlckecfwqtp",
+            "order": 2,
+            "next_turn_id": "uofzlxuljayjfmjj",
+            "key_phrase_en": "ID card"
+        },
+        {
+            "id": "weimxmdgnucroehj",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Certainly, we can accommodate your request and assign you a room on a higher floor.",
+            "user_response_option_en": "Just let me grab my ID from my bag.",
+            "previous_turn_id": "aqgfjogdfcpsyknt",
+            "order": 3,
+            "key_phrase_en": "grab my ID"
+        },
+        {
+            "id": "wgiewruqtrnoocyn",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Certainly, we can accommodate your request and assign you a room on a higher floor.",
+            "user_response_option_en": "Will a driver's license work as valid identification?",
+            "previous_turn_id": "aqgfjogdfcpsyknt",
+            "order": 3,
+            "key_phrase_en": "valid identification"
+        },
+        {
+            "id": "cpcsontwjjbgmyfb",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Certainly, we can accommodate your request and assign you a room on a higher floor.",
+            "user_response_option_en": "Can I use my passport card instead of my passport?",
+            "previous_turn_id": "aqgfjogdfcpsyknt",
+            "order": 3,
+            "key_phrase_en": "passport card"
+        },
+        {
+            "id": "qgehlejiktdcsull",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Yes, breakfast is included and served from 6:30am to 10:00am. Enjoy your stay!",
+            "user_response_option_en": "Thank you! Is there a nearby restaurant you would recommend?",
+            "previous_turn_id": "xdyutzofpnefuwdm",
+            "order": 3,
+            "key_phrase_en": "nearby restaurant"
+        },
+        {
+            "id": "hbdpeqjdjxfhdajl",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Yes, breakfast is included and served from 6:30am to 10:00am. Enjoy your stay!",
+            "user_response_option_en": "Could you confirm my room number and the checkout time, please?",
+            "previous_turn_id": "xdyutzofpnefuwdm",
+            "order": 3,
+            "key_phrase_en": "Confirm room number"
+        },
+        {
+            "id": "djsttewxbdmbjakv",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Yes, breakfast is included and served from 6:30am to 10:00am. Enjoy your stay!",
+            "user_response_option_en": "Can you provide me with a map of the city? I want to explore!",
+            "previous_turn_id": "xdyutzofpnefuwdm",
+            "order": 3,
+            "key_phrase_en": "Map of the city"
+        },
+        {
+            "id": "lfaofwfuzqmhhnls",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Of course, we have a list of recommendations at the front desk.",
+            "user_response_option_en": "Thanks, what's recommended nearby for breakfast?",
+            "previous_turn_id": "sfkoviqbwtqowtjo",
+            "order": 3,
+            "key_phrase_en": "Recommended nearby"
+        },
+        {
+            "id": "sdotqceobhwhkojy",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Of course, we have a list of recommendations at the front desk.",
+            "user_response_option_en": "Do you have any vegetarian options on the list?",
+            "previous_turn_id": "sfkoviqbwtqowtjo",
+            "order": 3,
+            "key_phrase_en": "vegetarian options"
+        },
+        {
+            "id": "nfixrvgsrsuogvei",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Of course, we have a list of recommendations at the front desk.",
+            "user_response_option_en": "Can you tell me which restaurant is good for seafood?",
+            "previous_turn_id": "sfkoviqbwtqowtjo",
+            "order": 3,
+            "key_phrase_en": "Seafood restaurant"
+        },
+        {
+            "id": "awmqzdinfixmqpwe",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. We will complete the check-in process shortly.",
+            "user_response_option_en": "Is there anything else you need from me?",
+            "previous_turn_id": "lbuarivfqkrwttik",
+            "order": 3,
+            "key_phrase_en": "anything else"
+        },
+        {
+            "id": "ygsmpojrwjtueomx",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. We will complete the check-in process shortly.",
+            "user_response_option_en": "Thanks for letting me know.",
+            "previous_turn_id": "lbuarivfqkrwttik",
+            "order": 3,
+            "key_phrase_en": "Thanks"
+        },
+        {
+            "id": "bowdeiyqdzqxtoqy",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. We will complete the check-in process shortly.",
+            "user_response_option_en": "I appreciate your help!",
+            "previous_turn_id": "lbuarivfqkrwttik",
+            "order": 3,
+            "key_phrase_en": "appreciate your help"
+        },
+        {
+            "id": "qamkahvympjnczrl",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim! Your check-in process is complete. Have a pleasant stay!",
+            "user_response_option_en": "Thank you. Do you have a map of the hotel facilities please?",
+            "previous_turn_id": "osrufhdrsfwsrnjo",
+            "order": 3,
+            "key_phrase_en": "Map of facilities"
+        },
+        {
+            "id": "alapzewlxrzjuoxn",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim! Your check-in process is complete. Have a pleasant stay!",
+            "user_response_option_en": "Excuse me. Could you recommend a good restaurant in the area?",
+            "previous_turn_id": "osrufhdrsfwsrnjo",
+            "order": 3,
+            "key_phrase_en": "Recommend a restaurant"
+        },
+        {
+            "id": "bkwhwadkojebqdxh",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim! Your check-in process is complete. Have a pleasant stay!",
+            "user_response_option_en": "Thanks! Could I have an extra pillow and blanket, please?",
+            "previous_turn_id": "osrufhdrsfwsrnjo",
+            "order": 3,
+            "key_phrase_en": "Extra pillow"
+        },
+        {
+            "id": "xdebrvhzzpsrayox",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. We have your information verified and your room is ready.",
+            "user_response_option_en": "Thank you, glad to hear that. ",
+            "previous_turn_id": "smlfccsdrhemifta",
+            "order": 3,
+            "key_phrase_en": ""
+        },
+        {
+            "id": "dpnhekeitcloasya",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. We have your information verified and your room is ready.",
+            "user_response_option_en": "Can I confirm the check-out time, please? ",
+            "previous_turn_id": "smlfccsdrhemifta",
+            "order": 3,
+            "key_phrase_en": "check-out time"
+        },
+        {
+            "id": "yxxlaqgkazhpszfw",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Ms. Kim. We have your information verified and your room is ready.",
+            "user_response_option_en": "Do I need a key card to access the gym?",
+            "previous_turn_id": "smlfccsdrhemifta",
+            "order": 3,
+            "key_phrase_en": "Key card"
+        },
+        {
+            "id": "mqmpqfcutazvuumb",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. Your check-in process is now complete!",
+            "user_response_option_en": "Thank you. Can you please tell me where the elevator is?\" ",
+            "previous_turn_id": "qjgojowaueqvcoij",
+            "order": 3,
+            "key_phrase_en": "Elevator location"
+        },
+        {
+            "id": "sioorfizfhivghow",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. Your check-in process is now complete!",
+            "user_response_option_en": "Thanks a lot. Could you please recommend a good restaurant nearby?\" ",
+            "previous_turn_id": "qjgojowaueqvcoij",
+            "order": 3,
+            "key_phrase_en": "recommend a restaurant"
+        },
+        {
+            "id": "sqzgzysbbzaeitde",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. Your check-in process is now complete!",
+            "user_response_option_en": "Thank you. Do you have a map with local attractions?",
+            "previous_turn_id": "qjgojowaueqvcoij",
+            "order": 3,
+            "key_phrase_en": "local attractions"
+        },
+        {
+            "id": "daaalrrobdjioaan",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. Your room is located on the 5th floor. Enjoy your stay!",
+            "user_response_option_en": "Thank you, where is the elevator?",
+            "previous_turn_id": "nfqdmkenuascupvr",
+            "order": 3,
+            "key_phrase_en": "Where is elevator?"
+        },
+        {
+            "id": "nsorufwpzchqpnoa",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. Your room is located on the 5th floor. Enjoy your stay!",
+            "user_response_option_en": "Can I have a late check-out, please?",
+            "previous_turn_id": "nfqdmkenuascupvr",
+            "order": 3,
+            "key_phrase_en": "late check-out"
+        },
+        {
+            "id": "muwfkrcsxyokpjbj",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Thank you, Iris. Your room is located on the 5th floor. Enjoy your stay!",
+            "user_response_option_en": "Excuse me, where is the breakfast area?",
+            "previous_turn_id": "nfqdmkenuascupvr",
+            "order": 3,
+            "key_phrase_en": "Breakfast area"
+        },
+        {
+            "id": "nipnwhqadbsmwcgb",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Great, please hand me your ID card so I can complete check-in. Thank you.",
+            "user_response_option_en": "Here you go. / \"Here you go\" is commonly used to indicate that something is being given to the other person.",
+            "previous_turn_id": "krqyieijmpbmhvwu",
+            "order": 3,
+            "key_phrase_en": "Here you go"
+        },
+        {
+            "id": "nlkuojdzdxynmhxw",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Great, please hand me your ID card so I can complete check-in. Thank you.",
+            "user_response_option_en": "Sure, here's my ID. / \"Sure\" is often used to show agreement or willingness to do something.",
+            "previous_turn_id": "krqyieijmpbmhvwu",
+            "order": 3,
+            "key_phrase_en": "Sure"
+        },
+        {
+            "id": "uofzlxuljayjfmjj",
+            "mission_id": "itimaxeqdfpknync",
+            "ai_conversation_starter_en": "Great, please hand me your ID card so I can complete check-in. Thank you.",
+            "user_response_option_en": "Okay, here's my identification. / \"Okay\" is a common response to show acknowledgement or agreement with a statement or request.",
+            "previous_turn_id": "krqyieijmpbmhvwu",
+            "order": 3,
+            "key_phrase_en": "Okay\" is the key phrase"
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "id": "paaqilfnsmisebjt",
+    "title": "Asking about the hotel's pool hours",
+    "order": 2,
+    "turns": [
+        {
+            "id": "htlakmvkxoisrxxs",
+            "ai_conversation_starter_en": "Welcome to our hotel! Would you like me to give you a quick overview of our amenities?",
+            "user_response_option_en": "Yes please, what time does the pool open and close?",
+            "mission_id": "paaqilfnsmisebjt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "lmvhaznpspnwqpvt",
+            "key_phrase_en": "Pool opening hours"
+        },
+        {
+            "id": "vuhvdsjgtqhwljxv",
+            "ai_conversation_starter_en": "Welcome to our hotel! Would you like me to give you a quick overview of our amenities?",
+            "user_response_option_en": "Can you tell me the pool operating hours?",
+            "mission_id": "paaqilfnsmisebjt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "tfgfbklhrqvdamwy",
+            "key_phrase_en": "Pool operating hours"
+        },
+        {
+            "id": "rzwdinqeyemehemw",
+            "ai_conversation_starter_en": "Welcome to our hotel! Would you like me to give you a quick overview of our amenities?",
+            "user_response_option_en": "Could you brief me on the amenities and pool hours?",
+            "mission_id": "paaqilfnsmisebjt",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qxwoqgazhrhvtloe",
+            "key_phrase_en": "pool hours"
+        },
+        {
+            "id": "deugivdruelnjguv",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "The pool opens at 8 AM and closes at 10 PM.",
+            "user_response_option_en": "Thank you, is the pool accessible for wheelchair users?",
+            "previous_turn_id": "htlakmvkxoisrxxs",
+            "order": 2,
+            "next_turn_id": "wnhmmroiweipkonm",
+            "key_phrase_en": "wheelchair accessible pool"
+        },
+        {
+            "id": "drlksklblhpyjltv",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "The pool opens at 8 AM and closes at 10 PM.",
+            "user_response_option_en": "Great, is there a lifeguard on duty during pool hours?",
+            "previous_turn_id": "htlakmvkxoisrxxs",
+            "order": 2,
+            "next_turn_id": "vjxjshxunscmdxfz",
+            "key_phrase_en": "lifeguard on duty"
+        },
+        {
+            "id": "lmvhaznpspnwqpvt",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "The pool opens at 8 AM and closes at 10 PM.",
+            "user_response_option_en": "Okay, where can I find towels for the pool?",
+            "previous_turn_id": "htlakmvkxoisrxxs",
+            "order": 2,
+            "next_turn_id": "ldvxcbkqixbzqhxn",
+            "key_phrase_en": "Towels for pool"
+        },
+        {
+            "id": "mgwaxaqdqwsqraep",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Of course! Our pool is open from 9 am to 10 pm daily.",
+            "user_response_option_en": "Thank you for letting me know!",
+            "previous_turn_id": "vuhvdsjgtqhwljxv",
+            "order": 2,
+            "next_turn_id": "xnpajhaznghmkdyb",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "nvcuvcryfmtbjwoa",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Of course! Our pool is open from 9 am to 10 pm daily.",
+            "user_response_option_en": "Can I bring my friends to the pool?",
+            "previous_turn_id": "vuhvdsjgtqhwljxv",
+            "order": 2,
+            "next_turn_id": "gcouahakyfxwjumm",
+            "key_phrase_en": "Bring my friends"
+        },
+        {
+            "id": "tfgfbklhrqvdamwy",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Of course! Our pool is open from 9 am to 10 pm daily.",
+            "user_response_option_en": "What time is breakfast served?",
+            "previous_turn_id": "vuhvdsjgtqhwljxv",
+            "order": 2,
+            "next_turn_id": "ggsptiiowljnfiih",
+            "key_phrase_en": "Breakfast served"
+        },
+        {
+            "id": "zgprbgvxejcoxzfu",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Sure, our pool hours are from 8:00 AM to 10:00 PM.",
+            "user_response_option_en": "Thanks! Can I borrow towels at the pool?",
+            "previous_turn_id": "rzwdinqeyemehemw",
+            "order": 2,
+            "next_turn_id": "cfsesafhliezcpck",
+            "key_phrase_en": "Borrow towels"
+        },
+        {
+            "id": "qkgwsqdsrqwudhmh",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Sure, our pool hours are from 8:00 AM to 10:00 PM.",
+            "user_response_option_en": "Perfect, I'll swim in the morning.",
+            "previous_turn_id": "rzwdinqeyemehemw",
+            "order": 2,
+            "next_turn_id": "lxyprypgooutnsjs",
+            "key_phrase_en": "swim in morning"
+        },
+        {
+            "id": "qxwoqgazhrhvtloe",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Sure, our pool hours are from 8:00 AM to 10:00 PM.",
+            "user_response_option_en": "I appreciate the information. Is the pool heated?",
+            "previous_turn_id": "rzwdinqeyemehemw",
+            "order": 2,
+            "next_turn_id": "liteaurtsgpzzhgn",
+            "key_phrase_en": "heated pool"
+        },
+        {
+            "id": "xhqmsolzbekhlrps",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, our pool has a ramp for wheelchair access.",
+            "user_response_option_en": "What time does the pool usually get busy?",
+            "previous_turn_id": "deugivdruelnjguv",
+            "order": 3,
+            "key_phrase_en": "Get busy"
+        },
+        {
+            "id": "bpasjmkrbjwbvrmv",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, our pool has a ramp for wheelchair access.",
+            "user_response_option_en": "Can guests bring inflatables in the pool?",
+            "previous_turn_id": "deugivdruelnjguv",
+            "order": 3,
+            "key_phrase_en": "Inflatables in pool"
+        },
+        {
+            "id": "wnhmmroiweipkonm",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, our pool has a ramp for wheelchair access.",
+            "user_response_option_en": "Is there a separate area for children to swim?",
+            "previous_turn_id": "deugivdruelnjguv",
+            "order": 3,
+            "key_phrase_en": "separate area children"
+        },
+        {
+            "id": "dythacylgvttmfuo",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, we have a lifeguard on duty during pool hours for your safety.",
+            "user_response_option_en": "Sounds safe. What time do the other amenities close?",
+            "previous_turn_id": "drlksklblhpyjltv",
+            "order": 3,
+            "key_phrase_en": "Other amenities"
+        },
+        {
+            "id": "fibfoglxptdkthue",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, we have a lifeguard on duty during pool hours for your safety.",
+            "user_response_option_en": "Thank you. Is there a gym in the hotel?",
+            "previous_turn_id": "drlksklblhpyjltv",
+            "order": 3,
+            "key_phrase_en": "Gym in hotel"
+        },
+        {
+            "id": "vjxjshxunscmdxfz",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, we have a lifeguard on duty during pool hours for your safety.",
+            "user_response_option_en": "Are children allowed in the pool during the lifeguard hours?",
+            "previous_turn_id": "drlksklblhpyjltv",
+            "order": 3,
+            "key_phrase_en": "Lifeguard hours"
+        },
+        {
+            "id": "uahuguwcisigfpkz",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Certainly, you can find towels for the pool at the front desk.",
+            "user_response_option_en": "Thanks, I just need a pool schedule please.",
+            "previous_turn_id": "lmvhaznpspnwqpvt",
+            "order": 3,
+            "key_phrase_en": "Pool schedule"
+        },
+        {
+            "id": "fijjlnmpwjkighjv",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Certainly, you can find towels for the pool at the front desk.",
+            "user_response_option_en": "Great, what are the hours for swimming?",
+            "previous_turn_id": "lmvhaznpspnwqpvt",
+            "order": 3,
+            "key_phrase_en": "hours for swimming"
+        },
+        {
+            "id": "ldvxcbkqixbzqhxn",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Certainly, you can find towels for the pool at the front desk.",
+            "user_response_option_en": "Perfect, what time can I use the pool?",
+            "previous_turn_id": "lmvhaznpspnwqpvt",
+            "order": 3,
+            "key_phrase_en": "use the pool"
+        },
+        {
+            "id": "tzvjjybaycdojodd",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Great! Enjoy your swim. If you need anything else, feel free to ask.",
+            "user_response_option_en": "Could you also tell me when the gym opens and closes? ",
+            "previous_turn_id": "mgwaxaqdqwsqraep",
+            "order": 3,
+            "key_phrase_en": "gym hours"
+        },
+        {
+            "id": "czywzgipyftleqpf",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Great! Enjoy your swim. If you need anything else, feel free to ask.",
+            "user_response_option_en": "Thanks! Is it indoor or outdoor? ",
+            "previous_turn_id": "mgwaxaqdqwsqraep",
+            "order": 3,
+            "key_phrase_en": "Indoor or outdoor"
+        },
+        {
+            "id": "xnpajhaznghmkdyb",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Great! Enjoy your swim. If you need anything else, feel free to ask.",
+            "user_response_option_en": "Is there a lifeguard on duty during pool hours?",
+            "previous_turn_id": "mgwaxaqdqwsqraep",
+            "order": 3,
+            "key_phrase_en": "lifeguard on duty"
+        },
+        {
+            "id": "twzhotyqbmnhzsje",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, you may bring your friends to the pool during our operating hours.",
+            "user_response_option_en": "How deep is the pool?",
+            "previous_turn_id": "nvcuvcryfmtbjwoa",
+            "order": 3,
+            "key_phrase_en": "How deep"
+        },
+        {
+            "id": "tyofacrqnsdfzumi",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, you may bring your friends to the pool during our operating hours.",
+            "user_response_option_en": "May I know if towels are provided for the pool?",
+            "previous_turn_id": "nvcuvcryfmtbjwoa",
+            "order": 3,
+            "key_phrase_en": "Towels for pool"
+        },
+        {
+            "id": "gcouahakyfxwjumm",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, you may bring your friends to the pool during our operating hours.",
+            "user_response_option_en": "Can I use the pool after check-out time on the departure day?",
+            "previous_turn_id": "nvcuvcryfmtbjwoa",
+            "order": 3,
+            "key_phrase_en": "check-out time"
+        },
+        {
+            "id": "zttsfelrbmyqcntq",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "I hope the pool hours fit your schedule. Do you need assistance with anything else?",
+            "user_response_option_en": "What's the depth of the pool? ",
+            "previous_turn_id": "tfgfbklhrqvdamwy",
+            "order": 3,
+            "key_phrase_en": "Depth of pool"
+        },
+        {
+            "id": "vayqtnwtzfanzwre",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "I hope the pool hours fit your schedule. Do you need assistance with anything else?",
+            "user_response_option_en": "Is the pool heated? ",
+            "previous_turn_id": "tfgfbklhrqvdamwy",
+            "order": 3,
+            "key_phrase_en": "Heated pool"
+        },
+        {
+            "id": "ggsptiiowljnfiih",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "I hope the pool hours fit your schedule. Do you need assistance with anything else?",
+            "user_response_option_en": "Do you provide towels for the pool?",
+            "previous_turn_id": "tfgfbklhrqvdamwy",
+            "order": 3,
+            "key_phrase_en": "provide towels"
+        },
+        {
+            "id": "ygdulndjbsodorqy",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, you can borrow towels at the pool.",
+            "user_response_option_en": "What time is the pool open until?",
+            "previous_turn_id": "zgprbgvxejcoxzfu",
+            "order": 3,
+            "key_phrase_en": "pool open time"
+        },
+        {
+            "id": "oyfsqzoyuanebgze",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, you can borrow towels at the pool.",
+            "user_response_option_en": "Are there any restrictions on the use of the pool towels?",
+            "previous_turn_id": "zgprbgvxejcoxzfu",
+            "order": 3,
+            "key_phrase_en": "pool towels restrictions"
+        },
+        {
+            "id": "cfsesafhliezcpck",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, you can borrow towels at the pool.",
+            "user_response_option_en": "Do I need to bring my room key to use the pool towels?",
+            "previous_turn_id": "zgprbgvxejcoxzfu",
+            "order": 3,
+            "key_phrase_en": "Room key"
+        },
+        {
+            "id": "ohttykldqjtzttbu",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Great, let us know if you need any towels. Have a good swim, Iris!",
+            "user_response_option_en": "What time does the pool open and close?",
+            "previous_turn_id": "qkgwsqdsrqwudhmh",
+            "order": 3,
+            "key_phrase_en": "Pool hours"
+        },
+        {
+            "id": "rkqrcucwabvfaziy",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Great, let us know if you need any towels. Have a good swim, Iris!",
+            "user_response_option_en": "Are the pool hours the same every day?",
+            "previous_turn_id": "qkgwsqdsrqwudhmh",
+            "order": 3,
+            "key_phrase_en": "pool hours"
+        },
+        {
+            "id": "lxyprypgooutnsjs",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Great, let us know if you need any towels. Have a good swim, Iris!",
+            "user_response_option_en": "Is there a lifeguard on duty during pool hours?",
+            "previous_turn_id": "qkgwsqdsrqwudhmh",
+            "order": 3,
+            "key_phrase_en": "Lifeguard on duty"
+        },
+        {
+            "id": "wbseqtebvrocvmyu",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, the pool is heated.",
+            "user_response_option_en": "Thank you, I'll take a dip later.",
+            "previous_turn_id": "qxwoqgazhrhvtloe",
+            "order": 3,
+            "key_phrase_en": "take a dip"
+        },
+        {
+            "id": "puuxbumhwihxauqh",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, the pool is heated.",
+            "user_response_option_en": "Great, is it busy around noon?",
+            "previous_turn_id": "qxwoqgazhrhvtloe",
+            "order": 3,
+            "key_phrase_en": "Busy around noon"
+        },
+        {
+            "id": "liteaurtsgpzzhgn",
+            "mission_id": "paaqilfnsmisebjt",
+            "ai_conversation_starter_en": "Yes, the pool is heated.",
+            "user_response_option_en": "Nice, is it open to non-guests for a fee?",
+            "previous_turn_id": "qxwoqgazhrhvtloe",
+            "order": 3,
+            "key_phrase_en": "non-guests"
+        }
+    ]
+}

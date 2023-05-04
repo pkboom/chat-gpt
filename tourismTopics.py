@@ -1,0 +1,67 @@
+tourism_content = [
+    {
+        "parent_scene": "Buying tickets",
+        "child_scenarios": [
+            "Asking about ticket prices and any discounts available",
+            "Inquiring about available tours or package deals",
+            "Asking about the length of time the ticket is valid for",
+            "Asking if there are any restrictions on what the ticket covers",
+            "Requesting a refund or exchange for a ticket that was bought by mistake",
+            "Asking about the busiest times to visit and if there are any less busy times to visit",
+        ],
+        "ai_persona": "guest service representative",
+        "user_persona": "guest",
+    },
+    {
+        "parent_scene": "Taking photos with the attraction",
+        "child_scenarios": [
+            "Asking a stranger to take a photo of you with the attraction",
+            "Trying to find the best angle for taking a photo with the attraction",
+            "Asking for recommendations on where to stand for the best photo opportunities",
+            "Asking if there are any areas where photography is prohibited",
+            "Asking if there is a designated spot for taking photos with the attraction",
+            "Asking for recommendations on the best time of day to take photos with the attraction",
+        ],
+        "ai_persona": "a person met during the trip",
+        "user_persona": "guest",
+    },
+    {
+        "parent_scene": "Asking for directions",
+        "child_scenarios": [
+            "Asking for directions to a specific attraction within the park",
+            "Asking for directions to the restroom or other facilities",
+            "Asking for directions to a nearby restaurant or shop",
+            "Asking for directions to the nearest public transportation",
+            "Asking for recommendations on places to visit within the park",
+            "Asking for recommendations on the best way to navigate through the park",
+        ],
+        "ai_persona": "guest service representative",
+        "user_persona": "guest",
+    },
+    {
+        "parent_scene": "Asking about the operating hours",
+        "child_scenarios": [
+            "Asking if the park has any special events or extended hours",
+            "Asking if there are any closures or limited access to certain attractions",
+            "Asking if the park has any age or height restrictions on certain attractions",
+            "Asking if the park has any special accommodations for guests with disabilities",
+            "Asking if there are any seasonal changes to the park's operating hours",
+            "Asking if there are any discounts available for visiting during specific hours",
+        ],
+        "ai_persona": "guest service representative",
+        "user_persona": "guest",
+    },
+    {
+        "parent_scene": "Looking for an item lost",
+        "child_scenarios": [
+            "Asking the waiter if they have seen your lost item",
+            "Describing your lost item to the waiter and asking if they can help you find it",
+            "Checking with nearby tables to see if anyone has found your lost item",
+            "Asking the restaurant manager if they have a lost and found",
+            "Filling out a lost item report with the restaurant staff",
+            "Asking the restaurant staff for recommendations on what to do next",
+        ],
+        "ai_persona": "guest service representative",
+        "user_persona": "guest",
+    },
+]

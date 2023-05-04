@@ -1,0 +1,370 @@
+{
+    "id": "guwvgoeeredhgnuk",
+    "title": "Getting stopped for additional screening or questioning by the security officer.",
+    "order": 2,
+    "turns": [
+        {
+            "id": "avsmjrtzvebnmzxy",
+            "ai_conversation_starter_en": "Excuse me, sir. Can I have a moment of your time? I just need to ask you a few questions and conduct a quick additional screening.",
+            "user_response_option_en": "Okay, please go ahead. ",
+            "mission_id": "guwvgoeeredhgnuk",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "qdjrtoycitfuunov",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ugsgrnxdjtzkekcm",
+            "ai_conversation_starter_en": "Excuse me, sir. Can I have a moment of your time? I just need to ask you a few questions and conduct a quick additional screening.",
+            "user_response_option_en": "Sure, what do you need from me? ",
+            "mission_id": "guwvgoeeredhgnuk",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "ztfegkszoqdkarpx",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nrkgfxjocubgzbfo",
+            "ai_conversation_starter_en": "Excuse me, sir. Can I have a moment of your time? I just need to ask you a few questions and conduct a quick additional screening.",
+            "user_response_option_en": "No problem, happy to comply.",
+            "mission_id": "guwvgoeeredhgnuk",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "bbposmgohakcudni",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "axdiexlpkluprrhq",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you. Please follow me to the side for a quick screening.",
+            "user_response_option_en": "Okay, I understand.",
+            "previous_turn_id": "avsmjrtzvebnmzxy",
+            "order": 2,
+            "next_turn_id": "vdbvdnkeqxpjgubg",
+            "key_phrase_en": "useful phrase"
+        },
+        {
+            "id": "wwkvcuiqcclwxasw",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you. Please follow me to the side for a quick screening.",
+            "user_response_option_en": "Is there a problem?",
+            "previous_turn_id": "avsmjrtzvebnmzxy",
+            "order": 2,
+            "next_turn_id": "lrbplvjaweysdlyt",
+            "key_phrase_en": "useful phrase"
+        },
+        {
+            "id": "qdjrtoycitfuunov",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you. Please follow me to the side for a quick screening.",
+            "user_response_option_en": "Can I get my bag first?",
+            "previous_turn_id": "avsmjrtzvebnmzxy",
+            "order": 2,
+            "next_turn_id": "avqvqosfqdthvupm",
+            "key_phrase_en": "get my bag"
+        },
+        {
+            "id": "hhtdwqcgvhmsdnde",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Can I see your passport, please?",
+            "user_response_option_en": "Yes, here it is. ",
+            "previous_turn_id": "ugsgrnxdjtzkekcm",
+            "order": 2,
+            "next_turn_id": "dassdvhifmgcczdf",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tqwgkaqgybbdixsg",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Can I see your passport, please?",
+            "user_response_option_en": "Of course, let me find it in my bag. ",
+            "previous_turn_id": "ugsgrnxdjtzkekcm",
+            "order": 2,
+            "next_turn_id": "zkannbsnnfflogio",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ztfegkszoqdkarpx",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Can I see your passport, please?",
+            "user_response_option_en": "Sure, do you need any other documents?",
+            "previous_turn_id": "ugsgrnxdjtzkekcm",
+            "order": 2,
+            "next_turn_id": "xvegvrwpxldddwzx",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "gzeisucpodlfkmcz",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Could you please follow me to the additional screening area?",
+            "user_response_option_en": "Sure, I understand. ",
+            "previous_turn_id": "nrkgfxjocubgzbfo",
+            "order": 2,
+            "next_turn_id": "vjiikrxafkimolsm",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "zvhcmqgmajxmytzg",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Could you please follow me to the additional screening area?",
+            "user_response_option_en": "Okay, I will follow you. ",
+            "previous_turn_id": "nrkgfxjocubgzbfo",
+            "order": 2,
+            "next_turn_id": "vaphetxywvravung",
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "bbposmgohakcudni",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Could you please follow me to the additional screening area?",
+            "user_response_option_en": "No problem, I will go with you for screening.",
+            "previous_turn_id": "nrkgfxjocubgzbfo",
+            "order": 2,
+            "next_turn_id": "qjumplizbjljjzfm",
+            "key_phrase_en": "no problem"
+        },
+        {
+            "id": "hnmwjycwvmnhbxmz",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Can you please place your items in the bin and step through the metal detector?",
+            "user_response_option_en": "No problem. I understand the need for extra security measures. ",
+            "previous_turn_id": "axdiexlpkluprrhq",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "zietqzrqlcfspalf",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Can you please place your items in the bin and step through the metal detector?",
+            "user_response_option_en": "Sure, happy to cooperate. ",
+            "previous_turn_id": "axdiexlpkluprrhq",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vdbvdnkeqxpjgubg",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Can you please place your items in the bin and step through the metal detector?",
+            "user_response_option_en": "Okay, I'll place my items in the bin and step through.",
+            "previous_turn_id": "axdiexlpkluprrhq",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "mpghmuqwjkgxcxay",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "No, no problem. Just standard procedure. We just need to conduct a quick additional screening.",
+            "user_response_option_en": "Okay, I understand. What do you need me to do?",
+            "previous_turn_id": "wwkvcuiqcclwxasw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ybkqkfohlanzqnen",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "No, no problem. Just standard procedure. We just need to conduct a quick additional screening.",
+            "user_response_option_en": "Can you please explain the screening process to me?",
+            "previous_turn_id": "wwkvcuiqcclwxasw",
+            "order": 3,
+            "key_phrase_en": "screening process"
+        },
+        {
+            "id": "lrbplvjaweysdlyt",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "No, no problem. Just standard procedure. We just need to conduct a quick additional screening.",
+            "user_response_option_en": "Sure, I hope this won't take too long.",
+            "previous_turn_id": "wwkvcuiqcclwxasw",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "tbkhydjebnkxdppb",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Sure, you may retrieve your bag but please bring it back to me for inspection.",
+            "user_response_option_en": "Is there anything you want me to take out?\"",
+            "previous_turn_id": "qdjrtoycitfuunov",
+            "order": 3,
+            "key_phrase_en": "take out"
+        },
+        {
+            "id": "yfqvkbgeypdxslqy",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Sure, you may retrieve your bag but please bring it back to me for inspection.",
+            "user_response_option_en": "I'm glad I have the chance to grab my bag.\"",
+            "previous_turn_id": "qdjrtoycitfuunov",
+            "order": 3,
+            "key_phrase_en": "grab my bag"
+        },
+        {
+            "id": "avqvqosfqdthvupm",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Sure, you may retrieve your bag but please bring it back to me for inspection.",
+            "user_response_option_en": "Do you need me to show any contents of my bag?\"",
+            "previous_turn_id": "qdjrtoycitfuunov",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "zrilkypmpsnyzbxh",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you, Iris. Where do you plan on traveling from here today?",
+            "user_response_option_en": "I'm traveling to New York from here.",
+            "previous_turn_id": "hhtdwqcgvhmsdnde",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "nulmipwfbkghmjzn",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you, Iris. Where do you plan on traveling from here today?",
+            "user_response_option_en": "My final destination is Los Angeles.",
+            "previous_turn_id": "hhtdwqcgvhmsdnde",
+            "order": 3,
+            "key_phrase_en": "final destination"
+        },
+        {
+            "id": "dassdvhifmgcczdf",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you, Iris. Where do you plan on traveling from here today?",
+            "user_response_option_en": "I plan on taking a connecting flight to Chicago.",
+            "previous_turn_id": "hhtdwqcgvhmsdnde",
+            "order": 3,
+            "key_phrase_en": "connecting flight"
+        },
+        {
+            "id": "jzpzrovijzhuqdho",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you, sir. Can I also see your boarding pass?",
+            "user_response_option_en": "Sure, let me find it in my bag. Is this what you need?\" ",
+            "previous_turn_id": "tqwgkaqgybbdixsg",
+            "order": 3,
+            "key_phrase_en": "None\""
+        },
+        {
+            "id": "klunzamvoxwmyajl",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you, sir. Can I also see your boarding pass?",
+            "user_response_option_en": "Here you go.\" ",
+            "previous_turn_id": "tqwgkaqgybbdixsg",
+            "order": 3,
+            "key_phrase_en": "None\""
+        },
+        {
+            "id": "zkannbsnnfflogio",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you, sir. Can I also see your boarding pass?",
+            "user_response_option_en": "Yes, of course. Here's my boarding pass. Is everything okay?",
+            "previous_turn_id": "tqwgkaqgybbdixsg",
+            "order": 3,
+            "key_phrase_en": "boarding pass"
+        },
+        {
+            "id": "pefvbtdnmlnezpfi",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "No, just a few follow-up questions. Please step over here for additional screening.",
+            "user_response_option_en": "Is there a problem with my documents?",
+            "previous_turn_id": "ztfegkszoqdkarpx",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wnhqrpwtekaosjio",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "No, just a few follow-up questions. Please step over here for additional screening.",
+            "user_response_option_en": "Is there anything I can do to speed up the process?",
+            "previous_turn_id": "ztfegkszoqdkarpx",
+            "order": 3,
+            "key_phrase_en": "speed up process"
+        },
+        {
+            "id": "xvegvrwpxldddwzx",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "No, just a few follow-up questions. Please step over here for additional screening.",
+            "user_response_option_en": "Sure, I understand. Thank you for keeping everyone safe.",
+            "previous_turn_id": "ztfegkszoqdkarpx",
+            "order": 3,
+            "key_phrase_en": "keeping safe"
+        },
+        {
+            "id": "jdjrojzoselvoegl",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your understanding. It won't take long, please place your belongings on the tray and step through the scanner.",
+            "user_response_option_en": "Is there a problem with my documents?",
+            "previous_turn_id": "gzeisucpodlfkmcz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "kgynhgopobtzatjy",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your understanding. It won't take long, please place your belongings on the tray and step through the scanner.",
+            "user_response_option_en": "Can you explain why I've been stopped?",
+            "previous_turn_id": "gzeisucpodlfkmcz",
+            "order": 3,
+            "key_phrase_en": "Been stopped"
+        },
+        {
+            "id": "vjiikrxafkimolsm",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your understanding. It won't take long, please place your belongings on the tray and step through the scanner.",
+            "user_response_option_en": "Sure, I'll comply.",
+            "previous_turn_id": "gzeisucpodlfkmcz",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ivhbzsgdzynhmvlp",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Please put your belongings on the conveyor belt.",
+            "user_response_option_en": "Sure thing, I'll put my items on the belt.",
+            "previous_turn_id": "zvhcmqgmajxmytzg",
+            "order": 3,
+            "key_phrase_en": "put items on"
+        },
+        {
+            "id": "wnqbnzmkylvwxabr",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Please put your belongings on the conveyor belt.",
+            "user_response_option_en": "No problem, I'll place my belongings there.",
+            "previous_turn_id": "zvhcmqgmajxmytzg",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "vaphetxywvravung",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your cooperation. Please put your belongings on the conveyor belt.",
+            "user_response_option_en": "Okay, I'll follow your instructions and put them on the belt.",
+            "previous_turn_id": "zvhcmqgmajxmytzg",
+            "order": 3,
+            "key_phrase_en": "put on belt"
+        },
+        {
+            "id": "dyxesmibvpwidhyb",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your understanding. Please follow me.",
+            "user_response_option_en": "I understand, I am happy to cooperate.",
+            "previous_turn_id": "bbposmgohakcudni",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "jaxiaphampeozcss",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your understanding. Please follow me.",
+            "user_response_option_en": "Thank you, I will follow you for additional screening.",
+            "previous_turn_id": "bbposmgohakcudni",
+            "order": 3,
+            "key_phrase_en": "additional screening"
+        },
+        {
+            "id": "qjumplizbjljjzfm",
+            "mission_id": "guwvgoeeredhgnuk",
+            "ai_conversation_starter_en": "Thank you for your understanding. Please follow me.",
+            "user_response_option_en": "Ok, I will come with you for further screening.",
+            "previous_turn_id": "bbposmgohakcudni",
+            "order": 3,
+            "key_phrase_en": "Further screening"
+        }
+    ]
+}

@@ -1,0 +1,388 @@
+{
+    "id": "lqywfbimieuotzxz",
+    "title": "Asking if there are any closures or limited access to certain attractions",
+    "order": 2,
+    "turns": [
+        {
+            "id": "idvqsgivzdvqnclp",
+            "ai_conversation_starter_en": "Welcome to our tourist attraction! Is this your first time visiting us? Are there any questions or information you'd like me to provide before you start exploring?",
+            "user_response_option_en": "What's your closing time tonight, please?\" ",
+            "mission_id": "lqywfbimieuotzxz",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "oynknaekfzblrxsr",
+            "key_phrase_en": "Closing time tonight"
+        },
+        {
+            "id": "jdgeezggrinsibsz",
+            "ai_conversation_starter_en": "Welcome to our tourist attraction! Is this your first time visiting us? Are there any questions or information you'd like me to provide before you start exploring?",
+            "user_response_option_en": "Any attractions closed or limited access today?\" ",
+            "mission_id": "lqywfbimieuotzxz",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hlefbouvfluypawu",
+            "key_phrase_en": "Limited access"
+        },
+        {
+            "id": "mqdlaptvbssndfws",
+            "ai_conversation_starter_en": "Welcome to our tourist attraction! Is this your first time visiting us? Are there any questions or information you'd like me to provide before you start exploring?",
+            "user_response_option_en": "Are there any restricted areas I cannot visit?",
+            "mission_id": "lqywfbimieuotzxz",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "angyllydcuhtmfee",
+            "key_phrase_en": "Restricted areas"
+        },
+        {
+            "id": "nodnkvyzwrqpswxl",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Our operating hours are from 10 am to 6 pm. However, some attractions might have limited access or be closed for maintenance. Would you like me to check and see if there are any closures or limited access to specific attractions today?",
+            "user_response_option_en": "Is the aquarium open? Specify their hours.",
+            "previous_turn_id": "idvqsgivzdvqnclp",
+            "order": 2,
+            "next_turn_id": "uotnbkjhglyggubf",
+            "key_phrase_en": "Open hours\""
+        },
+        {
+            "id": "vqhhkhnspsrdpzbv",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Our operating hours are from 10 am to 6 pm. However, some attractions might have limited access or be closed for maintenance. Would you like me to check and see if there are any closures or limited access to specific attractions today?",
+            "user_response_option_en": "Any maintenance work in the park? Check current schedules please.",
+            "previous_turn_id": "idvqsgivzdvqnclp",
+            "order": 2,
+            "next_turn_id": "ejeyfphuccqmzulq",
+            "key_phrase_en": "current schedules"
+        },
+        {
+            "id": "oynknaekfzblrxsr",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Our operating hours are from 10 am to 6 pm. However, some attractions might have limited access or be closed for maintenance. Would you like me to check and see if there are any closures or limited access to specific attractions today?",
+            "user_response_option_en": "Some rides have height restrictions. Can you confirm those for me?",
+            "previous_turn_id": "idvqsgivzdvqnclp",
+            "order": 2,
+            "next_turn_id": "svsabpdkrmitvjff",
+            "key_phrase_en": "Height restrictions"
+        },
+        {
+            "id": "ihuebkymlngxrxal",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Operating hours for each attraction may vary, and we also have some temporary closures and limited access due to maintenance or other reasons. Let me check for you to make sure you can fully enjoy the attractions today.",
+            "user_response_option_en": "Which attractions are currently closed then?",
+            "previous_turn_id": "jdgeezggrinsibsz",
+            "order": 2,
+            "next_turn_id": "gltzjmkumyczridw",
+            "key_phrase_en": "currently closed"
+        },
+        {
+            "id": "kyticjntvpaugzri",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Operating hours for each attraction may vary, and we also have some temporary closures and limited access due to maintenance or other reasons. Let me check for you to make sure you can fully enjoy the attractions today.",
+            "user_response_option_en": "Any maintenance at popular spots?",
+            "previous_turn_id": "jdgeezggrinsibsz",
+            "order": 2,
+            "next_turn_id": "arcovnbxqououddp",
+            "key_phrase_en": "popular spots"
+        },
+        {
+            "id": "hlefbouvfluypawu",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Operating hours for each attraction may vary, and we also have some temporary closures and limited access due to maintenance or other reasons. Let me check for you to make sure you can fully enjoy the attractions today.",
+            "user_response_option_en": "What rides are operational right now?",
+            "previous_turn_id": "jdgeezggrinsibsz",
+            "order": 2,
+            "next_turn_id": "wqlmqdqsnsxxomoz",
+            "key_phrase_en": "operational right now"
+        },
+        {
+            "id": "uwcavqecamhaomya",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "At this time, we don't have any restricted areas, but some attractions may have limited access. It's always a good idea to check with the staff at each attraction for any closures or updates. Also, our operating hours are from 9 am to 6 pm daily. Is there anything else I can assist you with?",
+            "user_response_option_en": "Can you tell me which attractions might be limited?",
+            "previous_turn_id": "mqdlaptvbssndfws",
+            "order": 2,
+            "next_turn_id": "atshledlfzdhmqjy",
+            "key_phrase_en": "attractions limited"
+        },
+        {
+            "id": "eyuxwublsfkjmkrv",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "At this time, we don't have any restricted areas, but some attractions may have limited access. It's always a good idea to check with the staff at each attraction for any closures or updates. Also, our operating hours are from 9 am to 6 pm daily. Is there anything else I can assist you with?",
+            "user_response_option_en": "Will there be any closures during the time I'm here?",
+            "previous_turn_id": "mqdlaptvbssndfws",
+            "order": 2,
+            "next_turn_id": "vxvvrorolarsjcgr",
+            "key_phrase_en": "closures"
+        },
+        {
+            "id": "angyllydcuhtmfee",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "At this time, we don't have any restricted areas, but some attractions may have limited access. It's always a good idea to check with the staff at each attraction for any closures or updates. Also, our operating hours are from 9 am to 6 pm daily. Is there anything else I can assist you with?",
+            "user_response_option_en": "Do you have any updates on limited access to certain spots?",
+            "previous_turn_id": "mqdlaptvbssndfws",
+            "order": 2,
+            "next_turn_id": "ynxwljvbuzydapaq",
+            "key_phrase_en": "limited access"
+        },
+        {
+            "id": "gegttnhagyrvebnu",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Yes, the aquarium is currently open. However, there is limited access to certain sections due to ongoing maintenance. Would you like me to provide further details?",
+            "user_response_option_en": "Which parts can I access at the aquarium today?",
+            "previous_turn_id": "nodnkvyzwrqpswxl",
+            "order": 3,
+            "key_phrase_en": "Aquarium access today"
+        },
+        {
+            "id": "phwwmtgnrzfpxple",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Yes, the aquarium is currently open. However, there is limited access to certain sections due to ongoing maintenance. Would you like me to provide further details?",
+            "user_response_option_en": "What is the status of other attractions in the park?",
+            "previous_turn_id": "nodnkvyzwrqpswxl",
+            "order": 3,
+            "key_phrase_en": "status of attractions"
+        },
+        {
+            "id": "uotnbkjhglyggubf",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Yes, the aquarium is currently open. However, there is limited access to certain sections due to ongoing maintenance. Would you like me to provide further details?",
+            "user_response_option_en": "Are any attractions closed today except the sections at the aquarium?",
+            "previous_turn_id": "nodnkvyzwrqpswxl",
+            "order": 3,
+            "key_phrase_en": "Closed attractions today"
+        },
+        {
+            "id": "nrimywejnwfxvucg",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, let me check the schedules for you. There is currently no maintenance work scheduled, but please note that some attractions may have limited hours or be temporarily unavailable due to unforeseen circumstances.",
+            "user_response_option_en": "Which attractions have limited access or are closed today?\" ",
+            "previous_turn_id": "vqhhkhnspsrdpzbv",
+            "order": 3,
+            "key_phrase_en": "Limited Access Today"
+        },
+        {
+            "id": "hzrqnfqpkkhywegw",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, let me check the schedules for you. There is currently no maintenance work scheduled, but please note that some attractions may have limited hours or be temporarily unavailable due to unforeseen circumstances.",
+            "user_response_option_en": "Can you recommend the open attractions for today?\" ",
+            "previous_turn_id": "vqhhkhnspsrdpzbv",
+            "order": 3,
+            "key_phrase_en": "Open attractions"
+        },
+        {
+            "id": "ejeyfphuccqmzulq",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, let me check the schedules for you. There is currently no maintenance work scheduled, but please note that some attractions may have limited hours or be temporarily unavailable due to unforeseen circumstances.",
+            "user_response_option_en": "What are the hours of the attractions with limited access?",
+            "previous_turn_id": "vqhhkhnspsrdpzbv",
+            "order": 3,
+            "key_phrase_en": "limited access"
+        },
+        {
+            "id": "xdzaurkeepmiacua",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, let me check for you. Some attractions might have reduced access or closures due to maintenance or repairs. Let me see if there are any such closures or limited access to specific attractions today.",
+            "user_response_option_en": "Which rides are open hourly today?",
+            "previous_turn_id": "oynknaekfzblrxsr",
+            "order": 3,
+            "key_phrase_en": "open hourly rides"
+        },
+        {
+            "id": "vwzryxlwbwpkobal",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, let me check for you. Some attractions might have reduced access or closures due to maintenance or repairs. Let me see if there are any such closures or limited access to specific attractions today.",
+            "user_response_option_en": "Can you tell me about attractions that aren't available?",
+            "previous_turn_id": "oynknaekfzblrxsr",
+            "order": 3,
+            "key_phrase_en": "attractions unavailable"
+        },
+        {
+            "id": "svsabpdkrmitvjff",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, let me check for you. Some attractions might have reduced access or closures due to maintenance or repairs. Let me see if there are any such closures or limited access to specific attractions today.",
+            "user_response_option_en": "Is there anything else I need to know for the attractions?",
+            "previous_turn_id": "oynknaekfzblrxsr",
+            "order": 3,
+            "key_phrase_en": "anything else"
+        },
+        {
+            "id": "zpmsouejubudetzz",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "I'm sorry but unfortunately, our Ferris wheel and the roller coaster are currently closed due to maintenance.",
+            "user_response_option_en": "What about shows? Any closures for those?",
+            "previous_turn_id": "ihuebkymlngxrxal",
+            "order": 3,
+            "key_phrase_en": "Any closures"
+        },
+        {
+            "id": "cthcgcesfrzcxizj",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "I'm sorry but unfortunately, our Ferris wheel and the roller coaster are currently closed due to maintenance.",
+            "user_response_option_en": "Are there any other attractions to visit today?",
+            "previous_turn_id": "ihuebkymlngxrxal",
+            "order": 3,
+            "key_phrase_en": "attractions to visit"
+        },
+        {
+            "id": "gltzjmkumyczridw",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "I'm sorry but unfortunately, our Ferris wheel and the roller coaster are currently closed due to maintenance.",
+            "user_response_option_en": "When will the Ferris wheel and roller coaster be available?",
+            "previous_turn_id": "ihuebkymlngxrxal",
+            "order": 3,
+            "key_phrase_en": "Ferris wheel available"
+        },
+        {
+            "id": "saaqfjhdndqecofl",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "At the moment, there is no maintenance scheduled for the popular attractions. However, please note that some attractions may have limited access or may be closed due to unexpected circumstances. Would you like me to double-check the current status of specific attractions for you?",
+            "user_response_option_en": "Can you check if the roller coaster is open?",
+            "previous_turn_id": "kyticjntvpaugzri",
+            "order": 3,
+            "key_phrase_en": "roller coaster open"
+        },
+        {
+            "id": "kgalvtwszfkkkizw",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "At the moment, there is no maintenance scheduled for the popular attractions. However, please note that some attractions may have limited access or may be closed due to unexpected circumstances. Would you like me to double-check the current status of specific attractions for you?",
+            "user_response_option_en": "Are any exhibits closed? Check for me, please.",
+            "previous_turn_id": "kyticjntvpaugzri",
+            "order": 3,
+            "key_phrase_en": "exhibits closed"
+        },
+        {
+            "id": "arcovnbxqououddp",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "At the moment, there is no maintenance scheduled for the popular attractions. However, please note that some attractions may have limited access or may be closed due to unexpected circumstances. Would you like me to double-check the current status of specific attractions for you?",
+            "user_response_option_en": "Limited access to the aquarium?",
+            "previous_turn_id": "kyticjntvpaugzri",
+            "order": 3,
+            "key_phrase_en": "Limited access"
+        },
+        {
+            "id": "lvwlfrfewqlwarym",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, all the rides are operational, but some of the attractions may have limited access due to ongoing maintenance. Would you like me to check for you?",
+            "user_response_option_en": "What's the last admission time for the attractions?\" ",
+            "previous_turn_id": "hlefbouvfluypawu",
+            "order": 3,
+            "key_phrase_en": "Admission time"
+        },
+        {
+            "id": "woebbroafhrvnpmv",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, all the rides are operational, but some of the attractions may have limited access due to ongoing maintenance. Would you like me to check for you?",
+            "user_response_option_en": "Do some attractions require reservations in advance?\" ",
+            "previous_turn_id": "hlefbouvfluypawu",
+            "order": 3,
+            "key_phrase_en": "Reservations in advance"
+        },
+        {
+            "id": "wqlmqdqsnsxxomoz",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, all the rides are operational, but some of the attractions may have limited access due to ongoing maintenance. Would you like me to check for you?",
+            "user_response_option_en": "Are there any attractions suitable for small children?",
+            "previous_turn_id": "hlefbouvfluypawu",
+            "order": 3,
+            "key_phrase_en": "small children"
+        },
+        {
+            "id": "okzinyybxffliqph",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, Iris! At the moment, our bird sanctuary may have limited access. However, you can still enjoy the view of the birds from a designated area.",
+            "user_response_option_en": "Are there any other areas currently affected by limited access? ",
+            "previous_turn_id": "uwcavqecamhaomya",
+            "order": 3,
+            "key_phrase_en": "limited access"
+        },
+        {
+            "id": "peplzgftgtughpxk",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, Iris! At the moment, our bird sanctuary may have limited access. However, you can still enjoy the view of the birds from a designated area.",
+            "user_response_option_en": "Where can I find more information about attractions with limited access? ",
+            "previous_turn_id": "uwcavqecamhaomya",
+            "order": 3,
+            "key_phrase_en": "Limited access attractions"
+        },
+        {
+            "id": "atshledlfzdhmqjy",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Sure, Iris! At the moment, our bird sanctuary may have limited access. However, you can still enjoy the view of the birds from a designated area.",
+            "user_response_option_en": "Are there any updates expected on the limited-access attractions?",
+            "previous_turn_id": "uwcavqecamhaomya",
+            "order": 3,
+            "key_phrase_en": "limited-access attractions"
+        },
+        {
+            "id": "lloredwfubqabgwa",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "We may have temporary closures due to maintenance or unforeseen circumstances, so I recommend checking with the staff at each attraction for any updates.",
+            "user_response_option_en": "Can I check for closures on the website? ",
+            "previous_turn_id": "eyuxwublsfkjmkrv",
+            "order": 3,
+            "key_phrase_en": "check closures website"
+        },
+        {
+            "id": "zzlkcjsuulecvdmf",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "We may have temporary closures due to maintenance or unforeseen circumstances, so I recommend checking with the staff at each attraction for any updates.",
+            "user_response_option_en": "Where can I find the attraction staff? ",
+            "previous_turn_id": "eyuxwublsfkjmkrv",
+            "order": 3,
+            "key_phrase_en": "Attraction staff"
+        },
+        {
+            "id": "vxvvrorolarsjcgr",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "We may have temporary closures due to maintenance or unforeseen circumstances, so I recommend checking with the staff at each attraction for any updates.",
+            "user_response_option_en": "Do you have a schedule for closures?",
+            "previous_turn_id": "eyuxwublsfkjmkrv",
+            "order": 3,
+            "key_phrase_en": "schedule for closures"
+        },
+        {
+            "id": "sbjcemmnqeowqstp",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, there are no closures or limited access at our attractions, but it's always good to check with the staff at each attraction.",
+            "user_response_option_en": "Are there any free attractions? ",
+            "previous_turn_id": "angyllydcuhtmfee",
+            "order": 3,
+            "key_phrase_en": "Free attractions"
+        },
+        {
+            "id": "oqczgvqywckqvtfc",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, there are no closures or limited access at our attractions, but it's always good to check with the staff at each attraction.",
+            "user_response_option_en": "",
+            "previous_turn_id": "angyllydcuhtmfee",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "zgrutsbnczqnlkuk",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, there are no closures or limited access at our attractions, but it's always good to check with the staff at each attraction.",
+            "user_response_option_en": "How long does it take to explore the entire area?",
+            "previous_turn_id": "angyllydcuhtmfee",
+            "order": 3,
+            "key_phrase_en": "Explore the area"
+        },
+        {
+            "id": "puwyjxwjzkwocucj",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, there are no closures or limited access at our attractions, but it's always good to check with the staff at each attraction.",
+            "user_response_option_en": "",
+            "previous_turn_id": "angyllydcuhtmfee",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "ynxwljvbuzydapaq",
+            "mission_id": "lqywfbimieuotzxz",
+            "ai_conversation_starter_en": "Currently, there are no closures or limited access at our attractions, but it's always good to check with the staff at each attraction.",
+            "user_response_option_en": "Can I buy tickets online or only on site?",
+            "previous_turn_id": "angyllydcuhtmfee",
+            "order": 3,
+            "key_phrase_en": "Buy tickets online"
+        }
+    ]
+}

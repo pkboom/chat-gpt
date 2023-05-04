@@ -1,0 +1,370 @@
+{
+    "id": "ekxgeogqsfjeemmm",
+    "title": "Requesting to have their room cleaned",
+    "order": 4,
+    "turns": [
+        {
+            "id": "mrzcyirveyrzbhsz",
+            "ai_conversation_starter_en": "Good morning, can I assist you with anything today?",
+            "user_response_option_en": "Yes, please clean my room.",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "hzzigjbqvoznxmxk",
+            "key_phrase_en": "clean my room"
+        },
+        {
+            "id": "rgahsjpvgkfmzwbm",
+            "ai_conversation_starter_en": "Good morning, can I assist you with anything today?",
+            "user_response_option_en": "Can you send someone to tidy up my room?",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "xaauwxeautnfosst",
+            "key_phrase_en": "tidy up"
+        },
+        {
+            "id": "hxtnkbqtqouyvdhy",
+            "ai_conversation_starter_en": "Good morning, can I assist you with anything today?",
+            "user_response_option_en": "I would like housekeeping to clean my room.",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "jtimfsvojrobyisd",
+            "key_phrase_en": "Housekeeping"
+        },
+        {
+            "id": "rfyvcgfesviknpfc",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Absolutely, we will send a housekeeper to clean your room as soon as possible.",
+            "user_response_option_en": "Thank you, I appreciate it.",
+            "previous_turn_id": "mrzcyirveyrzbhsz",
+            "order": 2,
+            "next_turn_id": "petkuggnsgxizdnf",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "wvphiwddahmpffzy",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Absolutely, we will send a housekeeper to clean your room as soon as possible.",
+            "user_response_option_en": "Is there a specific time the housekeeper will come?",
+            "previous_turn_id": "mrzcyirveyrzbhsz",
+            "order": 2,
+            "next_turn_id": "uddpuntnkbxhjonu",
+            "key_phrase_en": "specific time"
+        },
+        {
+            "id": "hzzigjbqvoznxmxk",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Absolutely, we will send a housekeeper to clean your room as soon as possible.",
+            "user_response_option_en": "Can I request additional pillows when the housekeeper is here?",
+            "previous_turn_id": "mrzcyirveyrzbhsz",
+            "order": 2,
+            "next_turn_id": "zhgxengggkyqclfw",
+            "key_phrase_en": "additional pillows"
+        },
+        {
+            "id": "hcelhekohewjamdn",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Certainly, we'll send housekeeping to your room right away.",
+            "user_response_option_en": "Thank you, that's very helpful.",
+            "previous_turn_id": "rgahsjpvgkfmzwbm",
+            "order": 2,
+            "next_turn_id": "tscodlrvlqotpjkm",
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "vvfzwriogorpwrqi",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Certainly, we'll send housekeeping to your room right away.",
+            "user_response_option_en": "I appreciate your prompt response.",
+            "previous_turn_id": "rgahsjpvgkfmzwbm",
+            "order": 2,
+            "next_turn_id": "slxbvwppxynsckuw",
+            "key_phrase_en": "Prompt response"
+        },
+        {
+            "id": "xaauwxeautnfosst",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Certainly, we'll send housekeeping to your room right away.",
+            "user_response_option_en": "Is there a specific time when housekeeping will arrive?",
+            "previous_turn_id": "rgahsjpvgkfmzwbm",
+            "order": 2,
+            "next_turn_id": "ielwxufrujjbspxe",
+            "key_phrase_en": "Specific time"
+        },
+        {
+            "id": "ezbmwzkuzszteuvr",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Certainly, we'll schedule housekeeping for you now. Will you be out of the room?",
+            "user_response_option_en": "Can you give me a timeframe for when housekeeping will come?",
+            "previous_turn_id": "hxtnkbqtqouyvdhy",
+            "order": 2,
+            "next_turn_id": "ctrhtilaayeditnp",
+            "key_phrase_en": "timeframe"
+        },
+        {
+            "id": "gjlyxwsvnjnamlxg",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Certainly, we'll schedule housekeeping for you now. Will you be out of the room?",
+            "user_response_option_en": "How long will it take for them to clean my room?",
+            "previous_turn_id": "hxtnkbqtqouyvdhy",
+            "order": 2,
+            "next_turn_id": "sknsafjwkhnzedgv",
+            "key_phrase_en": "Clean my room"
+        },
+        {
+            "id": "jtimfsvojrobyisd",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Certainly, we'll schedule housekeeping for you now. Will you be out of the room?",
+            "user_response_option_en": "Can you remind me at what time housekeeping usually comes?",
+            "previous_turn_id": "hxtnkbqtqouyvdhy",
+            "order": 2,
+            "next_turn_id": "gkhcyuvnjwwihvpo",
+            "key_phrase_en": "housekeeping time"
+        },
+        {
+            "id": "hfbojowqktqmgrzr",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Not a problem, we'll ensure your room is cleaned today. Is there anything else I may assist with?",
+            "user_response_option_en": "Can I have more towels?",
+            "previous_turn_id": "rfyvcgfesviknpfc",
+            "order": 3,
+            "key_phrase_en": "more towels"
+        },
+        {
+            "id": "sjhbypbcvdxbirrf",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Not a problem, we'll ensure your room is cleaned today. Is there anything else I may assist with?",
+            "user_response_option_en": "Do you offer laundry service?",
+            "previous_turn_id": "rfyvcgfesviknpfc",
+            "order": 3,
+            "key_phrase_en": "Laundry service"
+        },
+        {
+            "id": "petkuggnsgxizdnf",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Not a problem, we'll ensure your room is cleaned today. Is there anything else I may assist with?",
+            "user_response_option_en": "Can I receive additional toiletries?",
+            "previous_turn_id": "rfyvcgfesviknpfc",
+            "order": 3,
+            "key_phrase_en": "Additional toiletries"
+        },
+        {
+            "id": "vwpilzkceopxgrbw",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "I apologize, but we cannot guarantee a specific time for housekeeping as it depends on their availability and workload.",
+            "user_response_option_en": "Okay, I understand. Can you let me know when the housekeeper comes?",
+            "previous_turn_id": "wvphiwddahmpffzy",
+            "order": 3,
+            "key_phrase_en": "Let me know"
+        },
+        {
+            "id": "qevmxbsqcrrsvntu",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "I apologize, but we cannot guarantee a specific time for housekeeping as it depends on their availability and workload.",
+            "user_response_option_en": "Would it be possible to have the room cleaned later in the afternoon?",
+            "previous_turn_id": "wvphiwddahmpffzy",
+            "order": 3,
+            "key_phrase_en": "room cleaned later"
+        },
+        {
+            "id": "uddpuntnkbxhjonu",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "I apologize, but we cannot guarantee a specific time for housekeeping as it depends on their availability and workload.",
+            "user_response_option_en": "Do you have a phone number I can call to check on the housekeeper's status?",
+            "previous_turn_id": "wvphiwddahmpffzy",
+            "order": 3,
+            "key_phrase_en": "phone number"
+        },
+        {
+            "id": "pmbpnhzdvbhsccvk",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Sure, we'll deliver additional pillows to your room while the housekeeper cleans.",
+            "user_response_option_en": "Thank you, I appreciate your help.",
+            "previous_turn_id": "hzzigjbqvoznxmxk",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "gzvynamzacmckbbu",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Sure, we'll deliver additional pillows to your room while the housekeeper cleans.",
+            "user_response_option_en": "Could you also replace the towels, please?",
+            "previous_turn_id": "hzzigjbqvoznxmxk",
+            "order": 3,
+            "key_phrase_en": "replace the towels"
+        },
+        {
+            "id": "zhgxengggkyqclfw",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Sure, we'll deliver additional pillows to your room while the housekeeper cleans.",
+            "user_response_option_en": "Can you tell me when the housekeeper will arrive?",
+            "previous_turn_id": "hzzigjbqvoznxmxk",
+            "order": 3,
+            "key_phrase_en": "housekeeper arrival time"
+        },
+        {
+            "id": "jmqooupkwmhhlozx",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Is there anything else we can assist you with, Ms. Kim?",
+            "user_response_option_en": "Can you also provide me with extra towels, please?",
+            "previous_turn_id": "hcelhekohewjamdn",
+            "order": 3,
+            "key_phrase_en": "extra towels"
+        },
+        {
+            "id": "vpkpywrhfxyigvav",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Is there anything else we can assist you with, Ms. Kim?",
+            "user_response_option_en": "Is there a laundry service I can use?",
+            "previous_turn_id": "hcelhekohewjamdn",
+            "order": 3,
+            "key_phrase_en": "laundry service"
+        },
+        {
+            "id": "tscodlrvlqotpjkm",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Is there anything else we can assist you with, Ms. Kim?",
+            "user_response_option_en": "Can you recommend any nearby restaurants that deliver?",
+            "previous_turn_id": "hcelhekohewjamdn",
+            "order": 3,
+            "key_phrase_en": "Nearby restaurants"
+        },
+        {
+            "id": "kvktfgmijlnumkmr",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Glad we could help. Is there anything else we can assist you with?",
+            "user_response_option_en": "Yes, can I ask for fresh towels too please?",
+            "previous_turn_id": "vvfzwriogorpwrqi",
+            "order": 3,
+            "key_phrase_en": "fresh towels"
+        },
+        {
+            "id": "zszhvqwuozhqxqfv",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Glad we could help. Is there anything else we can assist you with?",
+            "user_response_option_en": "Do you also clean the bathroom and change the sheets?",
+            "previous_turn_id": "vvfzwriogorpwrqi",
+            "order": 3,
+            "key_phrase_en": "change the sheets"
+        },
+        {
+            "id": "slxbvwppxynsckuw",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Glad we could help. Is there anything else we can assist you with?",
+            "user_response_option_en": "Could you let housekeeping know to restock the toiletries?",
+            "previous_turn_id": "vvfzwriogorpwrqi",
+            "order": 3,
+            "key_phrase_en": "restock toiletries"
+        },
+        {
+            "id": "epcvshdntvwfilog",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Housekeeping will arrive within 30 minutes. Thank you for your patience, Iris.",
+            "user_response_option_en": "Thank you for your help.",
+            "previous_turn_id": "xaauwxeautnfosst",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "kkezbswmvduljtwt",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Housekeeping will arrive within 30 minutes. Thank you for your patience, Iris.",
+            "user_response_option_en": "Is there anything I should do to prepare for housekeeping?",
+            "previous_turn_id": "xaauwxeautnfosst",
+            "order": 3,
+            "key_phrase_en": "Prepare for housekeeping"
+        },
+        {
+            "id": "ielwxufrujjbspxe",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Housekeeping will arrive within 30 minutes. Thank you for your patience, Iris.",
+            "user_response_option_en": "Can I request extra towels?",
+            "previous_turn_id": "xaauwxeautnfosst",
+            "order": 3,
+            "key_phrase_en": "Extra towels"
+        },
+        {
+            "id": "zaygnrmmleceidtw",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Of course, housekeeping should arrive within the next hour or sooner.",
+            "user_response_option_en": "Can I let housekeeping know if I need more shampoo?",
+            "previous_turn_id": "ezbmwzkuzszteuvr",
+            "order": 3,
+            "key_phrase_en": "housekeeping, shampoo"
+        },
+        {
+            "id": "vukwamkszsetvbwi",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Of course, housekeeping should arrive within the next hour or sooner.",
+            "user_response_option_en": "Thank you, please knock before entering my room.",
+            "previous_turn_id": "ezbmwzkuzszteuvr",
+            "order": 3,
+            "key_phrase_en": "Knock before entering"
+        },
+        {
+            "id": "ctrhtilaayeditnp",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Of course, housekeeping should arrive within the next hour or sooner.",
+            "user_response_option_en": "May I have extra towels in my room, please?",
+            "previous_turn_id": "ezbmwzkuzszteuvr",
+            "order": 3,
+            "key_phrase_en": "Extra towels"
+        },
+        {
+            "id": "zfsycqsxfnvhktwb",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "It usually takes about 30-45 minutes for the room to be cleaned.",
+            "user_response_option_en": "Okay, thank you for letting me know.",
+            "previous_turn_id": "gjlyxwsvnjnamlxg",
+            "order": 3,
+            "key_phrase_en": "Thank you"
+        },
+        {
+            "id": "obklwrfkcacvyezj",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "It usually takes about 30-45 minutes for the room to be cleaned.",
+            "user_response_option_en": "Great, I'll be out for a walk.",
+            "previous_turn_id": "gjlyxwsvnjnamlxg",
+            "order": 3,
+            "key_phrase_en": "out for walk"
+        },
+        {
+            "id": "sknsafjwkhnzedgv",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "It usually takes about 30-45 minutes for the room to be cleaned.",
+            "user_response_option_en": "Understood, I will wait.",
+            "previous_turn_id": "gjlyxwsvnjnamlxg",
+            "order": 3,
+            "key_phrase_en": "Understood, wait"
+        },
+        {
+            "id": "vizzuvnqbnwjdeul",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Of course! Our standard housekeeping hours are from 9 am to 5 pm.",
+            "user_response_option_en": "Can housekeeping come at 10 am?",
+            "previous_turn_id": "jtimfsvojrobyisd",
+            "order": 3,
+            "key_phrase_en": "housekeeping 10 am"
+        },
+        {
+            "id": "msiredmfqrchxduk",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Of course! Our standard housekeeping hours are from 9 am to 5 pm.",
+            "user_response_option_en": "Thank you, I will be out by 9 am.",
+            "previous_turn_id": "jtimfsvojrobyisd",
+            "order": 3,
+            "key_phrase_en": "out by 9am"
+        },
+        {
+            "id": "gkhcyuvnjwwihvpo",
+            "mission_id": "ekxgeogqsfjeemmm",
+            "ai_conversation_starter_en": "Of course! Our standard housekeeping hours are from 9 am to 5 pm.",
+            "user_response_option_en": "Is it possible to change the housekeeping time to 3 pm?",
+            "previous_turn_id": "jtimfsvojrobyisd",
+            "order": 3,
+            "key_phrase_en": "Housekeeping time"
+        }
+    ]
+}

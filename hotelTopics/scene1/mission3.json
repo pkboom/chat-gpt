@@ -1,0 +1,388 @@
+{
+    "id": "nbajqawjnjovmxsf",
+    "title": "The guest needs to ask about parking options",
+    "order": 3,
+    "turns": [
+        {
+            "id": "dlsykxoevxnasbed",
+            "ai_conversation_starter_en": "Welcome to our hotel! How may I assist you today?",
+            "user_response_option_en": "Could you tell me about parking options, please?",
+            "mission_id": "nbajqawjnjovmxsf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "exddaeznsomevnyv",
+            "key_phrase_en": "parking options"
+        },
+        {
+            "id": "nxbzmsylyvjnqylk",
+            "ai_conversation_starter_en": "Welcome to our hotel! How may I assist you today?",
+            "user_response_option_en": "Is parking available here? What are my options?",
+            "mission_id": "nbajqawjnjovmxsf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dnvgwupaaleybsql",
+            "key_phrase_en": "Parking options"
+        },
+        {
+            "id": "zyspcifyotltwhly",
+            "ai_conversation_starter_en": "Welcome to our hotel! How may I assist you today?",
+            "user_response_option_en": "Can you help me with parking arrangements?",
+            "mission_id": "nbajqawjnjovmxsf",
+            "previous_turn_id": "STARTING_NODE",
+            "order": 1,
+            "next_turn_id": "dqrxupdelnfffsem",
+            "key_phrase_en": "parking arrangements"
+        },
+        {
+            "id": "yswkvfbpaskbgcqm",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Certainly, we have on-site parking available for guests. It costs $XX per day.",
+            "user_response_option_en": "Is there valet parking available?",
+            "previous_turn_id": "dlsykxoevxnasbed",
+            "order": 2,
+            "next_turn_id": "rdcdxjmiulpbqkyc",
+            "key_phrase_en": "Valet parking available"
+        },
+        {
+            "id": "tftdzjacivlgooik",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Certainly, we have on-site parking available for guests. It costs $XX per day.",
+            "user_response_option_en": "Can I reserve a spot in advance?",
+            "previous_turn_id": "dlsykxoevxnasbed",
+            "order": 2,
+            "next_turn_id": "rnykcefnyfrknchw",
+            "key_phrase_en": "reserve a spot"
+        },
+        {
+            "id": "exddaeznsomevnyv",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Certainly, we have on-site parking available for guests. It costs $XX per day.",
+            "user_response_option_en": "Are there any other parking options nearby?",
+            "previous_turn_id": "dlsykxoevxnasbed",
+            "order": 2,
+            "next_turn_id": "gqenhwybgbfodpmx",
+            "key_phrase_en": "Parking options nearby"
+        },
+        {
+            "id": "xrqwfkokyylpopug",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we have parking available. You can park in our underground parking lot for $25 per night.",
+            "user_response_option_en": "Is there any street parking available nearby?",
+            "previous_turn_id": "nxbzmsylyvjnqylk",
+            "order": 2,
+            "next_turn_id": "akrswxcoiadxfvpw",
+            "key_phrase_en": "Street parking available"
+        },
+        {
+            "id": "aqnwppfyioslcrdw",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we have parking available. You can park in our underground parking lot for $25 per night.",
+            "user_response_option_en": "How far is the parking lot from the hotel entrance?",
+            "previous_turn_id": "nxbzmsylyvjnqylk",
+            "order": 2,
+            "next_turn_id": "almklvfbkfqgomvg",
+            "key_phrase_en": "parking lot distance"
+        },
+        {
+            "id": "dnvgwupaaleybsql",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we have parking available. You can park in our underground parking lot for $25 per night.",
+            "user_response_option_en": "Can I park only once or is it in and out privileges?",
+            "previous_turn_id": "nxbzmsylyvjnqylk",
+            "order": 2,
+            "next_turn_id": "rjyynvqcnpijlhja",
+            "key_phrase_en": "In and out"
+        },
+        {
+            "id": "jjfbzrluweawssca",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Sure, we offer self-parking for $25/day or valet parking for $40/day. Which would you prefer?",
+            "user_response_option_en": "I'll take self-parking, please. Is there a shuttle to the airport?",
+            "previous_turn_id": "zyspcifyotltwhly",
+            "order": 2,
+            "next_turn_id": "jahulqhbfoxxaoal",
+            "key_phrase_en": "self-parking"
+        },
+        {
+            "id": "hxoawmgaegbjcjtr",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Sure, we offer self-parking for $25/day or valet parking for $40/day. Which would you prefer?",
+            "user_response_option_en": "Valet parking for one night, please. Which way to the elevators?",
+            "previous_turn_id": "zyspcifyotltwhly",
+            "order": 2,
+            "next_turn_id": "gprhkuwbjpcujqan",
+            "key_phrase_en": "Valet parking"
+        },
+        {
+            "id": "dqrxupdelnfffsem",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Sure, we offer self-parking for $25/day or valet parking for $40/day. Which would you prefer?",
+            "user_response_option_en": "Are there any discounts for multiple days' self-parking?",
+            "previous_turn_id": "zyspcifyotltwhly",
+            "order": 2,
+            "next_turn_id": "jmrfodhtxauheuca",
+            "key_phrase_en": "multiple days' discount"
+        },
+        {
+            "id": "gpsuunqjbmmzuhcs",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, valet parking is available for an additional $XX per day.",
+            "user_response_option_en": "Can I pay for parking at check out?",
+            "previous_turn_id": "yswkvfbpaskbgcqm",
+            "order": 3,
+            "key_phrase_en": "Pay for parking"
+        },
+        {
+            "id": "ntyunzvixjvszdrv",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, valet parking is available for an additional $XX per day.",
+            "user_response_option_en": "Is the valet available 24/7?",
+            "previous_turn_id": "yswkvfbpaskbgcqm",
+            "order": 3,
+            "key_phrase_en": "24/7"
+        },
+        {
+            "id": "rdcdxjmiulpbqkyc",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, valet parking is available for an additional $XX per day.",
+            "user_response_option_en": "Are there any cheaper parking options nearby?",
+            "previous_turn_id": "yswkvfbpaskbgcqm",
+            "order": 3,
+            "key_phrase_en": "Cheaper parking options"
+        },
+        {
+            "id": "ieihgwnqpebbuame",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm sorry, but we don't take advance parking reservations.",
+            "user_response_option_en": "That's okay, I'll take my chances and find street parking.\" ",
+            "previous_turn_id": "tftdzjacivlgooik",
+            "order": 3,
+            "key_phrase_en": "Street parking"
+        },
+        {
+            "id": "zmvmwdoocxnqvpeq",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm sorry, but we don't take advance parking reservations.",
+            "user_response_option_en": "Can you recommend any nearby parking garages?\" ",
+            "previous_turn_id": "tftdzjacivlgooik",
+            "order": 3,
+            "key_phrase_en": "Nearby parking garages"
+        },
+        {
+            "id": "rnykcefnyfrknchw",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm sorry, but we don't take advance parking reservations.",
+            "user_response_option_en": "Are there any restrictions or regulations for street parking near the hotel?",
+            "previous_turn_id": "tftdzjacivlgooik",
+            "order": 3,
+            "key_phrase_en": "Street parking regulations"
+        },
+        {
+            "id": "zwunkqsvmllsbfgf",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm afraid I'm not aware of any other parking options nearby, sorry.",
+            "user_response_option_en": "Thanks for letting me know.",
+            "previous_turn_id": "exddaeznsomevnyv",
+            "order": 3,
+            "key_phrase_en": "Thanks"
+        },
+        {
+            "id": "hpaqzosabxieyxbj",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm afraid I'm not aware of any other parking options nearby, sorry.",
+            "user_response_option_en": "Okay, just wondering about other options.",
+            "previous_turn_id": "exddaeznsomevnyv",
+            "order": 3,
+            "key_phrase_en": "other options"
+        },
+        {
+            "id": "gqenhwybgbfodpmx",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm afraid I'm not aware of any other parking options nearby, sorry.",
+            "user_response_option_en": "That's fine, I'll park on-site. Thanks anyway.",
+            "previous_turn_id": "exddaeznsomevnyv",
+            "order": 3,
+            "key_phrase_en": "on-site parking"
+        },
+        {
+            "id": "krqoipjmkcjkholb",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm sorry, but there is no street parking available. Our underground parking lot is a convenient option.",
+            "user_response_option_en": "Can I reserve a spot in the underground for my stay?",
+            "previous_turn_id": "xrqwfkokyylpopug",
+            "order": 3,
+            "key_phrase_en": "reserve a spot\""
+        },
+        {
+            "id": "obhcaicxamlebjes",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm sorry, but there is no street parking available. Our underground parking lot is a convenient option.",
+            "user_response_option_en": "How do I access the underground lot? Is it secure?",
+            "previous_turn_id": "xrqwfkokyylpopug",
+            "order": 3,
+            "key_phrase_en": "Underground lot"
+        },
+        {
+            "id": "akrswxcoiadxfvpw",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "I'm sorry, but there is no street parking available. Our underground parking lot is a convenient option.",
+            "user_response_option_en": "Do I need a key or pass to enter the underground parking?",
+            "previous_turn_id": "xrqwfkokyylpopug",
+            "order": 3,
+            "key_phrase_en": "Underground parking"
+        },
+        {
+            "id": "lpmxzcfdxdhiyglx",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "It's just around the corner. Would you like me to mark it on a map for you?",
+            "user_response_option_en": "Yes, please mark it. And is the fee additional to my reservation?",
+            "previous_turn_id": "aqnwppfyioslcrdw",
+            "order": 3,
+            "key_phrase_en": "Yes, please mark"
+        },
+        {
+            "id": "tujjhgtchcpcxbff",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "It's just around the corner. Would you like me to mark it on a map for you?",
+            "user_response_option_en": "Thank you. Is there a discount for guests who park longer?",
+            "previous_turn_id": "aqnwppfyioslcrdw",
+            "order": 3,
+            "key_phrase_en": "discount for guests"
+        },
+        {
+            "id": "almklvfbkfqgomvg",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "It's just around the corner. Would you like me to mark it on a map for you?",
+            "user_response_option_en": "Great. Can I pay for parking with a credit card or cash?",
+            "previous_turn_id": "aqnwppfyioslcrdw",
+            "order": 3,
+            "key_phrase_en": "Pay for parking"
+        },
+        {
+            "id": "cpkkzuavpnshltvw",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, it is an in-and-out privilege.",
+            "user_response_option_en": "Can I pay for parking separately?",
+            "previous_turn_id": "dnvgwupaaleybsql",
+            "order": 3,
+            "key_phrase_en": "pay for parking"
+        },
+        {
+            "id": "iyrlizbecyqmgonj",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, it is an in-and-out privilege.",
+            "user_response_option_en": "Do I need to reserve the parking in advance?",
+            "previous_turn_id": "dnvgwupaaleybsql",
+            "order": 3,
+            "key_phrase_en": "Reserve Parking Advance"
+        },
+        {
+            "id": "rjyynvqcnpijlhja",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, it is an in-and-out privilege.",
+            "user_response_option_en": "Is there a discount for multiple nights of parking?",
+            "previous_turn_id": "dnvgwupaaleybsql",
+            "order": 3,
+            "key_phrase_en": "Multiple nights discount"
+        },
+        {
+            "id": "mhzltruohxfbxhfb",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a shuttle service that runs every hour. Would you like to reserve a spot?",
+            "user_response_option_en": "Yes, please reserve a spot.",
+            "previous_turn_id": "jjfbzrluweawssca",
+            "order": 3,
+            "key_phrase_en": "reserve a spot"
+        },
+        {
+            "id": "nmqqcxacoukeuaux",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a shuttle service that runs every hour. Would you like to reserve a spot?",
+            "user_response_option_en": "No, I'll just take self-parking for now.",
+            "previous_turn_id": "jjfbzrluweawssca",
+            "order": 3,
+            "key_phrase_en": "self-parking"
+        },
+        {
+            "id": "jahulqhbfoxxaoal",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a shuttle service that runs every hour. Would you like to reserve a spot?",
+            "user_response_option_en": "Can I reserve a spot for tomorrow's shuttle?",
+            "previous_turn_id": "jjfbzrluweawssca",
+            "order": 3,
+            "key_phrase_en": "reserve a spot"
+        },
+        {
+            "id": "vpdjpogaapntcraw",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. Valet parking is $40/day. Elevators are located to your right.",
+            "user_response_option_en": "Can I pay with card or cash?",
+            "previous_turn_id": "hxoawmgaegbjcjtr",
+            "order": 3,
+            "key_phrase_en": "Pay with card"
+        },
+        {
+            "id": "hfuhijuchcjwjkpn",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. Valet parking is $40/day. Elevators are located to your right.",
+            "user_response_option_en": "Is it possible to get a discount for multiple days?",
+            "previous_turn_id": "hxoawmgaegbjcjtr",
+            "order": 3,
+            "key_phrase_en": "Discount for multiple"
+        },
+        {
+            "id": "gprhkuwbjpcujqan",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Certainly, Ms. Kim. Valet parking is $40/day. Elevators are located to your right.",
+            "user_response_option_en": "Could you tell me about any nearby attractions?",
+            "previous_turn_id": "hxoawmgaegbjcjtr",
+            "order": 3,
+            "key_phrase_en": "nearby attractions"
+        },
+        {
+            "id": "cplgaouddcnpsjhp",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a weekly self-parking rate of $125.",
+            "user_response_option_en": "",
+            "previous_turn_id": "dqrxupdelnfffsem",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "defgkfhancndlnvk",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a weekly self-parking rate of $125.",
+            "user_response_option_en": "",
+            "previous_turn_id": "dqrxupdelnfffsem",
+            "order": 3,
+            "key_phrase_en": "None"
+        },
+        {
+            "id": "wfjumuhgvubqpdzh",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a weekly self-parking rate of $125.",
+            "user_response_option_en": "Can I pay for that at check-out?",
+            "previous_turn_id": "dqrxupdelnfffsem",
+            "order": 3,
+            "key_phrase_en": "check-out"
+        },
+        {
+            "id": "kgxaqaijgzlrltju",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a weekly self-parking rate of $125.",
+            "user_response_option_en": "Is there a shuttle service to/from the airport?",
+            "previous_turn_id": "dqrxupdelnfffsem",
+            "order": 3,
+            "key_phrase_en": "Shuttle service"
+        },
+        {
+            "id": "jmrfodhtxauheuca",
+            "mission_id": "nbajqawjnjovmxsf",
+            "ai_conversation_starter_en": "Yes, we offer a weekly self-parking rate of $125.",
+            "user_response_option_en": "I'd like to reserve valet parking for tomorrow.",
+            "previous_turn_id": "dqrxupdelnfffsem",
+            "order": 3,
+            "key_phrase_en": "valet parking"
+        }
+    ]
+}
